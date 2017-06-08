@@ -59,14 +59,6 @@ function scrollTopSmooth()
 }
 
 
-function showHiddenTextFunction() {
-
-    var x1 = document.getElementById('hiddenT1');
-    var x2 = document.getElementById('hiddenT2');
-        x1.style.display = 'block';
-        x2.style.display = 'block';
-
-}
 
 // pop up func
 function popFunction() {
