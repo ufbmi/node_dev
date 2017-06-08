@@ -58,6 +58,14 @@ function scrollTopSmooth()
     }
 }
 
+function showHiddenTextFunction() {
+    var x = document.getElementById('myDIV');
+        
+        x.style.display = 'block';
+ 
+
+}
+
 // pop up func
 function popFunction() {
     var popup = document.getElementById("myPopup");
