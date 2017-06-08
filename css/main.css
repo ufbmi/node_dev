@@ -13,6 +13,7 @@
 html {
     color: #222;
     font-size: 1em;
+    font-family: Arial Rounded MT Bold;
     line-height: 1.4;
 }
 
@@ -25,47 +26,50 @@ body {
     padding: 0;
 }
 
-footer{
-    color:#cbcade;
+footer {
+    color:white;
     height:100px;
     text-align: center;
-    font-family:Lucida Grande;  
     width: 100%;
-    position: relative;
     top:150px;
-
+    font-size: 1em;
+    font-family: Arial Rounded MT Bold;
 }
 
- #created{
-    color:#cbcade;
-    font-family:Lucida Grande;
- }
+img {
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
 
+#goDown {
+    align-self: center;
+    margin: auto;
+}
 
-/*#draggableButtonStar{
-    background-repeat: no-repeat;
-    background-position: center; 
-    background-image: url('https://asset.essayvikings.com/bundles/asterfreelance/_layout/images/EssayvikingsCom/intro@1.5x.png?1496319979');
-}*/
-
-/*remove shadow in the carosel controls*/
+/* remove shadow in the carousel controls */
 .carousel-control.left, .carousel-control.right {
     background-image: none
 }
 
-/*#page-content-wrapper{
-    position:absolute;
-    top:0px;
-
-}*/
-
-.lead{
+.lead {
     font-family: Arial Rounded MT Bold;
+    font-size: 2.5em;
     color: white;
     text-align: center;
 }
-#home{
 
+#message {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding-top: 15px;
+}
+
+.a {
+    color:white;
+}
+
+#home {
    width:100%;
 }
 
@@ -80,34 +84,26 @@ footer{
     display: block;
 }
 
-.container{
+.container {
     margin:0px;
 }
 
 .arrow {
-    position: absolute;
     opacity: .57;
     z-index: 1;
 }
+
 .arrow, i {
     color: black;
-    /*align-items: center;*/
 }
 
-.landing-title{
-    
+.landing-title {
     color:rgb(255,253,57);
     font-family: Arial Rounded MT Bold;
     font-size: 600%;
     text-align: center;
     background-repeat: no-repeat;
-    background-position: center; 
-
-
-
-/*    height:670px; 
-    width:100%;*/
-    /*background-image: url('https://asset.essayvikings.com/bundles/asterfreelance/_layout/images/EssayvikingsCom/intro@1.5x.png?1496319979');*/
+    background-position: center;
 }
 
 /*for videos*/
@@ -116,13 +112,14 @@ iframe{
     height: 600px;
     margin: auto;
     display: block;
+    align-items: center;
 }
 
-.btn{
+.btn {
     position: fixed;
 }
 
-#sidebar-wrapper{
+#sidebar-wrapper {
     background-color: white;
     font-family: Arial Rounded MT Bold;
 }
@@ -149,39 +146,31 @@ iframe{
     color:rgb(61,41,108);
 }
 
-#menu-toggle{
+#menu-toggle {
     font-family: Arial Rounded MT Bold;
-    margin:5px;
+    margin:0px;
 }
 
-#navBar{
-
+#navBar {
     margin: 0 !important;
     padding: 0 !important;
     z-index: 1;
 }
 
 #lang {
-    color: orange;
-    /*hotpink;*/
+    color: white;
     font-family: Arial Rounded MT Bold;
     float:right;
     font-size: 15px;
+    align-items: flex-end;
+    margin:0px;
 }
-
-#lang2 {
-    color: green;
-    font-family: Arial Rounded MT Bold;
-    float:right;
-    font-size: 15px;
-}
-
 
 .chapters {
     margin-right: 20px;
-     position:relative;
-     top:120px;
-     z-index: 1;
+    position:relative;
+    top:120px;
+    z-index: 1;
 }
 
 .img-circle {
@@ -190,7 +179,7 @@ iframe{
     margin-bottom: 10px;
 }
 
-a#title:link, a#title:visited {
+h1#title:link, h1#title:visited {
     color: yellow;
     text-align: center;
     text-decoration: none;
@@ -198,28 +187,25 @@ a#title:link, a#title:visited {
 }
 
 
-a#title:hover, a#title:active {
-     color: #f0b875;
-     /*light orangee*/
+h1#title:hover, h1#title:active {
+     color: white;
 }
 
-/*a#lang:link, a#lang:visited {
-    background-color: #f44336;
-    color: white;
-    padding: 3px 4px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
+/*a#lang:link, a#lang:visited {*/
+    /*background-color: #f44336;*/
+    /*color: white;*/
+    /*padding: 3px 4px;*/
+    /*text-align: center;*/
+    /*text-decoration: none;*/
+    /*display: inline-block;*/
+/*}*/
 
+/*a#lang:hover, a:active {*/
+    /*background-color: red;*/
+/*}*/
 
-a#lang:hover, a:active {
-    background-color: red;
-}*/
-
-/*scroll to top button*/
+/* scroll to top button */
 #myBtn {
-
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
     bottom: 20px; /* Place the button at the bottom of the page */
@@ -229,7 +215,7 @@ a#lang:hover, a:active {
     outline: none; /* Remove outline */
     background-color: rgba(255, 255, 255, 0.2);
      /* Set a background color */
-    color: black; /* Text color*/
+    color: white; /* Text color*/
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
     border-radius: 10px; /* Rounded corners */
@@ -237,7 +223,7 @@ a#lang:hover, a:active {
 
 #myBtn:hover {
    background-color: rgba(144, 144, 144, 0.3);/* Add a dark-grey background on hover */
-    color: white;
+    color: black;
 }
 
 
@@ -245,9 +231,7 @@ img:hover{
     opacity: 0.7;
 }
 
-/*pop up */
-
-
+/* pop up */
 .popup {
     position: relative;
     display: inline-block;
@@ -339,8 +323,6 @@ hr {
 
 audio,
 canvas,
-iframe,
-img,
 svg,
 video {
     align-items: center;
@@ -542,13 +524,8 @@ button {
         display: table-header-group;
     }
 
-    tr,
-    img {
+    tr {
         page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
     }
 
     p,

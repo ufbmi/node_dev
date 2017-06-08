@@ -20,13 +20,14 @@
         <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     </head>
 
-<body>
+    <body>
         <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
         <!-- Add your site or application content here -->
 
+        <div id="wrapper">
             <!-- Sidebar -->
             <div id="sidebar-wrapper">
                 <ul class="sidebar-nav">
@@ -59,73 +60,73 @@
             <!-- /#sidebar-wrapper -->
 
             <!-- Page Content -->
-            <div id="page-content-wrapper"  class="container-fluid" >
-                <div id="navBar" class="row col-lg-2">
-                    <div >
+            <div id="page-content-wrapper"  class="container-fluid">
+                <div id="navBar">
+                    <div class="col-lg-12">
                         <a href="#menu-toggle" class="btn btn-warning btn-md" id="menu-toggle">
                             <span class="glyphicon glyphicon-align-justify"></span> Menu
                         </a>
                     </div>
                 </div>
+
+                <!-- headers here; landing title, lang choices -->
+                <section id="home">
+                    <div id="lang" class="col-lg-2">
+                        <a href="index.html" class="a">English</a>
+                            <span>&nbsp|&nbsp</span>
+                        <a href="index.html" class="a">Español</a>
+                    </div>
+                    <div id="message" class="col-lg-12 col-md-8 col-sm-6 col-xs-4">
+                        <h1 id="title" class="landing-title">Diabetes Tutorial For Kids</h1>
+                        <p class="lead">To help you learn it, fight it and be strong about it <span id="heart" class="glyphicon glyphicon-heart"></span></p>
+                    </div>
+
+                    <!--principal image-->
+                    <div class="col-lg-12">
+                        <img align="middle" src="img/1 Kara.png" alt="Kara icon" width=auto height="550">
+                    </div>
+
+                    <!-- arrow -->
+                    <div id="goDown" class="col-lg-12">
+                        <center><a id="smooth" href="#chapterArrow">
+                            <i class="arrow fa fa-angle-down fa-5x" target="_blank" aria-hidden="true"></i>
+                        </a></center>
+                    </div>
+
+                    <!-- go to top button -->
+                    <button onclick="scrollTopSmooth()" id="myBtn" title="Go to top"><span class="glyphicon glyphicon-chevron-up"></span></button>
+
+                    <!--All the links to chapters-->
+                    <div class="col-lg-12 chapters" id="chapterArrow">
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xp-12">
+                            <a href="chapters.html"><img src="https://empxtrack.com/wp-content/uploads/2015/06/business_1-e1434531778480-700x400.jpg" class="img-circle" ></a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xp-12">
+                            <a href="chapters.html"><img src="https://www.gamedevmarket.net/media/get/cc_ec279507037fff700764acdb8b070489929c95a2.jpg" class="img-circle"></a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xp-12">
+                            <a href="chapters.html"><img src="https://www.gamedevmarket.net/media/get/c_e2bbfe9f00e83d719d70d85887564f9e6b986fce.jpg" class="img-circle"></a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xp-12">
+                            <a href="chapters.html"><img src="http://orig00.deviantart.net/e3de/f/2016/040/1/0/asra_by_nazeea-d9r3jhz.png" class="img-circle"></a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xp-12">
+                            <a href="chapters.html"><img src="https://yourfamilyexpert.com/wp-content/uploads/2012/06/madagascar-3-europe-s-most-wanted-00-pplware-540x432-700x400.jpg" class="img-circle"></a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xp-12">
+                            <a href="chapters.html"><img src="http://cdn.renewcanceltv.com/wp-content/uploads/2016/03/powerpuffdss-700x400.jpg" class="img-circle"></a>
+                        </div>
+                    </div>
+                </section>
+                <footer class="row col-lg-12">
+                    <p>&copy 2017</p>
+                    <p>Built with HTML5, CSS3, <a href="http://getbootstrap.com" class="a">Bootstrap</a>, jQuery & JavaScript</p>
+                </footer>
             </div>
             <!-- /#page-content-wrapper -->
 
-<!-- headers here; landing title, lang choices -->
- <section id="home"> 
-        <div class="container col-lg-12">
-          <!--               moved the lang choice out of navbar cuz navbar is fixed this wont -->
-                 <div id="lang">
-                           <a id="lang" href="index.html">English</a>
-                      <p id="lang2">&nbsp|&nbsp</p>
-                            <a id="lang" href="index.html">Español</a>   
-                </div>
-            <h1  class="landing-title"><a id="title" href="index.html">Diabetes Toturial For Kids</a></h1>
-              <p class="lead"><font size="6">To help you learn it, fight it and be strong about it <span id="curser" class="glyphicon glyphicon-heart"></span></font></p>
-
-           <center><img align="middle" src="img/1 Kara.png" alt="Kara icon" width=auto height="550"></center>
-
-           <div class="row"><!-- arrow -->
-                  <center>
-                    <a id="smooth" href="#chapterArrow">
-                      <i class="arrow fa fa-angle-down fa-5x" target="_blank" aria-hidden="true"></i>
-                    </a>
-                  </center>
-           </div>
-    <!-- go to top button -->
-    <button onclick="scrollTopSmooth()" id="myBtn" title="Go to top"><span class="glyphicon glyphicon-chevron-up"></span></button>
-
-
-                <!--All the links to chapters-->
-                <div class="col-lg-12 chapters" id="chapterArrow">
-                    <center><div class="col-lg-4 col-md-6">
-                        <a href="chapters.html"><img src="https://empxtrack.com/wp-content/uploads/2015/06/business_1-e1434531778480-700x400.jpg" class="img-circle" ></a>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <a href="chapters.html"><img src="https://www.gamedevmarket.net/media/get/cc_ec279507037fff700764acdb8b070489929c95a2.jpg" class="img-circle"></a>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <a href="chapters.html"><img src="https://www.gamedevmarket.net/media/get/c_e2bbfe9f00e83d719d70d85887564f9e6b986fce.jpg" class="img-circle"></a>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <a href="chapters.html"><img src="http://orig00.deviantart.net/e3de/f/2016/040/1/0/asra_by_nazeea-d9r3jhz.png" class="img-circle"></a>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <a href="chapters.html"><img src="https://yourfamilyexpert.com/wp-content/uploads/2012/06/madagascar-3-europe-s-most-wanted-00-pplware-540x432-700x400.jpg" class="img-circle"></a>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <a href="chapters.html"><img src="http://cdn.renewcanceltv.com/wp-content/uploads/2016/03/powerpuffdss-700x400.jpg" class="img-circle"></a>
-                    </div></center>
-                </div>
-</section>
-                <!--Footer-->
-            <!--     <div id="footer" class="col-lg-12"> -->
-                  <footer>
-                      <p><font size="3">&copy 2017</font></p>
-                      <p><font size="3">Built with HTML5, CSS3, <a id="created" href="http://getbootstrap.com">Boostrap</a>, jQuery & JavaScript</font></p>
-                </footer>
-
-                <!-- </div> -->
-
+        </div>
+        <!-- /#wrapper -->
 
         <!-- jQuery -->
         <script src="js/jquery.js"></script>
