@@ -32,14 +32,13 @@ footer {
     text-align: center;
     width: 100%;
     top:150px;
-    font-size: 1em;
+    font-size: 15px;
     font-family: Arial Rounded MT Bold;
 }
 
 img {
     display: block;
     margin: auto;
-    padding: 10px;
 }
 
 #goDown {
