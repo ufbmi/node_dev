@@ -16,7 +16,8 @@ html {
     font-family: Arial Rounded MT Bold;
     line-height: 1.4;
 }
-h1,h2,h3,h4,h5,h6{
+
+h1,h2,h3,h4,h5,h6 {
     font-family: Arial Rounded MT Bold;
 }
 
@@ -38,7 +39,7 @@ footer {
     font-family: Arial Rounded MT Bold;
 }
 
-img {
+#principalImg img {
     display: block;
     margin: auto;
 }
@@ -50,7 +51,7 @@ img {
 
 /* remove shadow in the carousel controls */
 .carousel-control.left, .carousel-control.right {
-    background-image: none
+    background-image: none;
 }
 
 .lead {
@@ -107,13 +108,48 @@ img {
     background-position: center;
 }
 
-/*for videos*/
-iframe{
-    width:75%;
-    height: 600px;
+.item {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+h2,h4 {
+    color: red;
+}
+
+h1 {
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+#slide1 img {
+    float: right;
+    margin-right: 50px;
+}
+
+#slide2 iframe {
+    width: 600px;
+    height: 400px;
     margin: auto;
     display: block;
-    align-items: center;
+}
+
+#slide3 h1 {
+    text-align: center;
+}
+
+#slide3 h2 {
+    text-align: center;
+}
+
+#slide3 h3 {
+    padding-left: 20px;
+}
+
+#slide3 img {
+    float: right;
+    margin-right: 20px;
 }
 
 .btn {
@@ -192,25 +228,12 @@ h1#title:hover, h1#title:active {
      color: white;
 }
 
-/*a#lang:link, a#lang:visited {*/
-    /*background-color: #f44336;*/
-    /*color: white;*/
-    /*padding: 3px 4px;*/
-    /*text-align: center;*/
-    /*text-decoration: none;*/
-    /*display: inline-block;*/
-/*}*/
-
-/*a#lang:hover, a:active {*/
-    /*background-color: red;*/
-/*}*/
-
 /* scroll to top button */
 #myBtn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
     bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
+    right: 20px; /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
@@ -226,7 +249,6 @@ h1#title:hover, h1#title:active {
    background-color: rgba(144, 144, 144, 0.3);/* Add a dark-grey background on hover */
     color: black;
 }
-
 
 .img-circle:hover{
     opacity: 0.7;
@@ -323,6 +345,7 @@ hr {
  */
 
 audio,
+img,
 canvas,
 svg,
 video {
