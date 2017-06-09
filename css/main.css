@@ -123,6 +123,12 @@ footer {
   margin: 5px;
 }
 
+/*#questionBorder{
+    outline: 1px solid black;
+    outline-offset: 15px;
+    /*border: 1px solid black;*/
+
+
 .button span {
   cursor: pointer;
   display: inline-block;
