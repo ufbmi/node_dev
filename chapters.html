@@ -72,7 +72,7 @@
                 <!-- carousel example-->
 
                 <div class="container">
-                    <div id="myCarousel" class="carousel slide" >
+                    <div id="myCarousel" class="carousel slide" data-interval="false">
                         <!-- Indicators -->
                         <!--<ol class="carousel-indicators">-->
                             <!--<li data-target="#myCarousel" data-slide-to="0" class="active"></li>-->
@@ -84,14 +84,16 @@
                         <div class="carousel-inner">
                             <!-- page 1 -->
                             <div id="slide1" class="item active">
-                                <h2 id="heading">Chapter 1</h2>
-                                <h1>What is Diabetes?</h1>
-                                <img width="250px" height=auto src="img/2 Kara questions.png">
+                                <div class="extraPadding">
+                                    <h2 class="heading">Chapter 1</h2>
+                                    <h1>What is Diabetes?</h1>
+                                    <img width="250px" height=auto src="img/2 Kara questions.png">
+                                </div>
                             </div>
                             <!-- page 2 -->
                             <div id="slide2" class="item">
-                                <h4 id="heading">SECTION 1</h4>
-                                <h3 id="heading">Movie 1.1</h3>
+                                <h4 class="heading">SECTION 1</h4>
+                                <h3 class="heading">Movie 1.1</h3>
                                 <h3> What is Diabetes?</h3>
                                 <div class="col-lg-2"><img width="250px" height=auto src="img/0 cover.png"></div>
                                 <div class="col-lg-10"> <iframe id="video" src="https://www.youtube.com/embed/4EEtubB74lM"></iframe></div>
@@ -99,8 +101,8 @@
                             </div>
                             <!-- page 3 -->
                             <div id="slide3" class="item" >
-                                <h4 id="heading">SECTION 2</h4>
-                                <h3 id="heading">Interactive 1.1</h3>
+                                <h4 class="heading">SECTION 2</h4>
+                                <h3 class="heading">Interactive 1.1</h3>
                                 <h1>Let’s Review</h1>
                                 <h2>There are two main types of diabetes</h2>
                                 <div class="col-lg-10">
@@ -117,12 +119,12 @@
                             </div>
                             <!-- page 4 -->
                             <div class="item" >
-                                <h4 id="heading">SECTION 3</h4>
-                                <h3 id="heading">Interactive 1.2</h3>
+                                <h4 class="heading">SECTION 3</h4>
+                                <h3 class="heading">Interactive 1.2</h3>
                                 <h3> What is insulin and why is it so important</h3>
                                 <h2>What is insulin and why is it so important?</h2>
                                 <div>
-                                <center>
+
                                     <button onclick="document.getElementById('hiddenT3').style.display = 'block';this.style.display = 'none'"><img width="100px" height=auto src="https://images.vexels.com/media/users/3/134121/isolated/preview/5ff73adb05d7f1fe47dd49bb1b08affa-star-cartoon-icon-50-by-vexels.png"></button>
                                     <h1 id="hiddenT3" style="display:none;">
                                       Insulin is made in the pancreas which is near the liverInsulin is needed to move glucose from the blood into cells in the body that use it for energy
@@ -132,13 +134,13 @@
                                     <h1 id="hiddenT4" style="display:none;">
                                       Insulin is made in the pancreas which is near the liver
                                     </h1>
-                                </center>
+
                                 </div>
                             </div>
                             <!-- page 5 -->
                             <div class="item" >
-                                <h4 id="heading">SECTION 4</h4>
-                                <h3 id="heading">Interactive 1.3</h3>
+                                <h4 class="heading">SECTION 4</h4>
+                                <h3 class="heading">Interactive 1.3</h3>
                                 <h3> Why doesn’t the body make enough insulin in type 1 diabetes</h3>
                                 <h2>Why doesn’t the body make enough insulin in type 1 diabetes?</h2>
                                 <div>
@@ -147,7 +149,7 @@
                                       The immune system normally fight infections
                                     </h1>
         
-                                    <center><button style="display:none;" class="button" id="hiddenButton1" onclick="document.getElementById('hiddenT6').style.display = 'block'"><span>BUT</span></button></center>
+                                    <button style="display:none;" class="button" id="hiddenButton1" onclick="document.getElementById('hiddenT6').style.display = 'block'"><span>BUT</span></button>
                                     <h1 id="hiddenT6" style="display:none;">
                                       In Type 1 diabetes, the immune system attacks the pancreas
                                     </h1>
@@ -155,8 +157,8 @@
                             </div>
                             <!-- page 6 -->
                             <div class="item">
-                                <h4 id="heading">SECTION 5</h4>
-                                <h3 id="heading">Interactive 1.4</h3>
+                                <h4 class="heading">SECTION 5</h4>
+                                <h3 class="heading">Interactive 1.4</h3>
                                 <h3>Why doesn’t the body make enough insulin in type 1 diabetes?</h3>
                                 <div><h3> Why doesn’t the body make enough insulin in type 1 diabetes?</h3>
                                 <img width="300px" height=auto  src="" alt="Damaged Pancreas"></div>
@@ -166,14 +168,14 @@
 
                             <!-- page 7 -->
                             <div class="item">
-                                <h4 id="heading">SECTION 6</h4>
+                                <h4 class="heading">SECTION 6</h4>
                                 <img width="300px" height=auto  src="" alt="Whats up with Ketones">
                             </div>
 
                             <!-- page 8 -->
                             <div class="item">
-                                <h4 id="heading">SECTION 7</h4>
-                                <h3 id="heading">Type 1 diabetes vs. Type 2 diabetes</h3>
+                                <h4 class="heading">SECTION 7</h4>
+                                <h3 class="heading">Type 1 diabetes vs. Type 2 diabetes</h3>
                                 <div class="col-lg-6"><h3> Type 1 diabetes is treated with insulin which is usually given through a needle</h3>
                                 <img width="300px" height=auto  src="img/23 Kara insulin.png"></div>
                                 <div class="col-lg-6"><h3>Type 2 diabetes is sometimes treated with insulin, but usually people can take pills and focus on losing weight</h3>
@@ -182,10 +184,9 @@
 
                             <!-- page 9 -->
                             <div class="item">
-                                <h4 id="heading">SECTION 8</h4>
-                                <h3 id="heading">Review 1.1</h3><h3>Questions</h3>
+                                <h4 class="heading">SECTION 8</h4>
+                                <h3 class="heading">Review 1.1</h3><h3>Questions</h3>
                                 <br>
-                                <center>
                                 <form>
                                 <h2 id="questionBorder" >What is Insulin<BR>
                                     <input type="radio" name=" " value="true"> A. Hormone that lowers glucose levels<BR>
@@ -195,12 +196,8 @@
                                     <button onClick="">Check Answers yet to be done</button>
                                     <input type="reset" value="Clear Answer">
                                     <br>
-                                </h4>
+                                </h2>
                                 </form>
-                                    
-                                
-                              
-                                </center>
                             </div>
                             <!--page x-->
                            <!--  <div class="item">
@@ -211,11 +208,11 @@
                             <!-- flash -->
 
                             <!--<div class="item" >
-                                <center><embed src="helloworld.swf"></center>
+                                <embed src="helloworld.swf">
                             </div> -->
                             <!-- 
                              <div class="item" >
-                                <center><div class="popup" onclick="myFunction()">Glucose
+                                <div class="popup" onclick="myFunction()">Glucose
                               <span class="popuptext" id="myPopup">Glucose is blahblahblah</span>
                             </div>
 
@@ -225,7 +222,7 @@
                                 var popup = document.getElementById("myPopup");
                                 popup.classList.toggle("show");
                             }
-                            </script></center> -->
+                            </script> -->
                         </div>
 
                         <!-- Left and right controls -->
