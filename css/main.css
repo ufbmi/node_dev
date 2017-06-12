@@ -78,6 +78,11 @@ h1#title:hover, h1#title:active {
     margin:0px;
 }
 
+.center {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
 .arrow {
     opacity: .57;
     z-index: 1;
