@@ -187,17 +187,27 @@
                                 <h4 class="heading">SECTION 8</h4>
                                 <h3 class="heading">Review 1.1</h3><h3>Questions</h3>
                                 <br>
+                                <center>
                                 <form>
-                                <h2 id="questionBorder" >What is Insulin<BR>
-                                    <input type="radio" name=" " value="true"> A. Hormone that lowers glucose levels<BR>
-                                    <input type="radio" name=" " value="false"> B. Hormone that raises glucose levels<BR>
-                                    <input type="radio" name=" " value="false"> C. Hormone that breaks down fat and protein<BR>
+                                <h2 id="questionCptr1" >What is Insulin<BR>
+                                    <input type="radio" name="cptr1q1" value="true"> A. Hormone that lowers glucose levels<BR>
+                                    <input type="radio" name="cptr1q1" value="false"> B. Hormone that raises glucose levels<BR>
+                                    <input type="radio" name="cptr1q1" value="false"> C. Hormone that breaks down fat and protein<BR>
                                     <br>
-                                    <button onClick="">Check Answers yet to be done</button>
-                                    <input type="reset" value="Clear Answer">
+                                    <p id="indicatingCorrect" style="display:none;">Yay!! Your Correct! :)</p>
+                                    <p id="indicatingWrong" style="display:none;">Please Try Again:( </p>
+                                    <p id="indicatingBlank" style="display:none;">Please Select one! </p>
+                                    <br>
+                                    <!-- <button id="answer">Check Answers</button> -->
+                                    <input id="answer" type="submit" value="Check Answers">
+                                    <!-- when reset, clearing all the indicating texts:) -->
+                                    <input type="reset" value="Clear Answer" onclick="document.getElementById('indicatingCorrect').style.display = 'none'; 
+                                        document.getElementById('indicatingWrong').style.display = 'none';document.getElementById('indicatingBlank').style.display = 'none'">
+
                                     <br>
                                 </h2>
                                 </form>
+                                </center>
                             </div>
                             <!--page x-->
                            <!--  <div class="item">
