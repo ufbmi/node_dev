@@ -213,6 +213,10 @@ h1#title:hover, h1#title:active {
     padding-right: 120px;
 }
 
+.stars {
+    padding: 20px;
+}
+
 #indicatingCorrect {
     color:green;
 }
@@ -261,6 +265,11 @@ h1#title:hover, h1#title:active {
     margin-right: 50px;
 }
 
+#slide2 img {
+    float: left;
+    padding: 15px;
+}
+
 #slide2 iframe {
     width: 600px;
     height: 400px;
@@ -268,14 +277,9 @@ h1#title:hover, h1#title:active {
     display: block;
 }
 
-#slide2 img {
-    float: left;
-    padding: 15px;
-}
-
 #slide2 h4 {
     padding-bottom: 5px;
-    margin-left: 210px;
+    margin-left: 200px;
     font-weight: bold;
 }
 
@@ -283,13 +287,33 @@ h1#title:hover, h1#title:active {
     padding-left: 45px;
 }
 
+#slide3 h1 {
+
+}
+
 #slide3 h2 {
-    text-align: center;
+
 }
 
 #slide3 img {
     float: right;
     margin-right: 20px;
+}
+
+#slide4 h4 {
+    padding-left: 45px;
+}
+
+#slide5 h4 {
+    padding: 45px;
+}
+
+#slide6 h4 {
+    padding-left: 45px;
+}
+
+#slide9 h4 {
+    padding-left: 45px;
 }
 
 #sidebar-wrapper {
