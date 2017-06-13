@@ -180,6 +180,27 @@ h1#title:hover, h1#title:active {
     background-image: none;
 }
 
+.carousel-control {
+    top:50%;
+    width:auto;
+    height:1em;
+    background:transparent;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right  {
+    position:static;
+    display:block;
+    width:auto;
+}
+.carousel-control .glyphicon-chevron-left:before {
+    margin-left:20px;
+}
+
+.carousel-control .glyphicon-chevron-right:before {
+    
+}
+
+/***************************/
+
 
 /*for things like section x.x chapterx etc.*/
 .heading {
