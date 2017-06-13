@@ -58,9 +58,11 @@ textarea {
 }
 
 h1 {
-    padding-left: 20px;
+    padding-left: 45px;
     padding-top: 20px;
     margin-bottom: 20px;
+    font-size: 4em;
+    font-weight: bold;
 }
 
 h1#title:link, h1#title:visited {
@@ -203,6 +205,7 @@ h1#title:hover, h1#title:active {
 /*for things like section x.x chapterx etc.*/
 .heading {
     color: red;
+    font-weight: bold;
 }
 
 .extraPadding {
@@ -218,10 +221,9 @@ h1#title:hover, h1#title:active {
     color:red;
 }
 
-#indicatingBlank {
+#indicatingBlank{
     color:grey;
 }
-
 
 #principalImg img {
     display: block;
@@ -240,7 +242,7 @@ h1#title:hover, h1#title:active {
 }
 
 #home {
-   width:100%;
+   width: 100%;
 }
 
 #myCarousel {
@@ -262,20 +264,27 @@ h1#title:hover, h1#title:active {
 #slide2 iframe {
     width: 600px;
     height: 400px;
-    margin: auto;
+    margin-left: auto;
     display: block;
 }
 
-#slide3 h1 {
-    text-align: center;
+#slide2 img {
+    float: left;
+    padding: 15px;
+}
+
+#slide2 h4 {
+    padding-bottom: 5px;
+    margin-left: 210px;
+    font-weight: bold;
+}
+
+#slide3 h4 {
+    padding-left: 45px;
 }
 
 #slide3 h2 {
     text-align: center;
-}
-
-#slide3 h3 {
-    padding-left: 20px;
 }
 
 #slide3 img {
@@ -286,11 +295,14 @@ h1#title:hover, h1#title:active {
 #sidebar-wrapper {
     background-color: white;
     font-family: Arial Rounded MT Bold;
+    font-size: 1em;
+    font-weight: bold;
 }
 
 #chapter1 {
     color:rgb(237,18,117);
 }
+
 #chapter2 {
     color:rgb(216,13,19);
 }

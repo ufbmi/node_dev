@@ -71,7 +71,7 @@ function topFunction() {
     document.documentElement.scrollTop = 0; // For IE and Firefox
 }
 
-// Method for checking the answers in cpter 1
+// Method for checking the answers in chapter 1
 document.getElementById("answer").onclick = validate;    
 function validate() {     
   var radios;     
