@@ -1,0 +1,41 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="FlashAICB Assets_29/Layer 12/&amp;#060Path&amp;#062_3" itemID="556f70b9-00000755" lastModified="1433366713">
+  <timeline>
+    <DOMTimeline name="&amp;#060Path&amp;#062_3">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <RadialGradient>
+                        <matrix>
+                          <Matrix a="0.0134735107421875" d="-0.0103607177734375" tx="11.05" ty="8.5"/>
+                        </matrix>
+                        <GradientEntry color="#EA1729" alpha="0.298039215686275" ratio="0.0156862745098039"/>
+                        <GradientEntry color="#D44B42" alpha="0.592156862745098" ratio="0.32156862745098"/>
+                        <GradientEntry color="#C37056" alpha="0.815686274509804" ratio="0.596078431372549"/>
+                        <GradientEntry color="#B98762" alpha="0.949019607843137" ratio="0.819607843137255"/>
+                        <GradientEntry color="#B58F67" ratio="0.964705882352941"/>
+                      </RadialGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!272 340|170 340!170 340[100 340 50 290!50 290[0 240 0 170!0 170[0 100 50 50!50 50[100 0 170 0!170 0|272 0!272 0[342 0 392 50!392 50[442 100 442 170!442 170[442 240 392 290!392 290[342 340 272 340"/>
+                    <Edge cubics="!272 340(;272,340 170,340 170,340q272 340 170 340);"/>
+                    <Edge cubics="!170 340(170,340;76,340 0,263 0,170q170 340Q100 340q50 290Q0 240q0 170)0,170;"/>
+                    <Edge cubics="!0 170(0,170;0,76 76,0 170,0q0 170Q0 100q50 50Q100 0q170 0)170,0;"/>
+                    <Edge cubics="!170 0(;170,0 272,0 272,0q170 0 272 0);"/>
+                    <Edge cubics="!272 0(272,0;365,0 442,76 442,170q272 0Q342 0q392 50Q442 100q442 170)442,170;"/>
+                    <Edge cubics="!442 170(442,170;442,263 365,340 272,340q442 170Q442 240q392 290Q342 340q272 340)272,340;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

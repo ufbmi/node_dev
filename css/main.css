@@ -77,6 +77,11 @@ input[type=reset] {
     cursor: pointer;
 }
 
+iframe{
+    height:755px;
+    border-width: 0;
+}
+
 h1 {
     padding-left: 45px;
     padding-top: 20px;

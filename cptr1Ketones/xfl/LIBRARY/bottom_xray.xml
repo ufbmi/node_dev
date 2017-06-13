@@ -1,0 +1,33 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="bottom_xray" itemID="554912de-00000137" lastModified="1430852318">
+  <timeline>
+    <DOMTimeline name="bottom_xray">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <matrix>
+                    <Matrix ty="-265"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#3F3F3F"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!6749 5420|0 5420!0 5420|0 5301!0 5301|6749 5300!6749 5300|6749 5420"/>
+                    <Edge cubics="!6749 5420(6749,5420;6749,5420 0,5420 0,5420q6749 5420 0 5420);"/>
+                    <Edge cubics="!0 5420(;0,5420 0,5301 0,5301q0 5420 0 5301);"/>
+                    <Edge cubics="!0 5301(0,5301;0,5301 6749,5300 6749,5300q0 5301 6749 5300)6749,5300;"/>
+                    <Edge cubics="!6749 5300(;6749,5300 6749,5420 6749,5420q6749 5300 6749 5420)6749,5420;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

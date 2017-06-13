@@ -1,0 +1,77 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="water_flow_out" itemID="5543afa5-000003d5" lastModified="1430512973">
+  <persistentData>
+    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+  </persistentData>
+  <timeline>
+    <DOMTimeline name="water_flow_out" currentFrame="104">
+      <layers>
+        <DOMLayer name="Guide: Layer 1" color="#9933CC" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" duration="111" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="none" weight="0.1" joints="miter" miterLimit="10">
+                        <fill>
+                          <SolidColor color="#04FB02"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!23 755[36 750 278 630!278 630[368 585 453 585!453 585[486 585 597 630!597 630[709 675 753 675!753 675[770 675 984 635!984 635[1197 595 1293 595!1293 595[1496 595 1595 749!1595 749[1624 795 1663 887!1663 887[1702 981 1723 1015!1723 1015
+[1776 1100 1855 1165!1855 1165[1900 1202 1981 1260!1981 1260[2047 1312 2076 1371!2076 1371[2113 1447 2113 1570!2113 1570[2113 1684 2053 1812!2053 1812[1993 1939 1993 2020!1993 2020[1993 2119 2038 2193!2038 2193[2083 2266 2083 2410!2083
+ 2410[2083 2599 2013 2756!2013 2756[1966 2860 1858 3000!1858 3000[1738 3157 1703 3220!1703 3220[1633 3349 1633 3490!1633 3490[1633 3531 1648 3601!1648 3601[1663 3671 1663 3695!1663 3695[1663 3786 1423 4215!1423 4215[1183 4644 1183 4745
+!1183 4745[1183 4786 1217 4865!1217 4865[1238 4912 1293 5029!1293 5029[1403 5279 1403 5505!1403 5505[1403 5579 1343 5749!1343 5749[1283 5920 1283 6010!1283 6010[1283 6069 1296 6086!1296 6086[1322 6119 1343 6185"/>
+                    <Edge cubics="!23 755(;272,647 310,585 453,585q23 755Q36 750q278 630Q368 585q453 585);"/>
+                    <Edge cubics="!453 585(;523,585 668,675 753,675q453 585Q486 585q597 630Q709 675q753 675);"/>
+                    <Edge cubics="!753 675(;813,675 1128,595 1293,595q753 675Q770 675q984 635Q1197 595q1293 595);"/>
+                    <Edge cubics="!1293 595(;1617,595 1631,866 1723,1015q1293 595Q1496 595q1595 749Q1624 795q1663 887Q1702 981q1723 1015);"/>
+                    <Edge cubics="!1723 1015(;1892,1285 2113,1213 2113,1570q1723 1015Q1776 1100q1855 1165Q1900 1202q1981 1260Q2047 1312q2076 1371Q2113 1447q2113 1570);"/>
+                    <Edge cubics="!2113 1570(2113,1570;2113,1787 1993,1847 1993,2020q2113 1570Q2113 1684q2053 1812Q1993 1939q1993 2020)1993,2020;"/>
+                    <Edge cubics="!1993 2020(;1993,2233 2083,2137 2083,2410q1993 2020Q1993 2119q2038 2193Q2083 2266q2083 2410);"/>
+                    <Edge cubics="!2083 2410(;2083,2972 1633,3062 1633,3490q2083 2410Q2083 2599q2013 2756Q1966 2860q1858 3000Q1738 3157q1703 3220Q1633 3349q1633 3490);"/>
+                    <Edge cubics="!1633 3490(;1633,3566 1663,3641 1663,3695q1633 3490Q1633 3531q1648 3601Q1663 3671q1663 3695);"/>
+                    <Edge cubics="!1663 3695(;1663,3880 1183,4546 1183,4745q1663 3695Q1663 3786q1423 4215Q1183 4644q1183 4745);"/>
+                    <Edge cubics="!1183 4745(;1183,4877 1403,5117 1403,5505q1183 4745Q1183 4786q1217 4865Q1238 4912q1293 5029Q1403 5279q1403 5505);"/>
+                    <Edge cubics="!1403 5505(;1403,5658 1283,5835 1283,6010q1403 5505Q1403 5579q1343 5749Q1283 5920q1283 6010);"/>
+                    <Edge cubics="!1283 6010(;1283,6121 1297,6042 1343,6185q1283 6010Q1283 6069q1296 6086Q1322 6119q1343 6185);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4F80FF" parentLayerIndex="0" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="110" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="water" selected="true">
+                  <matrix>
+                    <Matrix tx="-16.05" ty="15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.2" y="22.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="110" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="water" selected="true" centerPoint3DX="65.7" centerPoint3DY="308">
+                  <matrix>
+                    <Matrix tx="48.5" ty="285.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.2" y="22.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

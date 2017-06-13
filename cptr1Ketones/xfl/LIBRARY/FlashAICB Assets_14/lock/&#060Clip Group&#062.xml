@@ -1,0 +1,54 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="FlashAICB Assets_14/lock/&amp;#060Clip Group&amp;#062" itemID="555618ff-0000039a" lastModified="1433367895">
+  <timeline>
+    <DOMTimeline name="&amp;#060Clip Group&amp;#062">
+      <layers>
+        <DOMLayer name="Layer 4" color="#FF4FFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-124.45" ty="-3.55"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FF0000"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!1602 740S2[1688 1066 1519 1358!1519 1358[1349 1650 1023 1736!1023 1736[697 1822 405 1653!405 1653[113 1483 27 1157!27 1157[-59 831 110 539!110 539[280 248 606 161!606 161[932 75 1224 244!1224 244[1515 414 1602 740"/>
+                    <Edge cubics="!1602 740(;1717,1175 1458,1621 1023,1736q1602 740Q1688 1066q1519 1358Q1349 1650q1023 1736);"/>
+                    <Edge cubics="!1023 1736(;588,1851 142,1592 27,1157q1023 1736Q697 1822q405 1653Q113 1483q27 1157);"/>
+                    <Edge cubics="!27 1157(27,1157;-88,722 171,277 606,161q27 1157Q-59 831q110 539Q280 248q606 161)606,161;"/>
+                    <Edge cubics="!606 161(606,161;1041,46 1486,305 1602,740q606 161Q932 75q1224 244Q1515 414q1602 740)1602,740;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4F80FF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

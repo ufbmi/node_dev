@@ -1,0 +1,35 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="FlashAICB Assets_10/character side bar/&amp;#060Path&amp;#062_10" itemID="5543e3e9-000000b4" lastModified="1430512617">
+  <timeline>
+    <DOMTimeline name="&amp;#060Path&amp;#062_10">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!0 1973[209 1549 391 1194!391 1194[499 980 459 708!459 708[420 443 262 257!262 257|226 0!226 0[526 118 659 379!659 379[805 666 717 1070!717 1070[675 1255 622 1435!622 1435|479 1910!479 1910|485 1960!485 1960|383 2164!383 2164|0 1973"/>
+                    <Edge cubics="!0 1973(0,1973;205,1558 279,1413 391,1194q0 1973Q209 1549q391 1194)391,1194;"/>
+                    <Edge cubics="!391 1194(;538,904 469,500 262,257q391 1194Q499 980q459 708Q420 443q262 257);"/>
+                    <Edge cubics="!262 257(;262,257 226,0 226,0q262 257p226 0);"/>
+                    <Edge cubics="!226 0(;604,149 840,506 717,1070q226 0Q526 118q659 379Q805 666q717 1070);"/>
+                    <Edge cubics="!717 1070(;695,1168 663,1297 622,1435q717 1070Q675 1255q622 1435);"/>
+                    <Edge cubics="!622 1435(;622,1435 479,1910 479,1910q622 1435p479 1910);"/>
+                    <Edge cubics="!479 1910(;479,1910 485,1960 485,1960q479 1910p485 1960);"/>
+                    <Edge cubics="!485 1960(;485,1960 383,2164 383,2164q485 1960p383 2164);"/>
+                    <Edge cubics="!383 2164(;383,2164 0,1973 0,1973q383 2164 0 1973);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

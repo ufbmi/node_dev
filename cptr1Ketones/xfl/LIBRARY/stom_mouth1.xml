@@ -1,0 +1,34 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="stom_mouth1" itemID="555612bc-000002df" lastModified="1431704252">
+  <timeline>
+    <DOMTimeline name="stom_mouth1">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-345.75" ty="-345.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="369.05" y="359.5"/>
+                  </transformationPoint>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#6A1325"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!7828 6905[7817 7252 7683 7432!7683 7432[7564 7591 7389 7574!7389 7574[7219 7557 7086 7387!7086 7387[6943 7203 6915 6923!6915 6923|7828 6905"/>
+                    <Edge cubics="!7828 6905(;7796,7887 6993,7701 6915,6923q7828 6905Q7817 7252q7683 7432Q7564 7591q7389 7574Q7219 7557q7086 7387Q6943 7203q6915 6923);"/>
+                    <Edge cubics="!6915 6923(;6915,6923 7828,6905 7828,6905q6915 6923 7828 6905);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

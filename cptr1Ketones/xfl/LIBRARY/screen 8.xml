@@ -1,0 +1,1621 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="screen 8" itemID="5543851a-00000137" lastModified="1457717934" lastUniqueIdentifier="36">
+  <persistentData>
+    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+  </persistentData>
+  <timeline>
+    <DOMTimeline name="screen 8" currentFrame="239" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;502&lt;/guideline&gt;&lt;guideline direction="h"&gt;-87&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="Layer 6" color="#808080" locked="true" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" duration="728" keyMode="9728">
+              <elements>
+                <DOMDynamicText selected="true" fontRenderingMode="device" width="62.75" height="21.8" autoExpand="true" isSelectable="false" lineType="multiline no wrap">
+                  <matrix>
+                    <Matrix tx="378.6" ty="79.15"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Kidneys</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineSpacing="3.2" size="16" bitmapSize="320" face="OpenSans-Bold" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText selected="true" fontRenderingMode="device" width="102.6" height="21.8" autoExpand="true" isSelectable="false" lineType="multiline no wrap">
+                  <matrix>
+                    <Matrix tx="190" ty="-72.35"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Bloodstream</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineSpacing="3.2" size="16" bitmapSize="320" face="OpenSans-Bold" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="actions" color="#9933CC" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="239" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="239" duration="41" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[playSfx("urinate")]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="280" duration="85" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[exportRoot.kara.gotoAndPlay("dehydrated");]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="365" duration="349" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="714" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.gotoAndPlay("looping");]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="labels" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="469" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="469" duration="246" name="looping" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="FlashAICB" color="#4F80FF" locked="true" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" duration="715" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMShape isDrawingObject="true">
+                      <matrix>
+                        <Matrix tx="-538.45" ty="-115.55"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FEFBCC"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!4340 6660[4340 5209 4488 4209!4488 4209[4665 3019 5078 2232!5078 2232[5537 1356 6323 904!6323 904[7172 417 8440 401!8440 401|8440 0!8440 0|0 0!0 0|0 13500!0 13500|8700 13498!8700 13498[6285 13468 5208 11377!5208 11377[4340 9694 4340
+ 6660"/>
+                        <Edge cubics="!4340 6660(;4340,3153 4940,445 8440,401q4340 6660Q4340 5209q4488 4209Q4665 3019q5078 2232Q5537 1356q6323 904Q7172 417q8440 401);"/>
+                        <Edge cubics="!8440 401(;8440,401 8440,0 8440,0q8440 401 8440 0);"/>
+                        <Edge cubics="!8440 0(;8440,0 0,0 0,0q8440 0 0 0);"/>
+                        <Edge cubics="!0 0(;0,0 0,13500 0,13500q0 0 0 13500);"/>
+                        <Edge cubics="!8700 13498(8700,13498;5200,13454 4340,10166 4340,6660q8700 13498Q6285 13468q5208 11377Q4340 9694q4340 6660)4340,6660;"/>
+                        <Edge cubics="!0 13500(;0,13500 8700,13498 8700,13498q0 13500 8700 13498)8700,13498;"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="organLabels" color="#808080" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="715" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="screen8_organLabels">
+                  <matrix>
+                    <Matrix tx="191.45" ty="-67.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="124.55" y="95.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="glucose stuck" color="#FF4F4F" locked="true" autoNamed="false" open="false" layerType="folder"/>
+        <DOMLayer name="right" color="#009999" parentLayerIndex="5" locked="true" autoNamed="false" open="false" layerType="folder"/>
+        <DOMLayer name="Guide: Layer 30" color="#808080" parentLayerIndex="6" locked="true" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" duration="234" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="234" duration="481" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#04FB02"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!2913 -2061[2958 -1995 2971 -1918!2971 -1918[2975 -1890 2975 -1820!2975 -1820[2975 #FFF92E.5 2945 -1680!2945 -1680[#B77.92 #FFF984.F 2923 -1639!2923 -1639[#B5A.D5 #FFF9B4.7D 2843 -1535!2843 -1535[#B0B.D -1516.875 2810 -1496!2810 -1496
+[2645 -1303 2645 -1060"/>
+                    <Edge cubics="!2913 -2061(;2984,-1958 2975,-1862 2975,-1820q2913 -2061Q2958 -1995q2971 -1918Q2975 -1890q2975 -1820);"/>
+                    <Edge cubics="!2975 -1820(;2975,-1764 2963,-1718 2945,-1680q2975 -1820Q2975 -1746q2945 -1680);"/>
+                    <Edge cubics="!2945 -1680(;2939,-1666 2932,-1652 2923,-1639q2945 -1680Q2936 -1659q2923 -1639);"/>
+                    <Edge cubics="!2923 -1639(;2912,-1621 2886,-1586 2843,-1535q2923 -1639Q2907 -1612q2843 -1535);"/>
+                    <Edge cubics="!2810 -1496(;2700,-1367 2645,-1222 2645,-1060q2810 -1496Q2645 -1303q2645 -1060);"/>
+                    <Edge cubics="!2843 -1535(;2833,-1523 2822,-1510 2810,-1496q2843 -1535Q2828 -1517q2810 -1496);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 38" color="#009999" parentLayerIndex="7" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="234" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="234" duration="13" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_hover">
+                  <matrix>
+                    <Matrix a="0.55035400390625" d="0.55035400390625" tx="151.05" ty="-116.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-9.8" y="25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="247" duration="468" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_hover" centerPoint3DX="131.6" centerPoint3DY="-52.1">
+                  <matrix>
+                    <Matrix a="0.55035400390625" d="0.55035400390625" tx="137.65" ty="-67.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-9.8" y="25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Guide: Layer 30" color="#FF800A" parentLayerIndex="6" locked="true" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" duration="215" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="215" duration="500" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#04FB02"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!2913 -2061[2958 -1995 2971 -1918!2971 -1918[2975 -1890 2975 -1820!2975 -1820[2975 -1722 2923 -1639!2923 -1639[2903 -1605 2810 -1496!2810 -1496[2645 -1303 2645 -1060!2645 -1060[2645 -855 2716 -506!2716 -506[2786 -158 2786 120"/>
+                    <Edge cubics="!2913 -2061(;2984,-1958 2975,-1862 2975,-1820q2913 -2061Q2958 -1995q2971 -1918Q2975 -1890q2975 -1820);"/>
+                    <Edge cubics="!2975 -1820(;2975,-1522 2645,-1508 2645,-1060q2975 -1820Q2975 -1722q2923 -1639Q2903 -1605q2810 -1496Q2645 -1303q2645 -1060);"/>
+                    <Edge cubics="!2645 -1060(;2645,-625 2786,-412 2786,120q2645 -1060Q2645 -855q2716 -506Q2786 -158q2786 120);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 35" color="#9933CC" parentLayerIndex="9" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="215" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="215" duration="24" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_hover">
+                  <matrix>
+                    <Matrix a="0.55035400390625" d="0.55035400390625" tx="151.05" ty="-116.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-9.8" y="25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="239" duration="476" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_hover" centerPoint3DX="138.55" centerPoint3DY="7.5">
+                  <matrix>
+                    <Matrix a="0.55035400390625" d="0.55035400390625" tx="144.6" ty="-7.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-9.8" y="25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Guide: Layer 30" color="#4F80FF" parentLayerIndex="6" locked="true" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" duration="191" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="191" duration="524" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#04FB02"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!2913 -2061[2958 -1995 2971 -1918!2971 -1918[2975 -1890 2975 -1820!2975 -1820[2975 -1722 2923 -1639!2923 -1639[2903 -1605 2810 -1496!2810 -1496[2645 -1303 2645 -1060!2645 -1060[2645 -916 2673 -804!2673 -804[2688 -745 2735 -624!2735 -624
+[2825 -393 2825 -115!2825 -115[2825 8 2797 117!2797 117[2785 161 2735 303!2735 303[2645 555 2645 855!2645 855[2645 1189 2723 1327!2723 1327[2768 1406 2906 1480"/>
+                    <Edge cubics="!2913 -2061(;2984,-1958 2975,-1862 2975,-1820q2913 -2061Q2958 -1995q2971 -1918Q2975 -1890q2975 -1820);"/>
+                    <Edge cubics="!2975 -1820(;2975,-1522 2645,-1508 2645,-1060q2975 -1820Q2975 -1722q2923 -1639Q2903 -1605q2810 -1496Q2645 -1303q2645 -1060);"/>
+                    <Edge cubics="!2645 -1060(;2645,-625 2825,-647 2825,-115q2645 -1060Q2645 -916q2673 -804Q2688 -745q2735 -624Q2825 -393q2825 -115);"/>
+                    <Edge cubics="!2825 -115(;2825,260 2645,300 2645,855q2825 -115Q2825 8q2797 117Q2785 161q2735 303Q2645 555q2645 855);"/>
+                    <Edge cubics="!2645 855(;2645,1355 2766,1405 2906,1480q2645 855Q2645 1189q2723 1327Q2768 1406q2906 1480);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 33" color="#FF4F4F" parentLayerIndex="11" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="191" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="191" duration="45" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_hover">
+                  <matrix>
+                    <Matrix a="0.55035400390625" d="0.55035400390625" tx="151.05" ty="-116.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-9.8" y="25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="236" duration="479" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_hover" centerPoint3DX="144.4" centerPoint3DY="75.05">
+                  <matrix>
+                    <Matrix a="0.55035400390625" d="0.55035400390625" tx="150.45" ty="60.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-9.8" y="25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Guide: Layer 30" color="#669900" parentLayerIndex="6" locked="true" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" duration="165" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="165" duration="550" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#04FB02"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!2913 -2061[2958 -1995 2971 -1918!2971 -1918[2975 -1890 2975 -1820!2975 -1820[2975 -1722 2923 -1639!2923 -1639[2903 -1605 2810 -1496!2810 -1496[2645 -1303 2645 -1060!2645 -1060[2645 -916 2673 -804!2673 -804[2688 -745 2735 -624!2735 -624
+[2825 -393 2825 -115!2825 -115[2825 8 2797 117!2797 117[2785 161 2735 303!2735 303[2645 555 2645 855!2645 855[2645 1022 2712 1167!2712 1167[2754 1257 2860 1402!2860 1402[2969 1550 3008 1630!3008 1630[3075 1769 3075 1925!3075 1925[3075
+ 2002 3015 2235!3015 2235[2955 2468 2955 2550!2955 2550[2955 2832 3215 2991!3215 2991[3317 3053 3426 3072!3426 3072[3530 3090 3588 3060"/>
+                    <Edge cubics="!2913 -2061(;2984,-1958 2975,-1862 2975,-1820q2913 -2061Q2958 -1995q2971 -1918Q2975 -1890q2975 -1820);"/>
+                    <Edge cubics="!2975 -1820(;2975,-1522 2645,-1508 2645,-1060q2975 -1820Q2975 -1722q2923 -1639Q2903 -1605q2810 -1496Q2645 -1303q2645 -1060);"/>
+                    <Edge cubics="!2645 -1060(;2645,-625 2825,-647 2825,-115q2645 -1060Q2645 -916q2673 -804Q2688 -745q2735 -624Q2825 -393q2825 -115);"/>
+                    <Edge cubics="!2825 -115(;2825,260 2645,300 2645,855q2825 -115Q2825 8q2797 117Q2785 161q2735 303Q2645 555q2645 855);"/>
+                    <Edge cubics="!2645 855(;2645,1355 3075,1456 3075,1925q2645 855Q2645 1022q2712 1167Q2754 1257q2860 1402Q2969 1550q3008 1630Q3075 1769q3075 1925);"/>
+                    <Edge cubics="!3075 1925(;3075,2080 2955,2387 2955,2550q3075 1925Q3075 2002q3015 2235Q2955 2468q2955 2550);"/>
+                    <Edge cubics="!2955 2550(;2955,2967 3438,3138 3588,3060q2955 2550Q2955 2832q3215 2991Q3317 3053q3426 3072Q3530 3090q3588 3060);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 30" color="#FF4FFF" parentLayerIndex="13" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="165" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="165" duration="70" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_hover">
+                  <matrix>
+                    <Matrix a="0.55035400390625" d="0.55035400390625" tx="151.05" ty="-116.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-9.8" y="25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="235" duration="480" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_hover">
+                  <matrix>
+                    <Matrix a="0.55035400390625" d="0.55035400390625" tx="184.55" ty="139.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-9.8" y="25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="left" color="#9933CC" parentLayerIndex="5" locked="true" autoNamed="false" open="false" layerType="folder"/>
+        <DOMLayer name="Guide: Layer 20" color="#FF4F4F" parentLayerIndex="15" locked="true" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" duration="239" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="239" duration="476" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#04FB02"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!1200 -1940[1296 -1780 1339 -1685!1339 -1685[1387 -1578 1420 -1440!1420 -1440[1461 -1269 1426 -1172!1426 -1172[1392 -1074 1270 -1022"/>
+                    <Edge cubics="!1200 -1940(;1322,-1737 1374,-1631 1420,-1440q1200 -1940Q1296 -1780q1339 -1685Q1387 -1578q1420 -1440);"/>
+                    <Edge cubics="!1420 -1440(;1475,-1212 1432,-1092 1270,-1022q1420 -1440Q1461 -1269q1426 -1172Q1392 -1074q1270 -1022);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 27" color="#669900" parentLayerIndex="16" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="239" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="239" duration="13" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_hover">
+                  <matrix>
+                    <Matrix a="0.55035400390625" d="0.55035400390625" tx="65.4" ty="-110.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-9.8" y="25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="252" duration="463" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_hover" centerPoint3DX="63.9" centerPoint3DY="-50.35">
+                  <matrix>
+                    <Matrix a="0.55035400390625" d="0.55035400390625" tx="69.95" ty="-65.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-9.8" y="25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Guide: Layer 20" color="#808080" parentLayerIndex="15" locked="true" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" duration="217" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="217" duration="498" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#04FB02"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!1200 -1940[1316 -1763 1356 -1688!1356 -1688[1420 -1566 1420 -1440!1420 -1440[1420 -1335 1379 -1237!1379 -1237[1363 -1199 1290 -1067!1290 -1067[1160 -833 1160 -570!1160 -570[1160 -487 1210 -346!1210 -346[1232 -284 1320 -74!1320 -74[1480
+ 308 1480 500"/>
+                    <Edge cubics="!1200 -1940(;1322,-1737 1420,-1637 1420,-1440q1200 -1940Q1316 -1763q1356 -1688Q1420 -1566q1420 -1440);"/>
+                    <Edge cubics="!1420 -1440(;1420,-1120 1160,-1055 1160,-570q1420 -1440Q1420 -1335q1379 -1237Q1363 -1199q1290 -1067Q1160 -833q1160 -570);"/>
+                    <Edge cubics="!1160 -570(;1160,-317 1480,142 1480,500q1160 -570Q1160 -487q1210 -346Q1232 -284q1320 -74Q1480 308q1480 500);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 25" color="#009999" parentLayerIndex="18" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="217" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="217" duration="35" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_hover">
+                  <matrix>
+                    <Matrix a="0.55035400390625" d="0.55035400390625" tx="65.4" ty="-110.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-9.8" y="25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="252" duration="463" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_hover" centerPoint3DX="73.3" centerPoint3DY="24.95">
+                  <matrix>
+                    <Matrix a="0.55035400390625" d="0.55035400390625" tx="79.35" ty="10"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-9.8" y="25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Guide: Layer 20" color="#FF4FFF" parentLayerIndex="15" locked="true" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" duration="187" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="187" duration="528" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#04FB02"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!1200 -1940[1316 -1763 1356 -1688!1356 -1688[1420 -1566 1420 -1440!1420 -1440[1420 -1335 1379 -1237!1379 -1237[1363 -1199 1290 -1067!1290 -1067[1160 -833 1160 -570!1160 -570[1160 -487 1210 -346!1210 -346[1232 -284 1320 -74!1320 -74[1480
+ 308 1480 500!1480 500[1480 592 1439 686!1439 686[1425 719 1350 854!1350 854[1220 1088 1220 1330!1220 1330[1220 1437 1290 1673!1290 1673[1360 1909 1360 2140"/>
+                    <Edge cubics="!1200 -1940(;1322,-1737 1420,-1637 1420,-1440q1200 -1940Q1316 -1763q1356 -1688Q1420 -1566q1420 -1440);"/>
+                    <Edge cubics="!1420 -1440(;1420,-1120 1160,-1055 1160,-570q1420 -1440Q1420 -1335q1379 -1237Q1363 -1199q1290 -1067Q1160 -833q1160 -570);"/>
+                    <Edge cubics="!1160 -570(;1160,-317 1480,142 1480,500q1160 -570Q1160 -487q1210 -346Q1232 -284q1320 -74Q1480 308q1480 500);"/>
+                    <Edge cubics="!1480 500(;1480,780 1220,887 1220,1330q1480 500Q1480 592q1439 686Q1425 719q1350 854Q1220 1088q1220 1330);"/>
+                    <Edge cubics="!1220 1330(;1220,1585 1360,1720 1360,2140q1220 1330Q1220 1437q1290 1673Q1360 1909q1360 2140);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 23" color="#FF800A" parentLayerIndex="20" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="187" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="187" duration="58" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_hover">
+                  <matrix>
+                    <Matrix a="0.55035400390625" d="0.55035400390625" tx="65.4" ty="-110.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-9.8" y="25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="245" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_hover" centerPoint3DX="67.35" centerPoint3DY="106.95">
+                  <matrix>
+                    <Matrix a="0.55035400390625" d="0.55035400390625" tx="73.4" ty="92"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-9.8" y="25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="246" duration="469" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_hover" centerPoint3DX="67.35" centerPoint3DY="106.95">
+                  <matrix>
+                    <Matrix a="0.55035400390625" d="0.55035400390625" tx="73.4" ty="92"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-9.8" y="25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Guide: Layer 20" color="#669900" parentLayerIndex="15" locked="true" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" duration="156" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="156" duration="80" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#04FB02"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!1110 -2190[1231 -1988 1311 -1813!1311 -1813[1420 -1571 1420 -1440!1420 -1440[1420 -1335 1379 -1237!1379 -1237[1363 -1199 1290 -1067!1290 -1067[1160 -833 1160 -570!1160 -570[1160 -487 1210 -346!1210 -346[1232 -284 1320 -74!1320 -74[1480
+ 308 1480 500!1480 500[1480 592 1439 686!1439 686[1425 719 1350 854!1350 854[1220 1088 1220 1330!1220 1330[1220 1437 1290 1673!1290 1673[1360 1909 1360 2140!1360 2140[1360 2356 1229 2624!1229 2624[1018 3057 540 3365"/>
+                    <Edge cubics="!1110 -2190(;1232,-1987 1420,-1637 1420,-1440q1110 -2190Q1231 -1988q1311 -1813Q1420 -1571q1420 -1440);"/>
+                    <Edge cubics="!1420 -1440(;1420,-1120 1160,-1055 1160,-570q1420 -1440Q1420 -1335q1379 -1237Q1363 -1199q1290 -1067Q1160 -833q1160 -570);"/>
+                    <Edge cubics="!1160 -570(;1160,-317 1480,142 1480,500q1160 -570Q1160 -487q1210 -346Q1232 -284q1320 -74Q1480 308q1480 500);"/>
+                    <Edge cubics="!1480 500(;1480,780 1220,887 1220,1330q1480 500Q1480 592q1439 686Q1425 719q1350 854Q1220 1088q1220 1330);"/>
+                    <Edge cubics="!1220 1330(;1220,1585 1360,1720 1360,2140q1220 1330Q1220 1437q1290 1673Q1360 1909q1360 2140);"/>
+                    <Edge cubics="!1360 2140(;1360,2277 1285,2885 540,3365q1360 2140Q1360 2356q1229 2624Q1018 3057q540 3365);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="236" duration="479" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 20" color="#808080" parentLayerIndex="22" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="156" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="156" duration="79" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_hover">
+                  <matrix>
+                    <Matrix a="0.55035400390625" d="0.55035400390625" tx="60.9" ty="-123.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-9.8" y="25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="235" duration="480" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_hover" centerPoint3DX="26.15" centerPoint3DY="169.25">
+                  <matrix>
+                    <Matrix a="0.55035400390625" d="0.55035400390625" tx="32.2" ty="154.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-9.8" y="25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="water above" color="#FF4FFF" locked="true" autoNamed="false" open="false" layerType="folder"/>
+        <DOMLayer name="right" color="#669900" parentLayerIndex="24" locked="true" autoNamed="false" layerType="folder"/>
+        <DOMLayer name="Guide: water 4" color="#FF800A" parentLayerIndex="25" locked="true" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" duration="232" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="232" duration="143" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#04FB02"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!6040 2692[6162 2830 6164 2963!6164 2963[6165 3033 6141 3105!6141 3105[6141 3139 6002 3260!6002 3260[5860 3378 5851 3390!5851 3390[5774 3499 5741 3634!5741 3634[5714 3750 5721 3870!5721 3870[5730 4000 5654 4073!5654 4073[5603 4121 5481
+ 4164!5481 4164[5343 4212 5303 4240!5303 4240[5221 4295 5221 4395!5221 4395[5221 4455 5261 4542!5261 4542[5301 4629 5301 4735!5301 4735[5301 4889 5146 5000!5146 5000[5016 5093 4911 5090!4911 5090[4789 5085 4661 5120!4661 5120[4489 5168
+ 4351 5280!4351 5280[4239 5372 4045 5383!4045 5383[3934 5387 3874 5392!3874 5392[3769 5402 3681 5430!3681 5430[3514 5483 3406 5672!3406 5672[3312 5838 3312 6000!3312 6000[3312 6063 3337 6148!3337 6148[3352 6199 3392 6314!3392 6314[3471
+ 6562 3471 6820!3471 6820[3471 7010 3421 7166!3421 7166[3371 7321 3371 7405!3371 7405[3371 7542 3501 7775!3501 7775[3550 7863 3786 8230!3786 8230[3982 8534 4071 8728!4071 8728[4201 9008 4201 9225!4201 9225[4201 9350 4131 9591!4131 9591
+[4061 9831 4061 9940!4061 9940[4061 10046 4243 10500!4243 10500[4419 10940 4439 10940"/>
+                    <Edge cubics="!6040 2692(;6235,2912 6141,3057 6141,3105q6040 2692Q6162 2830q6164 2963Q6165 3033q6141 3105);"/>
+                    <Edge cubics="!6141 3105(;6141,3162 5868,3365 5851,3390q6141 3105Q6141 3139q6002 3260Q5860 3378q5851 3390);"/>
+                    <Edge cubics="!5851 3390(;5741,3546 5712,3725 5721,3870q5851 3390Q5774 3499q5741 3634Q5714 3750q5721 3870);"/>
+                    <Edge cubics="!5721 3870(;5747,4257 5221,4092 5221,4395q5721 3870Q5730 4000q5654 4073Q5603 4121q5481 4164Q5343 4212q5303 4240Q5221 4295q5221 4395);"/>
+                    <Edge cubics="!5221 4395(;5221,4531 5301,4538 5301,4735q5221 4395Q5221 4455q5261 4542Q5301 4629q5301 4735);"/>
+                    <Edge cubics="!5301 4735(;5301,4966 5017,5093 4911,5090q5301 4735Q5301 4889q5146 5000Q5016 5093q4911 5090);"/>
+                    <Edge cubics="!4911 5090(;4786,5085 4557,5112 4351,5280q4911 5090Q4789 5085q4661 5120Q4489 5168q4351 5280);"/>
+                    <Edge cubics="!4351 5280(;4152,5442 3956,5342 3681,5430q4351 5280Q4239 5372q4045 5383Q3934 5387q3874 5392Q3769 5402q3681 5430);"/>
+                    <Edge cubics="!3681 5430(;3440,5506 3312,5810 3312,6000q3681 5430Q3514 5483q3406 5672Q3312 5838q3312 6000);"/>
+                    <Edge cubics="!3312 6000(;3312,6198 3471,6367 3471,6820q3312 6000Q3312 6063q3337 6148Q3352 6199q3392 6314Q3471 6562q3471 6820);"/>
+                    <Edge cubics="!3471 6820(;3471,7165 3371,7202 3371,7405q3471 6820Q3471 7010q3421 7166Q3371 7321q3371 7405);"/>
+                    <Edge cubics="!3371 7405(;3371,7823 4201,8581 4201,9225q3371 7405Q3371 7542q3501 7775Q3550 7863q3786 8230Q3982 8534q4071 8728Q4201 9008q4201 9225);"/>
+                    <Edge cubics="!4201 9225(;4201,9470 4061,9717 4061,9940q4201 9225Q4201 9350q4131 9591Q4061 9831q4061 9940);"/>
+                    <Edge cubics="!4061 9940(;4061,10100 4419,10940 4439,10940q4061 9940Q4061 10046q4243 10500Q4419 10940q4439 10940);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="375" duration="340" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="water 4" color="#FF4F4F" parentLayerIndex="26" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="232" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="water">
+                  <matrix>
+                    <Matrix tx="284.9" ty="111.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.2" y="22.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="232" duration="141" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="water" centerPoint3DX="299.5" centerPoint3DY="131.85">
+                  <matrix>
+                    <Matrix tx="284.8" ty="111.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.2" y="22.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="373" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="water" centerPoint3DX="219.1" centerPoint3DY="544.2">
+                  <matrix>
+                    <Matrix tx="204.4" ty="524.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.2" y="22.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="374" duration="136" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Guide: water 3" color="#9933CC" parentLayerIndex="25" locked="true" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" duration="218" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="218" duration="116" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#04FB02"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!7002 4734[6884 4942 6764 5020!6764 5020[6669 5080 6531 5080!6531 5080[6191 5060 6166 5060!6166 5060[6046 5060 5971 5099!5971 5099[5928 5122 5867 5185!5867 5185[5807 5247 5759 5271!5759 5271[5682 5310 5556 5310!5556 5310[5455 5310 5222
+ 5230!5222 5230[4988 5150 4966 5150!4966 5150[4923 5150 4866 5180!4866 5180[4862 5181 4756 5245!4756 5245[4597 5340 4451 5340!4451 5340[4366 5340 4198 5310!4198 5310[4030 5280 3906 5280!3906 5280[3603 5280 3477 5406!3477 5406[3378 5504
+ 3401 5660!3401 5660[3411 5729 3366 5813!3366 5813[3315 5907 3222 5960!3222 5960[3156 5997 3101 6118!3101 6118[3052 6227 3052 6305!3052 6305[3052 6396 3162 6544!3162 6544[3272 6691 3272 6810!3272 6810[3272 6865 3232 6974!3232 6974[3192
+ 7083 3192 7155!3192 7155[3192 7246 3432 7550!3432 7550[3671 7854 3671 7955!3671 7955[3671 8003 3641 8156!3641 8156[3611 8309 3611 8350!3611 8350[3611 8462 3681 8543!3681 8543[3688 8551 3836 8682!3836 8682[3940 8774 3991 8879!3991 8879
+[4061 9027 4061 9250!4061 9250[4061 9303 3996 9453!3996 9453[3931 9603 3931 9700!3931 9700[3931 9734 3970 9793!3970 9793[3994 9829 4056 9916!4056 9916[4181 10105 4181 10300!4181 10300[4181 10414 4164 10516!4164 10516[4134 10696 4061 10740"/>
+                    <Edge cubics="!7002 4734(7002,4734;6832,5034 6693,5080 6531,5080q7002 4734Q6884 4942q6764 5020Q6669 5080q6531 5080);"/>
+                    <Edge cubics="!6531 5080(;6506,5080 6191,5060 6166,5060q6531 5080Q6191 5060q6166 5060);"/>
+                    <Edge cubics="!6166 5060(;5805,5060 5932,5310 5556,5310q6166 5060Q6046 5060q5971 5099Q5928 5122q5867 5185Q5807 5247q5759 5271Q5682 5310q5556 5310);"/>
+                    <Edge cubics="!5556 5310(;5381,5310 5036,5150 4966,5150q5556 5310Q5455 5310q5222 5230Q4988 5150q4966 5150);"/>
+                    <Edge cubics="!4966 5150(;4832,5150 4712,5340 4451,5340q4966 5150Q4923 5150q4866 5180Q4862 5181q4756 5245Q4597 5340q4451 5340);"/>
+                    <Edge cubics="!4451 5340(;4268,5340 4141,5280 3906,5280q4451 5340Q4366 5340q4198 5310Q4030 5280q3906 5280);"/>
+                    <Edge cubics="!3906 5280(;3461,5280 3376,5488 3401,5660q3906 5280Q3603 5280q3477 5406Q3378 5504q3401 5660);"/>
+                    <Edge cubics="!3401 5660(;3413,5743 3355,5885 3222,5960q3401 5660Q3411 5729q3366 5813Q3315 5907q3222 5960);"/>
+                    <Edge cubics="!3222 5960(;3127,6013 3052,6212 3052,6305q3222 5960Q3156 5997q3101 6118Q3052 6227q3052 6305);"/>
+                    <Edge cubics="!3052 6305(;3052,6496 3272,6582 3272,6810q3052 6305Q3052 6396q3162 6544Q3272 6691q3272 6810);"/>
+                    <Edge cubics="!3272 6810(;3272,6925 3192,7017 3192,7155q3272 6810Q3272 6865q3232 6974Q3192 7083q3192 7155);"/>
+                    <Edge cubics="!3192 7155(;3192,7340 3671,7756 3671,7955q3192 7155Q3192 7246q3432 7550Q3671 7854q3671 7955);"/>
+                    <Edge cubics="!3671 7955(;3671,8048 3611,8265 3611,8350q3671 7955Q3671 8003q3641 8156Q3611 8309q3611 8350);"/>
+                    <Edge cubics="!3611 8350(;3611,8695 4061,8590 4061,9250q3611 8350Q3611 8462q3681 8543Q3688 8551q3836 8682Q3940 8774q3991 8879Q4061 9027q4061 9250);"/>
+                    <Edge cubics="!4061 9250(;4061,9370 3931,9520 3931,9700q4061 9250Q4061 9303q3996 9453Q3931 9603q3931 9700);"/>
+                    <Edge cubics="!3931 9700(;3931,9810 4181,9966 4181,10300q3931 9700Q3931 9734q3970 9793Q3994 9829q4056 9916Q4181 10105q4181 10300);"/>
+                    <Edge cubics="!4181 10300(;4181,10357 4176,10671 4061,10740q4181 10300Q4181 10414q4164 10516Q4134 10696q4061 10740);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="334" duration="381" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 11" color="#009999" parentLayerIndex="28" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="715" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 10" color="#FF4FFF" parentLayerIndex="28" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="715" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 16" color="#9933CC" parentLayerIndex="28" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="715" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="water 3" color="#669900" parentLayerIndex="28" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="218" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="water">
+                  <matrix>
+                    <Matrix tx="332.9" ty="213.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.2" y="22.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="218" duration="113" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="water" centerPoint3DX="347.6" centerPoint3DY="233.7">
+                  <matrix>
+                    <Matrix tx="332.9" ty="213.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.2" y="22.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="331" duration="10" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="water" centerPoint3DX="200.6" centerPoint3DY="533.7">
+                  <matrix>
+                    <Matrix tx="185.9" ty="513.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.2" y="22.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="341" duration="136" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Guide: water 2" color="#4F80FF" parentLayerIndex="25" locked="true" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" duration="194" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="194" duration="117" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#04FB02"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!5891 5770[5685 5435 5615 5397!5615 5397[5579 5377 5513 5381!5513 5381[5364 5390 5351 5390!5351 5390[5267 5390 5211 5329!5211 5329[5197 5313 5124 5195!5124 5195[5067 5104 5001 5061!5001 5061[4907 5000 4756 5000!4756 5000[4698 5000 4661
+ 5024!4661 5024[4661 5025 4602 5076!4602 5076[4520 5150 4331 5140!4331 5140[3870 5115 3831 5290!3831 5290[3800 5423 3692 5507!3692 5507[3635 5551 3477 5625!3477 5625[3336 5690 3279 5749!3279 5749[3192 5838 3192 5985!3192 5985[3192 6074
+ 3247 6151!3247 6151[3302 6227 3302 6310!3302 6310[3302 6347 3279 6392!3279 6392[3265 6420 3227 6483!3227 6483[3152 6620 3152 6790!3152 6790[3152 6854 3217 6933!3217 6933[3255 6978 3362 7074!3362 7074[3465 7168 3506 7219!3506 7219[3571
+ 7301 3571 7370!3571 7370[3571 7416 3556 7485!3556 7485[3541 7554 3541 7595!3541 7595[3541 7686 3582 7753!3582 7753[3606 7793 3671 7855!3671 7855[3736 7917 3760 7958!3760 7958[3801 8027 3801 8120!3801 8120[3801 8175 3751 8262!3751 8262
+[3701 8350 3701 8455!3701 8455[3701 8529 3771 8593!3771 8593[3814 8631 3926 8709!3926 8709[4151 8881 4151 9170!4151 9170[4151 9365 4096 9529!4096 9529[4041 9694 4041 9815!4041 9815[4041 9875 4091 9982!4091 9982[4141 10089 4141 10205!4141
+ 10205[4141 10395 4088 10596!4088 10596[4011 10886 3839 11110"/>
+                    <Edge cubics="!5891 5770(;5591,5282 5636,5390 5351,5390q5891 5770Q5685 5435q5615 5397Q5579 5377q5513 5381Q5364 5390q5351 5390);"/>
+                    <Edge cubics="!5351 5390(;5092,5390 5202,5000 4756,5000q5351 5390Q5267 5390q5211 5329Q5197 5313q5124 5195Q5067 5104q5001 5061Q4907 5000q4756 5000);"/>
+                    <Edge cubics="!4756 5000(;4577,5000 4667,5157 4331,5140q4756 5000Q4698 5000q4661 5024Q4661 5025q4602 5076Q4520 5150q4331 5140);"/>
+                    <Edge cubics="!4331 5140(;4163,5131 3867,5128 3831,5290q4331 5140Q3870 5115q3831 5290);"/>
+                    <Edge cubics="!3831 5290(;3738,5693 3192,5548 3192,5985q3831 5290Q3800 5423q3692 5507Q3635 5551q3477 5625Q3336 5690q3279 5749Q3192 5838q3192 5985);"/>
+                    <Edge cubics="!3192 5985(;3192,6161 3302,6142 3302,6310q3192 5985Q3192 6074q3247 6151Q3302 6227q3302 6310);"/>
+                    <Edge cubics="!3302 6310(;3302,6426 3152,6495 3152,6790q3302 6310Q3302 6347q3279 6392Q3265 6420q3227 6483Q3152 6620q3152 6790);"/>
+                    <Edge cubics="!3152 6790(;3152,6983 3571,7162 3571,7370q3152 6790Q3152 6854q3217 6933Q3255 6978q3362 7074Q3465 7168q3506 7219Q3571 7301q3571 7370);"/>
+                    <Edge cubics="!3571 7370(;3571,7460 3541,7512 3541,7595q3571 7370Q3571 7416q3556 7485Q3541 7554q3541 7595);"/>
+                    <Edge cubics="!3541 7595(;3541,7868 3801,7840 3801,8120q3541 7595Q3541 7686q3582 7753Q3606 7793q3671 7855Q3736 7917q3760 7958Q3801 8027q3801 8120);"/>
+                    <Edge cubics="!3801 8120(;3801,8246 3701,8261 3701,8455q3801 8120Q3801 8175q3751 8262Q3701 8350q3701 8455);"/>
+                    <Edge cubics="!3701 8455(;3701,8686 4151,8662 4151,9170q3701 8455Q3701 8529q3771 8593Q3814 8631q3926 8709Q4151 8881q4151 9170);"/>
+                    <Edge cubics="!4151 9170(;4151,9535 4041,9548 4041,9815q4151 9170Q4151 9365q4096 9529Q4041 9694q4041 9815);"/>
+                    <Edge cubics="!4041 9815(;4041,9953 4141,9992 4141,10205q4041 9815Q4041 9875q4091 9982Q4141 10089q4141 10205);"/>
+                    <Edge cubics="!4141 10205(;4141,10382 4099,10770 3839,11110q4141 10205Q4141 10395q4088 10596Q4011 10886q3839 11110)3839,11110;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="311" duration="404" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="water 2" color="#808080" parentLayerIndex="33" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="194" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="water">
+                  <matrix>
+                    <Matrix tx="276.9" ty="261.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.2" y="22.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="194" duration="114" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="water" centerPoint3DX="290.1" centerPoint3DY="282.65">
+                  <matrix>
+                    <Matrix tx="275.4" ty="262.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.2" y="22.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="308" duration="3" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="water" centerPoint3DX="191.6" centerPoint3DY="552.7">
+                  <matrix>
+                    <Matrix tx="176.9" ty="532.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.2" y="22.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="311" duration="29" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="340" duration="136" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Guide: water 1" color="#FF4F4F" parentLayerIndex="25" locked="true" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" duration="152" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="152" duration="134" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#04FB02"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!5680 4120[5540 4219 5351 4289!5351 4289[5306 4305 5294 4328!5294 4328[5280 4354 5280 4430!5280 4430[5280 4455 5300 4630!5300 4630[5320 4805 5320 4830!5320 4830[5320 4969 5261 5020!5261 5020[5214 5060 5100 5060!5100 5060[5075 5060 4990
+ 5040!4990 5040[4905 5020 4880 5020!4880 5020[4801 5020 4599 5139!4599 5139[4395 5259 4340 5260!4340 5260[4140 5258 4018 5267!4018 5267[3793 5284 3720 5360!3720 5360[3683 5398 3590 5593!3590 5593[3494 5794 3440 5857!3440 5857[3311 6009
+ 3263 6081!3263 6081[3160 6233 3160 6337!3160 6337[3160 6441 3250 6691!3250 6691[3340 6941 3340 7077!3340 7077[3340 7251 3401 7419!3401 7419[3475 7621 3620 7757!3620 7757[3738 7868 3751 8139!3751 8139[3753 8189 3752 8343!3752 8343[3751
+ 8454 3760 8497!3760 8497[3788 8625 3847 8724!3847 8724[3860 8747 3953 8874!3953 8874[4080 9050 4080 9317!4080 9317[4080 9454 4040 9592!4040 9592[4000 9729 4000 9787!4000 9787[4000 9819 4120 9987!4120 9987[4240 10187 4240 10377!4240 10377
+[4240 10447 4150 10628!4150 10628[4060 10808 4060 10887!4060 10887[4060 10925 4120 11067!4120 11067[4180 11210 4180 11247!4180 11247[4180 11315 4136 11376!4136 11376[4109 11416 4020 11517"/>
+                    <Edge cubics="!5680 4120(;5335,4365 5280,4222 5280,4430q5680 4120Q5540 4219q5351 4289Q5306 4305q5294 4328Q5280 4354q5280 4430);"/>
+                    <Edge cubics="!5280 4430(;5280,4480 5320,4780 5320,4830q5280 4430Q5280 4455q5300 4630Q5320 4805q5320 4830);"/>
+                    <Edge cubics="!5320 4830(;5320,5030 5235,5060 5100,5060q5320 4830Q5320 4969q5261 5020Q5214 5060q5100 5060);"/>
+                    <Edge cubics="!5100 5060(;5050,5060 4930,5020 4880,5020q5100 5060Q5075 5060q4990 5040Q4905 5020q4880 5020);"/>
+                    <Edge cubics="!4880 5020(4880,5020;4730,5020 4460,5257 4340,5260q4880 5020Q4801 5020q4599 5139Q4395 5259q4340 5260)4340,5260;"/>
+                    <Edge cubics="!4340 5260(;4192,5265 3835,5240 3720,5360q4340 5260Q4140 5258q4018 5267Q3793 5284q3720 5360);"/>
+                    <Edge cubics="!3720 5360(;3642,5440 3545,5735 3440,5857q3720 5360Q3683 5398q3590 5593Q3494 5794q3440 5857);"/>
+                    <Edge cubics="!3440 5857(;3340,5975 3160,6177 3160,6337q3440 5857Q3311 6009q3263 6081Q3160 6233q3160 6337);"/>
+                    <Edge cubics="!3160 6337(;3160,6555 3340,6815 3340,7077q3160 6337Q3160 6441q3250 6691Q3340 6941q3340 7077);"/>
+                    <Edge cubics="!3340 7077(3340,7077;3340,7280 3410,7560 3620,7757q3340 7077Q3340 7251q3401 7419Q3475 7621q3620 7757);"/>
+                    <Edge cubics="!3620 7757(;3815,7940 3727,8345 3760,8497q3620 7757Q3738 7868q3751 8139Q3753 8189q3752 8343Q3751 8454q3760 8497)3760,8497;"/>
+                    <Edge cubics="!3760 8497(3760,8497;3847,8892 4080,8835 4080,9317q3760 8497Q3788 8625q3847 8724Q3860 8747q3953 8874Q4080 9050q4080 9317)4080,9317;"/>
+                    <Edge cubics="!4080 9317(;4080,9565 4000,9645 4000,9787q4080 9317Q4080 9454q4040 9592Q4000 9729q4000 9787);"/>
+                    <Edge cubics="!4000 9787(;4000,9850 4240,10060 4240,10377q4000 9787Q4000 9819q4120 9987Q4240 10187q4240 10377);"/>
+                    <Edge cubics="!4240 10377(4240,10377;4240,10520 4060,10732 4060,10887q4240 10377Q4240 10447q4150 10628Q4060 10808q4060 10887);"/>
+                    <Edge cubics="!4060 10887(4060,10887;4060,10962 4180,11172 4180,11247q4060 10887Q4060 10925q4120 11067Q4180 11210q4180 11247)4180,11247;"/>
+                    <Edge cubics="!4180 11247(4180,11247;4180,11352 4117,11397 4020,11517q4180 11247Q4180 11315q4136 11376Q4109 11416q4020 11517);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="286" duration="429" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="water 1" color="#009999" parentLayerIndex="35" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="152" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="water">
+                  <matrix>
+                    <Matrix tx="265.9" ty="175.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.2" y="22.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="152" duration="130" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="water" centerPoint3DX="281.5" centerPoint3DY="203.25">
+                  <matrix>
+                    <Matrix tx="266.8" ty="183.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.2" y="22.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="282" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="water" centerPoint3DX="198.6" centerPoint3DY="572.7">
+                  <matrix>
+                    <Matrix tx="183.9" ty="552.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.2" y="22.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="286" duration="63" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="349" duration="136" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="left" color="#808080" parentLayerIndex="24" locked="true" autoNamed="false" open="false" layerType="folder"/>
+        <DOMLayer name="Guide: water 4" color="#009999" parentLayerIndex="37" locked="true" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" duration="232" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="232" duration="126" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#00FF00"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!-2233 5788[-1869 5795 -1768 5739!-1768 5739[-1688 5694 -1727 5560!-1727 5560[-1741 5513 -1829 5398!-1829 5398[-1903 5302 -1903 5205!-1903 5205[-1903 5099 -1749 5016!-1749 5016[-1627 4950 -1559 4950!-1559 4950[-1468 5000 -1357 5050!-1357
+ 5050[-1134 5150 -981 5150!-981 5150[-846 5150 -602 5039!-602 5039[-357 4928 -247 4928!-247 4928[-65 4928 33 5092!33 5092[60 5137 108 5232!108 5232[154 5312 206 5351!206 5351[306 5429 429 5489!429 5489[498 5523 613 5572!613 5572[701 5613
+ 737 5653!737 5653[783 5703 783 5783!783 5783[783 5912 672 6044!672 6044[611 6116 596 6140!596 6140[561 6195 561 6250!561 6250[561 6290 589 6340!589 6340[606 6371 650 6441!650 6441[739 6596 739 6795!739 6795[739 6954 676 7040!676 7040
+[635 7097 539 7145!539 7145[432 7198 401 7230!401 7230[338 7295 338 7416!338 7416[338 7423 395 7579!395 7579[451 7736 451 7829!451 7829[451 7964 357 8096!357 8096[309 8164 152 8324!152 8324[7 8471 -54 8572!-54 8572[-148 8725 -148 8896
+!-148 8896[-148 8932 -117 8999!-117 8999[-99 9040 -49 9141!-49 9141[49 9360 49 9572!49 9572[49 9721 -49 10010!-49 10010[-148 10298 -148 10439!-148 10439[-148 10526 -100 10639!-100 10639[-53 10751 -53 10836"/>
+                    <Edge cubics="!-2233 5788(-2233,5788;-1717,5798 -1679,5724 -1727,5560q-2233 5788Q-1869 5795q-1768 5739Q-1688 5694q-1727 5560);"/>
+                    <Edge cubics="!-1727 5560(;-1765,5430 -1903,5376 -1903,5205q-1727 5560Q-1741 5513q-1829 5398Q-1903 5302q-1903 5205);"/>
+                    <Edge cubics="!-1903 5205(;-1903,5040 -1606,4950 -1559,4950q-1903 5205Q-1903 5099q-1749 5016Q-1627 4950q-1559 4950);"/>
+                    <Edge cubics="!-1559 4950(;-1542,4950 -1229,5150 -981,5150q-1559 4950Q-1468 5000q-1357 5050Q-1134 5150q-981 5150);"/>
+                    <Edge cubics="!-981 5150(;-720,5150 -475,4928 -247,4928q-981 5150Q-846 5150q-602 5039Q-357 4928q-247 4928);"/>
+                    <Edge cubics="!-247 4928(;63,4928 38,5225 206,5351q-247 4928Q-65 4928q33 5092Q60 5137q108 5232Q154 5312q206 5351);"/>
+                    <Edge cubics="!206 5351(;522,5596 783,5552 783,5783q206 5351Q306 5429q429 5489Q498 5523q613 5572Q701 5613q737 5653Q783 5703q783 5783);"/>
+                    <Edge cubics="!783 5783(;783,6022 561,6083 561,6250q783 5783Q783 5912q672 6044Q611 6116q596 6140Q561 6195q561 6250);"/>
+                    <Edge cubics="!561 6250(;561,6377 739,6451 739,6795q561 6250Q561 6290q589 6340Q606 6371q650 6441Q739 6596q739 6795);"/>
+                    <Edge cubics="!739 6795(;739,7268 338,7048 338,7416q739 6795Q739 6954q676 7040Q635 7097q539 7145Q432 7198q401 7230Q338 7295q338 7416);"/>
+                    <Edge cubics="!338 7416(;338,7458 451,7672 451,7829q338 7416Q338 7423q395 7579Q451 7736q451 7829);"/>
+                    <Edge cubics="!451 7829(;451,8236 -148,8387 -148,8896q451 7829Q451 7964q357 8096Q309 8164q152 8324Q7 8471q-54 8572Q-148 8725q-148 8896);"/>
+                    <Edge cubics="!-148 8896(;-148,9011 49,9209 49,9572q-148 8896Q-148 8932q-117 8999Q-99 9040q-49 9141Q49 9360q49 9572);"/>
+                    <Edge cubics="!49 9572(;49,9867 -148,10155 -148,10439q49 9572Q49 9721q-49 10010Q-148 10298q-148 10439);"/>
+                    <Edge cubics="!-148 10439(;-148,10612 -53,10666 -53,10836q-148 10439Q-148 10526q-100 10639Q-53 10751q-53 10836);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="358" duration="355" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="water 4" color="#FF800A" parentLayerIndex="38" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="232" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="water">
+                  <matrix>
+                    <Matrix tx="-128.85" ty="266.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.2" y="22.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="232" duration="125" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="water" centerPoint3DX="-114.15" centerPoint3DY="286.7">
+                  <matrix>
+                    <Matrix tx="-128.85" ty="266.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.2" y="22.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="357" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="water" centerPoint3DX="-5.2" centerPoint3DY="539.05">
+                  <matrix>
+                    <Matrix tx="-19.9" ty="519.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.2" y="22.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="358" duration="342" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Guide: water 3" color="#FF4FFF" parentLayerIndex="37" locked="true" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" duration="177" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="177" duration="156" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#00FF00"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!-1345 2765[-1390 2913 -1492 3074!-1492 3074[-1570 3197 -1570 3283!-1570 3283[-1570 3326 -1513 3412!-1513 3412[-1457 3498 -1457 3605!-1457 3605[-1457 3703 -1513 3803!-1513 3803[-1547 3863 -1636 3973!-1636 3973[-1726 4083 -1759 4142!-1759
+ 4142[-1815 4240 -1815 4336!-1815 4336[-1815 4535 -1540 4672!-1540 4672[-1467 4709 -1318 4766!-1318 4766[-1186 4816 -1146 4840!-1146 4840[-1043 4904 -976 4993!-976 4993[-961 5013 -889 5135!-889 5135[-845 5210 -795 5241!-795 5241[-728
+ 5282 -605 5282!-605 5282[-528 5282 -348 5238!-348 5238[-168 5194 -93 5194!-93 5194[55 5194 157 5360!157 5360[185 5405 243 5499!243 5499[298 5578 363 5618!363 5618[494 5695 582 5774!582 5774[717 5896 717 5995!717 5995[717 6076 628 6182
+!628 6182[539 6288 539 6404!539 6404[539 6521 617 6627!617 6627[695 6733 695 6883!695 6883[695 7073 601 7209!601 7209[548 7286 394 7416!394 7416[246 7541 187 7634!187 7634[93 7782 93 7994!93 7994[93 8094 139 8296!139 8296[184 8498 184
+ 8582!184 8582[184 8707 -15 9021!-15 9021[-214 9334 -214 9429!-214 9429[-214 9517 -166 9596!-166 9596[-151 9620 -60 9734!-60 9734[93 9926 93 10172!93 10172[93 10272 39 10380!39 10380[8 10442 -67 10561!-67 10561[-136 10681 -111 10774"/>
+                    <Edge cubics="!-1345 2765(;-1436,3067 -1570,3113 -1570,3283q-1345 2765Q-1390 2913q-1492 3074Q-1570 3197q-1570 3283);"/>
+                    <Edge cubics="!-1570 3283(;-1570,3390 -1457,3412 -1457,3605q-1570 3283Q-1570 3326q-1513 3412Q-1457 3498q-1457 3605);"/>
+                    <Edge cubics="!-1457 3605(;-1457,3899 -1815,4048 -1815,4336q-1457 3605Q-1457 3703q-1513 3803Q-1547 3863q-1636 3973Q-1726 4083q-1759 4142Q-1815 4240q-1815 4336);"/>
+                    <Edge cubics="!-1815 4336(;-1815,4658 -1306,4743 -1146,4840q-1815 4336Q-1815 4535q-1540 4672Q-1467 4709q-1318 4766Q-1186 4816q-1146 4840);"/>
+                    <Edge cubics="!-1146 4840(;-825,5038 -962,5282 -605,5282q-1146 4840Q-1043 4904q-976 4993Q-961 5013q-889 5135Q-845 5210q-795 5241Q-728 5282q-605 5282);"/>
+                    <Edge cubics="!-605 5282(;-451,5282 -244,5194 -93,5194q-605 5282Q-528 5282q-348 5238Q-168 5194q-93 5194);"/>
+                    <Edge cubics="!-93 5194(;170,5194 159,5494 363,5618q-93 5194Q55 5194q157 5360Q185 5405q243 5499Q298 5578q363 5618);"/>
+                    <Edge cubics="!363 5618(;475,5684 717,5843 717,5995q363 5618Q494 5695q582 5774Q717 5896q717 5995);"/>
+                    <Edge cubics="!717 5995(;717,6168 539,6184 539,6404q717 5995Q717 6076q628 6182Q539 6288q539 6404);"/>
+                    <Edge cubics="!539 6404(;539,6649 695,6594 695,6883q539 6404Q539 6521q617 6627Q695 6733q695 6883);"/>
+                    <Edge cubics="!695 6883(;695,7455 93,7361 93,7994q695 6883Q695 7073q601 7209Q548 7286q394 7416Q246 7541q187 7634Q93 7782q93 7994);"/>
+                    <Edge cubics="!93 7994(;93,8189 184,8409 184,8582q93 7994Q93 8094q139 8296Q184 8498q184 8582);"/>
+                    <Edge cubics="!184 8582(;184,8822 -214,9229 -214,9429q184 8582Q184 8707q-15 9021Q-214 9334q-214 9429);"/>
+                    <Edge cubics="!-214 9429(;-214,9699 93,9724 93,10172q-214 9429Q-214 9517q-166 9596Q-151 9620q-60 9734Q93 9926q93 10172);"/>
+                    <Edge cubics="!93 10172(;93,10239 75,10308 39,10380q93 10172Q93 10272q39 10380);"/>
+                    <Edge cubics="!-67 10561(;-108,10633 -128,10710 -111,10774q-67 10561Q-136 10681q-111 10774);"/>
+                    <Edge cubics="!39 10380(;18,10421 -17,10482 -67,10561q39 10380Q8 10442q-67 10561);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="333" duration="395" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="water 3" color="#9933CC" parentLayerIndex="40" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="177" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="water">
+                  <matrix>
+                    <Matrix tx="-84.3" ty="115.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.2" y="22.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="177" duration="155" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="water" centerPoint3DX="-69.6" centerPoint3DY="135.5">
+                  <matrix>
+                    <Matrix tx="-84.3" ty="115.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.2" y="22.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="332" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="water" centerPoint3DX="-8.05" centerPoint3DY="535.8">
+                  <matrix>
+                    <Matrix tx="-22.75" ty="515.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.2" y="22.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="333" duration="395" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Guide: water 2" color="#FF800A" parentLayerIndex="37" locked="true" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" duration="146" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="146" duration="182" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#04FB02"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!-2575 3760[-2359 3899 -2371 4038!-2371 4038[-2380 4125 -2378 4137!-2378 4137[-2368 4191 -2297 4240!-2297 4240[-2271 4258 -2109 4275!-2109 4275[-1947 4293 -1877 4340!-1877 4340[-1717 4448 -1664 4601!-1664 4601[-1650 4643 -1625 4728!-1625
+ 4728[-1599 4803 -1557 4860!-1557 4860[-1446 5008 -1301 5009!-1301 5009[-1259 5009 -1181 4995!-1181 4995[-1103 4980 -1067 4980!-1067 4980[-986 4980 -905 5036!-905 5036[-855 5071 -767 5160!-767 5160[-677 5251 -631 5284!-631 5284[-553 5340
+ -477 5340!-477 5340[-429 5340 -289 5310!-289 5310[-148 5280 -80 5280!-80 5280[60 5280 151 5380!151 5380[161 5391 233 5483!233 5483[289 5553 340 5600!340 5600[411 5664 561 5686!561 5686[707 5707 740 5740!740 5740[795 5796 822 5861!822
+ 5861[840 5904 840 5930!840 5930[840 5978 750 6140!750 6140[660 6303 660 6340!660 6340[660 6390 690 6526!690 6526[720 6662 720 6757!720 6757[720 6950 664 7071!664 7071[632 7140 540 7245!540 7245[452 7345 416 7429!416 7429[360 7563 360
+ 7777!360 7777[360 7802 380 7977!380 7977[400 8152 400 8177!400 8177[400 8253 341 8343!341 8343[309 8391 210 8505!210 8505[20 8724 20 8867!20 8867[20 8940 50 9017!50 9017[80 9095 80 9167!80 9167[80 9272 21 9364!21 9364[-12 9416 -108 9516
+!-108 9516[-201 9612 -238 9673!-238 9673[-297 9772 -297 9887!-297 9887[-297 9968 -251 10050!-251 10050[-226 10095 -153 10188!-153 10188[-86 10274 -62 10323!-62 10323[-25 10401 -37 10477!-37 10477[-60 10626 -23 10699!-23 10699[21 10788
+ 180 10857"/>
+                    <Edge cubics="!-2660 3610(;-2472,3835 -2407,4095 -2197,4160q-2660 3610Q-2603 3679q-2538 3782Q-2502 3839q-2437 3945Q-2322 4121q-2197 4160);"/>
+                    <Edge cubics="!-2197 4160(;-2060,4202 -1985,4290 -1877,4500q-2197 4160Q-2096 4191q-2026 4267Q-1960 4339q-1877 4500);"/>
+                    <Edge cubics="!-1877 4500(;-1792,4667 -1687,4725 -1457,4720q-1877 4500Q-1813 4626q-1721 4675Q-1628 4724q-1457 4720);"/>
+                    <Edge cubics="!-1457 4720(;-1280,4715 -1115,4872 -1017,5000q-1457 4720Q-1337 4717q-1207 4810Q-1107 4883q-1017 5000);"/>
+                    <Edge cubics="!-1017 5000(;-792,5295 -302,4942 -37,5300q-1017 5000Q-942 5098q-806 5121Q-734 5133q-542 5126Q-364 5120q-270 5144Q-126 5180q-37 5300);"/>
+                    <Edge cubics="!-37 5300(;147,5550 820,5427 820,5870q-37 5300Q22 5380q175 5432Q264 5463q461 5513Q632 5563q712 5629Q820 5719q820 5870);"/>
+                    <Edge cubics="!820 5870(;820,6057 722,6020 680,6200q820 5870Q820 5971q766 6038Q699 6120q680 6200);"/>
+                    <Edge cubics="!680 6200(;647,6335 695,6460 700,6560q680 6200Q660 6281q676 6393Q684 6454q700 6560);"/>
+                    <Edge cubics="!700 6560(;722,6890 480,6982 480,7240q700 6560Q712 6737q598 6927Q534 7035q517 7071Q480 7155q480 7240);"/>
+                    <Edge cubics="!480 7240(;480,7395 540,7427 540,7520q480 7240Q480 7325q510 7403Q540 7481q540 7520);"/>
+                    <Edge cubics="!540 7520(;540,7792 60,8175 60,8417q540 7520Q540 7611q465 7741Q418 7823q300 7980Q177 8144q135 8213Q60 8337q60 8417);"/>
+                    <Edge cubics="!60 8417(;60,8512 120,8707 120,8787q60 8417Q60 8466q90 8608Q120 8749q120 8787);"/>
+                    <Edge cubics="!120 8787(;120,9082 -157,9200 -157,9537q120 8787Q120 8885q77 8981Q53 9035q-18 9146Q-157 9363q-157 9537);"/>
+                    <Edge cubics="!-157 9537(;-157,9782 -17,9857 -17,10087q-157 9537Q-157 9661q-87 9818Q-17 9974q-17 10087);"/>
+                    <Edge cubics="!-17 10087(;-17,10182 -117,10487 -117,10597q-17 10087Q-17 10133q-67 10336Q-117 10540q-117 10597);"/>
+                    <Edge cubics="!-117 10597(;-117,10680 -47,10917 -37,10937q-117 10597Q-117 10651q-81 10791Q-49 10913q-37 10937);"/>
+                    <Edge cubics="!-2575 3760(;-2185,4010 -2515,4090 -2297,4240q-2575 3760Q-2359 3899q-2371 4038Q-2380 4125q-2378 4137Q-2368 4191q-2297 4240);"/>
+                    <Edge cubics="!-2297 4240(;-2230,4285 -2002,4255 -1877,4340q-2297 4240Q-2271 4258q-2109 4275Q-1947 4293q-1877 4340);"/>
+                    <Edge cubics="!-1877 4340(;-1602,4525 -1692,4677 -1557,4860q-1877 4340Q-1717 4448q-1664 4601Q-1650 4643q-1625 4728Q-1599 4803q-1557 4860);"/>
+                    <Edge cubics="!-1557 4860(;-1380,5097 -1215,4980 -1067,4980q-1557 4860Q-1446 5008q-1301 5009Q-1259 5009q-1181 4995Q-1103 4980q-1067 4980);"/>
+                    <Edge cubics="!-1067 4980(;-825,4980 -705,5340 -477,5340q-1067 4980Q-986 4980q-905 5036Q-855 5071q-767 5160Q-677 5251q-631 5284Q-553 5340q-477 5340);"/>
+                    <Edge cubics="!-477 5340(-477,5340;-375,5340 -210,5280 -80,5280q-477 5340Q-429 5340q-289 5310Q-148 5280q-80 5280)-80,5280;"/>
+                    <Edge cubics="!-80 5280(;150,5280 165,5440 340,5600q-80 5280Q60 5280q151 5380Q161 5391q233 5483Q289 5553q340 5600);"/>
+                    <Edge cubics="!340 5600(;470,5717 665,5665 740,5740q340 5600Q411 5664q561 5686Q707 5707q740 5740);"/>
+                    <Edge cubics="!740 5740(;825,5827 840,5912 840,5930q740 5740Q795 5796q822 5861Q840 5904q840 5930);"/>
+                    <Edge cubics="!840 5930(840,5930;840,6022 660,6262 660,6340q840 5930Q840 5978q750 6140Q660 6303q660 6340);"/>
+                    <Edge cubics="!660 6340(;660,6455 720,6582 720,6757q660 6340Q660 6390q690 6526Q720 6662q720 6757)720,6757;"/>
+                    <Edge cubics="!720 6757(;720,7337 360,7137 360,7777q720 6757Q720 6950q664 7071Q632 7140q540 7245Q452 7345q416 7429Q360 7563q360 7777);"/>
+                    <Edge cubics="!360 7777(360,7777;360,7827 400,8127 400,8177q360 7777Q360 7802q380 7977Q400 8152q400 8177)400,8177;"/>
+                    <Edge cubics="!400 8177(;400,8407 20,8592 20,8867q400 8177Q400 8253q341 8343Q309 8391q210 8505Q20 8724q20 8867);"/>
+                    <Edge cubics="!20 8867(;20,9012 80,9022 80,9167q20 8867Q20 8940q50 9017Q80 9095q80 9167);"/>
+                    <Edge cubics="!80 9167(;80,9482 -297,9542 -297,9887q80 9167Q80 9272q21 9364Q-12 9416q-108 9516Q-201 9612q-238 9673Q-297 9772q-297 9887);"/>
+                    <Edge cubics="!-297 9887(;-297,10130 0,10250 -37,10477q-297 9887Q-297 9968q-251 10050Q-226 10095q-153 10188Q-86 10274q-62 10323Q-25 10401q-37 10477);"/>
+                    <Edge cubics="!-37 10477(;-65,10660 -45,10760 180,10857q-37 10477Q-60 10626q-23 10699Q21 10788q180 10857);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="328" duration="387" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="water 2" color="#FF800A" parentLayerIndex="42" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="146" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="water">
+                  <matrix>
+                    <Matrix tx="-151.05" ty="157.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.2" y="22.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="146" duration="164" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="water" centerPoint3DX="-131.25" centerPoint3DY="185.25">
+                  <matrix>
+                    <Matrix tx="-145.95" ty="165.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.2" y="22.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="310" duration="3" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="water" centerPoint3DX="5.6" centerPoint3DY="539.4">
+                  <matrix>
+                    <Matrix tx="-9.1" ty="519.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.2" y="22.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="313" duration="136" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Guide: water 1" color="#9933CC" parentLayerIndex="37" locked="true" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" duration="140" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="140" duration="125" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#04FB02"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!-1580 4645[-1233 5026 -951 5068!-951 5068[-859 5081 -728 5063!-728 5063[-565 5040 -517 5040!-517 5040[-400 5040 -329 5065!-329 5065[-283 5080 -226 5122!-226 5122[-97 5217 80 5240!80 5240[308 5269 430 5343!430 5343[581 5433 640 5620!640
+ 5620[662 5692 773 6000!773 6000[860 6240 860 6277!860 6277[860 6352 785 6542!785 6542[749 6633 618 6929!618 6929[372 7488 360 7677!360 7677[351 7821 298 8009!298 8009[275 8090 190 8347!190 8347[40 8795 40 9067!40 9067[40 9196 110 9476
+!110 9476[180 9756 180 9907!180 9907[180 10017 134 10223!134 10223[80 10463 15 10550"/>
+                    <Edge cubics="!-1580 4645(;-1033,5245 -805,5040 -517,5040q-1580 4645Q-1233 5026q-951 5068Q-859 5081q-728 5063Q-565 5040q-517 5040);"/>
+                    <Edge cubics="!-517 5040(;-170,5040 -287,5192 80,5240q-517 5040Q-400 5040q-329 5065Q-283 5080q-226 5122Q-97 5217q80 5240);"/>
+                    <Edge cubics="!80 5240(;352,5275 555,5352 640,5620q80 5240Q308 5269q430 5343Q581 5433q640 5620);"/>
+                    <Edge cubics="!640 5620(;702,5822 860,6212 860,6277q640 5620Q662 5692q773 6000Q860 6240q860 6277);"/>
+                    <Edge cubics="!860 6277(;860,6505 382,7322 360,7677q860 6277Q860 6352q785 6542Q749 6633q618 6929Q372 7488q360 7677);"/>
+                    <Edge cubics="!360 7677(;332,8117 40,8560 40,9067q360 7677Q351 7821q298 8009Q275 8090q190 8347Q40 8795q40 9067);"/>
+                    <Edge cubics="!40 9067(;40,9332 180,9612 180,9907q40 9067Q40 9196q110 9476Q180 9756q180 9907);"/>
+                    <Edge cubics="!180 9907(;180,10022 112,10420 15,10550q180 9907Q180 10017q134 10223Q80 10463q15 10550);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="water 1" color="#4F80FF" parentLayerIndex="44" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="140" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="water">
+                  <matrix>
+                    <Matrix tx="-97.1" ty="204.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.2" y="22.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="140" duration="124" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="water" centerPoint3DX="-81.5" centerPoint3DY="229.5">
+                  <matrix>
+                    <Matrix tx="-96.2" ty="209.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.2" y="22.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="264" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="water" centerPoint3DX="-1.9" centerPoint3DY="524.7">
+                  <matrix>
+                    <Matrix tx="-16.6" ty="504.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.2" y="22.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="266" duration="136" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="right flow" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="715" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_rightkid_start" symbolType="graphic" loop="play once">
+                  <matrix>
+                    <Matrix a="-1" tx="161.15" ty="-108.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16.85" y="34.35"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="left flow" color="#808080" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="715" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_leftkid_start" symbolType="graphic" loop="play once">
+                  <matrix>
+                    <Matrix tx="52.45" ty="-108.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16.85" y="34.35"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="kidneys" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="266" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="kidney" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="-186.3" ty="78.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="95.4" y="141.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="kidney" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix a="-1" tx="392.5" ty="78.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="95.4" y="141.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="266" duration="449" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="kidney" symbolType="graphic" centerPoint3DX="-90.9" centerPoint3DY="220" loop="play once">
+                  <matrix>
+                    <Matrix tx="-186.3" ty="78.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="95.4" y="141.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="kidney" symbolType="graphic" centerPoint3DX="297.1" centerPoint3DY="220" loop="play once">
+                  <matrix>
+                    <Matrix a="-1" tx="392.5" ty="78.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="95.4" y="141.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="blood stream" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="715" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMShape isDrawingObject="true">
+                      <matrix>
+                        <Matrix tx="-52.4" ty="-108.3"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#AD2025"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="
+!4929 37[4471 383 4416 1709!4416 1709[4396 2199 4436 2728!4436 2728[4471 3181 4529 3445!4529 3445[4553 3556 4616 3856!4616 3856[4685 4135 4781 4324!4781 4324[5057 4864 5629 4825!5629 4825|5968 6496!5968 6496[4298 6432 3628 5468!3628 5468
+[3383 5116 3259 4623!3259 4623[3196 4373 3128 3852!3128 3852[3060 4377 2998 4623!2998 4623[2875 5116 2631 5468!2631 5468[1963 6432 293 6496!293 6496|632 4825!632 4825[1204 4864 1481 4324!1481 4324[1577 4135 1646 3856!1646 3856[1709 3556
+ 1733 3446!1733 3446[1791 3180 1825 2729!1825 2729[1866 2199 1846 1710!1846 1710[1791 383 1333 37!1333 37|4929 37"/>
+                        <Edge cubics="!4929 37(;4229,565 4394,2832 4529,3445q4929 37Q4471 383q4416 1709Q4396 2199q4436 2728Q4471 3181q4529 3445);"/>
+                        <Edge cubics="!4529 3445(;4625,3887 4739,4886 5629,4825q4529 3445Q4553 3556q4616 3856Q4685 4135q4781 4324Q5057 4864q5629 4825);"/>
+                        <Edge cubics="!5629 4825(;5629,4825 5968,6496 5968,6496q5629 4825 5968 6496);"/>
+                        <Edge cubics="!5968 6496(;3399,6397 3243,4734 3128,3852q5968 6496Q4298 6432q3628 5468Q3383 5116q3259 4623Q3196 4373q3128 3852);"/>
+                        <Edge cubics="!3128 3852(;3013,4734 2863,6397 293,6496q3128 3852Q3060 4377q2998 4623Q2875 5116q2631 5468Q1963 6432q293 6496);"/>
+                        <Edge cubics="!293 6496(;293,6496 632,4825 632,4825q293 6496 632 4825);"/>
+                        <Edge cubics="!632 4825(;1523,4886 1637,3887 1733,3446q632 4825Q1204 4864q1481 4324Q1577 4135q1646 3856Q1709 3556q1733 3446);"/>
+                        <Edge cubics="!1733 3446(;1867,2832 2033,566 1333,37q1733 3446Q1791 3180q1825 2729Q1866 2199q1846 1710Q1791 383q1333 37);"/>
+                        <Edge cubics="!1333 37(;3131,37 3131,37 4929,37q1333 37 4929 37);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMSymbolInstance libraryItemName="FlashAICB Assets_7/elements/&amp;#060Clip Group&amp;#062">
+                      <matrix>
+                        <Matrix tx="-52.4" ty="-108.3"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="149.2" y="175.45"/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="exit stream" color="#009999" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="715" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-68.7" ty="225.15"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FCED65"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="
+!2137 5633[1940 5139 2176 4180!2176 4180[2347 3482 2644 2856!2644 2856[2850 2423 2871 1908!2871 1908[2893 1367 2699 930!2699 930[2483 444 2044 206!2044 206[1547 -65 822 19!822 19[617 173 411 329!411 329[0 641 0 653!0 653[0 666 305 986
+!305 986[458 1146 610 1303!610 1303[1513 1166 1521 1886!1521 1886[1527 2417 1032 3459!1032 3459[820 3904 684 4483!684 4483[520 5181 579 5673!579 5673|2137 5633"/>
+                    <Edge cubics="!2137 5633(;1838,4883 2370,3434 2644,2856q2137 5633Q1940 5139q2176 4180Q2347 3482q2644 2856);"/>
+                    <Edge cubics="!2644 2856(;3175,1739 2867,-217 822,19q2644 2856Q2850 2423q2871 1908Q2893 1367q2699 930Q2483 444q2044 206Q1547 -65q822 19)822,19;"/>
+                    <Edge cubics="!822 19(822,19;822,19 0,633 0,653q822 19Q617 173q411 329Q0 641q0 653);"/>
+                    <Edge cubics="!0 653(;0,673 610,1303 610,1303q0 653Q0 666q305 986Q458 1146q610 1303);"/>
+                    <Edge cubics="!610 1303(610,1303;1947,1100 1562,2343 1032,3459q610 1303Q1513 1166q1521 1886Q1527 2417q1032 3459)1032,3459;"/>
+                    <Edge cubics="!1032 3459(1032,3459;795,3957 492,4953 579,5673q1032 3459Q820 3904q684 4483Q520 5181q579 5673)579,5673;"/>
+                    <Edge cubics="!579 5673(;1358,5653 1358,5653 2137,5633q579 5673 2137 5633);"/>
+                  </edges>
+                </DOMShape>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix a="-1" tx="270.9" ty="225.15"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FCED65"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="
+!2137 5633[1940 5139 2176 4180!2176 4180[2347 3482 2644 2856!2644 2856[2850 2423 2871 1908!2871 1908[2893 1367 2699 930!2699 930[2483 444 2044 206!2044 206[1547 -65 822 19!822 19[617 173 411 329!411 329[0 641 0 653!0 653[0 666 305 986
+!305 986[458 1146 610 1303!610 1303[1513 1166 1521 1886!1521 1886[1527 2417 1032 3459!1032 3459[820 3904 684 4483!684 4483[520 5181 579 5673!579 5673|2137 5633"/>
+                    <Edge cubics="!2137 5633(;1838,4883 2370,3434 2644,2856q2137 5633Q1940 5139q2176 4180Q2347 3482q2644 2856);"/>
+                    <Edge cubics="!2644 2856(;3175,1739 2867,-217 822,19q2644 2856Q2850 2423q2871 1908Q2893 1367q2699 930Q2483 444q2044 206Q1547 -65q822 19)822,19;"/>
+                    <Edge cubics="!822 19(822,19;822,19 0,633 0,653q822 19Q617 173q411 329Q0 641q0 653);"/>
+                    <Edge cubics="!0 653(;0,673 610,1303 610,1303q0 653Q0 666q305 986Q458 1146q610 1303);"/>
+                    <Edge cubics="!610 1303(610,1303;1947,1100 1562,2343 1032,3459q610 1303Q1513 1166q1521 1886Q1527 2417q1032 3459)1032,3459;"/>
+                    <Edge cubics="!1032 3459(1032,3459;795,3957 492,4953 579,5673q1032 3459Q820 3904q684 4483Q520 5181q579 5673)579,5673;"/>
+                    <Edge cubics="!579 5673(;1358,5653 1358,5653 2137,5633q579 5673 2137 5633);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bg" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="715" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix a="1.11874389648438" tx="-380.05" ty="-130.45"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#F26669"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!16524 13779|0 13779!0 13779|0 0!0 0|16524 0!16524 0|16524 13779"/>
+                    <Edge cubics="!16524 13779(;16524,13779 0,13779 0,13779p16524 13779 0 13779);"/>
+                    <Edge cubics="!0 13779(;0,13779 0,0 0,0p0 13779 0 0);"/>
+                    <Edge cubics="!0 0(0,0;0,0 16524,0 16524,0q0 0 16524 0);"/>
+                    <Edge cubics="!16524 0(;16524,0 16524,13779 16524,13779q16524 0 16524 13779)16524,13779;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,48 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="water" itemID="5543ab61-0000039b" lastModified="1433256535">
+  <timeline>
+    <DOMTimeline name="water">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMShape isDrawingObject="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#57A2F4"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!155 561[155 485 227 393!227 393[332 257 380 157!380 157[420 269 515 394!515 394[588 491 588 561!588 561[588 656 524 728!524 728[459 801 371 801!371 801[284 801 219 728!219 728[155 655 155 561"/>
+                        <Edge cubics="!155 561(;155,420 271,388 380,157q155 561Q155 485q227 393Q332 257q380 157);"/>
+                        <Edge cubics="!380 157(;463,388 588,425 588,561q380 157Q420 269q515 394Q588 491q588 561);"/>
+                        <Edge cubics="!588 561(;588,685 490,801 371,801q588 561Q588 656q524 728Q459 801q371 801);"/>
+                        <Edge cubics="!371 801(371,801;253,801 155,685 155,561q371 801Q284 801q219 728Q155 655q155 561);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMShape isDrawingObject="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#57A2F4"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!1 195[6 155 50 113!50 113[114 49 146 0!146 0[159 61 200 133!200 133[231 188 226 224!226 224[220 273 182 306!182 306[143 340 98 334!98 334[52 328 23 286!23 286[-5 244 1 195"/>
+                        <Edge cubics="!1 195(1,195;11,122 73,113 146,0q1 195Q6 155q50 113Q114 49q146 0)146,0;"/>
+                        <Edge cubics="!146 0(;173,126 236,153 226,224q146 0Q159 61q200 133Q231 188q226 224);"/>
+                        <Edge cubics="!226 224(226,224;218,289 159,342 98,334q226 224Q220 273q182 306Q143 340q98 334);"/>
+                        <Edge cubics="!98 334(98,334;36,326 -7,259 1,195q98 334Q52 328q23 286Q-5 244q1 195);"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

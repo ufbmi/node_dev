@@ -1,0 +1,123 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="glucose_rightkid_start" itemID="5543a9b1-00000335" lastModified="1433259866">
+  <persistentData>
+    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+  </persistentData>
+  <timeline>
+    <DOMTimeline name="glucose_rightkid_start" currentFrame="380">
+      <layers>
+        <DOMLayer name="Layer 3" color="#FF800A">
+          <frames>
+            <DOMFrame index="0" duration="205" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 11" color="#FF800A">
+          <frames>
+            <DOMFrame index="0" duration="319" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2 copy" color="#FF4F4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="45" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="45" duration="300" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="g_kidneypath_R" symbolType="graphic" centerPoint3DX="-59.05" centerPoint3DY="319.9" loop="play once">
+                  <matrix>
+                    <Matrix tx="6.75" ty="-19.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16.85" y="15.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2 copy" color="#669900" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="75" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="75" duration="246" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="g_kidneypath_R" selected="true" symbolType="graphic" centerPoint3DX="-59.05" centerPoint3DY="319.9" loop="loop">
+                  <matrix>
+                    <Matrix tx="6.75" ty="-19.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16.85" y="15.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="321" duration="24" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2 copy" color="#808080" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="105" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="105" duration="244" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="g_kidneypath_R" symbolType="graphic" centerPoint3DX="-59.05" centerPoint3DY="319.9" loop="loop">
+                  <matrix>
+                    <Matrix tx="6.75" ty="-19.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16.85" y="15.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2 copy" color="#009999" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="135" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="135" duration="246" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="g_kidneypath_R" symbolType="graphic" centerPoint3DX="-59.05" centerPoint3DY="319.9" loop="loop">
+                  <matrix>
+                    <Matrix tx="6.75" ty="-19.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16.85" y="15.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4F80FF">
+          <frames>
+            <DOMFrame index="0" duration="8" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="8" duration="337" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="g_kidneypath_R" symbolType="graphic" loop="play once">
+                  <matrix>
+                    <Matrix tx="6.75" ty="-19.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16.85" y="15.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

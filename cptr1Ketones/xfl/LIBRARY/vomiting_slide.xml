@@ -1,0 +1,39 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="vomiting_slide" itemID="554a3243-000001a9" lastModified="1430926001" lastUniqueIdentifier="2">
+  <timeline>
+    <DOMTimeline name="vomiting_slide">
+      <layers>
+        <DOMLayer name="FlashAICB" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="17" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="vomiting_symptom">
+                  <matrix>
+                    <Matrix tx="0.4" ty="68.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="101.55" y="47.2"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="17" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="vomiting_symptom" centerPoint3DX="101.95" centerPoint3DY="72.85">
+                  <matrix>
+                    <Matrix tx="0.4" ty="25.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="101.55" y="47.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

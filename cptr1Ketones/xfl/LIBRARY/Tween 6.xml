@@ -1,0 +1,32 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Tween 6" itemID="556dd512-0000018c" symbolType="graphic" lastModified="1433261330">
+  <timeline>
+    <DOMTimeline name="Tween 6">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_hover" selected="true" centerPoint3DX="-17" centerPoint3DY="-128.05">
+                  <matrix>
+                    <Matrix a="0.55035400390625" d="0.55035400390625" tx="-10.95" ty="-143"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-9.8" y="25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="glucose_hover" selected="true" centerPoint3DX="17" centerPoint3DY="128">
+                  <matrix>
+                    <Matrix a="0.55035400390625" d="0.55035400390625" tx="23.05" ty="113.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-9.8" y="25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

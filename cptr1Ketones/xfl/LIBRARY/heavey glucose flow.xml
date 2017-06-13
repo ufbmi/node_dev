@@ -1,0 +1,178 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="heavey glucose flow" itemID="55412ba6-0000013a" lastModified="1430341993">
+  <persistentData>
+    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+  </persistentData>
+  <timeline>
+    <DOMTimeline name="heavey glucose flow" currentFrame="10">
+      <layers>
+        <DOMLayer name="Layer 9" color="#4F80FF" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" duration="408" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-39.55" ty="-403"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#DFE8E8"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!20479 15359/0 15359!0 15359|0 12339!0 12339/20479 12339!20479 12339/20479 15359"/>
+                    <Edge cubics="!20479 15359(;20479,15359 0,15359 0,15359q20479 15359 0 15359);"/>
+                    <Edge cubics="!0 15359(;0,15359 0,12339 0,12339p0 15359 0 12339);"/>
+                    <Edge cubics="!0 12339(;0,12339 20479,12339 20479,12339p0 12339q20479 12339);"/>
+                    <Edge cubics="!20479 12339(;20479,12339 20479,15359 20479,15359p20479 12339q20479 15359);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 8" color="#FF4F4F">
+          <frames>
+            <DOMFrame index="0" duration="65" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="65" duration="343" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_flow copy" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="90.6" ty="53.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="30.65" y="27"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 7" color="#669900">
+          <frames>
+            <DOMFrame index="0" duration="57" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="57" duration="345" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_flow copy" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="141.9" ty="-28.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="30.65" y="27"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 6" color="#808080">
+          <frames>
+            <DOMFrame index="0" duration="52" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="52" duration="348" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_flow copy" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="152.6" ty="91.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="30.65" y="27"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 5" color="#009999">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="4" duration="346" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_flow copy" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="118.6" ty="77.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="30.65" y="27"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="350" duration="50" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 4" color="#FF4FFF">
+          <frames>
+            <DOMFrame index="0" duration="43" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="43" duration="344" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_flow copy" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="199.6" ty="-8.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="30.65" y="27"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="387" duration="13" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A">
+          <frames>
+            <DOMFrame index="0" duration="14" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="14" duration="346" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_flow copy" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="72.65" ty="53.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="30.65" y="27"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="360" duration="40" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="346" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_flow copy" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="161.6" ty="-16.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="30.65" y="27"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="346" duration="54" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

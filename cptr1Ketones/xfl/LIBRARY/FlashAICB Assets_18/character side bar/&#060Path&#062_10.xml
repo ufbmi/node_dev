@@ -1,0 +1,30 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="FlashAICB Assets_18/character side bar/&amp;#060Path&amp;#062_10" itemID="55564412-000004f6" lastModified="1431716882">
+  <timeline>
+    <DOMTimeline name="&amp;#060Path&amp;#062_10">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!1817 929[1832 1386 1651 1690!1651 1690[1452 2023 1068 2071!1068 2071[628 2126 350 1852!350 1852[102 1610 19 1152!19 1152[-62 700 177 368!177 368[404 53 790 7!790 7[1235 -45 1525 231!1525 231[1802 495 1817 929"/>
+                    <Edge cubics="!1817 929(;1836,1503 1605,2004 1068,2071q1817 929Q1832 1386q1651 1690Q1452 2023q1068 2071);"/>
+                    <Edge cubics="!1068 2071(;448,2148 122,1717 19,1152q1068 2071Q628 2126q350 1852Q102 1610q19 1152);"/>
+                    <Edge cubics="!19 1152(;-93,530 295,66 790,7q19 1152Q-62 700q177 368Q404 53q790 7);"/>
+                    <Edge cubics="!790 7(790,7;1400,-64 1798,369 1817,929q790 7Q1235 -45q1525 231Q1802 495q1817 929)1817,929;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

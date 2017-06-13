@@ -1,0 +1,353 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="page" itemID="55411703-00001755" lastModified="1435680140">
+  <persistentData>
+    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+  </persistentData>
+  <timeline>
+    <DOMTimeline name="page" currentFrame="29">
+      <layers>
+        <DOMLayer name="labels" color="#009999" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" name="screen5" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" duration="27" name="trans5-6" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="28" name="screen6" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="29" name="screen7" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="guide" color="#9933CC" locked="true" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" duration="30" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-123" ty="-49"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#DFE8E8"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!20482 700/0 700!0 700|0 0!0 0/20482 0!20482 0/20482 700"/>
+                    <Edge cubics="!20482 700(;20482,700 0,700 0,700q20482 700 0 700);"/>
+                    <Edge cubics="!0 700(;0,700 0,0 0,0q0 700p0 0);"/>
+                    <Edge cubics="!0 0(;0,0 20482,0 20482,0p0 0q20482 0);"/>
+                    <Edge cubics="!20482 0(;20482,0 20482,700 20482,700p20482 0q20482 700);"/>
+                  </edges>
+                </DOMShape>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-123" ty="-49"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#DFE8E8"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!20479 15359/0 15359!0 15359|0 12339!0 12339/20479 12339!20479 12339/20479 15359"/>
+                    <Edge cubics="!20479 15359(;20479,15359 0,15359 0,15359q20479 15359 0 15359);"/>
+                    <Edge cubics="!0 15359(;0,15359 0,12339 0,12339p0 15359 0 12339);"/>
+                    <Edge cubics="!0 12339(;0,12339 20479,12339 20479,12339p0 12339q20479 12339);"/>
+                    <Edge cubics="!20479 12339(;20479,12339 20479,15359 20479,15359p20479 12339q20479 15359);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Zach" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="3" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="zach">
+                  <matrix>
+                    <Matrix tx="404.6" ty="59.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="88.4" y="223.35"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" duration="26" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="29" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="pointer" color="#669900" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="27" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="27" duration="3" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <transformationPoint>
+                    <Point x="75" y="304.95"/>
+                  </transformationPoint>
+                  <members>
+                    <DOMShape isDrawingObject="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#D5D0A8"/>
+                        </FillStyle>
+                      </fills>
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal" caps="none" weight="8">
+                            <fill>
+                              <SolidColor color="#D5D0A8"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge fillStyle0="1" strokeStyle="1" edges="!1845 5460/-130 6275!-130 6275/1910 6770!1910 6770/1845 5460"/>
+                        <Edge cubics="!1845 5460(;1845,5460 -130,6275 -130,6275q1845 5460 -130 6275);"/>
+                        <Edge cubics="!-130 6275(;-130,6275 1910,6770 1910,6770p-130 6275 1910 6770);"/>
+                        <Edge cubics="!1910 6770(;1910,6770 1845,5460 1845,5460p1910 6770 1845 5460);"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Kara" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Kara" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="203.05" ty="59.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="66.65" y="229.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" duration="16" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Kara" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="203.05" ty="59.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="66.65" y="229.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="17" duration="13" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Kara" selected="true" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="-80.3" ty="59.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="66.65" y="229.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mask outline" color="#808080" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="27" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="27" duration="3" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMSymbolInstance libraryItemName="FlashAICB Assets_5/character side bar/&amp;#060Group&amp;#062_2">
+                      <matrix>
+                        <Matrix tx="-124.5" ty="-56.55"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="222.5" y="337.5"/>
+                      </transformationPoint>
+                      <color>
+                        <Color alphaMultiplier="0.078125"/>
+                      </color>
+                    </DOMSymbolInstance>
+                    <DOMGroup>
+                      <members>
+                        <DOMShape isDrawingObject="true">
+                          <matrix>
+                            <Matrix tx="-124.5" ty="-56.55"/>
+                          </matrix>
+                          <fills>
+                            <FillStyle index="1">
+                              <SolidColor color="#FEFBCC"/>
+                            </FillStyle>
+                          </fills>
+                          <edges>
+                            <Edge fillStyle0="1" edges="!4340 6660[4340 5209 4488 4209!4488 4209[4665 3019 5078 2232!5078 2232[5537 1356 6323 904!6323 904[7172 417 8440 401!8440 401|8440 0!8440 0|0 0!0 0|0 13500!0 13500|8700 13498!8700 13498[6285 13468 5208 11377!5208 11377[4340 9694 4340
+ 6660"/>
+                            <Edge cubics="!4340 6660(4340,6660;4340,3153 4940,445 8440,401q4340 6660Q4340 5209q4488 4209Q4665 3019q5078 2232Q5537 1356q6323 904Q7172 417q8440 401)8440,401;"/>
+                            <Edge cubics="!8440 401(8440,401;8440,401 8440,0 8440,0q8440 401 8440 0)8440,0;"/>
+                            <Edge cubics="!8440 0(;8440,0 0,0 0,0q8440 0 0 0);"/>
+                            <Edge cubics="!0 0(0,0;0,0 0,13500 0,13500q0 0 0 13500);"/>
+                            <Edge cubics="!8700 13498(8700,13498;5200,13454 4340,10166 4340,6660q8700 13498Q6285 13468q5208 11377Q4340 9694q4340 6660)4340,6660;"/>
+                            <Edge cubics="!0 13500(;0,13500 8700,13498 8700,13498q0 13500 8700 13498)8700,13498;"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                    <DOMGroup>
+                      <members>
+                        <DOMShape isDrawingObject="true">
+                          <matrix>
+                            <Matrix tx="-124.5" ty="-56.55"/>
+                          </matrix>
+                          <strokes>
+                            <StrokeStyle index="1">
+                              <SolidStroke scaleMode="normal" caps="none" weight="12" joints="miter" miterLimit="10">
+                                <fill>
+                                  <SolidColor color="#D5D0A8"/>
+                                </fill>
+                              </SolidStroke>
+                            </StrokeStyle>
+                          </strokes>
+                          <edges>
+                            <Edge strokeStyle="1" edges="
+!8315 13500|8717 13498!8717 13498[6302 13468 5223 11377!5223 11377[4353 9693 4353 6660!4353 6660[4353 5209 4501 4209!4501 4209[4677 3019 5089 2232!5089 2232[5548 1356 6333 904!6333 904[7182 417 8450 401"/>
+                            <Edge cubics="!8315 13500(8315,13500;8315,13500 8717,13498 8717,13498q8315 13500 8717 13498)8717,13498;"/>
+                            <Edge cubics="!8717 13498(;5217,13454 4353,10166 4353,6660q8717 13498Q6302 13468q5223 11377Q4353 9693q4353 6660);"/>
+                            <Edge cubics="!4353 6660(;4353,3153 4950,445 8450,401q4353 6660Q4353 5209q4501 4209Q4677 3019q5089 2232Q5548 1356q6333 904Q7182 417q8450 401);"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mask" color="#FF4FFF" locked="true" autoNamed="false" visible="false" layerType="mask">
+          <frames>
+            <DOMFrame index="0" duration="8" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="8" duration="19" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="inside_crop">
+                  <matrix>
+                    <Matrix a="0.017425537109375" d="0.017425537109375" tx="546.3" ty="298.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="459.1" y="358.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="27" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="inside_crop">
+                  <matrix>
+                    <Matrix tx="95.2" ty="-54.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="459.1" y="360"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="28" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="inside body" color="#FF800A" parentLayerIndex="6" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="8" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="8" duration="21" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="screen 6">
+                  <matrix>
+                    <Matrix tx="415.85" ty="67"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.5" y="40.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="29" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="screen 7" selected="true">
+                  <matrix>
+                    <Matrix tx="415.85" ty="67"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.5" y="40.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="yell bg" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="29" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FEFBCC"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="
+!-2457 -979|18023 -979!18023 -979|18023 14381!18023 14381|-2457 14381!-2457 14381|-2457 -979"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="29" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FEFBCC"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="
+!-2457 -979|18023 -979!18023 -979|18023 14381!18023 14381|-2457 14381!-2457 14381|-2457 -979"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

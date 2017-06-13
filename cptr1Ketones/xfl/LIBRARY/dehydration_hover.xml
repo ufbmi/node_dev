@@ -1,0 +1,48 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="dehydration_hover" itemID="554a3961-000002d2" lastModified="1435680140" lastUniqueIdentifier="3">
+  <timeline>
+    <DOMTimeline name="dehydration_hover">
+      <layers>
+        <DOMLayer name="FlashAICB" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="15" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="dehydration_symptom" selected="true" centerPoint3DX="101.95" centerPoint3DY="72.85">
+                  <matrix>
+                    <Matrix tx="0.4" ty="25.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="101.55" y="47.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="15" duration="14" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="dehydration_symptom" selected="true" centerPoint3DX="101.95" centerPoint3DY="67.85">
+                  <matrix>
+                    <Matrix tx="0.4" ty="20.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="101.55" y="47.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="29" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="dehydration_symptom" centerPoint3DX="101.95" centerPoint3DY="72.85">
+                  <matrix>
+                    <Matrix tx="0.4" ty="25.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="101.55" y="47.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,41 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="FlashAICB Assets_29/Layer 12/&amp;#060Path&amp;#062_2" itemID="556f70b9-00000757" lastModified="1433366713">
+  <timeline>
+    <DOMTimeline name="&amp;#060Path&amp;#062_2">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <RadialGradient>
+                        <matrix>
+                          <Matrix a="0.0286407470703125" b="-0.0003509521484375" c="-9.1552734375e-05" d="-0.00726318359375" tx="23.55" ty="6.15"/>
+                        </matrix>
+                        <GradientEntry color="#EA1729" alpha="0.298039215686275" ratio="0.0156862745098039"/>
+                        <GradientEntry color="#D44B42" alpha="0.592156862745098" ratio="0.32156862745098"/>
+                        <GradientEntry color="#C37056" alpha="0.815686274509804" ratio="0.596078431372549"/>
+                        <GradientEntry color="#B98762" alpha="0.949019607843137" ratio="0.819607843137255"/>
+                        <GradientEntry color="#B58F67" ratio="0.964705882352941"/>
+                      </RadialGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!823 238|121 247!121 247[72 248 36 213!36 213[1 179 0 129!0 129[-1 80 34 44!34 44[68 9 118 8!118 8|820 0!820 0[869 -1 905 34!905 34[940 68 941 118!941 118[942 167 907 202!907 202[873 237 823 238"/>
+                    <Edge cubics="!823 238(;823,238 121,247 121,247q823 238 121 247);"/>
+                    <Edge cubics="!121 247(;55,248 1,195 0,129q121 247Q72 248q36 213Q1 179q0 129);"/>
+                    <Edge cubics="!0 129(0,129;-1,63 52,9 118,8q0 129Q-1 80q34 44Q68 9q118 8)118,8;"/>
+                    <Edge cubics="!118 8(118,8;118,8 820,0 820,0q118 8 820 0)820,0;"/>
+                    <Edge cubics="!820 0(820,0;886,-1 940,52 941,118q820 0Q869 -1q905 34Q940 68q941 118)941,118;"/>
+                    <Edge cubics="!941 118(941,118;942,183 889,237 823,238q941 118Q942 167q907 202Q873 237q823 238)823,238;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

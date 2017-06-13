@@ -1,0 +1,70 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="glucose_flow copy" itemID="55412ab5-00000111" lastModified="1430943034" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="glucose_flow copy" currentFrame="103">
+      <layers>
+        <DOMLayer name="Guide: Layer 1" color="#FF4F4F" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" duration="121" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!-220 864[-14 1095 352 1316!352 1316[775 1572 1059 1572!1059 1572[1235 1572 1484 1504!1484 1504[1593 1474 1954 1354!1954 1354[2610 1136 3017 1136!3017 1136[3338 1136 3653 1236!3653 1236[3791 1279 4203 1455!4203 1455[4560 1606 4831 1673
+!4831 1673[5231 1773 5697 1773!5697 1773[6129 1773 6635 1580!6635 1580[6964 1453 7519 1154!7519 1154[8121 829 8357 728!8357 728[8812 535 9157 535!9157 535[9680 535 10290 709!10290 709[10729 833 11338 1091!11338 1091[12220 1464 12244 1473
+!12244 1473[12698 1647 12953 1647!12953 1647[13665 1647 14220 1468!14220 1468[14586 1349 15061 1073!15061 1073[15586 768 15814 678!15814 678[16271 499 16816 499!16816 499[17035 499 17446 610!17446 610[17680 673 18244 854!18244 854[18788
+ 1028 19054 1097!19054 1097[19479 1208 19721 1208!19721 1208[19929 1208 20383 1154!20383 1154[20837 1100 20997 1100!20997 1100|20997 1082"/>
+                    <Edge cubics="!-220 864(;13,1125 645,1572 1059,1572q-220 864Q-14 1095q352 1316Q775 1572q1059 1572);"/>
+                    <Edge cubics="!1059 1572(1059,1572;1593,1572 2259,1136 3017,1136q1059 1572Q1235 1572q1484 1504Q1593 1474q1954 1354Q2610 1136q3017 1136);"/>
+                    <Edge cubics="!3017 1136(3017,1136;3993,1136 4311,1773 5697,1773q3017 1136Q3338 1136q3653 1236Q3791 1279q4203 1455Q4560 1606q4831 1673Q5231 1773q5697 1773)5697,1773;"/>
+                    <Edge cubics="!5697 1773(;6986,1773 8113,535 9157,535q5697 1773Q6129 1773q6635 1580Q6964 1453q7519 1154Q8121 829q8357 728Q8812 535q9157 535);"/>
+                    <Edge cubics="!9157 535(9157,535;10701,535 12163,1647 12953,1647q9157 535Q9680 535q10290 709Q10729 833q11338 1091Q12220 1464q12244 1473Q12698 1647q12953 1647)12953,1647;"/>
+                    <Edge cubics="!12953 1647(12953,1647;15075,1647 15165,499 16816,499q12953 1647Q13665 1647q14220 1468Q14586 1349q15061 1073Q15586 768q15814 678Q16271 499q16816 499)16816,499;"/>
+                    <Edge cubics="!16816 499(;17475,499 18996,1208 19721,1208q16816 499Q17035 499q17446 610Q17680 673q18244 854Q18788 1028q19054 1097Q19479 1208q19721 1208);"/>
+                    <Edge cubics="!19721 1208(;20121,1208 20661,1100 20997,1100q19721 1208Q19929 1208q20383 1154Q20837 1100q20997 1100)20997,1100;"/>
+                    <Edge cubics="!20997 1100(;20997,1100 20997,1082 20997,1082q20997 1100 20997 1082);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4F80FF" parentLayerIndex="0" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="120" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose">
+                  <matrix>
+                    <Matrix tx="-41.65" ty="16.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="30.65" y="27"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="120" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose">
+                  <matrix>
+                    <Matrix tx="1017" ty="26.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="30.65" y="27"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,67 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="insulin_Toblood" itemID="554a7a46-00000322" lastModified="1433961634" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="insulin_Toblood" currentFrame="80">
+      <layers>
+        <DOMLayer name="Guide: Layer 1" color="#FF800A" locked="true" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" duration="81" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="none" weight="4" joints="miter" miterLimit="10">
+                        <fill>
+                          <SolidColor color="#00FF00"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!1295 670[1592 729 1645 881!1645 881[1680 980 1605 1125!1605 1125[1523 1283 1391 1373!1391 1373[1346 1404 1172 1484!1172 1484[1055 1539 1015 1607!1015 1607[959 1702 985 1890!985 1890[993 1949 1127 2011!1127 2011[1207 2048 1415 2134!1415
+ 2134[1825 2327 1825 2650!1825 2650[1825 2888 1644 3069!1644 3069[1529 3183 1245 3344!1245 3344[948 3512 846 3604!846 3604[665 3769 665 3980!665 3980[665 4116 856 4238!856 4238[970 4312 1275 4466!1275 4466[1554 4625 1694 4804!1694 4804
+[1885 5047 1885 5390!1885 5390[1885 5540 1785 5673!1785 5673[1724 5755 1565 5891!1565 5891[1404 6028 1345 6105!1345 6105[1245 6235 1245 6380!1245 6380[1245 6630 1538 6778!1538 6778[1799 6910 2165 6910"/>
+                    <Edge cubics="!1295 670(;1745,760 1675,990 1605,1125q1295 670Q1592 729q1645 881Q1680 980q1605 1125);"/>
+                    <Edge cubics="!1605 1125(;1353,1613 910,1340 985,1890q1605 1125Q1523 1283q1391 1373Q1346 1404q1172 1484Q1055 1539q1015 1607Q959 1702q985 1890);"/>
+                    <Edge cubics="!985 1890(;1011,2080 1825,2097 1825,2650q985 1890Q993 1949q1127 2011Q1207 2048q1415 2134Q1825 2327q1825 2650);"/>
+                    <Edge cubics="!1825 2650(;1825,3362 665,3345 665,3980q1825 2650Q1825 2888q1644 3069Q1529 3183q1245 3344Q948 3512q846 3604Q665 3769q665 3980);"/>
+                    <Edge cubics="!665 3980(;665,4407 1885,4380 1885,5390q665 3980Q665 4116q856 4238Q970 4312q1275 4466Q1554 4625q1694 4804Q1885 5047q1885 5390);"/>
+                    <Edge cubics="!1885 5390(;1885,5840 1245,5945 1245,6380q1885 5390Q1885 5540q1785 5673Q1724 5755q1565 5891Q1404 6028q1345 6105Q1245 6235q1245 6380);"/>
+                    <Edge cubics="!1245 6380(;1245,6735 1720,6910 2165,6910q1245 6380Q1245 6630q1538 6778Q1799 6910q2165 6910);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4F80FF" parentLayerIndex="0" locked="true" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="80" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="insulin_key" centerPoint3DX="64.75" centerPoint3DY="33.05">
+                  <matrix>
+                    <Matrix tx="-1" ty="2.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="65.75" y="30.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="80" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="insulin_key" centerPoint3DX="108.75" centerPoint3DY="345.5">
+                  <matrix>
+                    <Matrix tx="43" ty="314.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="65.75" y="30.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

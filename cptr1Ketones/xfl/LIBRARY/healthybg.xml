@@ -1,0 +1,197 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="healthybg" itemID="556f5227-00000325" lastModified="1433358887">
+  <timeline>
+    <DOMTimeline name="healthybg">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="75.7" ty="300.7"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#AD2025"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!0 1099[1642 616 3992 332!3992 332[6158 69 8579 14!8579 14[10902 -39 12926 109!12926 109[14980 259 16200 579!16200 579|16200 7439!16200 7439|0 7479!0 7479|0 1099"/>
+                    <Edge cubics="!0 1099(0,1099;4556,-241 12920,-281 16200,579q0 1099Q1642 616q3992 332Q6158 69q8579 14Q10902 -39q12926 109Q14980 259q16200 579);"/>
+                    <Edge cubics="!16200 579(;16200,579 16200,7439 16200,7439q16200 579 16200 7439);"/>
+                    <Edge cubics="!16200 7439(;16200,7439 0,7479 0,7479q16200 7439 0 7479)0,7479;"/>
+                    <Edge cubics="!0 7479(0,7479;0,7479 0,1099 0,1099q0 7479 0 1099)0,1099;"/>
+                  </edges>
+                </DOMShape>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="400.4" ty="117"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#F26669"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!9710 -2314/-7159 -2340!-7159 -2340/-7039 5179!-7039 5179[-5333 4891 -3227 4674!-3227 4674[-984 4442 1238 4341!1238 4341[3677 4230 5752 4293!5752 4293[8050 4363 9710 4643!9710 4643|9710 -2314"/>
+                    <Edge cubics="!9710 -2314(;9710,-2314 -7159,-2340 -7159,-2340q9710 -2314 -7159 -2340);"/>
+                    <Edge cubics="!-7159 -2340(;-7159,-2340 -7039,5179 -7039,5179q-7159 -2340 -7039 5179);"/>
+                    <Edge cubics="!-7039 5179(;-2660,4440 5072,3862 9710,4643q-7039 5179Q-5333 4891q-3227 4674Q-984 4442q1238 4341Q3677 4230q5752 4293Q8050 4363q9710 4643);"/>
+                    <Edge cubics="!9710 4643(;9710,4643 9710,-2314 9710,-2314q9710 4643 9710 -2314);"/>
+                  </edges>
+                </DOMShape>
+                <DOMSymbolInstance libraryItemName="FlashAICB Assets/BG/&amp;#060Path&amp;#062_1" selected="true" centerPoint3DX="511.6" centerPoint3DY="445.15">
+                  <matrix>
+                    <Matrix tx="94.55" ty="387.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="417.05" y="57.65"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.05078125"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="FlashAICB Assets/BG/&amp;#060Path&amp;#062" selected="true" centerPoint3DX="511.4" centerPoint3DY="564.9">
+                  <matrix>
+                    <Matrix tx="94.35" ty="507.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="417.05" y="57.65"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.05078125"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMGroup>
+                      <members>
+                        <DOMShape isDrawingObject="true">
+                          <matrix>
+                            <Matrix tx="247.35" ty="195"/>
+                          </matrix>
+                          <fills>
+                            <FillStyle index="1">
+                              <SolidColor color="#F26669"/>
+                            </FillStyle>
+                          </fills>
+                          <edges>
+                            <Edge fillStyle1="1" edges="!159 2948[149 2936 81 2646!81 2646[11 2342 4 2253!4 2253[-15 2011 49 1746!49 1746[84 1600 197 1282!197 1282[322 928 509 705!509 705[698 478 989 339!989 339[1186 245 1537 141!1537 141[1923 27 2150 9!2150 9[2695 -32 3067 130!3067 130[3209
+ 192 3374 303!3374 303[3470 368 3665 509!3665 509[4033 765 4241 1164!4241 1164[4424 1515 4455 1913!4455 1913[4465 2038 4472 2325!4472 2325[4479 2621 4470 2621!4470 2621|159 2948"/>
+                            <Edge cubics="!159 2948(;148,2935 14,2386 4,2253q159 2948Q149 2936q81 2646Q11 2342q4 2253);"/>
+                            <Edge cubics="!4 2253(;-24,1888 88,1589 197,1282q4 2253Q-15 2011q49 1746Q84 1600q197 1282)197,1282;"/>
+                            <Edge cubics="!197 1282(197,1282;363,813 598,526 989,339q197 1282Q322 928q509 705Q698 478q989 339);"/>
+                            <Edge cubics="!989 339(;1227,225 1826,34 2150,9q989 339Q1186 245q1537 141Q1923 27q2150 9)2150,9;"/>
+                            <Edge cubics="!2150 9(2150,9;2982,-54 3259,228 3665,509q2150 9Q2695 -32q3067 130Q3209 192q3374 303Q3470 368q3665 509);"/>
+                            <Edge cubics="!3665 509(3665,509;4186,871 4417,1426 4455,1913q3665 509Q4033 765q4241 1164Q4424 1515q4455 1913)4455,1913;"/>
+                            <Edge cubics="!4455 1913(;4467,2068 4482,2621 4470,2621q4455 1913Q4465 2038q4472 2325Q4479 2621q4470 2621);"/>
+                            <Edge cubics="!4470 2621(;4470,2621 159,2948 159,2948q4470 2621 159 2948);"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                    <DOMSymbolInstance libraryItemName="FlashAICB Assets_3/BG/&amp;#060Group&amp;#062" centerPoint3DX="359.2" centerPoint3DY="268.7">
+                      <matrix>
+                        <Matrix tx="247.35" ty="195"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="111.85" y="73.7"/>
+                      </transformationPoint>
+                      <color>
+                        <Color alphaMultiplier="0.05078125"/>
+                      </color>
+                    </DOMSymbolInstance>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMGroup>
+                      <members>
+                        <DOMShape isDrawingObject="true">
+                          <matrix>
+                            <Matrix a="0.996658325195312" b="-0.0816802978515625" c="0.0816802978515625" d="0.996658325195312" ty="230.3"/>
+                          </matrix>
+                          <fills>
+                            <FillStyle index="1">
+                              <SolidColor color="#F26669"/>
+                            </FillStyle>
+                          </fills>
+                          <edges>
+                            <Edge fillStyle1="1" edges="
+!159 2948[149 2936 81 2646!81 2646[11 2342 4 2253!4 2253[-15 2011 49 1746!49 1746[84 1600 197 1282!197 1282[322 928 509 705!509 705[698 478 989 339!989 339[1186 245 1537 141!1537 141[1923 27 2150 9!2150 9[2695 -32 3067 130!3067 130[3209
+ 192 3374 303!3374 303[3470 368 3665 509!3665 509[4033 765 4241 1164!4241 1164[4424 1515 4455 1913!4455 1913[4465 2038 4472 2325!4472 2325[4479 2621 4470 2621!4470 2621|159 2948"/>
+                            <Edge cubics="!159 2948(;148,2935 14,2386 4,2253q159 2948Q149 2936q81 2646Q11 2342q4 2253);"/>
+                            <Edge cubics="!4 2253(;-24,1888 88,1589 197,1282q4 2253Q-15 2011q49 1746Q84 1600q197 1282)197,1282;"/>
+                            <Edge cubics="!197 1282(197,1282;363,813 598,526 989,339q197 1282Q322 928q509 705Q698 478q989 339);"/>
+                            <Edge cubics="!989 339(;1227,225 1826,34 2150,9q989 339Q1186 245q1537 141Q1923 27q2150 9)2150,9;"/>
+                            <Edge cubics="!2150 9(2150,9;2982,-54 3259,228 3665,509q2150 9Q2695 -32q3067 130Q3209 192q3374 303Q3470 368q3665 509);"/>
+                            <Edge cubics="!3665 509(3665,509;4186,871 4417,1426 4455,1913q3665 509Q4033 765q4241 1164Q4424 1515q4455 1913)4455,1913;"/>
+                            <Edge cubics="!4455 1913(;4467,2068 4482,2621 4470,2621q4455 1913Q4465 2038q4472 2325Q4479 2621q4470 2621);"/>
+                            <Edge cubics="!4470 2621(;4470,2621 159,2948 159,2948q4470 2621 159 2948);"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                    <DOMSymbolInstance libraryItemName="FlashAICB Assets_3/BG/&amp;#060Group&amp;#062" centerPoint3DX="117.5" centerPoint3DY="294.6">
+                      <matrix>
+                        <Matrix a="0.996658325195312" b="-0.0816802978515625" c="0.0816802978515625" d="0.996658325195312" ty="230.3"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="111.55" y="74"/>
+                      </transformationPoint>
+                      <color>
+                        <Color alphaMultiplier="0.05078125"/>
+                      </color>
+                    </DOMSymbolInstance>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMGroup>
+                      <members>
+                        <DOMShape isDrawingObject="true">
+                          <matrix>
+                            <Matrix a="0.984222412109375" b="0.176925659179688" c="-0.176925659179688" d="0.984222412109375" tx="761.25" ty="184.55"/>
+                          </matrix>
+                          <fills>
+                            <FillStyle index="1">
+                              <SolidColor color="#F26669"/>
+                            </FillStyle>
+                          </fills>
+                          <edges>
+                            <Edge fillStyle1="1" edges="
+!159 2948[149 2936 81 2646!81 2646[11 2342 4 2253!4 2253[-15 2011 49 1746!49 1746[84 1600 197 1282!197 1282[322 928 509 705!509 705[698 478 989 339!989 339[1186 245 1537 141!1537 141[1923 27 2150 9!2150 9[2695 -32 3067 130!3067 130[3209
+ 192 3374 303!3374 303[3470 368 3665 509!3665 509[4033 765 4241 1164!4241 1164[4424 1515 4455 1913!4455 1913[4465 2038 4472 2325!4472 2325[4479 2621 4470 2621!4470 2621|159 2948"/>
+                            <Edge cubics="!159 2948(;148,2935 14,2386 4,2253q159 2948Q149 2936q81 2646Q11 2342q4 2253);"/>
+                            <Edge cubics="!4 2253(;-24,1888 88,1589 197,1282q4 2253Q-15 2011q49 1746Q84 1600q197 1282)197,1282;"/>
+                            <Edge cubics="!197 1282(197,1282;363,813 598,526 989,339q197 1282Q322 928q509 705Q698 478q989 339);"/>
+                            <Edge cubics="!989 339(;1227,225 1826,34 2150,9q989 339Q1186 245q1537 141Q1923 27q2150 9)2150,9;"/>
+                            <Edge cubics="!2150 9(2150,9;2982,-54 3259,228 3665,509q2150 9Q2695 -32q3067 130Q3209 192q3374 303Q3470 368q3665 509);"/>
+                            <Edge cubics="!3665 509(3665,509;4186,871 4417,1426 4455,1913q3665 509Q4033 765q4241 1164Q4424 1515q4455 1913)4455,1913;"/>
+                            <Edge cubics="!4455 1913(;4467,2068 4482,2621 4470,2621q4455 1913Q4465 2038q4472 2325Q4479 2621q4470 2621);"/>
+                            <Edge cubics="!4470 2621(;4470,2621 159,2948 159,2948q4470 2621 159 2948);"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                    <DOMSymbolInstance libraryItemName="FlashAICB Assets_3/BG/&amp;#060Group&amp;#062" centerPoint3DX="858.3" centerPoint3DY="276.9">
+                      <matrix>
+                        <Matrix a="0.984222412109375" b="0.176925659179688" c="-0.176925659179688" d="0.984222412109375" tx="761.25" ty="184.55"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="112" y="73.9"/>
+                      </transformationPoint>
+                      <color>
+                        <Color alphaMultiplier="0.05078125"/>
+                      </color>
+                    </DOMSymbolInstance>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

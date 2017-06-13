@@ -1,0 +1,1067 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="screen 4" itemID="554a6c7c-00000146" lastModified="1457729548" lastUniqueIdentifier="17">
+  <persistentData>
+    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+  </persistentData>
+  <timeline>
+    <DOMTimeline name="screen 4" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;502&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC" locked="true" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" duration="240" keyMode="9728">
+              <elements>
+                <DOMDynamicText selected="true" fontRenderingMode="device" width="72.85" height="21.8" autoExpand="true" isSelectable="false" lineType="multiline no wrap">
+                  <matrix>
+                    <Matrix tx="-39.25" ty="-59.65"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Pancreas</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineSpacing="3.2" size="16" bitmapSize="320" face="OpenSans-Bold" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText selected="true" fontRenderingMode="device" width="102.6" height="21.8" autoExpand="true" isSelectable="false" lineType="multiline no wrap">
+                  <matrix>
+                    <Matrix tx="-229.6" ty="475.8"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Bloodstream</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineSpacing="3.2" size="16" bitmapSize="320" face="OpenSans-Bold" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText selected="true" fontRenderingMode="device" width="37.45" height="21.8" autoExpand="true" isSelectable="false" lineType="multiline no wrap">
+                  <matrix>
+                    <Matrix tx="305.15" ty="60.75"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Cells</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineSpacing="3.2" size="16" bitmapSize="320" face="OpenSans-Bold" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="actions" color="#FF4F4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="79" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="79" duration="25" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="104" duration="35" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[playSfx("pancreas1");]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="139" duration="100" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[playSfx("sfx_pancspitout");]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="239" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.stop();
+
+//upon entering this frame:
+
+//init arrow visibilty
+exportRoot.screen4.arrow1.visible=true;
+exportRoot.screen4.arrow2.visible=false;
+
+//these vars defined on main timeline
+screen4_cell.gotoAndStop(0); //cell starts at its first state (locked)
+
+screen4_cell_locked = true; //bool to store whether the insulin key has unlocked the cell. prevents dragging into cell area
+screen4_cellX = 747; //center of cell (for g drop detection)
+screen4_cellY = 270; //center of cell (for g drop detection)
+
+screen4_insulin_key.visible=true; //incase hidden before
+screen4_insulin_key.removeAllEventListeners("mousedown"); 
+screen4_insulin_key.removeAllEventListeners("pressmove"); //remove all existing events of this type
+screen4_insulin_key.removeAllEventListeners("pressup");
+screen4_insulin_key.addEventListener("mousedown", screen4_grabbedSound);
+screen4_insulin_key.addEventListener("pressmove", drag_insulin_key);
+screen4_insulin_key.addEventListener("pressup", release_insulin_key);
+addHandHover(screen4_insulin_key);
+
+//setting/restoring init positions
+screen4_insulin_key.x = screen4_insulin_key.initX || screen4_insulin_key.x;
+screen4_insulin_key.y = screen4_insulin_key.initY || screen4_insulin_key.y;
+
+screen4_insulin_key.initX = screen4_insulin_key.x;
+screen4_insulin_key.initY = screen4_insulin_key.y;
+
+begin_pulseObj(screen4_insulin_key);
+
+//dragging offset for key
+screen4_insulin_offX = -500;
+screen4_insulin_offY = -100;
+
+//reposition each g cell back to init position at start of timeline, and on mouseup
+g1.x = -176; g1.y = 370; 
+g1.initX = g1.x; g1.initY = g1.y;
+
+g2.x = 54; g2.y = 294;
+g2.initX = g2.x; g2.initY = g2.y;
+
+g3.x = 143; g3.y = 422;
+g3.initX = g3.x; g3.initY = g3.y;
+
+g4.x = 339; g4.y = 344;
+g4.initX = g4.x; g4.initY = g4.y;
+
+
+g1.removeAllEventListeners("mousedown");
+g1.removeAllEventListeners("pressmove");
+g1.removeAllEventListeners("pressup");
+g1.addEventListener("mousedown", screen4_grabbedSound);
+g1.addEventListener("pressmove", drag_g1);
+g1.addEventListener("pressup", release_g1);
+addHandHover(g1);
+//g1.visible=true;
+
+g2.removeAllEventListeners("mousedown");
+g2.removeAllEventListeners("pressmove");
+g2.removeAllEventListeners("pressup");
+g2.addEventListener("mousedown", screen4_grabbedSound);
+g2.addEventListener("pressmove", drag_g2);
+g2.addEventListener("pressup", release_g2);
+addHandHover(g2);
+//g2.visible=true;
+
+g3.removeAllEventListeners("mousedown");
+g3.removeAllEventListeners("pressmove");
+g3.removeAllEventListeners("pressup");
+g3.addEventListener("mousedown", screen4_grabbedSound);
+g3.addEventListener("pressmove", drag_g3);
+g3.addEventListener("pressup", release_g3);
+addHandHover(g3);
+//g3.visible=true;
+
+g4.removeAllEventListeners("mousedown");
+g4.removeAllEventListeners("pressmove");
+g4.removeAllEventListeners("pressup");
+g4.addEventListener("mousedown", screen4_grabbedSound);
+g4.addEventListener("pressmove", drag_g4);
+g4.addEventListener("pressup", release_g4);
+addHandHover(g4);
+//g4.visible=true;
+
+
+//drag thresholds for g cells onto cell
+gDragThreshX=100;
+gDragThreshY=100;
+//////
+
+
+//reinforce init arrow visibility
+setTimeout(function(){
+	exportRoot.screen4.arrow1.visible=true;
+	exportRoot.screen4.arrow2.visible=false;
+}, 200);
+
+
+//after a g icon is removed, resets cell lock state, re-animates the insulin key
+function screen4_relockCell(){
+	screen4_killPulses();
+
+	exportRoot.screen4.arrow1.visible=false;
+	exportRoot.screen4.arrow2.visible=false;
+
+	//lock the cell!	
+	screen4_cell_locked=true; 
+	screen4_cell.gotoAndStop(0); //cell starts at its first state (locked)
+
+	
+	//anim of insulin key appearing... don't do if all g cells are invisible
+	if(!g1.visible && !g2.visible && !g3.visible && !g4.visible) return;
+	else exportRoot.screen4.gotoAndPlay("newInsulin");
+}
+
+function screen4_grabbedSound(e){
+	playSfx("bubblepop");
+}
+function drag_insulin_key(e){
+	end_pulseObj(screen4_insulin_key);
+	
+	screen4_insulin_key.stop(); //stop anim.
+	exportRoot.screen4.addChild(screen4_insulin_key); //makes it topmost
+	
+	screen4_insulin_key.x = e.stageX + screen4_insulin_offX;
+	screen4_insulin_key.y = e.stageY + screen4_insulin_offY;
+	
+	//console.log("screen4_insulin_key.x: " + screen4_insulin_key.x);
+	//console.log("screen4_insulin_key.y: " + screen4_insulin_key.y);
+	
+	//acceptable range of lock: x: 744, y: 384 (stage coords)
+	var acceptX = 744;
+	var acceptY = 384;
+	
+	var diffX = Math.abs(acceptX - stage.mouseX);
+	var diffY = Math.abs(acceptY - stage.mouseY);
+	
+	if(diffX<120&& diffY<120){
+		//console.log("UNLOCK THE CELL!");
+		playSfx("click6");
+		
+		screen4_insulin_key.removeAllEventListeners("pressmove");
+		screen4_insulin_key.removeAllEventListeners("pressup");
+		removeHandHover(screen4_insulin_key);
+		screen4_insulin_key.visible=false; //hide
+		
+		screen4_cell.gotoAndPlay("transkeyeat");
+		
+		screen4_cell_locked=false; //unlock the cell!
+
+		exportRoot.screen4.arrow1.visible=false;
+		exportRoot.screen4.arrow2.visible=true;
+				
+		begin_pulseObj(g1);
+		begin_pulseObj(g2);
+		begin_pulseObj(g3);
+		begin_pulseObj(g4);
+
+	}
+}
+
+
+function drag_g1(e){
+	end_pulseObj(g1);
+	exportRoot.screen4.addChild(g1); //makes it topmost
+	g1.x = e.stageX -544;
+	
+	if(screen4_cell_locked){
+		if(e.stageY>400) g1.y = e.stageY -125;			
+	}
+	else{
+		if(e.stageY>186) g1.y = e.stageY -125;
+
+		//check for placement over cell
+		var diffX = Math.abs(screen4_cellX - stage.mouseX);
+		var diffY = Math.abs(screen4_cellY - stage.mouseY);
+		if(diffX<gDragThreshX && diffY<gDragThreshY){
+			//console.log("cell takes g1!");			
+			g1.visible=false;
+			g1.x = g1.initX; g1.y = g1.initY;
+			g1.removeAllEventListeners("pressmove");
+			g1.removeAllEventListeners("pressup");
+			screen4_cell.eating.gotoAndPlay(1); //play cell's eating anim.
+			screen4_cell_locked=true; //lock cell to prevent additional eating
+			
+			//hide the arrows
+			exportRoot.screen4.arrow1.visible=false;
+			exportRoot.screen4.arrow2.visible=false;
+
+			setTimeout(screen4_relockCell, 2000);
+		}		
+	}
+	
+}
+
+function drag_g2(e){
+	end_pulseObj(g2);
+	exportRoot.screen4.addChild(g2); //makes it topmost
+	g2.x = e.stageX -544;
+
+	if(screen4_cell_locked){
+		if(e.stageY>400) g2.y = e.stageY -125;	
+	}
+	else{
+		if(e.stageY>186) g2.y = e.stageY -125;
+
+		//check for placement over cell
+		var diffX = Math.abs(screen4_cellX - stage.mouseX);
+		var diffY = Math.abs(screen4_cellY - stage.mouseY);
+		if(diffX<gDragThreshX && diffY<gDragThreshY){
+			//console.log("cell takes g2!");
+			g2.visible=false;
+			g2.x = g2.initX; g2.y = g2.initY;
+			g2.removeAllEventListeners("pressmove");
+			g2.removeAllEventListeners("pressup");
+			screen4_cell.eating.gotoAndPlay(1); //play cell's eating anim.
+			screen4_cell_locked=true; //lock cell to prevent additional eating
+			
+			setTimeout(screen4_relockCell, 2000);
+		}		
+	}
+	
+}
+
+function drag_g3(e){
+	end_pulseObj(g3);
+	exportRoot.screen4.addChild(g3); //makes it topmost
+	g3.x = e.stageX -544;
+
+	if(screen4_cell_locked){
+		if(e.stageY>400) g3.y = e.stageY -125;	
+	}
+	else{
+		if(e.stageY>186) g3.y = e.stageY -125;
+
+		//check for placement over cell
+		var diffX = Math.abs(screen4_cellX - stage.mouseX);
+		var diffY = Math.abs(screen4_cellY - stage.mouseY);
+		if(diffX<gDragThreshX && diffY<gDragThreshY){
+			//console.log("cell takes g3!");
+			g3.visible=false;
+			g3.x = g3.initX; g3.y = g3.initY;
+			g3.removeAllEventListeners("pressmove");
+			g3.removeAllEventListeners("pressup");
+			screen4_cell.eating.gotoAndPlay(1); //play cell's eating anim.
+			screen4_cell_locked=true; //lock cell to prevent additional eating
+			
+			setTimeout(screen4_relockCell, 2000);
+		}		
+	}
+
+}
+
+function drag_g4(e){
+	end_pulseObj(g4);
+	exportRoot.screen4.addChild(g4); //makes it topmost
+	g4.x = e.stageX -544;
+
+	if(screen4_cell_locked){
+		if(e.stageY>400) g4.y = e.stageY -125;	
+	}	
+	else{
+		if(e.stageY>186) g4.y = e.stageY -125;
+
+		//check for placement over cell
+		var diffX = Math.abs(screen4_cellX - stage.mouseX);
+		var diffY = Math.abs(screen4_cellY - stage.mouseY);
+		if(diffX<gDragThreshX && diffY<gDragThreshY){
+			//console.log("cell takes g4!");
+			g4.visible=false;
+			g4.x = g4.initX; g4.y = g4.initY;
+			g4.removeAllEventListeners("pressmove");
+			g4.removeAllEventListeners("pressup");
+			screen4_cell.eating.gotoAndPlay(1); //play cell's eating anim.
+			screen4_cell_locked=true; //lock cell to prevent additional eating
+			
+			setTimeout(screen4_relockCell, 2000);
+		}		
+	}
+}
+
+
+function release_insulin_key(e){
+	screen4_insulin_key.x = screen4_insulin_key.initX;
+	screen4_insulin_key.y = screen4_insulin_key.initY;
+}
+
+function release_g1(e){
+	//console.log("release_g1");
+		
+	g1.x = g1.initX;
+	g1.y = g1.initY;
+}
+function release_g2(e){
+	//console.log("release_g2");
+		
+	g2.x = g2.initX;
+	g2.y = g2.initY;
+}
+function release_g3(e){
+	//console.log("release_g3");
+		
+	g3.x = g3.initX;
+	g3.y = g3.initY;
+}
+function release_g4(e){
+	//console.log("release_g4");
+		
+	g4.x = g4.initX;
+	g4.y = g4.initY;
+}]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="labels" color="#669900" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="79" name="introanim" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="79" duration="160" name="newInsulin" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="239" name="feedcell" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="FlashAICB" color="#4F80FF" locked="true" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" duration="240" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMShape isDrawingObject="true">
+                      <matrix>
+                        <Matrix tx="-538.45" ty="-115.55"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FEFBCC"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!4340 6660[4340 5209 4488 4209!4488 4209[4665 3019 5078 2232!5078 2232[5537 1356 6323 904!6323 904[7172 417 8440 401!8440 401|8440 0!8440 0|0 0!0 0|0 13500!0 13500|8700 13498!8700 13498[6285 13468 5208 11377!5208 11377[4340 9694 4340
+ 6660"/>
+                        <Edge cubics="!4340 6660(;4340,3153 4940,445 8440,401q4340 6660Q4340 5209q4488 4209Q4665 3019q5078 2232Q5537 1356q6323 904Q7172 417q8440 401);"/>
+                        <Edge cubics="!8440 401(;8440,401 8440,0 8440,0q8440 401 8440 0);"/>
+                        <Edge cubics="!8440 0(;8440,0 0,0 0,0q8440 0 0 0);"/>
+                        <Edge cubics="!0 0(;0,0 0,13500 0,13500q0 0 0 13500);"/>
+                        <Edge cubics="!8700 13498(8700,13498;5200,13454 4340,10166 4340,6660q8700 13498Q6285 13468q5208 11377Q4340 9694q4340 6660)4340,6660;"/>
+                        <Edge cubics="!0 13500(;0,13500 8700,13498 8700,13498q0 13500 8700 13498)8700,13498;"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="arrow at cell" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="239" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="239" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="arrow2" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="239" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="arrow_point" name="arrow2" centerPoint3DX="196.55" centerPoint3DY="272.8" isVisible="false">
+                  <matrix>
+                    <Matrix a="0.023223876953125" b="-0.999679565429688" c="0.999679565429688" d="0.023223876953125" tx="168.5" ty="309.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="37.25" y="27.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="239" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="arrow_point" name="arrow2" centerPoint3DX="196.55" centerPoint3DY="272.8">
+                  <matrix>
+                    <Matrix a="0.023223876953125" b="-0.999679565429688" c="0.999679565429688" d="0.023223876953125" tx="168.5" ty="309.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="37.25" y="27.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="arrow1" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="239" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="arrow_point" name="arrow1" centerPoint3DX="118.75" centerPoint3DY="347.6" isVisible="false">
+                  <matrix>
+                    <Matrix a="0.799270629882812" b="-0.600921630859375" c="0.600921630859375" d="0.799270629882812" tx="72.55" ty="348.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="37.25" y="27.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="239" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="arrow_point" name="arrow1" centerPoint3DX="118.75" centerPoint3DY="347.6">
+                  <matrix>
+                    <Matrix a="0.799270629882812" b="-0.600921630859375" c="0.600921630859375" d="0.799270629882812" tx="72.55" ty="348.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="37.25" y="27.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="organLabels" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="240" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-190.6" ty="-56.35"/>
+                  </matrix>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="1.5" joints="miter" miterLimit="10">
+                        <fill>
+                          <SolidColor color="#FFFFFF"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!3799 390|3476 713"/>
+                    <Edge cubics="!3799 390(;3799,390 3476,713 3476,713q3799 390p3476 713);"/>
+                  </edges>
+                </DOMShape>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-234.6" ty="-64.35"/>
+                  </matrix>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="1.5" joints="miter" miterLimit="10">
+                        <fill>
+                          <SolidColor color="#FFFFFF"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!11139 2990|10816 3313"/>
+                    <Edge cubics="!11139 2990(;11139,2990 10816,3313 10816,3313q11139 2990p10816 3313);"/>
+                  </edges>
+                </DOMShape>
+                <DOMSymbolInstance libraryItemName="screen4_organLabels">
+                  <matrix>
+                    <Matrix tx="-228.15" ty="-53.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="284.95" y="273.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="pancreas" color="#009999" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="91" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="pancreas" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="-239.15" ty="-44.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="132.2" y="53.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="91" duration="149" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="pancreas" symbolType="graphic" centerPoint3DX="-106.95" centerPoint3DY="8.95" loop="play once">
+                  <matrix>
+                    <Matrix tx="-239.15" ty="-44.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="132.2" y="53.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="insulin_key" color="#669900" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="239" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="239" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="insulin_hover" name="insulin_key">
+                  <matrix>
+                    <Matrix tx="-117.7" ty="55.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="95.75" y="357.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="FlashAICB" color="#808080" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="140" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="140" duration="13" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="insulin_key">
+                  <matrix>
+                    <Matrix a="0.543731689453125" d="0.543731689453125" tx="-143.7" ty="-11.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="65.75" y="30.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="153" duration="5" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="insulin_key">
+                  <matrix>
+                    <Matrix tx="-133.7" ty="64.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="65.75" y="30.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="158" duration="81" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="insulin_Toblood" symbolType="graphic" loop="play once">
+                  <matrix>
+                    <Matrix tx="-133.7" ty="64.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="65.75" y="30.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="239" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="stream wall" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="240" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-330.2" ty="185.7"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#81292B"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!13 1256[842 1036 4329 707!4329 707[5776 570 7014 483!7014 483[8300 392 8807 394!8807 394|8920 609!8920 609[7698 647 5973 777!5973 777[2525 1037 17 1499!17 1499|13 1256"/>
+                    <Edge cubics="!13 1256(;1180,946 7425,388 8807,394q13 1256Q842 1036q4329 707Q5776 570q7014 483Q8300 392q8807 394);"/>
+                    <Edge cubics="!8807 394(;8807,394 8920,609 8920,609q8807 394 8920 609);"/>
+                    <Edge cubics="!8920 609(;8920,609 4030,759 17,1499q8920 609Q7698 647q5973 777Q2525 1037q17 1499);"/>
+                    <Edge cubics="!17 1499(;17,1499 13,1256 13,1256q17 1499 13 1256);"/>
+                  </edges>
+                </DOMShape>
+                <DOMShape isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#81292B"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!6157 4394|6212 4190!6212 4190|6524 4195!6524 4195[6920 4206 7337 4236!7337 4236[8671 4332 9721 4586!9721 4586|9721 4773!9721 4773[9122 4672 8377 4574!8377 4574[6886 4378 6157 4394"/>
+                    <Edge cubics="!6157 4394(;6157,4394 6212,4190 6212,4190p6157 4394q6212 4190);"/>
+                    <Edge cubics="!6212 4190(;6212,4190 8041,4180 9721,4586q6212 4190Q6212 4190q6524 4195Q6920 4206q7337 4236Q8671 4332q9721 4586);"/>
+                    <Edge cubics="!9721 4586(;9721,4586 9721,4773 9721,4773q9721 4586 9721 4773);"/>
+                    <Edge cubics="!9721 4773(;9721,4773 7324,4368 6157,4394q9721 4773Q9122 4672q8377 4574Q6886 4378q6157 4394);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="g1" color="#009999" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="79" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="79" duration="161" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_hover" name="g1">
+                  <matrix>
+                    <Matrix tx="-165.15" ty="342.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-11" y="27.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="g2" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="79" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="79" duration="161" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_hover" name="g2">
+                  <matrix>
+                    <Matrix tx="64.8" ty="266.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-11" y="27.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="g3" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="79" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="79" duration="161" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_hover" name="g3">
+                  <matrix>
+                    <Matrix tx="153.8" ty="394.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-11" y="27.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="g4" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="79" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="79" duration="161" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_hover" name="g4">
+                  <matrix>
+                    <Matrix tx="349.8" ty="316.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-11" y="27.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="g1_tween" color="#009999" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="29" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="29" duration="50" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_flow copy" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-604.3" ty="335.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="30.65" y="27"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="79" duration="161" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="g2_tween" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="23" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="23" duration="56" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_flow copy" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-429.35" ty="264.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="30.65" y="27"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="79" duration="161" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="g3_tween" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="12" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="12" duration="67" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_flow copy" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-436.35" ty="363.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="30.65" y="27"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="79" duration="161" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="g4_tween" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="79" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_flow copy" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-346.35" ty="263.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="30.65" y="27"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="79" duration="161" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="cell" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="240" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="cell" name="cell" selected="true">
+                  <matrix>
+                    <Matrix a="0.999801635742188" b="0.0201416015625" c="-0.0201416015625" d="0.999801635742188" tx="94.8" ty="66.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="115.95" y="122.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="FlashAICB" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="240" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-324.45" ty="183.95"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#AD2025"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!0 1099[1642 616 3992 332!3992 332[6158 69 8579 14!8579 14[10902 -39 12926 109!12926 109[14980 259 16200 579!16200 579|16200 7439!16200 7439|0 7479!0 7479|0 1099"/>
+                    <Edge cubics="!0 1099(0,1099;4556,-241 12920,-281 16200,579q0 1099Q1642 616q3992 332Q6158 69q8579 14Q10902 -39q12926 109Q14980 259q16200 579);"/>
+                    <Edge cubics="!16200 579(;16200,579 16200,7439 16200,7439q16200 579 16200 7439);"/>
+                    <Edge cubics="!16200 7439(;16200,7439 0,7479 0,7479q16200 7439 0 7479)0,7479;"/>
+                    <Edge cubics="!0 7479(0,7479;0,7479 0,1099 0,1099q0 7479 0 1099)0,1099;"/>
+                  </edges>
+                </DOMShape>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="0.25" ty="0.25"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#F26669"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="
+!9710 -2314/-7159 -2340!-7159 -2340/-7039 5179!-7039 5179[-5333 4891 -3227 4674!-3227 4674[-984 4442 1238 4341!1238 4341[3677 4230 5752 4293!5752 4293[8050 4363 9710 4643!9710 4643|9710 -2314"/>
+                    <Edge cubics="!9710 -2314(;9710,-2314 -7159,-2340 -7159,-2340q9710 -2314 -7159 -2340);"/>
+                    <Edge cubics="!-7159 -2340(;-7159,-2340 -7039,5179 -7039,5179q-7159 -2340 -7039 5179);"/>
+                    <Edge cubics="!-7039 5179(;-2660,4440 5072,3862 9710,4643q-7039 5179Q-5333 4891q-3227 4674Q-984 4442q1238 4341Q3677 4230q5752 4293Q8050 4363q9710 4643);"/>
+                    <Edge cubics="!9710 4643(;9710,4643 9710,-2314 9710,-2314q9710 4643 9710 -2314);"/>
+                  </edges>
+                </DOMShape>
+                <DOMSymbolInstance libraryItemName="FlashAICB Assets/BG/&amp;#060Path&amp;#062_1">
+                  <matrix>
+                    <Matrix tx="-305.6" ty="270.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="417.05" y="57.65"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.05078125"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="FlashAICB Assets/BG/&amp;#060Path&amp;#062">
+                  <matrix>
+                    <Matrix tx="-305.8" ty="390.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="417.05" y="57.65"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.05078125"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMGroup>
+                  <members>
+                    <DOMGroup>
+                      <members>
+                        <DOMShape isDrawingObject="true">
+                          <matrix>
+                            <Matrix tx="-152.8" ty="78.25"/>
+                          </matrix>
+                          <fills>
+                            <FillStyle index="1">
+                              <SolidColor color="#F26669"/>
+                            </FillStyle>
+                          </fills>
+                          <edges>
+                            <Edge fillStyle1="1" edges="
+!159 2948[149 2936 81 2646!81 2646[11 2342 4 2253!4 2253[-15 2011 49 1746!49 1746[84 1600 197 1282!197 1282[322 928 509 705!509 705[698 478 989 339!989 339[1186 245 1537 141!1537 141[1923 27 2150 9!2150 9[2695 -32 3067 130!3067 130[3209
+ 192 3374 303!3374 303[3470 368 3665 509!3665 509[4033 765 4241 1164!4241 1164[4424 1515 4455 1913!4455 1913[4465 2038 4472 2325!4472 2325[4479 2621 4470 2621!4470 2621|159 2948"/>
+                            <Edge cubics="!159 2948(;148,2935 14,2386 4,2253q159 2948Q149 2936q81 2646Q11 2342q4 2253);"/>
+                            <Edge cubics="!4 2253(;-24,1888 88,1589 197,1282q4 2253Q-15 2011q49 1746Q84 1600q197 1282)197,1282;"/>
+                            <Edge cubics="!197 1282(197,1282;363,813 598,526 989,339q197 1282Q322 928q509 705Q698 478q989 339);"/>
+                            <Edge cubics="!989 339(;1227,225 1826,34 2150,9q989 339Q1186 245q1537 141Q1923 27q2150 9)2150,9;"/>
+                            <Edge cubics="!2150 9(2150,9;2982,-54 3259,228 3665,509q2150 9Q2695 -32q3067 130Q3209 192q3374 303Q3470 368q3665 509);"/>
+                            <Edge cubics="!3665 509(3665,509;4186,871 4417,1426 4455,1913q3665 509Q4033 765q4241 1164Q4424 1515q4455 1913)4455,1913;"/>
+                            <Edge cubics="!4455 1913(;4467,2068 4482,2621 4470,2621q4455 1913Q4465 2038q4472 2325Q4479 2621q4470 2621);"/>
+                            <Edge cubics="!4470 2621(;4470,2621 159,2948 159,2948q4470 2621 159 2948);"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                    <DOMSymbolInstance libraryItemName="FlashAICB Assets_3/BG/&amp;#060Group&amp;#062">
+                      <matrix>
+                        <Matrix tx="-152.8" ty="78.25"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="111.85" y="73.7"/>
+                      </transformationPoint>
+                      <color>
+                        <Color alphaMultiplier="0.05078125"/>
+                      </color>
+                    </DOMSymbolInstance>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <members>
+                    <DOMGroup>
+                      <members>
+                        <DOMShape isDrawingObject="true">
+                          <matrix>
+                            <Matrix a="0.996658325195312" b="-0.0816802978515625" c="0.0816802978515625" d="0.996658325195312" tx="-400.15" ty="113.55"/>
+                          </matrix>
+                          <fills>
+                            <FillStyle index="1">
+                              <SolidColor color="#F26669"/>
+                            </FillStyle>
+                          </fills>
+                          <edges>
+                            <Edge fillStyle1="1" edges="
+!159 2948[149 2936 81 2646!81 2646[11 2342 4 2253!4 2253[-15 2011 49 1746!49 1746[84 1600 197 1282!197 1282[322 928 509 705!509 705[698 478 989 339!989 339[1186 245 1537 141!1537 141[1923 27 2150 9!2150 9[2695 -32 3067 130!3067 130[3209
+ 192 3374 303!3374 303[3470 368 3665 509!3665 509[4033 765 4241 1164!4241 1164[4424 1515 4455 1913!4455 1913[4465 2038 4472 2325!4472 2325[4479 2621 4470 2621!4470 2621|159 2948"/>
+                            <Edge cubics="!159 2948(;148,2935 14,2386 4,2253q159 2948Q149 2936q81 2646Q11 2342q4 2253);"/>
+                            <Edge cubics="!4 2253(;-24,1888 88,1589 197,1282q4 2253Q-15 2011q49 1746Q84 1600q197 1282)197,1282;"/>
+                            <Edge cubics="!197 1282(197,1282;363,813 598,526 989,339q197 1282Q322 928q509 705Q698 478q989 339);"/>
+                            <Edge cubics="!989 339(;1227,225 1826,34 2150,9q989 339Q1186 245q1537 141Q1923 27q2150 9)2150,9;"/>
+                            <Edge cubics="!2150 9(2150,9;2982,-54 3259,228 3665,509q2150 9Q2695 -32q3067 130Q3209 192q3374 303Q3470 368q3665 509);"/>
+                            <Edge cubics="!3665 509(3665,509;4186,871 4417,1426 4455,1913q3665 509Q4033 765q4241 1164Q4424 1515q4455 1913)4455,1913;"/>
+                            <Edge cubics="!4455 1913(;4467,2068 4482,2621 4470,2621q4455 1913Q4465 2038q4472 2325Q4479 2621q4470 2621);"/>
+                            <Edge cubics="!4470 2621(;4470,2621 159,2948 159,2948q4470 2621 159 2948);"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                    <DOMSymbolInstance libraryItemName="FlashAICB Assets_3/BG/&amp;#060Group&amp;#062">
+                      <matrix>
+                        <Matrix a="0.996658325195312" b="-0.0816802978515625" c="0.0816802978515625" d="0.996658325195312" tx="-400.15" ty="113.55"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="111.55" y="74"/>
+                      </transformationPoint>
+                      <color>
+                        <Color alphaMultiplier="0.05078125"/>
+                      </color>
+                    </DOMSymbolInstance>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <members>
+                    <DOMGroup>
+                      <members>
+                        <DOMShape isDrawingObject="true">
+                          <matrix>
+                            <Matrix a="0.984222412109375" b="0.176925659179688" c="-0.176925659179688" d="0.984222412109375" tx="361.1" ty="67.8"/>
+                          </matrix>
+                          <fills>
+                            <FillStyle index="1">
+                              <SolidColor color="#F26669"/>
+                            </FillStyle>
+                          </fills>
+                          <edges>
+                            <Edge fillStyle1="1" edges="
+!159 2948[149 2936 81 2646!81 2646[11 2342 4 2253!4 2253[-15 2011 49 1746!49 1746[84 1600 197 1282!197 1282[322 928 509 705!509 705[698 478 989 339!989 339[1186 245 1537 141!1537 141[1923 27 2150 9!2150 9[2695 -32 3067 130!3067 130[3209
+ 192 3374 303!3374 303[3470 368 3665 509!3665 509[4033 765 4241 1164!4241 1164[4424 1515 4455 1913!4455 1913[4465 2038 4472 2325!4472 2325[4479 2621 4470 2621!4470 2621|159 2948"/>
+                            <Edge cubics="!159 2948(;148,2935 14,2386 4,2253q159 2948Q149 2936q81 2646Q11 2342q4 2253);"/>
+                            <Edge cubics="!4 2253(;-24,1888 88,1589 197,1282q4 2253Q-15 2011q49 1746Q84 1600q197 1282)197,1282;"/>
+                            <Edge cubics="!197 1282(197,1282;363,813 598,526 989,339q197 1282Q322 928q509 705Q698 478q989 339);"/>
+                            <Edge cubics="!989 339(;1227,225 1826,34 2150,9q989 339Q1186 245q1537 141Q1923 27q2150 9)2150,9;"/>
+                            <Edge cubics="!2150 9(2150,9;2982,-54 3259,228 3665,509q2150 9Q2695 -32q3067 130Q3209 192q3374 303Q3470 368q3665 509);"/>
+                            <Edge cubics="!3665 509(3665,509;4186,871 4417,1426 4455,1913q3665 509Q4033 765q4241 1164Q4424 1515q4455 1913)4455,1913;"/>
+                            <Edge cubics="!4455 1913(;4467,2068 4482,2621 4470,2621q4455 1913Q4465 2038q4472 2325Q4479 2621q4470 2621);"/>
+                            <Edge cubics="!4470 2621(;4470,2621 159,2948 159,2948q4470 2621 159 2948);"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                    <DOMSymbolInstance libraryItemName="FlashAICB Assets_3/BG/&amp;#060Group&amp;#062">
+                      <matrix>
+                        <Matrix a="0.984222412109375" b="0.176925659179688" c="-0.176925659179688" d="0.984222412109375" tx="361.1" ty="67.8"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="112" y="73.9"/>
+                      </transformationPoint>
+                      <color>
+                        <Color alphaMultiplier="0.05078125"/>
+                      </color>
+                    </DOMSymbolInstance>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,36 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="arrow" itemID="55788da4-00000cdc" lastModified="1433964242">
+  <timeline>
+    <DOMTimeline name="arrow">
+      <layers>
+        <DOMLayer name="FlashAICB" color="#4F80FF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="13.1" ty="9.35"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!740 0|740 231!740 231|0 231!0 231|0 608!0 608|740 609!740 609|740 838!740 838|1159 420!1159 420|740 0"/>
+                    <Edge cubics="!740 0(;740,0 740,231 740,231q740 0 740 231);"/>
+                    <Edge cubics="!740 231(;740,231 0,231 0,231q740 231 0 231);"/>
+                    <Edge cubics="!0 231(;0,231 0,608 0,608q0 231 0 608);"/>
+                    <Edge cubics="!0 608(;0,608 740,609 740,609q0 608 740 609);"/>
+                    <Edge cubics="!740 609(;740,609 740,838 740,838q740 609 740 838);"/>
+                    <Edge cubics="!740 838(740,838;740,838 1159,420 1159,420q740 838 1159 420);"/>
+                    <Edge cubics="!1159 420(;1159,420 740,0 740,0q1159 420 740 0)740,0;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

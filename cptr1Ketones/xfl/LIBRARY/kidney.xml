@@ -1,0 +1,67 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="kidney" itemID="55438603-00000151" lastModified="1433961445" lastUniqueIdentifier="3">
+  <timeline>
+    <DOMTimeline name="kidney" currentFrame="21">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF">
+          <frames>
+            <DOMFrame index="0" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="good_kid">
+                  <transformationPoint>
+                    <Point x="95.4" y="141.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="5" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="good_kid" centerPoint3DX="101.55" centerPoint3DY="141.45">
+                  <matrix>
+                    <Matrix a="0.87420654296875" d="0.87420654296875" tx="18" ty="17.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="95.4" y="141.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="10" duration="12" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="good_kid" centerPoint3DX="95.45" centerPoint3DY="141.45">
+                  <matrix>
+                    <Matrix a="0.810531616210938" d="0.810531616210938" tx="18.1" ty="26.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="95.35" y="141.4"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="5" duration="17" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="badkid">
+                  <matrix>
+                    <Matrix tx="25.05" ty="25.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="77.4" y="117.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,61 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="glucose_appear" itemID="554a260c-00000208" lastModified="1430960306">
+  <timeline>
+    <DOMTimeline name="glucose_appear">
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" duration="11" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="11" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_hover" symbolType="graphic" centerPoint3DX="16.1" centerPoint3DY="16.1" loop="single frame">
+                  <matrix>
+                    <Matrix a="0.028839111328125" d="0.02880859375" tx="17.65" ty="15.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-10.4" y="27.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="6" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_hover" symbolType="graphic" centerPoint3DX="16.5" centerPoint3DY="15.7" loop="single frame">
+                  <matrix>
+                    <Matrix a="0.54150390625" d="0.540878295898438" tx="22.55" ty="0.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-9.6" y="28.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="11" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_hover" symbolType="graphic" centerPoint3DX="16.75" centerPoint3DY="15.6" loop="single frame">
+                  <matrix>
+                    <Matrix a="0.4217529296875" d="0.4212646484375" tx="21.4" ty="4.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-9.6" y="28.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

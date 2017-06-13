@@ -1,0 +1,48 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ketone_float" itemID="55563ea1-00000447" lastModified="1431715657" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="ketone_float">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="21" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ketone">
+                  <matrix>
+                    <Matrix a="2.4359130859375" d="2.4359130859375"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.6" y="34.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="21" duration="20" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ketone" selected="true" centerPoint3DX="96.45" centerPoint3DY="76.5">
+                  <matrix>
+                    <Matrix a="2.4359130859375" d="2.4359130859375" ty="-8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.6" y="34.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="41" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ketone">
+                  <matrix>
+                    <Matrix a="2.4359130859375" d="2.4359130859375"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.6" y="34.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

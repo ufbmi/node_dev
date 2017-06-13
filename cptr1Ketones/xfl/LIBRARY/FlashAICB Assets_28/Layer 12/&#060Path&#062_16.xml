@@ -1,0 +1,36 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="FlashAICB Assets_28/Layer 12/&amp;#060Path&amp;#062_16" itemID="556f2d3e-00000168" lastModified="1433349438">
+  <timeline>
+    <DOMTimeline name="&amp;#060Path&amp;#062_16">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!855 1186[591 882 488 756!488 756[317 547 243 426!243 426[180 327 166 304!166 304[147 273 153 260!153 260[208 216 270 87!270 87|253 0!253 0[50 148 12 275!12 275[-13 359 28 564!28 564[39 619 92 704!92 704[123 753 193 860!193 860|192 879
+!192 879|282 1033!282 1033[363 1180 413 1252!413 1252[477 1343 570 1430!570 1430|855 1186"/>
+                    <Edge cubics="!855 1186(;583,872 353,607 243,426q855 1186Q591 882q488 756Q317 547q243 426);"/>
+                    <Edge cubics="!243 426(;92,176 145,345 270,87q243 426Q180 327q166 304Q147 273q153 260Q208 216q270 87);"/>
+                    <Edge cubics="!270 87(;270,87 253,0 253,0q270 87 253 0);"/>
+                    <Edge cubics="!253 0(253,0;-42,215 -19,329 28,564q253 0Q50 148q12 275Q-13 359q28 564)28,564;"/>
+                    <Edge cubics="!28 564(;46,653 126,749 193,860q28 564Q39 619q92 704Q123 753q193 860);"/>
+                    <Edge cubics="!193 860(;193,860 192,879 192,879q193 860 192 879);"/>
+                    <Edge cubics="!192 879(;192,879 282,1033 282,1033q192 879 282 1033);"/>
+                    <Edge cubics="!282 1033(;380,1212 438,1306 570,1430q282 1033Q363 1180q413 1252Q477 1343q570 1430);"/>
+                    <Edge cubics="!570 1430(;570,1430 855,1186 855,1186q570 1430 855 1186);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

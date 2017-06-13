@@ -1,0 +1,412 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="screen10" itemID="5556106a-000002bf" lastModified="1444062218" lastUniqueIdentifier="17">
+  <persistentData>
+    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+  </persistentData>
+  <timeline>
+    <DOMTimeline name="screen10" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;502&lt;/guideline&gt;&lt;guideline direction="h"&gt;-87&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC" locked="true" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" duration="250" keyMode="9728">
+              <elements>
+                <DOMDynamicText selected="true" fontRenderingMode="device" width="69.85" height="21.8" autoExpand="true" isSelectable="false" lineType="multiline no wrap">
+                  <matrix>
+                    <Matrix tx="345.6" ty="76.65"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Stomach</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineSpacing="3.2" size="16" bitmapSize="320" face="OpenSans-Bold" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="actions" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="137" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="137" duration="112" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[exportRoot.kara.gotoAndPlay("vomiting");]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="249" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.gotoAndPlay("looping");]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="labels" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="185" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="185" duration="65" name="looping" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="guide" color="#4F80FF" locked="true" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" duration="250" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMShape isDrawingObject="true">
+                      <matrix>
+                        <Matrix tx="-538.45" ty="-115.55"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FEFBCC"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!4340 6660[4340 5209 4488 4209!4488 4209[4665 3019 5078 2232!5078 2232[5537 1356 6323 904!6323 904[7172 417 8440 401!8440 401|8440 0!8440 0|0 0!0 0|0 13500!0 13500|8700 13498!8700 13498[6285 13468 5208 11377!5208 11377[4340 9694 4340
+ 6660"/>
+                        <Edge cubics="!4340 6660(;4340,3153 4940,445 8440,401q4340 6660Q4340 5209q4488 4209Q4665 3019q5078 2232Q5537 1356q6323 904Q7172 417q8440 401);"/>
+                        <Edge cubics="!8440 401(;8440,401 8440,0 8440,0q8440 401 8440 0);"/>
+                        <Edge cubics="!8440 0(;8440,0 0,0 0,0q8440 0 0 0);"/>
+                        <Edge cubics="!0 0(;0,0 0,13500 0,13500q0 0 0 13500);"/>
+                        <Edge cubics="!8700 13498(8700,13498;5200,13454 4340,10166 4340,6660q8700 13498Q6285 13468q5208 11377Q4340 9694q4340 6660)4340,6660;"/>
+                        <Edge cubics="!0 13500(;0,13500 8700,13498 8700,13498q0 13500 8700 13498)8700,13498;"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-537.45" ty="-116.05"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!-19 680|-19 -20!-19 -20/18163.5 -20!18163.5 -20/18504 -20!18504 -20/20463 -20!20463 -20/20803 -20!20803 -20/20803 680!20803 680/20463 680!20463 680/18504 680!18504 680/18164 680!18164 680/-19 680"/>
+                    <Edge cubics="!20463 680(;20463,680 18504,680 18504,680q20463 680 18504 680);"/>
+                    <Edge cubics="!18504 680(;18504,680 18164,680 18164,680q18504 680 18164 680);"/>
+                    <Edge cubics="!18164 680(18164,680;18164,680 -19,680 -19,680q18164 680 -19 680)-19,680;"/>
+                    <Edge cubics="!-19 680(;-19,680 -19,-20 -19,-20q-19 680p-19 -20);"/>
+                    <Edge cubics="!-19 -20(;-19,-20 18164,-20 18164,-20q-19 -20 18164 -20);"/>
+                    <Edge cubics="!18164 -20(;18164,-20 18504,-20 18504,-20q18164 -20 18504 -20);"/>
+                    <Edge cubics="!18504 -20(;18504,-20 20463,-20 20463,-20q18504 -20 20463 -20);"/>
+                    <Edge cubics="!20803 680(;20803,680 20463,680 20463,680q20803 680 20463 680);"/>
+                    <Edge cubics="!20463 -20(;20463,-20 20803,-20 20803,-20q20463 -20 20803 -20);"/>
+                    <Edge cubics="!20803 -20(;20803,-20 20803,680 20803,680p20803 -20q20803 680);"/>
+                  </edges>
+                </DOMShape>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix d="3.91429138183594" tx="-537.45" ty="505.8"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!-19 680|-19 -20!-19 -20/18163.5 -20!18163.5 -20/18504 -20!18504 -20/20463 -20!20463 -20/20803 -20!20803 -20/20803 680!20803 680/20463 680!20463 680/18504 680!18504 680/18164 680!18164 680/-19 680"/>
+                    <Edge cubics="!20463 680(;20463,680 18504,680 18504,680q20463 680 18504 680);"/>
+                    <Edge cubics="!18504 680(;18504,680 18164,680 18164,680q18504 680 18164 680);"/>
+                    <Edge cubics="!18164 680(18164,680;18164,680 -19,680 -19,680q18164 680 -19 680)-19,680;"/>
+                    <Edge cubics="!-19 680(;-19,680 -19,-20 -19,-20q-19 680p-19 -20);"/>
+                    <Edge cubics="!-19 -20(;-19,-20 18164,-20 18164,-20q-19 -20 18164 -20);"/>
+                    <Edge cubics="!18164 -20(;18164,-20 18504,-20 18504,-20q18164 -20 18504 -20);"/>
+                    <Edge cubics="!18504 -20(;18504,-20 20463,-20 20463,-20q18504 -20 20463 -20);"/>
+                    <Edge cubics="!20803 680(;20803,680 20463,680 20463,680q20803 680 20463 680);"/>
+                    <Edge cubics="!20463 -20(;20463,-20 20803,-20 20803,-20q20463 -20 20803 -20);"/>
+                    <Edge cubics="!20803 -20(;20803,-20 20803,680 20803,680p20803 -20q20803 680);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="organLabels" color="#808080" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="250" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="screen10_organLabels" selected="true">
+                  <matrix>
+                    <Matrix tx="346.35" ty="81.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="33.85" y="20.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="ketones" color="#009999" locked="true" autoNamed="false" layerType="folder"/>
+        <DOMLayer name="Layer 12" color="#FF4FFF" parentLayerIndex="5" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="167" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="167" duration="83" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ketone_appear" symbolType="graphic" centerPoint3DX="23.35" centerPoint3DY="424.45" loop="play once">
+                  <matrix>
+                    <Matrix a="2.2923583984375" b="0.272415161132812" c="-0.272415161132812" d="2.2923583984375" tx="-12.7" ty="384.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="23" y="15.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 11" color="#FF800A" parentLayerIndex="5" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="167" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="167" duration="83" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ketone_appear" symbolType="graphic" centerPoint3DX="170.85" centerPoint3DY="-33.65" loop="play once">
+                  <matrix>
+                    <Matrix a="2.08468627929688" b="-0.9915771484375" c="0.9915771484375" d="2.08468627929688" tx="118.95" ty="-48.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="23" y="15.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 10" color="#9933CC" parentLayerIndex="5" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="155" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="155" duration="95" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ketone_appear" symbolType="graphic" centerPoint3DX="222.45" centerPoint3DY="455.15" loop="play once">
+                  <matrix>
+                    <Matrix a="2.13639831542969" b="0.874664306640625" c="-0.874664306640625" d="2.13639831542969" tx="198.3" ty="406.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="23" y="15.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 9" color="#4F80FF" parentLayerIndex="5" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="155" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="155" duration="95" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ketone_appear" symbolType="graphic" centerPoint3DX="-178.7" centerPoint3DY="-0.15" loop="play once">
+                  <matrix>
+                    <Matrix a="1.95283508300781" b="-1.231201171875" c="1.231201171875" d="1.95283508300781" tx="-231.9" ty="-8.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="20.25" y="15.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 8" color="#FF4F4F" parentLayerIndex="5" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="144" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="144" duration="106" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ketone_appear" symbolType="graphic" centerPoint3DX="433.65" centerPoint3DY="179.3" loop="play once">
+                  <matrix>
+                    <Matrix a="2.3072509765625" b="0.0776519775390625" c="-0.0776519775390625" d="2.3072509765625" tx="394.7" ty="142.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="20.25" y="15.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 7" color="#669900" parentLayerIndex="5" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="144" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="144" duration="106" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ketone_appear" symbolType="graphic" centerPoint3DX="-214.35" centerPoint3DY="182.45" loop="play once">
+                  <matrix>
+                    <Matrix a="2.21673583984375" b="0.644729614257812" c="-0.644729614257812" d="2.21673583984375" tx="-242.8" ty="137.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="20.25" y="15.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 6" color="#808080" parentLayerIndex="5" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="131" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="131" duration="119" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ketone_appear" symbolType="graphic" centerPoint3DX="-50.2" centerPoint3DY="117.15" loop="play once">
+                  <matrix>
+                    <Matrix a="2.29605102539062" b="-0.2406005859375" c="0.2406005859375" d="2.29605102539062" tx="-93.8" ty="86.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="20.25" y="15.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 5" color="#009999" parentLayerIndex="5" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="131" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="131" duration="119" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ketone_appear" symbolType="graphic" centerPoint3DX="397.8" centerPoint3DY="385.85" loop="play once">
+                  <matrix>
+                    <Matrix a="2.25428771972656" b="-0.497970581054688" c="0.497970581054688" d="2.25428771972656" tx="351.2" ty="359.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="20.2" y="15.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 4" color="#FF4FFF" parentLayerIndex="5" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="118" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="118" duration="132" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ketone_appear" symbolType="graphic" centerPoint3DX="415.55" centerPoint3DY="-2.65" loop="play once">
+                  <matrix>
+                    <Matrix a="2.27520751953125" b="0.391433715820312" c="-0.391433715820312" d="2.27520751953125" tx="382.2" ty="-44.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="20.2" y="15.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A" parentLayerIndex="5" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="118" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="118" duration="132" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ketone_appear" symbolType="graphic" centerPoint3DX="-234.95" centerPoint3DY="360.7" loop="play once">
+                  <matrix>
+                    <Matrix a="2.26416015625" b="-0.451004028320312" c="0.451004028320312" d="2.26416015625" tx="-281.25" ty="333.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.95" y="15.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="stomach paralyze" color="#808080" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="185" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="185" duration="65" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="stomach_paralyze" symbolType="graphic" centerPoint3DX="103.1" centerPoint3DY="214" loop="loop">
+                  <matrix>
+                    <Matrix tx="-151.95" ty="-132.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="251.1" y="346.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="stomach breath" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="185" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="stomach_breathe" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-151.95" ty="-132.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="251.1" y="346.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="185" duration="65" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bg" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="250" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-331" ty="-130.45"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#F26669"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!16524 13779|0 13779!0 13779|0 0!0 0|16524 0!16524 0|16524 13779"/>
+                    <Edge cubics="!16524 13779(;16524,13779 0,13779 0,13779p16524 13779 0 13779);"/>
+                    <Edge cubics="!0 13779(;0,13779 0,0 0,0p0 13779 0 0);"/>
+                    <Edge cubics="!0 0(0,0;0,0 16524,0 16524,0q0 0 16524 0);"/>
+                    <Edge cubics="!16524 0(;16524,0 16524,13779 16524,13779q16524 0 16524 13779)16524,13779;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

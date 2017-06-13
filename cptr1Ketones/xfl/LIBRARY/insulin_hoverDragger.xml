@@ -1,0 +1,55 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="insulin_hoverDragger" itemID="55708e10-000018bd" lastModified="1433439760">
+  <timeline>
+    <DOMTimeline name="insulin_hoverDragger">
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="60" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="30" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="insulin_key" selected="true" centerPoint3DX="106.75" centerPoint3DY="354.5">
+                  <matrix>
+                    <Matrix tx="41" ty="323.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="65.75" y="30.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="30" duration="29" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="insulin_key" centerPoint3DX="106.75" centerPoint3DY="349.5">
+                  <matrix>
+                    <Matrix tx="41" ty="318.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="65.75" y="30.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="59" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="insulin_key" centerPoint3DX="106.75" centerPoint3DY="354.5">
+                  <matrix>
+                    <Matrix tx="41" ty="323.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="65.75" y="30.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

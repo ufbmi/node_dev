@@ -1,0 +1,30 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="FlashAICB Assets_17/character side bar/&amp;#060Path&amp;#062_3" itemID="55564184-000004d4" lastModified="1431716228">
+  <timeline>
+    <DOMTimeline name="&amp;#060Path&amp;#062_3">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!0 768[115 428 124 404!124 404[222 137 309 0!309 0|690 173!690 173[662 220 527 511!527 511[388 810 290 981!290 981|0 768"/>
+                    <Edge cubics="!0 768(;55,605 172,215 309,0q0 768Q115 428q124 404Q222 137q309 0);"/>
+                    <Edge cubics="!309 0(;309,0 690,173 690,173q309 0 690 173);"/>
+                    <Edge cubics="!690 173(;615,299 464,678 290,981q690 173Q662 220q527 511Q388 810q290 981);"/>
+                    <Edge cubics="!290 981(290,981;145,874 145,874 0,768q290 981 0 768)0,768;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,38 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Tween 3" itemID="554a2f05-00000195" symbolType="graphic" lastModified="1435680140">
+  <timeline>
+    <DOMTimeline name="Tween 3">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="dehydration_symptom" selected="true">
+                  <matrix>
+                    <Matrix tx="-101.55" ty="-51.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="101.55" y="47.2"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="dehydration_symptom" selected="true">
+                  <matrix>
+                    <Matrix tx="-101.55" ty="-42.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="101.55" y="47.2"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

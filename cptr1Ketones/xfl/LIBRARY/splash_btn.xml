@@ -1,0 +1,60 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="splash_btn" itemID="55563fb0-0000045e" lastModified="1431715760">
+  <timeline>
+    <DOMTimeline name="splash_btn">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="FlashAICB Assets_16/character side bar/&amp;#060Path&amp;#062_1" selected="true">
+                  <matrix>
+                    <Matrix ty="7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="86.35" y="86.35"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.12109375"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#28C5A4"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!3455 1727[3455 2078 3319 2399!3319 2399[3188 2709 2949 2948!2949 2948[2710 3187 2400 3318!2400 3318[2079 3454 1728 3454!1728 3454[1377 3454 1056 3318!1056 3318[745 3187 506 2948!506 2948[267 2709 136 2399!136 2399[0 2078 0 1727!0 1727
+[0 1376 136 1055!136 1055[267 745 506 506!506 506[745 267 1056 136!1056 136[1377 0 1728 0!1728 0[2079 0 2400 136!2400 136[2710 267 2949 506!2949 506[3188 745 3319 1055!3319 1055[3455 1376 3455 1727"/>
+                    <Edge cubics="!3455 1727(;3455,2681 2681,3454 1728,3454q3455 1727Q3455 2078q3319 2399Q3188 2709q2949 2948Q2710 3187q2400 3318Q2079 3454q1728 3454);"/>
+                    <Edge cubics="!1728 3454(;774,3454 0,2681 0,1727q1728 3454Q1377 3454q1056 3318Q745 3187q506 2948Q267 2709q136 2399Q0 2078q0 1727);"/>
+                    <Edge cubics="!0 1727(;0,773 774,0 1728,0q0 1727Q0 1376q136 1055Q267 745q506 506Q745 267q1056 136Q1377 0q1728 0);"/>
+                    <Edge cubics="!1728 0(;2681,0 3455,773 3455,1727q1728 0Q2079 0q2400 136Q2710 267q2949 506Q3188 745q3319 1055Q3455 1376q3455 1727);"/>
+                  </edges>
+                </DOMShape>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!1670 2696|1670 2211!1670 2211|984 2211!984 2211|984 1243!984 1243|1670 1243!1670 1243|1670 758!1670 758|2638 1727!2638 1727|1670 2696"/>
+                    <Edge cubics="!1670 2696(;1670,2696 1670,2211 1670,2211q1670 2696p1670 2211);"/>
+                    <Edge cubics="!1670 2211(;1670,2211 984,2211 984,2211q1670 2211p984 2211);"/>
+                    <Edge cubics="!984 2211(984,2211;984,2211 984,1243 984,1243q984 2211p984 1243)984,1243;"/>
+                    <Edge cubics="!984 1243(;984,1243 1670,1243 1670,1243q984 1243p1670 1243);"/>
+                    <Edge cubics="!1670 1243(;1670,1243 1670,758 1670,758q1670 1243p1670 758);"/>
+                    <Edge cubics="!1670 758(;1670,758 2638,1727 2638,1727q1670 758p2638 1727);"/>
+                    <Edge cubics="!2638 1727(2638,1727;2638,1727 1670,2696 1670,2696q2638 1727p1670 2696);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

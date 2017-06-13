@@ -1,0 +1,48 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="heavybreathing_hover" itemID="554a3aae-000002e7" lastModified="1430928064" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="heavybreathing_hover">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="15" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="heavybreathing_symptom" centerPoint3DX="96" centerPoint3DY="54.6">
+                  <matrix>
+                    <Matrix ty="18"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="96" y="36.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="15" duration="14" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="heavybreathing_symptom" selected="true" centerPoint3DX="96" centerPoint3DY="49.6">
+                  <matrix>
+                    <Matrix ty="13"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="96" y="36.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="29" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="heavybreathing_symptom" centerPoint3DX="96" centerPoint3DY="54.6">
+                  <matrix>
+                    <Matrix ty="18"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="96" y="36.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

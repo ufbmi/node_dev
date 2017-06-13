@@ -1,0 +1,471 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="xray_open" itemID="5556490c-0000071d" lastModified="1432147562">
+  <timeline>
+    <DOMTimeline name="xray_open" currentFrame="13">
+      <layers>
+        <DOMLayer name="actions" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="13" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="13" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.stop();]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="top xray" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="13" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="top_xray">
+                  <matrix>
+                    <Matrix tx="-102.85" ty="226.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="168.7" y="3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="13" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="top_xray" centerPoint3DX="65.85" centerPoint3DY="97.7">
+                  <matrix>
+                    <Matrix tx="-102.85" ty="94.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="168.7" y="3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bottom xray" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="13" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bottom_xray">
+                  <matrix>
+                    <Matrix tx="-102.85" ty="226.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="168.7" y="3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="13" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bottom_xray" centerPoint3DX="65.85" centerPoint3DY="362.7">
+                  <matrix>
+                    <Matrix tx="-102.85" ty="359.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="168.7" y="3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 4" color="#FF4FFF" locked="true" layerType="mask">
+          <frames>
+            <DOMFrame index="0" duration="13" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="xray_mask">
+                  <matrix>
+                    <Matrix tx="-116.35" ty="227.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="194.45" y="2.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="13" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="xray_mask">
+                  <matrix>
+                    <Matrix d="59.1803131103516" tx="-116.35" ty="96.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="194.45" y="2.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="FlashAICB" color="#009999" parentLayerIndex="3" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="14" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ketone_appear" symbolType="graphic" firstFrame="11" centerPoint3DX="139.25" centerPoint3DY="178.55" loop="play once">
+                  <matrix>
+                    <Matrix a="0.968292236328125" b="0.24969482421875" c="-0.24969482421875" d="0.968292236328125" tx="127.25" ty="159.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="18.05" y="15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="FlashAICB" color="#808080" parentLayerIndex="3" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="14" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ketone_appear" symbolType="graphic" firstFrame="11" centerPoint3DX="-1.15" centerPoint3DY="152.3" loop="play once">
+                  <matrix>
+                    <Matrix a="0.935333251953125" b="-0.353668212890625" c="0.353668212890625" d="0.935333251953125" tx="-22.2" ty="143.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="18.1" y="15.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="FlashAICB" color="#669900" parentLayerIndex="3" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="14" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ketone_appear" symbolType="graphic" firstFrame="11" centerPoint3DX="91.9" centerPoint3DY="317.4" loop="play once">
+                  <matrix>
+                    <Matrix a="0.970443725585938" b="0.241195678710938" c="-0.241195678710938" d="0.970443725585938" tx="79.65" ty="298.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="18.05" y="15.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="FlashAICB" color="#FF4F4F" parentLayerIndex="3" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="14" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ketone_appear" symbolType="graphic" firstFrame="11" centerPoint3DX="48.8" centerPoint3DY="257.75" loop="play once">
+                  <matrix>
+                    <Matrix a="0.986984252929688" b="-0.160629272460938" c="0.160629272460938" d="0.986984252929688" tx="29.8" ty="244.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="18.05" y="15.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="FlashAICB" color="#4F80FF" parentLayerIndex="3" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="14" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ketone_appear" symbolType="graphic" firstFrame="11" centerPoint3DX="86.35" centerPoint3DY="211.8" loop="play once">
+                  <matrix>
+                    <Matrix a="0.982437133789062" b="0.186431884765625" c="-0.186431884765625" d="0.982437133789062" tx="73.1" ty="193.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="18.05" y="15.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="FlashAICB" color="#9933CC" parentLayerIndex="3" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="14" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ketone_appear" symbolType="graphic" firstFrame="11" centerPoint3DX="44.75" centerPoint3DY="169.2" loop="play once">
+                  <matrix>
+                    <Matrix a="0.956375122070312" b="-0.292022705078125" c="0.292022705078125" d="0.956375122070312" tx="24.45" ty="159.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16.05" y="14.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="FlashAICB" color="#FF800A" parentLayerIndex="3" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="14" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ketone_appear" symbolType="graphic" firstFrame="11" centerPoint3DX="79.35" centerPoint3DY="125.3" loop="play once">
+                  <matrix>
+                    <Matrix a="0.982437133789062" b="0.186508178710938" c="-0.186508178710938" d="0.982437133789062" tx="65.85" ty="106.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.1" y="14.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="glucose 1" color="#FF4FFF" parentLayerIndex="3" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="14" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_appear" symbolType="graphic" firstFrame="11" centerPoint3DX="-10.65" centerPoint3DY="202.65" loop="play once">
+                  <matrix>
+                    <Matrix a="0.953872680664062" b="0.300155639648438" c="-0.300155639648438" d="0.953872680664062" tx="-21.8" ty="182.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16.6" y="16.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="glucose 1" color="#009999" parentLayerIndex="3" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="14" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_appear" symbolType="graphic" firstFrame="11" centerPoint3DX="45.85" centerPoint3DY="311.1" loop="play once">
+                  <matrix>
+                    <Matrix a="0.977203369140625" b="-0.212234497070312" c="0.212234497070312" d="0.977203369140625" tx="26.35" ty="299.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16.55" y="16.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="glucose 1" color="#808080" parentLayerIndex="3" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="14" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_appear" symbolType="graphic" firstFrame="11" centerPoint3DX="112.35" centerPoint3DY="127.7" loop="play once">
+                  <matrix>
+                    <Matrix a="0.947235107421875" b="0.320526123046875" c="-0.320526123046875" d="0.947235107421875" tx="101.6" ty="107.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16.55" y="16.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="insulin 4" color="#669900" parentLayerIndex="3" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="14" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="insulin_disappear" symbolType="graphic" firstFrame="10" centerPoint3DX="91.6" centerPoint3DY="120.4" loop="play once">
+                  <matrix>
+                    <Matrix a="0.84033203125" b="0.5419921875" c="-0.5419921875" d="0.84033203125" tx="79.85" ty="87.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="27.65" y="21.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="insulin 3" color="#FF4F4F" parentLayerIndex="3" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="14" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="insulin_disappear" symbolType="graphic" firstFrame="10" centerPoint3DX="46.25" centerPoint3DY="164.75" loop="play once">
+                  <matrix>
+                    <Matrix a="0.7799072265625" b="-0.6258544921875" c="0.6258544921875" d="0.7799072265625" tx="11.4" ty="165.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="27.6" y="21.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="insulin 2" color="#4F80FF" parentLayerIndex="3" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="14" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="insulin_disappear" symbolType="graphic" firstFrame="10" centerPoint3DX="87.45" centerPoint3DY="205.5" loop="play once">
+                  <matrix>
+                    <Matrix a="0.587554931640625" b="0.809173583984375" c="-0.809173583984375" d="0.587554931640625" tx="88.35" ty="170.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="27.7" y="21.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="insuiln 1" color="#9933CC" parentLayerIndex="3" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="14" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="insulin_disappear" symbolType="graphic" firstFrame="10" centerPoint3DX="48.7" centerPoint3DY="247.25" loop="play once">
+                  <matrix>
+                    <Matrix tx="21.05" ty="226.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="27.65" y="21.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="og glucose" color="#FF800A" parentLayerIndex="3" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="14" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose_hover" symbolType="graphic" centerPoint3DX="45" centerPoint3DY="213.05" loop="single frame">
+                  <matrix>
+                    <Matrix a="0.397171020507812" b="-0.142059326171875" c="0.142303466796875" d="0.396530151367188" tx="45.5" ty="200.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-9.45" y="28.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="glucose_hover" symbolType="graphic" centerPoint3DX="86.65" centerPoint3DY="164.6" loop="single frame">
+                  <matrix>
+                    <Matrix a="0.379791259765625" b="0.183486938476562" c="-0.182876586914062" d="0.379531860351562" tx="95.8" ty="156.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-9.65" y="28.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="glucose_hover" symbolType="graphic" centerPoint3DX="39.8" centerPoint3DY="120.85" loop="single frame">
+                  <matrix>
+                    <Matrix a="0.376007080078125" b="-0.191070556640625" c="0.191238403320312" d="0.375381469726562" tx="38.75" ty="108.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-9.65" y="28.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="glucose_hover" symbolType="graphic" centerPoint3DX="96.05" centerPoint3DY="250" loop="single frame">
+                  <matrix>
+                    <Matrix a="0.410369873046875" b="0.09747314453125" c="-0.096923828125" d="0.409988403320312" tx="103.2" ty="239.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-9.45" y="28.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="xray" color="#FF4FFF" parentLayerIndex="3" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="14" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMShape isDrawingObject="true">
+                      <matrix>
+                        <Matrix tx="-102.85" ty="94.7"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#5231D3"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!6749 5341|0 5341!0 5341|0 58!0 58|6749 58!6749 58|6749 5341"/>
+                        <Edge cubics="!6749 5341(;6749,5341 0,5341 0,5341q6749 5341 0 5341);"/>
+                        <Edge cubics="!0 5341(;0,5341 0,58 0,58q0 5341 0 58);"/>
+                        <Edge cubics="!0 58(;0,58 6749,58 6749,58q0 58 6749 58);"/>
+                        <Edge cubics="!6749 58(;6749,58 6749,5341 6749,5341q6749 58 6749 5341);"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-102.85" ty="94.7"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#382679"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="none" weight="8">
+                        <fill>
+                          <SolidColor color="#382679"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!4306 362[4716 705 4951 1338!4951 1338[5155 1888 5201 2575!5201 2575|5107 2575!5107 2575[5154 2603 5185 2644!5185 2644[5225 2698 5208 2746!5208 2746[5195 2786 5149 2776!5149 2776[5106 2768 5082 2733!5082 2733[5101 2765 5109 2816!5109
+ 2816[5118 2869 5107 2899!5107 2899[5089 2955 5041 2957!5041 2957[4993 2958 4973 2908!4973 2908[4971 2964 4907 2992!4907 2992[4843 3020 4806 2980!4806 2980[4786 2957 4779 2919!4779 2919[4772 2882 4781 2848!4781 2848[4752 2871 4716 2861
+!4716 2861[4682 2852 4659 2822!4659 2822[4602 2744 4680 2684!4680 2684[4687 2678 4716 2665!4716 2665[4740 2655 4749 2640!4749 2640[4759 2626 4763 2599!4763 2599[4766 2575 4767 2575!4767 2575|4717 2575!4717 2575[4676 1946 4527 1495!4527
+ 1495[4356 978 4033 665!4033 665|4379 3446!4379 3446|4002 3474!4002 3474[4033 3919 4101 4669!4101 4669|4157 5320!4157 5320|3682 5320!3682 5320|3629 4712!3629 4712[3560 3955 3530 3511!3530 3511|3260 3532!3260 3532[3255 3926 3230 4702!3230
+ 4702[3216 5148 3212 5320!3212 5320|2738 5320!2738 5320[2743 5138 2757 4686!2757 4686[2782 3878 2786 3566!2786 3566|2440 3592!2440 3592|2645 705!2645 705[2446 857 2330 1042!2330 1042[2219 1219 2161 1463!2161 1463[2109 1679 2085 2015!2085
+ 2015[2070 2224 2052 2745!2052 2745|1971 2751!1971 2751[1974 2763 1979 2787!1979 2787[1984 2808 1995 2820!1995 2820[2007 2836 2032 2847!2032 2847[2065 2862 2071 2866!2071 2866[2158 2919 2105 3003!2105 3003[2084 3036 2050 3048!2050 3048
+[2013 3061 1981 3041!1981 3041[1993 3075 1989 3113!1989 3113[1985 3152 1966 3177!1966 3177[1932 3219 1863 3197!1863 3197[1794 3175 1786 3120!1786 3120[1770 3171 1720 3174!1720 3174[1669 3177 1646 3122!1646 3122[1633 3093 1637 3040!1637
+ 3040[1641 2988 1658 2955!1658 2955[1636 2990 1591 2997!1591 2997[1544 3005 1527 2966!1527 2966[1506 2922 1539 2865!1539 2865[1562 2823 1608 2782!1608 2782|1543 2791!1543 2791[1593 2261 1615 2082!1615 2082[1665 1687 1740 1406!1740 1406
+[1930 684 2383 351!2383 351|2459 308!2459 308[2557 257 2663 214!2663 214[3002 78 3299 80!3299 80[3672 82 3879 136!3879 136[4109 196 4306 362"/>
+                    <Edge cubics="!4306 362(;4888,849 5145,1739 5201,2575q4306 362Q4716 705q4951 1338Q5155 1888q5201 2575);"/>
+                    <Edge cubics="!5201 2575(;5201,2575 5107,2575 5107,2575q5201 2575 5107 2575);"/>
+                    <Edge cubics="!5107 2575(;5154,2603 5234,2674 5208,2746q5107 2575Q5154 2603q5185 2644Q5225 2698q5208 2746);"/>
+                    <Edge cubics="!5208 2746(;5190,2803 5111,2774 5082,2733q5208 2746Q5195 2786q5149 2776Q5106 2768q5082 2733);"/>
+                    <Edge cubics="!5082 2733(;5106,2774 5122,2858 5107,2899q5082 2733Q5101 2765q5109 2816Q5118 2869q5107 2899);"/>
+                    <Edge cubics="!5107 2899(;5083,2976 4999,2973 4973,2908q5107 2899Q5089 2955q5041 2957Q4993 2958q4973 2908);"/>
+                    <Edge cubics="!4973 2908(;4970,2982 4855,3033 4806,2980q4973 2908Q4971 2964q4907 2992Q4843 3020q4806 2980);"/>
+                    <Edge cubics="!4806 2980(4806,2980;4779,2949 4769,2893 4781,2848q4806 2980Q4786 2957q4779 2919Q4772 2882q4781 2848);"/>
+                    <Edge cubics="!4781 2848(;4700,2912 4571,2768 4680,2684q4781 2848Q4752 2871q4716 2861Q4682 2852q4659 2822Q4602 2744q4680 2684)4680,2684;"/>
+                    <Edge cubics="!4680 2684(4680,2684;4700,2666 4733,2667 4749,2640q4680 2684Q4687 2678q4716 2665Q4740 2655q4749 2640)4749,2640;"/>
+                    <Edge cubics="!4749 2640(;4766,2617 4763,2575 4767,2575q4749 2640Q4759 2626q4763 2599Q4766 2575q4767 2575);"/>
+                    <Edge cubics="!4767 2575(4767,2575;4767,2575 4717,2575 4717,2575q4767 2575 4717 2575)4717,2575;"/>
+                    <Edge cubics="!4717 2575(;4667,1800 4488,1107 4033,665q4717 2575Q4676 1946q4527 1495Q4356 978q4033 665);"/>
+                    <Edge cubics="!4033 665(;4033,665 4379,3446 4379,3446q4033 665 4379 3446);"/>
+                    <Edge cubics="!4379 3446(;4379,3446 4002,3474 4002,3474q4379 3446 4002 3474);"/>
+                    <Edge cubics="!4002 3474(;4029,3866 4066,4285 4101,4669q4002 3474Q4033 3919q4101 4669);"/>
+                    <Edge cubics="!4101 4669(;4121,4895 4140,5116 4157,5320q4101 4669 4157 5320);"/>
+                    <Edge cubics="!4157 5320(;4157,5320 3682,5320 3682,5320q4157 5320 3682 5320);"/>
+                    <Edge cubics="!3682 5320(;3666,5129 3648,4923 3629,4712q3682 5320 3629 4712);"/>
+                    <Edge cubics="!3629 4712(;3594,4326 3557,3906 3530,3511q3629 4712Q3560 3955q3530 3511);"/>
+                    <Edge cubics="!3530 3511(;3530,3511 3260,3532 3260,3532q3530 3511 3260 3532);"/>
+                    <Edge cubics="!3260 3532(3260,3532;3255,3918 3242,4328 3230,4702q3260 3532Q3255 3926q3230 4702)3230,4702;"/>
+                    <Edge cubics="!3230 4702(3230,4702;3223,4918 3216,5126 3212,5320q3230 4702Q3216 5148q3212 5320);"/>
+                    <Edge cubics="!3212 5320(;3212,5320 2738,5320 2738,5320q3212 5320 2738 5320);"/>
+                    <Edge cubics="!2738 5320(;2743,5120 2750,4905 2757,4686q2738 5320Q2743 5138q2757 4686);"/>
+                    <Edge cubics="!2757 4686(2757,4686;2768,4327 2781,3934 2786,3566q2757 4686Q2782 3878q2786 3566)2786,3566;"/>
+                    <Edge cubics="!2786 3566(;2786,3566 2440,3592 2440,3592q2786 3566 2440 3592)2440,3592;"/>
+                    <Edge cubics="!2440 3592(2440,3592;2440,3592 2645,705 2645,705q2440 3592 2645 705);"/>
+                    <Edge cubics="!2645 705(;2106,1118 2090,1633 2052,2745q2645 705Q2446 857q2330 1042Q2219 1219q2161 1463Q2109 1679q2085 2015Q2070 2224q2052 2745);"/>
+                    <Edge cubics="!2052 2745(;2052,2745 1971,2751 1971,2751q2052 2745 1971 2751);"/>
+                    <Edge cubics="!1971 2751(;1977,2774 1978,2801 1995,2820q1971 2751Q1974 2763q1979 2787Q1984 2808q1995 2820);"/>
+                    <Edge cubics="!1995 2820(1995,2820;2015,2847 2049,2850 2071,2866q1995 2820Q2007 2836q2032 2847Q2065 2862q2071 2866)2071,2866;"/>
+                    <Edge cubics="!2071 2866(;2192,2940 2071,3098 1981,3041q2071 2866Q2158 2919q2105 3003Q2084 3036q2050 3048Q2013 3061q1981 3041);"/>
+                    <Edge cubics="!1981 3041(;1997,3085 1992,3143 1966,3177q1981 3041Q1993 3075q1989 3113Q1985 3152q1966 3177);"/>
+                    <Edge cubics="!1966 3177(;1920,3233 1796,3193 1786,3120q1966 3177Q1932 3219q1863 3197Q1794 3175q1786 3120);"/>
+                    <Edge cubics="!1786 3120(;1765,3186 1678,3197 1646,3122q1786 3120Q1770 3171q1720 3174Q1669 3177q1646 3122);"/>
+                    <Edge cubics="!1646 3122(;1628,3082 1636,2998 1658,2955q1646 3122Q1633 3093q1637 3040Q1641 2988q1658 2955);"/>
+                    <Edge cubics="!1658 2955(;1631,2998 1551,3021 1527,2966q1658 2955Q1636 2990q1591 2997Q1544 3005q1527 2966);"/>
+                    <Edge cubics="!1527 2966(;1496,2900 1562,2823 1608,2782q1527 2966Q1506 2922q1539 2865Q1562 2823q1608 2782);"/>
+                    <Edge cubics="!1608 2782(;1608,2782 1543,2791 1543,2791q1608 2782 1543 2791)1543,2791;"/>
+                    <Edge cubics="!1543 2791(1543,2791;1632,1847 1698,854 2383,351q1543 2791Q1593 2261q1615 2082Q1665 1687q1740 1406Q1930 684q2383 351);"/>
+                    <Edge cubics="!2383 351(;2383,351 2824,77 3299,80q2383 351Q2383 351q2459 308Q2557 257q2663 214Q3002 78q3299 80);"/>
+                    <Edge cubics="!3299 80(;3775,82 4033,133 4306,362q3299 80Q3672 82q3879 136Q4109 196q4306 362);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
