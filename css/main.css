@@ -57,6 +57,26 @@ textarea {
     resize: vertical;
 }
 
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+    margin: 2px 1px;
+    cursor: pointer;
+}
+
+input[type=reset] {
+    background-color: #9e9e9e;
+    border: none;
+    color: white;
+    padding: 10px 13px;
+    text-decoration: none;
+    margin: 2px 1px;
+    cursor: pointer;
+}
+
 h1 {
     padding-left: 45px;
     padding-top: 20px;
@@ -226,7 +246,7 @@ h1#title:hover, h1#title:active {
 }
 
 #indicatingBlank{
-    color:grey;
+    color:blue;
 }
 
 #principalImg img {
