@@ -59,10 +59,23 @@ function scrollTopSmooth()
 }
 
 // pop up func
-function popFunction() {
-    var popup = document.getElementById("myPopup");
+function popInsulin() {
+    var popup = document.getElementById("PopupInsulin");
     popup.classList.toggle("show");
+
 }
+
+function popPancreas() {
+    var popup2 = document.getElementById("PopupPancreas");
+    popup2.classList.toggle("show");
+}
+
+function popGlucose() {
+    var popup2 = document.getElementById("PopupGlucose");
+    popup2.classList.toggle("show");
+}
+
+
 
 
 // When the user clicks on the button, scroll to the top of the document

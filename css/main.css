@@ -417,17 +417,22 @@ h1#title:hover, h1#title:active {
     opacity: 0.7;
 }
 
-/* pop up */
+/* Popup container - can be anything you want */
 .popup {
     position: relative;
     display: inline-block;
     cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
 }
 
-/* The actual popup (appears on top) */
+/* The actual popup */
 .popup .popuptext {
     visibility: hidden;
-    width: 160px;
+    width: 230px;
     background-color: #555;
     color: #fff;
     text-align: center;
@@ -438,6 +443,10 @@ h1#title:hover, h1#title:active {
     bottom: 125%;
     left: 50%;
     margin-left: -80px;
+}
+
+.popuptext{
+        font-size: 20px;
 }
 
 /* Popup arrow */
@@ -452,11 +461,11 @@ h1#title:hover, h1#title:active {
     border-color: #555 transparent transparent transparent;
 }
 
-/* Toggle this class when clicking on the popup container (hide and show the popup) */
+/* Toggle this class - hide and show the popup */
 .popup .show {
     visibility: visible;
     -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s
+    animation: fadeIn 1s;
 }
 
 /* Add animation (fade in the popup) */
@@ -469,7 +478,6 @@ h1#title:hover, h1#title:active {
     from {opacity: 0;}
     to {opacity:1 ;}
 }
-
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
