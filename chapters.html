@@ -57,6 +57,8 @@
                     </li>
                 </ul>
             </div>
+            </div>
+
             <!-- /#sidebar-wrapper -->
 
             <!-- Page Content -->
@@ -74,10 +76,10 @@
                 <div class="container">
                     <div id="myCarousel" class="carousel slide" data-interval="false">
                         <!-- Indicators -->
-                        <!--<ol class="carousel-indicators">-->
-                            <!--<li data-target="#myCarousel" data-slide-to="0" class="active"></li>-->
-                            <!--<li data-target="#myCarousel" data-slide-to="1"></li>-->
-                            <!--<li data-target="#myCarousel" data-slide-to="2"></li>-->
+                        <!--<ol class="carousel-indicators carousel-indicators-numbers">-->
+                            <!--<li data-target="#myCarousel" data-slide-to="0" class="active">1</li>-->
+                            <!--<li data-target="#myCarousel" data-slide-to="1">2</li>-->
+                            <!--<li data-target="#myCarousel" data-slide-to="2">3</li>-->
                         <!--</ol>-->
 
                         <!-- Wrapper for slides -->
@@ -86,7 +88,7 @@
                             <div id="slide1" class="item active">
                                 <div class="extraPadding">
                                     <h2 class="heading">Chapter 1</h2>
-                                    <h1>What is Diabetes?</h1>
+                                    <h1>What is Diabetes ?</h1>
                                     <img width="250px" height=auto src="img/2 Kara questions.png">
                                 </div>
                             </div>
@@ -107,7 +109,7 @@
                             <div id="slide3" class="item">
                                 <div class="row">
                                     <h3 class="heading">SECTION 2</h3>
-                                    <h4><span style="color:red">Interactive 1.1</span> Let’s Review</h4>
+                                    <h4 class="pad-left"><span style="color:red">Interactive 1.1</span> Let’s Review</h4>
                                     <h1 class="center">Let’s Review</h1>
                                 </div>
                                 <h2>There are two main types of diabetes</h2>
@@ -126,7 +128,6 @@
                                                 <span class="popuptext" id="PopupPancreas">The part of the body that makes insulin</span>.
                                                 </div>
                                             </h2>
-                                          
                                         </div>
                                         <div class="stars col-lg-6">
                                             <button onclick="document.getElementById('hiddenT2').style.display = 'block';this.style.display = 'none'"><img width="100px" height=auto src="https://images.vexels.com/media/users/3/134121/isolated/preview/5ff73adb05d7f1fe47dd49bb1b08affa-star-cartoon-icon-50-by-vexels.png"></button>
@@ -142,10 +143,10 @@
                             <div id="slide4" class="item" >
                                 <div class="row col-lg-12">
                                     <h3 class="heading">SECTION 3</h3>
-                                    <h4><span style="color:red">Interactive 1.2</span> What is insulin and why is it so important</h4>
+                                    <h4 class="pad-left"><span style="color:red">Interactive 1.2</span> What is insulin and why is it so important?</h4>
                                 </div>
                                 <div class="stars col-lg-12">
-                                    <h2 class="center">What is insulin and why is it so important</h2>
+                                    <h2 class="center">What is insulin and why is it so important?</h2>
                                     <button onclick="document.getElementById('hiddenT3').style.display = 'block';this.style.display = 'none'"><img width="100px" height=auto src="https://images.vexels.com/media/users/3/134121/isolated/preview/5ff73adb05d7f1fe47dd49bb1b08affa-star-cartoon-icon-50-by-vexels.png"></button>
                                     <h2 id="hiddenT3" style="display:none;">
                                         Insulin is needed to move 
@@ -166,10 +167,10 @@
                             <div id="slide5" class="item" >
                                 <div class="row col-lg-12">
                                     <h3 class="heading">SECTION 4</h3>
-                                    <h4><span style="color:red">Interactive 1.3</span> Why doesn’t the body make enough insulin in type 1 diabetes</h4>
-                                    <h2 class="center">Why doesn’t the body make enough insulin in type 1 diabetes?</h2>
+                                    <h4 class="pad-left"><span style="color:red">Interactive 1.3</span> Why doesn’t the body make enough insulin in type 1 diabetes</h4>
                                 </div>
                                 <div class="row col-lg-12">
+                                    <h2 class="center">Why doesn’t the body make enough insulin in type 1 diabetes?</h2>
                                     <button onclick="document.getElementById('hiddenT5').style.display = 'block';document.getElementById('hiddenButton1').style.display = 'block';this.style.display = 'none'"><img width="100px" height=auto src="https://images.vexels.com/media/users/3/134121/isolated/preview/5ff73adb05d7f1fe47dd49bb1b08affa-star-cartoon-icon-50-by-vexels.png"></button>
                                     <h2 id="hiddenT5" style="display:none;">
                                       The immune system normally fight infections
@@ -184,7 +185,7 @@
                             <div id="slide6" class="item">
                                 <div class="row col-lg-12">
                                     <h3 class="heading">SECTION 5</h3>
-                                    <h4><span style="color:red">Interactive 1.4</span> Why doesn’t the body make enough insulin in type 1 diabetes?</h4>
+                                    <h4 class="pad-left"><span style="color:red">Interactive 1.4</span> Why doesn’t the body make enough insulin in type 1 diabetes?</h4>
                                 </div>
         
                                 <div>
@@ -212,7 +213,7 @@
                             <div id="slide8" class="item">
                                 <div class="col-lg-12">
                                     <h3 class="heading">SECTION 7</h3>
-                                    <h4>Type 1 diabetes vs. Type 2 diabetes</h4>
+                                    <h4 class="pad-left">Type 1 diabetes vs. Type 2 diabetes</h4>
                                 </div>
                                 <div class="col-lg-6">
                                     <h2> Type 1 diabetes is treated with insulin which is usually given through a needle</h2>
@@ -231,7 +232,8 @@
                                     <h4><span style="color:red">Review 1.1</span> Questions</h4>
                                 </div>
                                 <form>
-                                <h3 id="questionCptr1"  class="center">What is Insulin ?<BR><br><br>
+                                    <h1>What is Insulin ?</h1>
+                                    <h3 id="questionCptr1">
                                     <input type="radio" name="cptr1q1" value="true"> A. Hormone that lowers glucose levels<BR>
                                     <input type="radio" name="cptr1q1" value="false"> B. Hormone that raises glucose levels<BR>
                                     <input type="radio" name="cptr1q1" value="false"> C. Hormone that breaks down fat and protein<BR>
@@ -243,9 +245,9 @@
                                     <!-- <button id="answer">Check Answers</button> -->
                                     <input class="center" id="answer" type="submit" value="Check Answers">
                                     <!-- when reset, clearing all the indicating texts:) -->
-                                    <input class="center" type="reset" value="Clear Answer" onclick="document.getElementById('indicatingCorrect').style.display = 'none'; 
+                                    <input class="center" type="reset" value="Clear Answer" onclick="document.getElementById('indicatingCorrect').style.display = 'none';
                                         document.getElementById('indicatingWrong').style.display = 'none';document.getElementById('indicatingBlank').style.display = 'none'">
-                                </h3>
+                                    </h3>
                                 </form>
 
                             </div>

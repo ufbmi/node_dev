@@ -203,6 +203,19 @@ h1#title:hover, h1#title:active {
 }
 
 /* remove shadow in the carousel controls */
+/*.carousel-indicators-numbers li {*/
+    /*text-indent: 0;*/
+    /*margin: 0 2px;*/
+    /*width: 30px;*/
+    /*height: 30px;*/
+    /*border: none;*/
+    /*border-radius: 100%;*/
+    /*line-height: 30px;*/
+    /*color: #fff;*/
+    /*background-color: #999;*/
+    /*transition: all 0.25s ease;*/
+/*}*/
+
 .carousel-control {
     top:50%;
     width:auto;
@@ -218,6 +231,7 @@ h1#title:hover, h1#title:active {
     display:block;
     font-size: 40px;
 }
+
 .carousel-control .glyphicon-circle-arrow-left:before, .glyphicon-circle-arrow-right:before {
     margin-left:35px;
     margin-right: 35px;
@@ -240,6 +254,16 @@ h1#title:hover, h1#title:active {
 
 .stars {
     padding: 20px;
+}
+
+.text-center {
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.pad-left {
+    padding-left: 45px;
 }
 
 #indicatingCorrect {
@@ -308,37 +332,9 @@ h1#title:hover, h1#title:active {
     font-weight: bold;
 }
 
-#slide3 h4 {
-    padding-left: 45px;
-}
-
-#slide3 h1 {
-
-}
-
-#slide3 h2 {
-
-}
-
 #slide3 img {
     float: right;
     margin-right: 20px;
-}
-
-#slide4 h4 {
-    padding-left: 45px;
-}
-
-#slide5 h4 {
-    padding: 45px;
-}
-
-#slide6 h4 {
-    padding-left: 45px;
-}
-
-#slide9 h4 {
-    padding-left: 45px;
 }
 
 #sidebar-wrapper {
