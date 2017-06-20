@@ -78,8 +78,10 @@ input[type=reset] {
 }
 
 iframe{
-    height:735px;
+    height:835px;
     border-width: 0;
+    background-color: clear;
+
 }
 
 h1 {

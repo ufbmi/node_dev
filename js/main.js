@@ -18,6 +18,13 @@ $('#smooth').on('click', function(e) {
      });
 
 });
+// change bg color of i frame func
+function whiteFrameBg() {
+    var x = document.getElementById("myframe");
+    var y = (x.contentWindow || x.contentDocument);
+    if (y.document)y = y.document;
+    y.body.style.backgroundColor = "white";
+}
 
 
 // scrtoll to top func
@@ -173,7 +180,7 @@ var width = 120;
 var height = 120;
 
 var stage = new Konva.Stage({
-    container: 'resizingButton',
+    container: ".resizingButton",
     width: width,
     height: height
 });
