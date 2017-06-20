@@ -169,11 +169,11 @@ $('#myCarousel').bind('slid.bs.carousel', function (e)
         });
 // -------------------------------------------------Konva lib objs--------------------//
 
-var width = window.innerWidth;
-var height = window.innerHeight;
+var width = 120;
+var height = 120;
 
 var stage = new Konva.Stage({
-    container: 'container',
+    container: 'resizingButton',
     width: width,
     height: height
 });
@@ -187,10 +187,10 @@ var layer = new Konva.Layer();
 */
 var imageObj = new Image();
 var blueHex = new Konva.Image({
-    x: stage.getWidth() / 3,
-    y: stage.getHeight() / 4,
+    x: 0,
+    y: 0,
     image: imageObj,
-    draggable: true
+    draggable: false
 });
 
 /*
