@@ -266,6 +266,9 @@ h1#title:hover, h1#title:active {
     padding-left: 45px;
 }
 
+#fontSizeTitle{
+    font-size: 38px;
+}
 #indicatingCorrect {
     color:green;
 }
@@ -336,6 +339,10 @@ h1#title:hover, h1#title:active {
     float: right;
     margin-right: 20px;
 }
+
+/*.left {
+  display: none;
+}*/
 
 #sidebar-wrapper {
     background-color: white;

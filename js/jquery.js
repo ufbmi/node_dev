@@ -7,3 +7,22 @@ if(k&&j[k]&&(e||j[k].data)||void 0!==d||"string"!=typeof b)return k||(k=i?a[h]=c
  $(function(){
       $("#ketonesWp").load("cptr1Ketones/site/index.html"); 
     });
+
+
+//  $('.carousel').carousel({
+//   wrap: false
+// }).on('slid.bs.carousel', function () {
+//     curSlide = $('.active');
+//   if(curSlide.is( ':first-child' )) {
+//      $('.left').hide();
+//      return;
+//   } else {
+//      $('.left').show();   
+//   }
+//   if (curSlide.is( ':last-child' )) {
+//      $('.right').hide();
+//      return;
+//   } else {
+//      $('.right').show();      
+//   }
+// });
