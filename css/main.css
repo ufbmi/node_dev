@@ -266,7 +266,7 @@ h1#title:hover, h1#title:active {
     padding-left: 45px;
 }
 
-#fontSizeTitle{
+.fontSizeTitle{
     font-size: 38px;
 }
 #indicatingCorrect {
