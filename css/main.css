@@ -123,31 +123,6 @@ h1#title:hover, h1#title:active {
     margin-right: 200px;
 }
 
-.button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-}
-
-.button span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-}
-
-.button:hover span {
-    padding-right: 25px;
-}
-
-.button:hover span:after {
-    opacity: 1;
-    right: 0;
-}
-
 .landing-title {
     color:rgb(255,253,57);
     font-family: Arial Rounded MT Bold;
@@ -162,20 +137,85 @@ h1#title:hover, h1#title:active {
     position: fixed;
 }
 
+/*!!BUT BUTTON ANIMATION*/
+
 .button {
-    display: inline-block;
-    border-radius: 8px;
-    background-color: #008CBA;
-    border: none;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 20px;
-    padding: 20px;
-    width: 115px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 5px;
+  position: relative;
+  left: 50%;
+  top: 30px;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  background: #fff;
+  width: 100px;
+  padding: 20px 20px;
+  border: 5px solid #4ac0ee;
+  border-radius: 10px;
+  color: #4ac0ee;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  z-index: 2;
+  -moz-transition: all 0.15s ease-out 0.15s;
+  -o-transition: all 0.15s ease-out 0.15s;
+  -webkit-transition: all 0.15s ease-out;
+  -webkit-transition-delay: 0.15s;
+  -webkit-transition: all 0.15s ease-out 0.15s;
+  transition: all 0.15s ease-out 0.15s;
 }
+.button:after, .button:before {
+  position: absolute;
+  width: 100%;
+  max-width: 100%;
+  top: 100%;
+  left: 0;
+  bottom: -10px;
+  content: '';
+  z-index: 1;
+  border-radius: 10px;
+  -moz-transition: all 0.15s ease-out 0.15s;
+  -o-transition: all 0.15s ease-out 0.15s;
+  -webkit-transition: all 0.15s ease-out;
+  -webkit-transition-delay: 0.15s;
+  -webkit-transition: all 0.15s ease-out 0.15s;
+  transition: all 0.15s ease-out 0.15s;
+}
+.button:before {
+  background: #4ac0ee;
+  top: 10px;
+  left: -15px;
+  height: 100%;
+  width: 15px;
+}
+.button:after {
+  width: 100%;
+  background: #4ac0ee;
+  right: 0px;
+  left: -15px;
+  height: 15px;
+}
+.button:hover {
+  background: #4ac0ee;
+  color: #fff;
+  margin-left: -7.5px;
+  margin-bottom: -7.5px;
+}
+.button:hover:after, .button:hover:before {
+  top: 100%;
+  left: 0;
+  bottom: 0px;
+}
+.button:hover:before {
+  top: 0px;
+  left: 0px;
+  width: 0px;
+}
+.button:hover:after {
+  right: 0px;
+  left: 0px;
+  height: 0px;
+}
+/*DONE WITH BUT BUTTON ANIMATION*/
 
 .arrow, i {
     color: black;
