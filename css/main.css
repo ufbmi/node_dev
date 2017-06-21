@@ -20,6 +20,7 @@ html {
 
 h1,h2,h3,h4,h5,h6 {
     font-family: Arial Rounded MT Bold;
+    font-weight: bold;
 }
 
 body {
@@ -31,9 +32,6 @@ body {
     -webkit-font-smoothing: antialiased;
     box-sizing: border-box;
 }
-}
-
-
 
 audio,
 img,
@@ -71,10 +69,11 @@ input[type=reset] {
     cursor: pointer;
 }
 
-iframe{
-    height:835px;
-    border-width: 0;
-
+iframe {
+    width: 750px;
+    height: 550px;
+    margin: auto;
+    display: block;
 }
 
 h1 {
@@ -101,8 +100,8 @@ h1#title:hover, h1#title:active {
 }
 
 .center {
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .arrow {
@@ -123,7 +122,6 @@ h1#title:hover, h1#title:active {
     background-repeat: no-repeat;
     background-position: center;
 }
-
 
 .btn {
     position: fixed;
@@ -155,6 +153,7 @@ h1#title:hover, h1#title:active {
   -webkit-transition: all 0.15s ease-out 0.15s;
   transition: all 0.15s ease-out 0.15s;
 }
+
 .button:after, .button:before {
   position: absolute;
   width: 100%;
@@ -172,6 +171,7 @@ h1#title:hover, h1#title:active {
   -webkit-transition: all 0.15s ease-out 0.15s;
   transition: all 0.15s ease-out 0.15s;
 }
+
 .button:before {
   background: #4ac0ee;
   top: 10px;
@@ -179,6 +179,7 @@ h1#title:hover, h1#title:active {
   height: 100%;
   width: 15px;
 }
+
 .button:after {
   width: 100%;
   background: #4ac0ee;
@@ -192,16 +193,19 @@ h1#title:hover, h1#title:active {
   margin-left: -7.5px;
   margin-bottom: -7.5px;
 }
+
 .button:hover:after, .button:hover:before {
   top: 100%;
   left: 0;
   bottom: 0px;
 }
+
 .button:hover:before {
   top: 0px;
   left: 0px;
   width: 0px;
 }
+
 .button:hover:after {
   right: 0px;
   left: 0px;
@@ -236,7 +240,6 @@ h1#title:hover, h1#title:active {
     width: 355px;
     margin-bottom: 10px;
 }
-
 
 /* remove shadow in the carousel controls */
 /*.carousel-indicators-numbers li {*/
@@ -274,10 +277,7 @@ h1#title:hover, h1#title:active {
     color: #9733ca;
 }
 
-/***************************/
-
-
-/*for things like section x.x chapterx etc.*/
+/*for things like section x.x chapters etc.*/
 .heading {
     color: red;
     font-weight: bold;
@@ -294,8 +294,8 @@ h1#title:hover, h1#title:active {
 
 .text-center {
     text-align: center;
-    overflow: hidden;
-    white-space: nowrap;
+    /*overflow: hidden;*/
+    /*white-space: nowrap;*/
 }
 
 .pad-left {
@@ -304,7 +304,10 @@ h1#title:hover, h1#title:active {
 
 .fontSizeTitle{
     font-size: 38px;
+    padding-top: 20px;
+    margin-bottom: 20px;
 }
+
 #indicatingCorrect {
     color:green;
 }
@@ -348,28 +351,22 @@ h1#title:hover, h1#title:active {
     display: block;
 }
 
-#slide1 img {
+.imgToRight {
     float: right;
     margin-right: 50px;
 }
 
-#slide2 img {
+.imgToLeft {
     float: left;
-    padding: 15px;
+    padding-right: 50px;
 }
 
-#slide2 iframe {
-    width: 600px;
-    height: 400px;
-    margin-left: auto;
-    display: block;
-}
-
-#slide2 h4 {
-    padding-bottom: 5px;
-    margin-left: 200px;
-    font-weight: bold;
-}
+/*#slide2 iframe {*/
+    /*width: 750px;*/
+    /*height: 550px;*/
+    /*margin: auto;*/
+    /*display: block;*/
+/*}*/
 
 #slide3 img {
     float: right;

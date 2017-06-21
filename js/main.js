@@ -79,32 +79,31 @@ function validate() {
   var right;      
   radios = document.getElementById("questionCptr1").getElementsByTagName("input");      
   right = 2;//false 1=true 2=blank;      
-  for(i = 0; i < radios.length; i++) 
-    {       
-      if(radios[i].value == "true" && radios[i].checked == true){        
-        right = 1;       
-      } else if(radios[i].value == "false" && radios[i].checked == true){        
-        right = 0;       
-      } 
-
-    }       
-    // clear all other indicating texts preventing showing results from last time:)
-      if(right== 1) {       
-       document.getElementById('indicatingCorrect').style.display = 'block';  
-       document.getElementById('indicatingWrong').style.display = 'none';
-       document.getElementById('indicatingBlank').style.display = 'none';
-      } else if(right == 0) {        
-        document.getElementById('indicatingWrong').style.display = 'block';
-        document.getElementById('indicatingCorrect').style.display = 'none'; 
-        document.getElementById('indicatingBlank').style.display = 'none';
-      }  else{
-        document.getElementById('indicatingBlank').style.display = 'block';
-         document.getElementById('indicatingCorrect').style.display = 'none'; 
-         document.getElementById('indicatingWrong').style.display = 'none';
-      }  
-
-       return false;
+  for(i = 0; i < radios.length; i++) {
+      if(radios[i].value == "true" && radios[i].checked == true){
+        right = 1;
+      } else if(radios[i].value == "false" && radios[i].checked == true){
+        right = 0;
+      }
   }
+
+  // clear all other indicating texts preventing showing results from last time:)
+  if(right== 1) {
+   document.getElementById('indicatingCorrect').style.display = 'block';
+   document.getElementById('indicatingWrong').style.display = 'none';
+   document.getElementById('indicatingBlank').style.display = 'none';
+  } else if(right == 0) {
+    document.getElementById('indicatingWrong').style.display = 'block';
+    document.getElementById('indicatingCorrect').style.display = 'none';
+    document.getElementById('indicatingBlank').style.display = 'none';
+  }  else{
+    document.getElementById('indicatingBlank').style.display = 'block';
+     document.getElementById('indicatingCorrect').style.display = 'none';
+     document.getElementById('indicatingWrong').style.display = 'none';
+  }
+
+  return false;
+}
 
 // cursor function
 $(document).ready(function() {
@@ -119,7 +118,7 @@ function cursorAnimation0() {
     }, 'fast', 'swing');
 }
 
-// hide arrow of first slide page of carosel
+// hide arrow of first slide page of carousel
 
 // $('.carousel').carousel({
 //     interval: false,
