@@ -10,6 +10,7 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+
 html {
     color: #222;
     font-size: 1em;
@@ -204,6 +205,7 @@ h1#title:hover, h1#title:active {
     margin-bottom: 10px;
 }
 
+
 /* remove shadow in the carousel controls */
 /*.carousel-indicators-numbers li {*/
     /*text-indent: 0;*/
@@ -217,65 +219,6 @@ h1#title:hover, h1#title:active {
     /*background-color: #999;*/
     /*transition: all 0.25s ease;*/
 /*}*/
-
-
-/*for popup fun button!!*/
-@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
-
-.popup{
-  position:fixed;
-  left:10vw;
-  margin-left:35px;
-  top:-7vh;
-  margin-top:-400px;
-  opacity:0;
-  transition:all 1s;
-  -webkit-transition:all 1s;
-}
-
-
-.popup div
-{
-  width:500px;
-  font-size:20px;
-}
-
-.popup div
-{
-  padding:25px;
-  background-color:black;
-  border-radius:40px;
-  color:white;
-  text-align:center;
-}
-
-/* popUpbutton */
-.popUpbutton{
- display:inline-block;
- color:#a35de8;/*blue*/
- background-color:#f7f49c; /*yellow*/
- padding:10px; 
- border-radius:100px;
- transition:all 1s;
- -webkit-transition:all 1s;
-}
-
-.popUpbutton:hover{
-  background-color:#00FFFF;
-  cursor:pointer;
-}
-/* Gestion des évenements */
-
-.popUpbutton:hover ~.popup
-{
-  margin-left:45px;
-  margin-top:-220px;
-  opacity:0.8;
-  z-index: 99
-}
-
-
-/*done pop up fun button*/
 
 .carousel-control {
     top:50%;
@@ -401,9 +344,6 @@ h1#title:hover, h1#title:active {
     margin-right: 20px;
 }
 
-/*.left {
-  display: none;
-}*/
 
 #sidebar-wrapper {
     background-color: white;
@@ -483,84 +423,63 @@ h1#title:hover, h1#title:active {
 
 }
 
-/* Popup container - can be anything you want */
-.popup {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+/*for popup fun button!!*/
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
 
+.popup{
+  position:relative;
+  left:10vw;
+  margin-left:35px;
+  top:-7vh;
+  margin-top:-400px;
+  opacity:0;
+  transition:all 1s;
+  -webkit-transition:all 1s;
+  display: inline-block;
+  cursor: pointer;
 }
 
-/* The actual popup */
-.popup .popuptext {
-    visibility: hidden;
-    width: 230px;
-    background-color: #555;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 8px 0;
-    position: absolute;
-    z-index: 1;
-    bottom: 125%;
-    left: 50%;
-    margin-left: -80px;
+
+.popup div
+{
+  width:500px;
+  font-size:20px;
 }
 
-.popuptext{
-        font-size: 20px;
+.popup div
+{
+  padding:25px;
+  background-color:black;
+  border-radius:40px;
+  color:white;
+  text-align:center;
 }
 
-/* Popup arrow */
-.popup .popuptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #555 transparent transparent transparent;
+/* popUpbutton */
+.popUpbutton{
+ display:inline-block;
+ color:#a35de8;/*blue*/
+ background-color:#f7f49c; /*yellow*/
+ padding:10px; 
+ border-radius:100px;
+ transition:all 1s;
+ -webkit-transition:all 1s;
 }
 
-/* Toggle this class - hide and show the popup */
-.popup .show {
-    visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s;
+.popUpbutton:hover{
+  background-color:#00FFFF;
+  cursor:pointer;
+}
+/* Gestion des évenements */
+
+.popUpbutton:hover ~.popup
+{
+  margin-left:45px;
+  margin-top:-220px;
+  opacity:0.8;
+  z-index: 99
 }
 
-/* Add animation (fade in the popup) */
-@-webkit-keyframes fadeIn {
-    from {opacity: 0;} 
-    to {opacity: 1;}
-}
-
-@keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity:1 ;}
-}
-/*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
- * These selection rule sets have to be separate.
- * Customize the background color to match your design.
- */
-
-::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
-
-::selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
 
 /*
  * A better looking default horizontal rule
