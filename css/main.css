@@ -224,7 +224,7 @@ h1#title:hover, h1#title:active {
 
 .popup{
   position:fixed;
-  left:33vw;
+  left:10vw;
   margin-left:35px;
   top:-7vh;
   margin-top:-400px;
@@ -242,7 +242,7 @@ h1#title:hover, h1#title:active {
 
 .popup div
 {
-  padding:23px;
+  padding:25px;
   background-color:black;
   border-radius:40px;
   color:white;
@@ -256,8 +256,8 @@ h1#title:hover, h1#title:active {
  background-color:#f7f49c; /*yellow*/
  padding:10px; 
  border-radius:100px;
-transition:all 1s;
--webkit-transition:all 1s;
+ transition:all 1s;
+ -webkit-transition:all 1s;
 }
 
 .popUpbutton:hover{
@@ -270,7 +270,7 @@ transition:all 1s;
 {
   margin-left:45px;
   margin-top:-220px;
-  opacity:1;
+  opacity:0.8;
   z-index: 99
 }
 
