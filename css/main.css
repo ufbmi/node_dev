@@ -28,6 +28,9 @@ body {
     background-position: center;
     margin: 0; 
     padding: 0;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
 }
 
 footer {
@@ -58,9 +61,8 @@ textarea {
     resize: vertical;
 }
 
-input[type=button], input[type=submit], input[type=reset] {
-    background-color: #4CAF50;
-    border: none;
+input[type=button], input[type=submit] {
+    background-color: #21cc5b;
     color: white;
     padding: 10px 16px;
     text-decoration: none;
@@ -69,8 +71,7 @@ input[type=button], input[type=submit], input[type=reset] {
 }
 
 input[type=reset] {
-    background-color: #9e9e9e;
-    border: none;
+    background-color: #82c0fa;
     color: white;
     padding: 10px 13px;
     text-decoration: none;
@@ -81,7 +82,6 @@ input[type=reset] {
 iframe{
     height:835px;
     border-width: 0;
-    background-color: clear;
 
 }
 
@@ -510,7 +510,6 @@ h1#title:hover, h1#title:active {
   background-color:#00FFFF;
   cursor:pointer;
 }
-/* Gestion des évenements */
 
 .popUpbutton:hover ~.popup
 {
@@ -520,6 +519,82 @@ h1#title:hover, h1#title:active {
   z-index: 99
 }
 
+/*CHECK ANSWER AND RESET BUTTON EFFECTS*/
+/* BUTTON 5 */
+.btn5, .btn5:link, .btn5:visited {
+  border: none;
+  outline: none;
+  color: #fefefe;
+  background-color: #9b59b6;
+  border-radius: 5px;
+}
+.btn5:hover, .btn5:focus, .btn5:link:hover, .btn5:link:focus, .btn5:visited:hover, .btn5:visited:focus {
+  -webkit-transition-timing-function: cubic-bezier(0.6, 4, 0.3, 0.8);
+          transition-timing-function: cubic-bezier(0.6, 4, 0.3, 0.8);
+  -webkit-animation: gelatine 0.5s 1;
+          animation: gelatine 0.5s 1;
+}
+
+@-webkit-keyframes gelatine {
+  from,to {
+    -webkit-transform: scale(1, 1);
+  }
+  25% {
+    -webkit-transform: scale(0.9, 1.1);
+  }
+  50% {
+    -webkit-transform: scale(1.1, 0.9);
+  }
+  75% {
+    -webkit-transform: scale(0.95, 1.05);
+  }
+  from,to {
+    -webkit-transform: scale(1, 1);
+  }
+  25% {
+    -webkit-transform: scale(0.9, 1.1);
+  }
+  50% {
+    -webkit-transform: scale(1.1, 0.9);
+  }
+  75% {
+    -webkit-transform: scale(0.95, 1.05);
+  }
+}
+@keyframes gelatine {
+  from,to {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+  25% {
+    -webkit-transform: scale(0.9, 1.1);
+    transform: scale(0.9, 1.1);
+  }
+  50% {
+    -webkit-transform: scale(1.1, 0.9);
+    transform: scale(1.1, 0.9);
+  }
+  75% {
+    -webkit-transform: scale(0.95, 1.05);
+    transform: scale(0.95, 1.05);
+  }
+  from,to {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+  25% {
+    -webkit-transform: scale(0.9, 1.1);
+    transform: scale(0.9, 1.1);
+  }
+  50% {
+    -webkit-transform: scale(1.1, 0.9);
+    transform: scale(1.1, 0.9);
+  }
+  75% {
+    -webkit-transform: scale(0.95, 1.05);
+    transform: scale(0.95, 1.05);
+  }
+}
 
 /*
  * A better looking default horizontal rule
@@ -748,5 +823,6 @@ button {
 
 
 }
+
 
 
