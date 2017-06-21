@@ -83,7 +83,7 @@
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                             <!-- page 1 -->
-                            <div id="slide1" class="item active">
+                            <div id="slide1" class="item">
                                 <div class="extraPadding">
                                     <h2 class="heading">Chapter 1</h2>
                                     <h1>What is Diabetes ?</h1>
@@ -112,21 +112,31 @@
                                             <button class="resizingButton" onclick="document.getElementById('hiddenT1').style.display = 'block';this.style.display = 'none'"><img width="100px" height=auto src="https://images.vexels.com/media/users/3/134121/isolated/preview/5ff73adb05d7f1fe47dd49bb1b08affa-star-cartoon-icon-50-by-vexels.png"></button>
                                             <h2 id="hiddenT1" style="display:none;">
                                                 Type 1 diabetes happens when the body is not able to make enough  
-                                                <div class="popup" onclick="popInsulin()">
-                                                <span style="color:blue">insulin</span>
-                                                <span class="popuptext" id="PopupInsulin">A hormone that lowers blood glucose levels</span>
-                                                </div> in the 
-                                                <div class="popup" onclick="popPancreas()">
-                                                <span style="color:brown">pancreas</span>
-                                                <span class="popuptext" id="PopupPancreas">The part of the body that makes insulin</span>
-                                                </div>
+                                                insulin
+                                                 in the 
+                                                <span class='popUpbutton'>pancreas</span>
+                                                <div class='popup'>
+                                                <div>The part of the body that makes insulin</div>
+                                                <svg height="30" width="100">
+                                                        <path d="M0 30 L40 0 L65 0 Z" />
+                                                        Sorry, your browser does not support inline SVG.
+                                                      </svg>
+                                                </div><br>
                                             </h2>
                                         </div>
 
                                         <div class="stars col-lg-6">
                                             <button class="resizingButton" onclick="document.getElementById('hiddenT2').style.display = 'block';this.style.display = 'none'"><img width="100px" height=auto src="https://images.vexels.com/media/users/3/134121/isolated/preview/5ff73adb05d7f1fe47dd49bb1b08affa-star-cartoon-icon-50-by-vexels.png"></button>
                                             <h2 id="hiddenT2" style="display:none;">
-                                                Type 2 diabetes happens when the body cannot use insulin correctly
+                                                Type 2 diabetes happens when the body cannot use <span class='popUpbutton'>insulin</span>
+                                                <div class='popup'>
+                                                <div>A hormone that lowers blood glucose levels</div>
+                                                      <svg height="30" width="100">
+                                                        <path d="M0 30 L40 0 L65 0 Z" />
+                                                        Sorry, your browser does not support inline SVG.
+                                                      </svg>
+                                                </div>
+                                                correctly
                                             </h2>
                                         </div>
                                     </div>
@@ -134,7 +144,7 @@
                                 </div>
                             </div>
                             <!-- page 4 -->
-                            <div id="slide4" class="item" >
+                            <div id="slide4" class="item active" >
                                 <div class="row col-lg-12">
                                     <h4 class="pad-left"><span style="color:red">Interactive 1.2</span> What is insulin and why is it so important?</h4>
                                 </div>
@@ -143,10 +153,21 @@
                                     <button class="resizingButton" onclick="document.getElementById('hiddenT3').style.display = 'block';this.style.display = 'none'"><img width="100px" height=auto src="https://images.vexels.com/media/users/3/134121/isolated/preview/5ff73adb05d7f1fe47dd49bb1b08affa-star-cartoon-icon-50-by-vexels.png"></button>
                                     <h2 id="hiddenT3" style="display:none;">
                                         Insulin is needed to move 
-                                        <div class="popup" onclick="popGlucose()">
-                                            <span style="color:red">glucose</span>
-                                            <span class="popuptext" id="PopupGlucose">Major source of energy for the body’s cells. It mainly comes from the foods we eat</span>
-                                        </div> from the blood into cells in the body that use it for energy
+                                        <span class='popUpbutton'>glucose</span>
+                                        <div class='popup'>
+                                          <div>Major source of energy for the body’s cells. It mainly comes from the foods we eat</div>
+                                          <svg height="30" width="100">
+                                            <path d="M0 30 L40 0 L65 0 Z" />
+                                            Sorry, your browser does not support inline SVG.
+                                          </svg>
+                                        </div><br>
+                                        from the blood into cells in the body that use it for energy
+
+                                        <!-- <div class="popup" onclick="popGlucose()"> -->
+                                            <!-- <span style="color:red"></span> -->
+                                           <!--  <span class="popuptext" id="PopupGlucose">Major source of energy for the body’s cells. It mainly comes from the foods we eat</span> -->
+                                        <!-- </div> -->
+                                         
                                     </h2>
                                 </div>
                                 <div class="stars col-lg-12">

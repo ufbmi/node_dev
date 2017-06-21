@@ -218,6 +218,65 @@ h1#title:hover, h1#title:active {
     /*transition: all 0.25s ease;*/
 /*}*/
 
+
+/*for popup fun button!!*/
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+
+.popup{
+  position:fixed;
+  left:33vw;
+  margin-left:35px;
+  top:-7vh;
+  margin-top:-400px;
+  opacity:0;
+  transition:all 1s;
+  -webkit-transition:all 1s;
+}
+
+
+.popup div
+{
+  width:500px;
+  font-size:20px;
+}
+
+.popup div
+{
+  padding:23px;
+  background-color:black;
+  border-radius:40px;
+  color:white;
+  text-align:center;
+}
+
+/* popUpbutton */
+.popUpbutton{
+ display:inline-block;
+ color:#a35de8;/*blue*/
+ background-color:#f7f49c; /*yellow*/
+ padding:10px; 
+ border-radius:100px;
+transition:all 1s;
+-webkit-transition:all 1s;
+}
+
+.popUpbutton:hover{
+  background-color:#00FFFF;
+  cursor:pointer;
+}
+/* Gestion des évenements */
+
+.popUpbutton:hover ~.popup
+{
+  margin-left:45px;
+  margin-top:-220px;
+  opacity:1;
+  z-index: 99
+}
+
+
+/*done pop up fun button*/
+
 .carousel-control {
     top:50%;
     width:auto;
@@ -416,10 +475,12 @@ h1#title:hover, h1#title:active {
 #myBtn:hover {
    background-color: rgba(144, 144, 144, 0.3);/* Add a dark-grey background on hover */
     color: black;
+
 }
 
 .img-circle:hover{
     opacity: 0.7;
+
 }
 
 /* Popup container - can be anything you want */
