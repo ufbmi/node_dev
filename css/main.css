@@ -33,15 +33,7 @@ body {
 }
 }
 
-footer {
-    color:white;
-    height:100px;
-    text-align: center;
-    width: 100%;
-    top:150px;
-    font-size: 15px;
-    font-family: Arial Rounded MT Bold;
-}
+
 
 audio,
 img,
@@ -634,6 +626,15 @@ hr {
 
 button {
     margin-top: 5px;
+}
+footer {
+    color:white;
+    height:100px;
+    text-align: center;
+    width: 100%;
+    top:150px;
+    font-size: 15px;
+    font-family: Arial Rounded MT Bold;
 }
 
 #desc {
