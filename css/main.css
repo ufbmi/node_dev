@@ -9,7 +9,26 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-
+@import url('//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css');
+ @import url('http://twitter.github.com/bootstrap/assets/css/bootstrap-responsive.css');
+ .container {
+    margin-top: 10px;
+}
+.num{
+    background:grey;
+    color:white;
+    padding:10px;
+    width:70px;
+    text-align:center;
+    font-family: Arial Rounded MT Bold;
+    position:fixed;
+    bottom: 10px;
+    left: 50%; 
+    float: center;
+    opacity: 0.8;
+    border-radius: 10px;
+  }
+/*page counter*/
 
 html {
     color: #222;

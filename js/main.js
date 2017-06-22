@@ -29,18 +29,6 @@ function whiteFrameBg() {
 
 // scrtoll to top func
 
-// When the user scrolls down 20px from the top of the document, show the button
-// window.onscroll = function() {scrollFunction()};
-
-// function scrollFunction() {
-//     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-//         document.getElementById("myBtn").style.display = "block";
-
-//     } else {
-//         document.getElementById("myBtn").style.display = "none";
-//     }
-// }
-
 var t1=0;
 window.onscroll = function() {scroll1()};
 
@@ -117,6 +105,16 @@ function cursorAnimation0() {
         opacity: 1
     }, 'fast', 'swing');
 }
+// page counter
+var totalItems = $('.item').length;
+var currentIndex = $('div.active').index() + 1;
+$('.num').html(''+currentIndex+' of '+totalItems+'');
+
+$('#myCarousel').bind('slid', function() {
+    currentIndex = $('div.active').index() + 1;
+   $('.num').html(''+currentIndex+' of '+totalItems+'');
+});
+
 
 // hide arrow of first slide page of carousel
 
