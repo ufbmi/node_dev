@@ -114,6 +114,7 @@ h1#title:hover, h1#title:active {
     color: white;
 }
 
+
 .container {
     margin:0px;
 }
@@ -245,6 +246,10 @@ h1#title:hover, h1#title:active {
     font-size: 2.5em;
     color: white;
     text-align: center;
+}
+
+.left{
+  display:none;
 }
 
 .chapters {

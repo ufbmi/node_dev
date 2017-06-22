@@ -106,45 +106,7 @@ function cursorAnimation0() {
     }, 'fast', 'swing');
 }
 
-// ohh its not recognizing the on slide event...
 
-
-
-// hide arrow of first slide page of carousel
-
-// $('.carousel').carousel({
-//     interval: false,
-// })
-
-// $('#myCarousel').on('slid.bs.carousel', checkitem);
-
-// function checkitem()                        // check function
-// {
-//     var $this = $('#myCarousel');
-//     if ($('.carousel-inner .item:first').hasClass('active')) {
-//         $this.children('.left.carousel-control').hide();
-//     } else if ($('.carousel-inner .item:last').hasClass('active')) {
-//         $this.children('.right.carousel-control').hide();
-//     } else {
-//         $this.children('.carousel-control').show();
-//     }
-// }
-// $('#myCarousel').bind('slid.bs.carousel', function (e)
-//         {
-          
-//             var $this = $(this);
-
-//             $this.children('.carousel-control').show();
-
-//             if ($('.carousel-inner .item:last').hasClass('active'))
-//             {
-//                $('#carousel-b').carousel('pause');
-//                 $this.children('.right.carousel-control').hide();
-//             } else if ($('.carousel-inner .item:first').hasClass('active'))
-//             {
-//                 $this.children('.left.carousel-control').hide();
-//             }
-//         });
 // -------------------------------------------------Konva lib objs--------------------//
 
 var width = 120;
