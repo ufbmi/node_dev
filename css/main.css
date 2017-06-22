@@ -87,10 +87,18 @@ input[type=reset] {
     cursor: pointer;
 }
 
-iframe {
+
+iframe.video{
     width: 750px;
+    height: 550px;
+    display: block;
+    border-width: 0;
+
+}
+
+iframe.buildInWeb {
+    width: 800px;
     height: 850px;
-  
     display: block;
     border-width: 0;
 }
