@@ -105,15 +105,9 @@ function cursorAnimation0() {
         opacity: 1
     }, 'fast', 'swing');
 }
-// page counter
-var totalItems = $('.item').length;
-var currentIndex = $('div.active').index() + 1;
-$('.num').html(''+currentIndex+' of '+totalItems+'');
 
-$('#myCarousel').bind('slid', function() {
-    currentIndex = $('div.active').index() + 1;
-   $('.num').html(''+currentIndex+' of '+totalItems+'');
-});
+// ohh its not recognizing the on slide event...
+
 
 
 // hide arrow of first slide page of carousel
@@ -135,22 +129,22 @@ $('#myCarousel').bind('slid', function() {
 //         $this.children('.carousel-control').show();
 //     }
 // }
-$('#myCarousel').bind('slid.bs.carousel', function (e)
-        {
+// $('#myCarousel').bind('slid.bs.carousel', function (e)
+//         {
           
-            var $this = $(this);
+//             var $this = $(this);
 
-            $this.children('.carousel-control').show();
+//             $this.children('.carousel-control').show();
 
-            if ($('.carousel-inner .item:last').hasClass('active'))
-            {
-               $('#carousel-b').carousel('pause');
-                $this.children('.right.carousel-control').hide();
-            } else if ($('.carousel-inner .item:first').hasClass('active'))
-            {
-                $this.children('.left.carousel-control').hide();
-            }
-        });
+//             if ($('.carousel-inner .item:last').hasClass('active'))
+//             {
+//                $('#carousel-b').carousel('pause');
+//                 $this.children('.right.carousel-control').hide();
+//             } else if ($('.carousel-inner .item:first').hasClass('active'))
+//             {
+//                 $this.children('.left.carousel-control').hide();
+//             }
+//         });
 // -------------------------------------------------Konva lib objs--------------------//
 
 var width = 120;
@@ -194,3 +188,7 @@ var anim = new Konva.Animation(function(frame) {
 }, layer);
 imageObj.src = 'https://images.vexels.com/media/users/3/134121/isolated/preview/5ff73adb05d7f1fe47dd49bb1b08affa-star-cartoon-icon-50-by-vexels.png';
 anim.start();
+
+
+
+

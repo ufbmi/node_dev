@@ -9,8 +9,7 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-@import url('//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css');
- @import url('http://twitter.github.com/bootstrap/assets/css/bootstrap-responsive.css');
+@import url('http://getbootstrap.com/dist/css/bootstrap.css');
  .container {
     margin-top: 10px;
 }
