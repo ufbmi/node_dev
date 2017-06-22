@@ -152,5 +152,7 @@ imageObj.src = 'https://images.vexels.com/media/users/3/134121/isolated/preview/
 anim.start();
 
 
-
-
+// Function to jump to a specific slide in the carousel
+function goToSlide(number) {
+    $("#myCarousel").carousel(number);
+}
