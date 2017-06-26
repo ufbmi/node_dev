@@ -229,7 +229,7 @@ h1#title:hover, h1#title:active {
     color: black;
 }
 
-.a {
+.translate {
     color:white;
 }
 
@@ -367,7 +367,7 @@ img.imgOverImg2 {
     position:fixed;
     bottom: 10px;
     left: 50%; 
-    float: center;
+    /*float: center;*/
     opacity: 0.8;
     border-radius: 10px;
   }
@@ -457,7 +457,7 @@ img.imgOverImg2 {
     z-index: 99;
 }
 
-#lang {
+#languages {
     color: white;
     font-family: Arial Rounded MT Bold;
     float:right;
