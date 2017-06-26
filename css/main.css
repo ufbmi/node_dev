@@ -106,6 +106,9 @@ h1#title:hover, h1#title:active {
     color: white;
 }
 
+a {
+    color:white;
+}
 
 .container {
     margin:0px;
@@ -230,7 +233,7 @@ h1#title:hover, h1#title:active {
 }
 
 .translate {
-    color:white;
+
 }
 
 .lead {

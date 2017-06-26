@@ -14,8 +14,9 @@
         <link href="css/simple-sidebar.css" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="js/our_languages.js"></script>
         <!--jquery min -->
-        <script type="text/javascript" src="jquery.min.js"></script>
+        <script type="text/javascript" src="js/vendor/jquery-1.12.0.min.js"></script>
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
         <link rel="stylesheet" href="css/main.css">
@@ -72,27 +73,24 @@
                 <!-- headers here; landing title, lang choices -->
                 <section id="home">
                     <div id="languages" class="col-lg-2">
-                        <a href="index.html" class="translate">English</a>
+                        <a href="#" class="translate" id="en">English</a>
                             <span>&nbsp|&nbsp</span>
-                        <a href="index.html" class="translate">Español</a>
+                        <a href="#" class="translate" id="es">Español</a>
                     </div>
                     <div id="message" class="col-lg-12 col-md-8 col-sm-6 col-xs-4">
                         <h1 id="title" class="lang landing-title animated lightSpeedIn" key="websiteName">Diabetes Tutorial For Kids</h1>
                         <p class="lang lead animated slideInLeft" key="message">To help you learn it, fight it and be strong about it <span id="heart" class="glyphicon glyphicon-heart"></span></p>
                     </div>
-
                     <!--principal image-->
                     <div id="principalImg" class="col-lg-12">
                         <img src="img/1 Kara.png" alt="Kara icon" width=auto height="550">
                     </div>
-
                     <!-- arrow -->
                     <!--<div id="goDown" class="col-lg-12">-->
                         <!--<a id="smooth" href="#chapterArrow">-->
                             <!--<i class="arrow fa fa-angle-down fa-5x" target="_blank" aria-hidden="true"></i>-->
                         <!--</a>-->
                     <!--</div>-->
-
                     <!-- go to top button -->
                     <button onclick="scrollTopSmooth()" id="myBtn" title="Go to top"><span class="glyphicon glyphicon-chevron-up"></span></button>
 
