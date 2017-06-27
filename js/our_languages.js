@@ -8,6 +8,17 @@ var multilanguage = {
     },
     'es' : {
         'websiteName' : 'Tutorial para niños sobre Diabetes',
-        'message' : 'Para ayudarte a aprender y para que te enfrentes fuertemente contra ella'
+        'message' : 'Para ayudarte a convivir y a conocer todo a cerca de ella'
     }
 };
+
+// For multi-language
+$(function(){
+    $('.translate').click(function(){
+        var lang = $(this).attr('id');
+
+        $('.lang').each(function(index,element){
+            $(this).text(multilanguage[lang][$(this).attr('key')]);
+        });
+    });
+});

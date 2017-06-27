@@ -151,6 +151,7 @@ var anim = new Konva.Animation(function(frame) {
 imageObj.src = 'https://images.vexels.com/media/users/3/134121/isolated/preview/5ff73adb05d7f1fe47dd49bb1b08affa-star-cartoon-icon-50-by-vexels.png';
 anim.start();
 
-
-
-
+// to load the keTones page into the iframe slide 7 chapter 1
+$(function(){
+    $("#ketonesWp").load("cptr1Ketones/site/index.html");
+});
