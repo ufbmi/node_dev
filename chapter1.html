@@ -14,7 +14,8 @@
         <link href="css/simple-sidebar.css" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+        <!--jquery for multi-language purpose-->
+        <script type="text/javascript" src="js/vendor/jquery-1.11.3.min.js"></script>
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
         <link rel="stylesheet" href="css/main.css">
@@ -32,31 +33,31 @@
 
         <div id="wrapper">
             <!-- Sidebar -->
-            <div id="sidebar-wrapper" style="background-color: #e8e8e8">
+            <div id="sidebar-wrapper">
                 <ul class="sidebar-nav">
                     <li class="sidebar-brand">
-                        <a href="index.html">Back To Homepage</a>
+                        <a class="lang" href="index.html" key="index-0">Back To Homepage</a>
                     </li>
                     <li>
-                        <a id="chapter1" href="chapter1.html">Chapter 1 What is Diabetes?</a>
+                        <a class="lang" id="chapter1"  href="chapter1.html" key="index-1">Chapter 1 - What is Diabetes?</a>
                     </li>
                     <li>
-                        <a id="chapter2" href="chapter2.html">Chapter 2 Glucose Monitoring</a>
+                        <a class="lang" id="chapter2" href="chapter2.html" key="index-2">Chapter 2 - Glucose Monitoring</a>
                     </li>
                     <li>
-                        <a id="chapter3" href="chapter3.html">Chapter 3 Insulin</a>
+                        <a class="lang" id="chapter3" href="chapter3.html" key="index-3">Chapter 3 - Insulin</a>
                     </li>
                     <li>
-                        <a id="chapter4" href="chapter4.html">Chapter 4 Hypoglycemia</a>
+                        <a class="lang" id="chapter4" href="chapter4.html" key="index-4">Chapter 4 - Hypoglycemia</a>
                     </li>
                     <li>
-                        <a id="chapter5" href="chapter5.html">Chapter 5 Nutrition</a>
+                        <a class="lang" id="chapter5" href="chapter5.html" key="index-5">Chapter 5 - Nutrition</a>
                     </li>
                     <li>
-                        <a id="chapter6" href="chapter6.html">Chapter 6 </a>
+                        <a class="lang" id="chapter6" href="chapter6.html" key="index-6">Chapter 6</a>
                     </li>
                     <li>
-                        <a id="chapter7" href="chapter7.html">Chapter 7</a>
+                        <a class="lang" id="chapter7" href="chapter7.html" key="index-7">Chapter 7</a>
                     </li>
                 </ul>
             </div>
@@ -339,6 +340,7 @@
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
+        <script src="js/our_languages.js"></script>
         <script src="js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
