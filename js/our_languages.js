@@ -7,26 +7,28 @@ var multilanguage = {
         "index-1" : 'Chapter 1 - What is Diabetes?',
         'index-2' : 'Chapter 2 - Glucose Monitoring',
         'index-3' : 'Chapter 3 - Insulin',
-        'index-4' : 'Chapter 4 - Hypoglycemia',
-        'index-5' : 'Chapter 5 - Nutrition',
-        'index-6' : 'Chapter 6',
-        'index-7' : 'Chapter 7',
-        'index-8' : 'Diabetes Tutorial For Kids',
-        'index-9' : 'To help you learn it, fight it and be strong about it',
-        'index-10' : 'Built with HTML5, CSS3, Bootstrap, jQuery & JavaScript'
+        'index-4' : 'Chapter 4 - Hypoglycemia or Low',
+        'index-5' : 'Chapter 5 - Hyperglycemia or High',
+        'index-6' : 'Chapter 6 - Nutrition',
+        'index-7' : 'Chapter 7 - Exercise and Diabetes',
+        'index-8' : 'Chapter 8 - Personal Management Plan',
+        'index-9' : 'Diabetes Tutorial For Kids',
+        'index-10' : 'To help you learn it, fight it and be strong about it',
+        'index-11' : 'Built with HTML5, CSS3, Bootstrap, jQuery & JavaScript'
     },
     'es' : {
         'index-0' : 'Pagina Principal',
         'index-1' : 'Chapter 1 - Que es Diabetes?',
-        'index-2' : 'Chapter 2 - Monitoreando Glucosa',
+        'index-2' : 'Chapter 2 - Monitoreo de Glucosa',
         'index-3' : 'Chapter 3 - Insulina',
-        'index-4' : 'Chapter 4 - Ipoglicemia',
-        'index-5' : 'Chapter 5 - Nutricion',
-        'index-6' : 'Chapter 6',
-        'index-7' : 'Chapter 7',
-        'index-8' : 'Tutorial para niños sobre Diabetes',
-        'index-9' : 'Para ayudarte a convivir y a conocer todo a cerca de ella',
-        'index-10' : 'Construido con HTML5, CSS3, Bootstrap, jQuery & JavaScript'
+        'index-4' : 'Chapter 4 - Ipoglicemia o baja',
+        'index-5' : 'Chapter 5 - Iperglicemia o alta',
+        'index-6' : 'Chapter 6 - Nutricion',
+        'index-7' : 'Chapter 7 - Ejercicios y Diabites',
+        'index-8' : 'Chapter 8 - Plan personal',
+        'index-9' : 'Tutorial para niños sobre Diabetes',
+        'index-10' : 'Para ayudarte a aprender y a ser fuerte',
+        'index-11' : 'Construido con HTML5, CSS3, Bootstrap, jQuery & JavaScript',
     }
 };
 

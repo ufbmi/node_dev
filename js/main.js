@@ -18,6 +18,7 @@ $('#smooth').on('click', function(e) {
      });
 
 });
+
 // change bg color of i frame func
 function whiteFrameBg() {
     var x = document.getElementById("myframe");
@@ -26,9 +27,7 @@ function whiteFrameBg() {
     y.body.style.backgroundColor = "white";
 }
 
-
-// scrtoll to top func
-
+// scroll to top func
 var t1=0;
 window.onscroll = function() {scroll1()};
 

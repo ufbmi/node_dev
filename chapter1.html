@@ -91,8 +91,9 @@
                             <div id="slide2" class="item">
                                 <div class="row">
                                     <h4 class="text-center"><span style="color:red">Animation 1.1</span> What is Diabetes?</h4>
-                                    <video class="video center" controls>
-                                        <source src="video/Guide to type 1 diabetes - English.m4v" alt="video needs to put on server" type="video/mp4">
+                                    <!--video needs to put on server-->
+                                    <video controls>
+                                        <source src="video/Guide to type 1 diabetes - English.m4v" alt="type one diabetes" type="video/mp4">
                                     Your browser does not support the video tag.
                                     </video>
                                 </div>
@@ -209,10 +210,8 @@
                                     </div>
                             
                                     <div class="col-lg-12">
-                                    <!-- blank lines here -->
-                                    <br>
-                                    <button style="display:none;" class="button" id="hiddenButton1" onclick="document.getElementById('hiddenT6').style.display = 'block'"><span>BUT</span>
-                                    </button>
+                                        <!-- blank lines here -->
+                                        <button style="display:none;" class="button" id="hiddenButton1" onclick="document.getElementById('hiddenT6').style.display = 'block'"><span>BUT</span></button>
                                     </div>
                                     <div id="hiddenT6" class="col-lg-12 animated bounceIn" style="display:none;">
                                     <h2>In Type 1 diabetes, the immune system attacks the pancreas</h2>
@@ -258,7 +257,7 @@
                             <div id="slide7" class="item">
                                 <div class="row">
                                     <h1 class="text-center buildInWeb animated zoomInDown titleShadow">What's up with Ketones?</h1>
-                                    <iframe onload="whiteFrameBg()" id="myframe" class="buildInWeb center" alt="Whats up with Ketones" class="row col-lg-12" src="cptr1Ketones/site/index.html"></iframe>
+                                    <iframe onload="whiteFrameBg()" id="myframe" class="buildInWeb" alt="Whats up with Ketones" src="cptr1Ketones/site/index.html"></iframe>
                                 </div>
                             </div>
                             <!-- page 8 -->
@@ -283,20 +282,20 @@
                                 </div>
                                 <form class="row center animated rubberBand">
                                     <h3 id="questionCptr1">
-                                    <input type="radio" name="cptr1q1" value="true"> A. Hormone that lowers glucose levels<BR>
-                                    <input type="radio" name="cptr1q1" value="false"> B. Hormone that raises glucose levels<BR>
-                                    <input type="radio" name="cptr1q1" value="false"> C. Hormone that breaks down fat and protein<BR>
-                                    <br>
-                                    <p class="text-center animated tada" id="indicatingCorrect" style="display:none;">Yay!! You are Correct! :)</p>
-                                    <p class="text-center animated tada" id="indicatingWrong" style="display:none;">Please Try Again :( </p>
-                                    <p class="text-center animated tada" id="indicatingBlank" style="display:none;">Please Select one! </p>
-                                    <br>
-                                    <!-- check ans button center -->
-                                    <div class="center">
-                                    <input class="btn5" id="answer" type="submit" value="Check Answers">&nbsp&nbsp&nbsp&nbsp
-                                    <input class="btn5" type="reset" value="Clear Answer" onclick="document.getElementById('indicatingCorrect').style.display = 'none';
-                                        document.getElementById('indicatingWrong').style.display = 'none';document.getElementById('indicatingBlank').style.display = 'none'">
-                                    </div>
+                                        <input type="radio" name="cptr1q1" value="true"> A. Hormone that lowers glucose levels<BR>
+                                        <input type="radio" name="cptr1q1" value="false"> B. Hormone that raises glucose levels<BR>
+                                        <input type="radio" name="cptr1q1" value="false"> C. Hormone that breaks down fat and protein<BR>
+                                        <br>
+                                        <p class="text-center animated tada" id="indicatingCorrect" style="display:none;">Yay!! You are Correct! :)</p>
+                                        <p class="text-center animated tada" id="indicatingWrong" style="display:none;">Please Try Again :( </p>
+                                        <p class="text-center animated tada" id="indicatingBlank" style="display:none;">Please Select one! </p>
+                                        <br>
+                                        <!-- check ans button center -->
+                                        <div class="center">
+                                            <input class="btn5" id="answer" type="submit" value="Check Answers">&nbsp&nbsp&nbsp&nbsp
+                                            <input class="btn5" type="reset" value="Clear Answer" onclick="document.getElementById('indicatingCorrect').style.display = 'none';
+                                                document.getElementById('indicatingWrong').style.display = 'none';document.getElementById('indicatingBlank').style.display = 'none'">
+                                        </div>
                                     </h3>
                                 </form>
                             </div>
@@ -313,7 +312,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="num"></div>
+                <div class="num col-lg-12"></div>
             <!-- /#page-content-wrapper -->
 
             </div>
