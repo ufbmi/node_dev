@@ -2,9 +2,381 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96ed9817-4785-42e4-9f80-07f75eaf69f6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter2.html" afterPath="$PROJECT_DIR$/chapter2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/OpenSans-ExtraBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/OpenSans-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/createjs/easeljs-0.7.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/createjs/movieclip-0.7.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/createjs/preloadjs-0.4.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/createjs/soundjs-0.5.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/createjs/tweenjs-0.5.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/index.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/index.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/jquery-1.8.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/ketones_www.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/pancreas_unhealthy.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/pancreas_unhealthy.ogg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/sfx_cellmunching.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/sfx_cellmunching.ogg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/sfx_cellshrink.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/sfx_cellshrink.ogg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/sfx_pancspitout.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/sfx_pancspitout.ogg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/snd_dehydration.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/snd_dehydration.ogg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/snd_heavybreathing.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/snd_heavybreathing.ogg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/spanish.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/storytext.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/storytext.min.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/OpenSans-ExtraBold.ttf" afterPath="$PROJECT_DIR$/ch1Ketones/site/OpenSans-ExtraBold.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/OpenSans-Regular.ttf" afterPath="$PROJECT_DIR$/ch1Ketones/site/OpenSans-Regular.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/createjs/easeljs-0.7.1.min.js" afterPath="$PROJECT_DIR$/ch1Ketones/site/createjs/easeljs-0.7.1.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/createjs/movieclip-0.7.1.min.js" afterPath="$PROJECT_DIR$/ch1Ketones/site/createjs/movieclip-0.7.1.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/createjs/preloadjs-0.4.1.min.js" afterPath="$PROJECT_DIR$/ch1Ketones/site/createjs/preloadjs-0.4.1.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/createjs/soundjs-0.5.2.min.js" afterPath="$PROJECT_DIR$/ch1Ketones/site/createjs/soundjs-0.5.2.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/createjs/tweenjs-0.5.1.min.js" afterPath="$PROJECT_DIR$/ch1Ketones/site/createjs/tweenjs-0.5.1.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/images/btn_pg.png" afterPath="$PROJECT_DIR$/ch1Ketones/site/images/btn_pg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/index.css" afterPath="$PROJECT_DIR$/ch1Ketones/site/index.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/index.html" afterPath="$PROJECT_DIR$/ch1Ketones/site/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/index.js" afterPath="$PROJECT_DIR$/ch1Ketones/site/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/index.min.css" afterPath="$PROJECT_DIR$/ch1Ketones/site/index.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/index.min.js" afterPath="$PROJECT_DIR$/ch1Ketones/site/index.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/jquery-1.8.2.min.js" afterPath="$PROJECT_DIR$/ch1Ketones/site/jquery-1.8.2.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/ketones_www.js" afterPath="$PROJECT_DIR$/ch1Ketones/site/ketones_www.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_en/screen1.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_en/screen1.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_en/screen1.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_en/screen1.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_en/screen10.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_en/screen10.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_en/screen10.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_en/screen10.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_en/screen11.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_en/screen11.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_en/screen11.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_en/screen11.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_en/screen12_better.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_en/screen12_better.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_en/screen12_better.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_en/screen12_better.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_en/screen12_call.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_en/screen12_call.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_en/screen12_call.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_en/screen12_call.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_en/screen12_checkketones.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_en/screen12_checkketones.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_en/screen12_checkketones.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_en/screen12_checkketones.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_en/screen12_waterinsulin.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_en/screen12_waterinsulin.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_en/screen12_waterinsulin.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_en/screen12_waterinsulin.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_en/screen13.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_en/screen13.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_en/screen13.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_en/screen13.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_en/screen14.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_en/screen14.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_en/screen14.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_en/screen14.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_en/screen15.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_en/screen15.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_en/screen15.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_en/screen15.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_en/screen2.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_en/screen2.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_en/screen2.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_en/screen2.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_en/screen3.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_en/screen3.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_en/screen3.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_en/screen3.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_en/screen4.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_en/screen4.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_en/screen4.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_en/screen4.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_en/screen5.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_en/screen5.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_en/screen5.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_en/screen5.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_en/screen6.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_en/screen6.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_en/screen6.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_en/screen6.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_en/screen8.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_en/screen8.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_en/screen8.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_en/screen8.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_en/screen9.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_en/screen9.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_en/screen9.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_en/screen9.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_es/screen1.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_es/screen1.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_es/screen1.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_es/screen1.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_es/screen10.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_es/screen10.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_es/screen10.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_es/screen10.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_es/screen11.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_es/screen11.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_es/screen11.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_es/screen11.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_es/screen12_better.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_es/screen12_better.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_es/screen12_better.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_es/screen12_better.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_es/screen12_call.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_es/screen12_call.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_es/screen12_call.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_es/screen12_call.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_es/screen12_checkketones.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_es/screen12_checkketones.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_es/screen12_checkketones.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_es/screen12_checkketones.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_es/screen12_waterinsulin.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_es/screen12_waterinsulin.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_es/screen12_waterinsulin.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_es/screen12_waterinsulin.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_es/screen13.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_es/screen13.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_es/screen13.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_es/screen13.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_es/screen14.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_es/screen14.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_es/screen14.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_es/screen14.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_es/screen15.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_es/screen15.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_es/screen15.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_es/screen15.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_es/screen2.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_es/screen2.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_es/screen2.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_es/screen2.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_es/screen3.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_es/screen3.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_es/screen3.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_es/screen3.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_es/screen4.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_es/screen4.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_es/screen4.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_es/screen4.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_es/screen5.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_es/screen5.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_es/screen5.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_es/screen5.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_es/screen6.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_es/screen6.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_es/screen6.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_es/screen6.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_es/screen8.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_es/screen8.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_es/screen8.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_es/screen8.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_es/screen9.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_es/screen9.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_es/screen9.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_es/screen9.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/bubblepop.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/bubblepop.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/bubblepop.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/bubblepop.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/calldoctor.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/calldoctor.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/calldoctor.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/calldoctor.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/click6.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/click6.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/click6.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/click6.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/drinkwater.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/drinkwater.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/drinkwater.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/drinkwater.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/g_appear.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/g_appear.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/g_appear.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/g_appear.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/k_appear.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/k_appear.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/k_appear.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/k_appear.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/pancreas1.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/pancreas1.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/pancreas1.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/pancreas1.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/pancreas_unhealthy.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/pancreas_unhealthy.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/pancreas_unhealthy.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/pancreas_unhealthy.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/screen_opening.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/screen_opening.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/screen_opening.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/screen_opening.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/sfx_btnclick.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/sfx_btnclick.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/sfx_btnclick.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/sfx_btnclick.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/sfx_cellmunching.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/sfx_cellmunching.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/sfx_cellmunching.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/sfx_cellmunching.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/sfx_cellshrink.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/sfx_cellshrink.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/sfx_cellshrink.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/sfx_cellshrink.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/sfx_pancspitout.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/sfx_pancspitout.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/sfx_pancspitout.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/sfx_pancspitout.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/snd_dehydration.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/snd_dehydration.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/snd_dehydration.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/snd_dehydration.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/snd_heavybreathing.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/snd_heavybreathing.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/snd_heavybreathing.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/snd_heavybreathing.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/snd_weakness.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/snd_weakness.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/snd_weakness.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/snd_weakness.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/squish2.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/squish2.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/squish2.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/squish2.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/swoosh2.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/swoosh2.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/swoosh2.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/swoosh2.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/swoosh3.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/swoosh3.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/swoosh3.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/swoosh3.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/swoosh4.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/swoosh4.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/swoosh4.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/swoosh4.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/urinate.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/urinate.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/urinate.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/urinate.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/vomit2.mp3" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/vomit2.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/snd_sfx/vomit2.ogg" afterPath="$PROJECT_DIR$/ch1Ketones/site/snd_sfx/vomit2.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/spanish.html" afterPath="$PROJECT_DIR$/ch1Ketones/site/spanish.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/storytext.js" afterPath="$PROJECT_DIR$/ch1Ketones/site/storytext.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/site/storytext.min.js" afterPath="$PROJECT_DIR$/ch1Ketones/site/storytext.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/DOMDocument.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/DOMDocument.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets/BG/&amp;#060Path&amp;#062.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets/BG/&amp;#060Path&amp;#062.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets/BG/&amp;#060Path&amp;#062_1.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets/BG/&amp;#060Path&amp;#062_1.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_0/elements/&amp;#060Path&amp;#062_5.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_0/elements/&amp;#060Path&amp;#062_5.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_0/elements/&amp;#060Path&amp;#062_6.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_0/elements/&amp;#060Path&amp;#062_6.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_1/elements/&amp;#060Path&amp;#062_2.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_1/elements/&amp;#060Path&amp;#062_2.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_10/character side bar/&amp;#060Path&amp;#062_10.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_10/character side bar/&amp;#060Path&amp;#062_10.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_10/character side bar/&amp;#060Path&amp;#062_12.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_10/character side bar/&amp;#060Path&amp;#062_12.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_10/character side bar/&amp;#060Path&amp;#062_14.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_10/character side bar/&amp;#060Path&amp;#062_14.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_10/character side bar/&amp;#060Path&amp;#062_8.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_10/character side bar/&amp;#060Path&amp;#062_8.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_11/elements/&amp;#060Path&amp;#062.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_11/elements/&amp;#060Path&amp;#062.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_11/elements/&amp;#060Path&amp;#062_1.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_11/elements/&amp;#060Path&amp;#062_1.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_11/elements/&amp;#060Path&amp;#062_10.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_11/elements/&amp;#060Path&amp;#062_10.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_11/elements/&amp;#060Path&amp;#062_11.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_11/elements/&amp;#060Path&amp;#062_11.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_11/elements/&amp;#060Path&amp;#062_12.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_11/elements/&amp;#060Path&amp;#062_12.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_11/elements/&amp;#060Path&amp;#062_13.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_11/elements/&amp;#060Path&amp;#062_13.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_11/elements/&amp;#060Path&amp;#062_14.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_11/elements/&amp;#060Path&amp;#062_14.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_11/elements/&amp;#060Path&amp;#062_15.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_11/elements/&amp;#060Path&amp;#062_15.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_11/elements/&amp;#060Path&amp;#062_16.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_11/elements/&amp;#060Path&amp;#062_16.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_11/elements/&amp;#060Path&amp;#062_17.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_11/elements/&amp;#060Path&amp;#062_17.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_11/elements/&amp;#060Path&amp;#062_2.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_11/elements/&amp;#060Path&amp;#062_2.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_11/elements/&amp;#060Path&amp;#062_3.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_11/elements/&amp;#060Path&amp;#062_3.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_11/elements/&amp;#060Path&amp;#062_4.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_11/elements/&amp;#060Path&amp;#062_4.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_11/elements/&amp;#060Path&amp;#062_5.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_11/elements/&amp;#060Path&amp;#062_5.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_11/elements/&amp;#060Path&amp;#062_6.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_11/elements/&amp;#060Path&amp;#062_6.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_11/elements/&amp;#060Path&amp;#062_7.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_11/elements/&amp;#060Path&amp;#062_7.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_11/elements/&amp;#060Path&amp;#062_8.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_11/elements/&amp;#060Path&amp;#062_8.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_11/elements/&amp;#060Path&amp;#062_9.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_11/elements/&amp;#060Path&amp;#062_9.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_12/elements/&amp;#060Group&amp;#062_1.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_12/elements/&amp;#060Group&amp;#062_1.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_12/elements/&amp;#060Path&amp;#062.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_12/elements/&amp;#060Path&amp;#062.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_12/elements/&amp;#060Path&amp;#062_1.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_12/elements/&amp;#060Path&amp;#062_1.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_13/elements/&amp;#060Path&amp;#062_1.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_13/elements/&amp;#060Path&amp;#062_1.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_14/lock/&amp;#060Clip Group&amp;#062.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_14/lock/&amp;#060Clip Group&amp;#062.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_15/character side bar/&amp;#060Path&amp;#062_13.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_15/character side bar/&amp;#060Path&amp;#062_13.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_16/character side bar/&amp;#060Path&amp;#062_1.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_16/character side bar/&amp;#060Path&amp;#062_1.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_17/character side bar/&amp;#060Path&amp;#062.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_17/character side bar/&amp;#060Path&amp;#062.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_17/character side bar/&amp;#060Path&amp;#062_1.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_17/character side bar/&amp;#060Path&amp;#062_1.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_17/character side bar/&amp;#060Path&amp;#062_13.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_17/character side bar/&amp;#060Path&amp;#062_13.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_17/character side bar/&amp;#060Path&amp;#062_1_0.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_17/character side bar/&amp;#060Path&amp;#062_1_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_17/character side bar/&amp;#060Path&amp;#062_2.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_17/character side bar/&amp;#060Path&amp;#062_2.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_17/character side bar/&amp;#060Path&amp;#062_3.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_17/character side bar/&amp;#060Path&amp;#062_3.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_18/character side bar/&amp;#060Path&amp;#062.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_18/character side bar/&amp;#060Path&amp;#062.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_18/character side bar/&amp;#060Path&amp;#062_1.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_18/character side bar/&amp;#060Path&amp;#062_1.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_18/character side bar/&amp;#060Path&amp;#062_10.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_18/character side bar/&amp;#060Path&amp;#062_10.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_19/character side bar/&amp;#060Clip Group&amp;#062.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_19/character side bar/&amp;#060Clip Group&amp;#062.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_19/character side bar/&amp;#060Clip Group&amp;#062_1.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_19/character side bar/&amp;#060Clip Group&amp;#062_1.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_19/character side bar/&amp;#060Path&amp;#062_10.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_19/character side bar/&amp;#060Path&amp;#062_10.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_2/lock/&amp;#060Path&amp;#062_7.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_2/lock/&amp;#060Path&amp;#062_7.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_2/lock/&amp;#060Path&amp;#062_9.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_2/lock/&amp;#060Path&amp;#062_9.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_20/character side bar/&amp;#060Path&amp;#062_1.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_20/character side bar/&amp;#060Path&amp;#062_1.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_21/Layer 12/&amp;#060Path&amp;#062.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_21/Layer 12/&amp;#060Path&amp;#062.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_22/Layer 12/&amp;#060Path&amp;#062_8.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_22/Layer 12/&amp;#060Path&amp;#062_8.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_23/Layer 13/&amp;#060Path&amp;#062.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_23/Layer 13/&amp;#060Path&amp;#062.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_23/Layer 13/&amp;#060Path&amp;#062_9.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_23/Layer 13/&amp;#060Path&amp;#062_9.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_23/Layer 13/&amp;#060Path&amp;#062_9_0.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_23/Layer 13/&amp;#060Path&amp;#062_9_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_23/Layer 13/&amp;#060Path&amp;#062_9_1.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_23/Layer 13/&amp;#060Path&amp;#062_9_1.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_24/Layer 12/&amp;#060Path&amp;#062_1.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_24/Layer 12/&amp;#060Path&amp;#062_1.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_25/Layer 12/&amp;#060Path&amp;#062.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_25/Layer 12/&amp;#060Path&amp;#062.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_26/Layer 12/&amp;#060Path&amp;#062.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_26/Layer 12/&amp;#060Path&amp;#062.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_27/Layer 12/&amp;#060Path&amp;#062_10.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_27/Layer 12/&amp;#060Path&amp;#062_10.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_28/Layer 12/&amp;#060Path&amp;#062_16.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_28/Layer 12/&amp;#060Path&amp;#062_16.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_28/Layer 12/&amp;#060Path&amp;#062_18.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_28/Layer 12/&amp;#060Path&amp;#062_18.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_28/Layer 12/&amp;#060Path&amp;#062_8.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_28/Layer 12/&amp;#060Path&amp;#062_8.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_29/Layer 12/&amp;#060Path&amp;#062_1.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_29/Layer 12/&amp;#060Path&amp;#062_1.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_29/Layer 12/&amp;#060Path&amp;#062_10.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_29/Layer 12/&amp;#060Path&amp;#062_10.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_29/Layer 12/&amp;#060Path&amp;#062_1_0.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_29/Layer 12/&amp;#060Path&amp;#062_1_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_29/Layer 12/&amp;#060Path&amp;#062_2.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_29/Layer 12/&amp;#060Path&amp;#062_2.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_29/Layer 12/&amp;#060Path&amp;#062_2_0.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_29/Layer 12/&amp;#060Path&amp;#062_2_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_29/Layer 12/&amp;#060Path&amp;#062_3.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_29/Layer 12/&amp;#060Path&amp;#062_3.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_3/BG/&amp;#060Group&amp;#062.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_3/BG/&amp;#060Group&amp;#062.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_30/Layer 13/&amp;#060Path&amp;#062_9.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_30/Layer 13/&amp;#060Path&amp;#062_9.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_30/Layer 13/&amp;#060Path&amp;#062_9_0.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_30/Layer 13/&amp;#060Path&amp;#062_9_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_30/Layer 13/&amp;#060Path&amp;#062_9_1.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_30/Layer 13/&amp;#060Path&amp;#062_9_1.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_31/Layer 13/&amp;#060Path&amp;#062_9.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_31/Layer 13/&amp;#060Path&amp;#062_9.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_31/Layer 13/&amp;#060Path&amp;#062_9_0.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_31/Layer 13/&amp;#060Path&amp;#062_9_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_31/Layer 13/&amp;#060Path&amp;#062_9_1.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_31/Layer 13/&amp;#060Path&amp;#062_9_1.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_4/elements/&amp;#060Path&amp;#062_2.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_4/elements/&amp;#060Path&amp;#062_2.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_4/elements/&amp;#060Path&amp;#062_3.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_4/elements/&amp;#060Path&amp;#062_3.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_5/character side bar/&amp;#060Group&amp;#062_2.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_5/character side bar/&amp;#060Group&amp;#062_2.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_6/character side bar/&amp;#060Path&amp;#062_8.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_6/character side bar/&amp;#060Path&amp;#062_8.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_7/elements/&amp;#060Clip Group&amp;#062.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_7/elements/&amp;#060Clip Group&amp;#062.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_7/elements/&amp;#060Path&amp;#062.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_7/elements/&amp;#060Path&amp;#062.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_7/elements/&amp;#060Path&amp;#062_1.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_7/elements/&amp;#060Path&amp;#062_1.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_7/elements/&amp;#060Path&amp;#062_2.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_7/elements/&amp;#060Path&amp;#062_2.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_7/elements/&amp;#060Path&amp;#062_3.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_7/elements/&amp;#060Path&amp;#062_3.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_7/elements/&amp;#060Path&amp;#062_4.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_7/elements/&amp;#060Path&amp;#062_4.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_7/elements/&amp;#060Path&amp;#062_5.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_7/elements/&amp;#060Path&amp;#062_5.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_7/elements/&amp;#060Path&amp;#062_6.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_7/elements/&amp;#060Path&amp;#062_6.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_7/elements/&amp;#060Path&amp;#062_7.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_7/elements/&amp;#060Path&amp;#062_7.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_8/elements/&amp;#060Group&amp;#062_2.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_8/elements/&amp;#060Group&amp;#062_2.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB Assets_9/lock/&amp;#060Path&amp;#062_2.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB Assets_9/lock/&amp;#060Path&amp;#062_2.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB_0/character side bar/&amp;#060Path&amp;#062_8.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB_0/character side bar/&amp;#060Path&amp;#062_8.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/FlashAICB_1/Layer 1/&amp;#060Path&amp;#062.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/FlashAICB_1/Layer 1/&amp;#060Path&amp;#062.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/Kara.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/Kara.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/Kara_Phone_Insulin_Water.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/Kara_Phone_Insulin_Water.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/Kara_Tom.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/Kara_Tom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/Tween 1.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/Tween 1.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/Tween 2.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/Tween 2.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/Tween 3.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/Tween 3.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/Tween 4.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/Tween 4.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/Tween 5.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/Tween 5.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/Tween 6.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/Tween 6.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/arrow.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/arrow.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/arrow_point.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/arrow_point.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/badkid.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/badkid.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/better_text.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/better_text.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/bottom_xray.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/bottom_xray.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/btn_pg.png" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/btn_pg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/btn_prev.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/btn_prev.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/cell.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/cell.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/cell_eat.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/cell_eat.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/checkKetones.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/checkKetones.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/damaged_pancreas.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/damaged_pancreas.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/dehydration_hover.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/dehydration_hover.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/dehydration_slide.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/dehydration_slide.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/dehydration_symptom.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/dehydration_symptom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/desc_txt_kara.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/desc_txt_kara.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/desc_txt_zach.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/desc_txt_zach.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/doctor.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/doctor.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/fat.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/fat.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/fatty_acid.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/fatty_acid.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/fluids.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/fluids.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/g_kidneypath_L.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/g_kidneypath_L.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/g_kidneypath_R.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/g_kidneypath_R.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/glucose.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/glucose.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/glucose_appear.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/glucose_appear.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/glucose_flow copy.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/glucose_flow copy.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/glucose_flow.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/glucose_flow.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/glucose_hover.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/glucose_hover.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/glucose_leftkid_loop.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/glucose_leftkid_loop.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/glucose_leftkid_start.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/glucose_leftkid_start.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/glucose_rightkid_start.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/glucose_rightkid_start.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/good_kid.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/good_kid.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/healthybg.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/healthybg.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/heavey glucose flow.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/heavey glucose flow.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/heavybreathing_hover.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/heavybreathing_hover.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/heavybreathing_slide.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/heavybreathing_slide.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/heavybreathing_symptom.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/heavybreathing_symptom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/inside_crop.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/inside_crop.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/insulin.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/insulin.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/insulin_Toblood.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/insulin_Toblood.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/insulin_disappear.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/insulin_disappear.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/insulin_hover.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/insulin_hover.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/insulin_hoverDragger.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/insulin_hoverDragger.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/insulin_key.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/insulin_key.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/kara_body.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/kara_body.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/ketone.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/ketone.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/ketone_appear.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/ketone_appear.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/ketone_float.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/ketone_float.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/ketone_meter.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/ketone_meter.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/kidney.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/kidney.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/lock_stuff.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/lock_stuff.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/page.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/page.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/pancreas.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/pancreas.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/pancreas_eye.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/pancreas_eye.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/pancreas_eye_healthy.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/pancreas_eye_healthy.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/paralyze_eyez.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/paralyze_eyez.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/phone.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/phone.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/replay_btn.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/replay_btn.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/screen 4.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/screen 4.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/screen 6.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/screen 6.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/screen 7.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/screen 7.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/screen 8.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/screen 8.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/screen1.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/screen1.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/screen10.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/screen10.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/screen10_organLabels.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/screen10_organLabels.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/screen11.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/screen11.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/screen12.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/screen12.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/screen13.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/screen13.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/screen13_labels.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/screen13_labels.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/screen13_meter.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/screen13_meter.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/screen13_metertxt.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/screen13_metertxt.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/screen14.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/screen14.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/screen14_labels.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/screen14_labels.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/screen15.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/screen15.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/screen15_labels.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/screen15_labels.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/screen1_titletxt.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/screen1_titletxt.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/screen2.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/screen2.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/screen4_organLabels.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/screen4_organLabels.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/screen6_organLabels.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/screen6_organLabels.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/screen8_organLabels.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/screen8_organLabels.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/screen9.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/screen9.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/screen9_organLabels.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/screen9_organLabels.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/sickcell_eat.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/sickcell_eat.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/sidebar.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/sidebar.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/speech_bubb.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/speech_bubb.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/splash_btn.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/splash_btn.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/staticg.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/staticg.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/staticg_fade.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/staticg_fade.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/stom_mouth1.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/stom_mouth1.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/stomach_breathe.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/stomach_breathe.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/stomach_paralyze.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/stomach_paralyze.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/stomachmiddle1.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/stomachmiddle1.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/top_xray.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/top_xray.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/urinating_hover.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/urinating_hover.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/urinating_slide.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/urinating_slide.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/urinating_symptom.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/urinating_symptom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/vomiting_hover.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/vomiting_hover.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/vomiting_slide.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/vomiting_slide.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/vomiting_symptom.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/vomiting_symptom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/water.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/water.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/water_flow_out.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/water_flow_out.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/water_flow_out_R.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/water_flow_out_R.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/weakness_hover.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/weakness_hover.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/weakness_slide.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/weakness_slide.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/weakness_symptom.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/weakness_symptom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/xray_mask.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/xray_mask.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/xray_open.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/xray_open.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/LIBRARY/zach.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/LIBRARY/zach.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/META-INF/metadata.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/META-INF/metadata.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/MobileSettings.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/MobileSettings.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/PublishSettings.xml" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/PublishSettings.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/bin/M 7 1430404362.dat" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/bin/M 7 1430404362.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/bin/SymDepend.cache" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/bin/SymDepend.cache" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cptr1Ketones/xfl/ketones_www.xfl" afterPath="$PROJECT_DIR$/ch1Ketones/xfl/ketones_www.xfl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,8 +400,8 @@
       <file leaf-file-name="chapter1.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapter1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3930">
-              <caret line="262" column="35" lean-forward="false" selection-start-line="262" selection-start-column="35" selection-end-line="262" selection-end-column="35" />
+            <state relative-caret-position="180">
+              <caret line="261" column="138" lean-forward="false" selection-start-line="261" selection-start-column="133" selection-end-line="261" selection-end-column="138" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#button#0;n#div#2;n#div#0;n#div#4;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -49,7 +421,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>title</find>
       <find>.transla</find>
       <find>moderni</find>
       <find>main.js</find>
@@ -79,6 +450,7 @@
       <find>starb</find>
       <find>left: 5</find>
       <find>100%</find>
+      <find>ch1Ke</find>
     </findStrings>
     <replaceStrings>
       <replace>class</replace>
@@ -101,9 +473,9 @@
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/css/simple-sidebar.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/chapter1.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/chapter2.html" />
+        <option value="$PROJECT_DIR$/chapter1.html" />
       </list>
     </option>
   </component>
@@ -173,20 +545,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_dev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_dev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ch2Tools" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -313,7 +671,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93370000" />
+    <option name="totallyTimeSpent" value="93628000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -331,6 +689,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1938046" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.4951749" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5048251" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792208" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.49758744" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -342,7 +701,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -639,7 +997,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cptr1Ketones/site/images/btn_pg.png" />
+    <entry file="file://$PROJECT_DIR$/ch1Ketones/site/images/btn_pg.png" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -669,21 +1027,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cptr1Ketones/site/index.js">
+    <entry file="file://$PROJECT_DIR$/ch1Ketones/site/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cptr1Ketones/site/index.html">
+    <entry file="file://$PROJECT_DIR$/ch1Ketones/site/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="53" lean-forward="true" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cptr1Ketones/site/storytext.js">
+    <entry file="file://$PROJECT_DIR$/ch1Ketones/site/storytext.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
@@ -759,8 +1117,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3930">
-          <caret line="262" column="35" lean-forward="false" selection-start-line="262" selection-start-column="35" selection-end-line="262" selection-end-column="35" />
+        <state relative-caret-position="180">
+          <caret line="261" column="138" lean-forward="false" selection-start-line="261" selection-start-column="133" selection-end-line="261" selection-end-column="138" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#0;n#div#2;n#div#0;n#div#4;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />

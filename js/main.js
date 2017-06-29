@@ -152,5 +152,5 @@ anim.start();
 
 // to load the keTones page into the iframe slide 7 chapter 1
 $(function(){
-    $("#ketonesWp").load("cptr1Ketones/site/index.html");
+    $("#ketonesWp").load("ch1Ketones/site/index.html");
 });
