@@ -68,15 +68,6 @@ input[type=reset] {
     cursor: pointer;
 }
 
-/*video.video {*/
-    /*!*for all videos*!*/
-    /*display: block;*/
-    /*margin: auto;*/
-    /*width: 850px;*/
-    /*height: 650px;*/
-    /*border-width: 0;*/
-/*}*/
-
 video,
 iframe.buildInWeb {
   /*for buildIn web page*/
@@ -93,10 +84,6 @@ h1 {
     margin-bottom: 20px;
     font-size: 4em;
     font-weight: bold;
-}
-
-video {
-
 }
 
 h1#title:link, h1#title:visited {
@@ -299,11 +286,6 @@ a {
     font-weight: bold;
 }
 
-.extraPadding {
-    padding-left: 120px;
-    padding-right: 120px;
-}
-
 .stars {
     margin-top: 20px;
     padding-top: 20px;
@@ -323,9 +305,17 @@ img.starButton:hover {
 */
 }
 
+img.immune {
+    padding: 10px;
+}
+
+.button {
+    margin: 10px;
+}
+
 img.arrowImgMiddle {
   /*make sure left and right same margin*/
-  float:center;
+  float: inherit;
   /*center vertically*/
   position: relative;
   top: 83px;
@@ -335,13 +325,13 @@ img.arrowImgMiddle {
 img.imgOverImg1 {
  position: absolute;
     left: 50px;
-    top: 50px;
+    top: 60px;
 }
 /*2 diff positions*/
 img.imgOverImg2 {
  position: absolute;
     left: 160px;
-    top: 130px;
+    top: 90px;
 }
 
 .text-center {
@@ -366,20 +356,20 @@ img.imgOverImg2 {
     margin-top: 10px;
 }
 
+/*page counter*/
 .num {
     background:grey;
     color:white;
-    padding: 10px;
+    padding: 7px;
     width:70px;
     text-align:center;
     font-family: Arial Rounded MT Bold;
     position:fixed;
     bottom: 10px;
-    left: 50%; 
     opacity: 0.8;
     border-radius: 10px;
 }
-/*page counter*/
+
 
 #indicatingCorrect {
     color:green;
@@ -524,7 +514,7 @@ img.imgOverImg2 {
   font-size:20px;
 }
 
-.popup div {
+.popup p {
   padding:25px;
   background-color:black;
   border-radius:40px;
