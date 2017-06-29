@@ -68,17 +68,19 @@ input[type=reset] {
     cursor: pointer;
 }
 
-video.video{
-  /*for all videos*/
-    width: 750px;
-    height: 550px;
-    display: block;
-    border-width: 0;
-}
+/*video.video {*/
+    /*!*for all videos*!*/
+    /*display: block;*/
+    /*margin: auto;*/
+    /*width: 850px;*/
+    /*height: 650px;*/
+    /*border-width: 0;*/
+/*}*/
 
+video,
 iframe.buildInWeb {
-  /*for buildIn webpag*/
-    width: 800px;
+  /*for buildIn web page*/
+    width: 850px;
     height: 650px;
     display: block;
     margin: auto;
@@ -94,8 +96,7 @@ h1 {
 }
 
 video {
-    display: block;
-    margin: auto;
+
 }
 
 h1#title:link, h1#title:visited {
