@@ -1,21 +1,21 @@
 /*Smooth scroll function*/
 $('#smooth').on('click', function(e) {
 
-   // prevent default anchor click behavior
-   e.preventDefault();
+    // prevent default anchor click behavior
+    e.preventDefault();
 
-   // store hash
-   var hash = this.hash;
+    // store hash
+    var hash = this.hash;
 
-   // animate
-   $('html, body').animate({
-       scrollTop: $(this.hash).offset().top
-     }, 600, function(){
+    // animate
+    $('html, body').animate({
+        scrollTop: $(this.hash).offset().top
+    }, 600, function(){
 
-       // when done, add hash to url
-       // (default click behaviour)
-       window.location.hash = hash;
-     });
+        // when done, add hash to url
+        // (default click behaviour)
+        window.location.hash = hash;
+    });
 
 });
 
@@ -44,11 +44,11 @@ function scrollTopSmooth()
     window.scrollTo(0,y);
     if(y>0)
     {
-        t1 = setTimeout("scrollTopSmooth()",80);  
+        t1 = setTimeout("scrollTopSmooth()",80);
     }
     else
     {
-        clearTimeout(t1);   
+        clearTimeout(t1);
     }
 }
 
@@ -59,37 +59,37 @@ function scrollTopSmooth()
 // }
 
 // Method for checking the answers in chapter 1
-document.getElementById("answer").onclick = validate;    
-function validate() {     
-  var radios;     
-  var i;      
-  var right;      
-  radios = document.getElementById("questionCptr1").getElementsByTagName("input");      
-  right = 2;//false 1=true 2=blank;      
-  for(i = 0; i < radios.length; i++) {
-      if(radios[i].value == "true" && radios[i].checked == true){
-        right = 1;
-      } else if(radios[i].value == "false" && radios[i].checked == true){
-        right = 0;
-      }
-  }
+document.getElementById("answer").onclick = validate;
+function validate() {
+    var radios;
+    var i;
+    var right;
+    radios = document.getElementById("questionCptr1").getElementsByTagName("input");
+    right = 2;//false 1=true 2=blank;
+    for(i = 0; i < radios.length; i++) {
+        if(radios[i].value == "true" && radios[i].checked == true){
+            right = 1;
+        } else if(radios[i].value == "false" && radios[i].checked == true){
+            right = 0;
+        }
+    }
 
-  // clear all other indicating texts preventing showing results from last time:)
-  if(right== 1) {
-   document.getElementById('indicatingCorrect').style.display = 'block';
-   document.getElementById('indicatingWrong').style.display = 'none';
-   document.getElementById('indicatingBlank').style.display = 'none';
-  } else if(right == 0) {
-    document.getElementById('indicatingWrong').style.display = 'block';
-    document.getElementById('indicatingCorrect').style.display = 'none';
-    document.getElementById('indicatingBlank').style.display = 'none';
-  }  else{
-    document.getElementById('indicatingBlank').style.display = 'block';
-     document.getElementById('indicatingCorrect').style.display = 'none';
-     document.getElementById('indicatingWrong').style.display = 'none';
-  }
+    // clear all other indicating texts preventing showing results from last time:)
+    if(right== 1) {
+        document.getElementById('indicatingCorrect').style.display = 'block';
+        document.getElementById('indicatingWrong').style.display = 'none';
+        document.getElementById('indicatingBlank').style.display = 'none';
+    } else if(right == 0) {
+        document.getElementById('indicatingWrong').style.display = 'block';
+        document.getElementById('indicatingCorrect').style.display = 'none';
+        document.getElementById('indicatingBlank').style.display = 'none';
+    }  else{
+        document.getElementById('indicatingBlank').style.display = 'block';
+        document.getElementById('indicatingCorrect').style.display = 'none';
+        document.getElementById('indicatingWrong').style.display = 'none';
+    }
 
-  return false;
+    return false;
 }
 
 // cursor function

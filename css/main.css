@@ -291,18 +291,15 @@ a {
     padding-top: 20px;
 }
 
-.starButton {
+.actLikeButton {
     cursor: pointer;
     width:100px;
     height:auto;
 }
 
-img.starButton:hover {
+img.actLikeButton:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
-/*    width:100px;
-    height:auto;
-*/
 }
 
 img.immune {
@@ -313,12 +310,29 @@ img.immune {
     margin: 10px;
 }
 
+.blueArrow {
+    position: relative;
+    left: -20px;
+}
+
+.redArrow {
+    position: relative;
+    left: 17px;
+}
+
 img.arrowImgMiddle {
   /*make sure left and right same margin*/
   float: inherit;
   /*center vertically*/
   position: relative;
   top: 83px;
+}
+
+h3.ch1M200 {
+    position: absolute;
+    top:120px;
+    left: 47px;
+    color: black;
 }
 
 /*explosion on img to show damaged effect.........*/
