@@ -400,6 +400,9 @@ img.imgOverImg2 {
 #principalImg img {
     display: block;
     margin: auto;
+    padding-top: 20px;
+    width:auto;
+    height:469px;
 }
 
 #goDown {
@@ -411,6 +414,10 @@ img.imgOverImg2 {
     margin-top: 20px;
     margin-bottom: 0px;
     padding-top: 15px;
+}
+
+#message p {
+    padding-left: 55px;
 }
 
 #home {
@@ -480,6 +487,7 @@ img.imgOverImg2 {
     font-size: 15px;
     align-items: flex-end;
     margin:0px;
+    padding: 0px;
 }
 
 /* scroll to top button */
@@ -772,12 +780,32 @@ footer {
    ========================================================================== */
 
 /* to update the size of the menu button */
-@media (max-width: 750px) {
+@media (max-width: 768px) {
     .btn {
-        padding:2px 4px;
-        font-size: 20px;
+        padding:3px 4px;
+        font-size: 12px;
         line-height: 1;
+    }
 
+    #languages {
+        font-size: 12px;
+    }
+
+    #message p {
+        padding-left: 55px;
+    }
+
+    #principalImg {
+        width:auto;
+        height:659px;
+        padding-left: 50px;
+        padding-top: 70px;
+    }
+
+    .img-circle {
+        height:170px;
+        width: 220px;
+        margin-bottom: 10px;
     }
 }
 
