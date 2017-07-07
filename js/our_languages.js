@@ -11,7 +11,7 @@ var multilanguage = {
         'index-5' : 'Chapter 5 - Hyperglycemia or High',
         'index-6' : 'Chapter 6 - Nutrition',
         'index-7' : 'Chapter 7 - Exercise and Diabetes',
-        'index-8' : 'Chapter 8 - Personal Management Plan',
+        'index-8' : 'Chapter 8 - Personal Plan',
         'index-9' : 'Diabetes Tutorial For Kids',
         'index-10' : 'To help you learn it, fight it and be strong about it',
         'index-11' : 'Built with HTML5, CSS3, Bootstrap, jQuery & JavaScript'

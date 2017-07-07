@@ -792,14 +792,14 @@ footer {
     }
 
     #message p {
-        padding-left: 55px;
+        padding-left: 60px;
     }
 
     #principalImg {
         width:auto;
-        height:659px;
+        height:518px;
         padding-left: 50px;
-        padding-top: 70px;
+        margin-top: 20px;
     }
 
     .img-circle {
