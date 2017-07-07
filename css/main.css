@@ -227,7 +227,6 @@ a {
     font-family: Arial Rounded MT Bold;
     font-size: 2.5em;
     color: white;
-    text-align: center;
 }
 
 .left{
@@ -244,7 +243,7 @@ a {
 
 .img-circle {
     height:220px;
-    width: 325px;
+    width: 315px;
     margin-bottom: 10px;
 }
 
@@ -410,18 +409,21 @@ img.imgOverImg2 {
     margin: auto;
 }
 
-#message {
+#allMessage {
     margin-top: 20px;
     margin-bottom: 0px;
     padding-top: 15px;
 }
 
-#message p {
-    padding-left: 55px;
+#message2 {
+    margin-left: 70px;
+    padding-right: 0px;
+    text-align: right;
 }
 
-#home {
-   width: 100%;
+p #heart {
+    padding-left: 0px;
+    text-align: left;
 }
 
 #myCarousel {
@@ -791,14 +793,18 @@ footer {
         font-size: 12px;
     }
 
-    #message p {
-        padding-left: 60px;
+    #message2 {
+        margin-left: 50px;
+        padding-left: 50px;
+        padding-right: 0px;
+        margin-right: 0px;
+        text-align: center;
     }
 
-    #principalImg {
+    #principalImg img {
         width:auto;
-        height:518px;
-        padding-left: 50px;
+        height:567px;
+        padding-left: 0px;
         margin-top: 20px;
     }
 
