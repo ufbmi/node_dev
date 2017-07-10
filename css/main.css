@@ -233,12 +233,10 @@ a {
   display:none;
 }
 
-.chapters {
+#chapters {
+    margin-top: 40px;
     margin-right: 20px;
     margin-left: 65px;
-    position:relative;
-    top:120px;
-    z-index: 1;
 }
 
 .img-circle {
@@ -417,8 +415,9 @@ img.imgOverImg2 {
 
 #message2 {
     margin-left: 70px;
+    padding-left: 50px;
     padding-right: 0px;
-    text-align: right;
+    text-align: center;
 }
 
 p #heart {
