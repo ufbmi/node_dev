@@ -334,13 +334,14 @@ h3.ch1M200 {
 
 /*explosion on img to show damaged effect.........*/
 img.imgOverImg1 {
- position: absolute;
+    position: absolute;
     left: 50px;
     top: 60px;
 }
+
 /*2 diff positions*/
 img.imgOverImg2 {
- position: absolute;
+    position: absolute;
     left: 160px;
     top: 90px;
 }
@@ -413,16 +414,17 @@ img.imgOverImg2 {
     padding-top: 15px;
 }
 
-#message2 {
-    margin-left: 70px;
+#message {
+    margin-left: 0px;
     padding-left: 50px;
     padding-right: 0px;
     text-align: center;
 }
 
-p #heart {
-    padding-left: 0px;
-    text-align: left;
+p#heart {
+    position: absolute;
+    left: 50%;
+    top: 200px;
 }
 
 #myCarousel {
@@ -792,11 +794,11 @@ footer {
         font-size: 12px;
     }
 
-    #message2 {
-        margin-left: 50px;
+    #message {
         padding-left: 50px;
         padding-right: 0px;
         margin-right: 0px;
+        margin-left: 0px;
         text-align: center;
     }
 
@@ -805,6 +807,14 @@ footer {
         height:567px;
         padding-left: 0px;
         margin-top: 20px;
+    }
+
+    p#heart {
+        position: absolute;
+        left: 140px;
+        top: 260px;
+        padding-left: 0px;
+        text-align: left;
     }
 
     .img-circle {
@@ -843,33 +853,7 @@ footer {
         box-shadow: none !important;
         text-shadow: none !important;
     }
-/*
-    a,
-    a:visited {
-        text-decoration: none;
-    }
 
-
-
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }*/
-/*
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-*/
-
-    /*
-     * Don't show links that are fragment identifiers,
-     * or use the `javascript:` pseudo protocol
-     */
-
-/*    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
-*/
     pre,
     blockquote {
         border: 1px solid #999;
@@ -900,7 +884,6 @@ footer {
     h3 {
         page-break-after: avoid;
     }
-
 
 }
 
