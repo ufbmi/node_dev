@@ -73,8 +73,8 @@
                     </a>
                 </div>
 
-                <!-- carousel example-->
-                <div class="container">
+                <!-- carousel -->
+                <div>
                     <div id="myCarousel" class="carousel slide" data-interval="false" data-ride="carousel">
 
                         <!-- Wrapper for slides -->
@@ -82,39 +82,33 @@
 
                             <!--********************** CHAPTER 1 **********************-->
                             <!-- page 1 -->
-                            <div id="slide1" class="item active">
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <div class="col-lg-12 col-sm-12">
-                                        <h2 class="heading">Chapter 1</h2>
-                                        <h1 class="animated zoomInDown titleShadow col-lg-12 col-sm-12">What is Diabetes ?</h1>
-                                        <img class="imgToRight" width="250px" height=auto src="img/ch1/2 Kara questions.png">
-                                    </div>
-                                 </div>
+                            <div id="slide1" class="item  container">
+                                <div class="pad-left col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <h2 class="heading">Chapter 1</h2>
+                                    <h1 class="animated zoomInDown titleShadow col-lg-12 col-sm-12">What is Diabetes ?</h1>
+                                </div>
+                                <img class="imgToRight" src="img/ch1/2 Kara questions.png">
                             </div>
                             <!-- page 2 -->
-                            <div id="slide2" class="item">
+                            <div id="slide2" class="item container">
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <div class="col-lg-12 col-sm-12">
-                                        <h4 class="text-center col-lg-12 col-sm-12"><span style="color:red">Animation 1.1</span> What is Diabetes?</h4>
-                                        <!--video needs to put on server and be properly center-->
-                                        <!--video needs to be mp4-->
-                                        <video class="buildInWeb" controls>
-                                            <source src="video/Diab Ep 1 024 FULL.mpeg" alt="type one diabetes" type="video/mpeg">
-                                            Your browser does not support the video tag.
-                                        </video>
-                                    </div>
+                                    <h4 class="text-center"><span style="color:red">Animation 1.1</span> What is Diabetes?</h4>
+                                    <video class="buildInWeb" controls>
+                                        <source src="video/Diab Ep 1 024 FULL.mpeg" alt="type one diabetes" type="video/mpeg">
+                                        Your browser does not support the video tag.
+                                    </video>
                                 </div>
                             </div>
                             <!-- page 3 -->
-                            <div id="slide3" class="item">
+                            <div id="slide3" class="item container">
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <div class="col-lg-12 col-sm-12">
+                                    <div class="pad-left col-lg-12 col-sm-12">
                                         <h4><span style="color:red">Interactive 1.1</span> Let’s Review</h4>
                                         <h1 class="text-center animated zoomInDown titleShadow">Let’s Review</h1>
-                                        <h2 class="fontSizeTitle animated fadeInDown">There are two main types of diabetes</h2>
+                                        <h2 class="text-center fontSizeTitle animated fadeInDown">There are two main types of diabetes</h2>
                                     </div>
                                     <div class="col-lg-12 col-sm-12">
-                                        <div class="col-lg-10 col-sm-10">
+                                        <div class="col-lg-9 col-sm-9">
                                             <div class="stars col-lg-10">
                                                 <img class="beating actLikeButton animated wobble" onclick="document.getElementById('hiddenT1').style.display = 'block';this.style.display = 'none'" src="img/ch1/starButton.png">
                                                 <h2 id="hiddenT1" class="animated bounceIn" style="display:none;">
@@ -144,14 +138,16 @@
                                                 </h2>
                                             </div>
                                         </div>
-                                        <div class="col-lg-2 col-sm-2"><img width="250px" height=auto src="img/index/1 Kara.png"></div>
+                                        <div class="col-lg-3 col-sm-3">
+                                            <img id="ch1Kara" class="imgToRight" src="img/index/1 Kara.png">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <!-- page 4 -->
-                            <div id="slide4" class="item" >
+                            <div id="slide4" class="item container" >
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <div class="col-lg-12 col-sm-12">
+                                    <div class="pad-left col-lg-12 col-sm-12">
                                         <h4><span style="color:red">Interactive 1.2</span> What is insulin and why is it so important?</h4>
                                         <h1 class="text-center fontSizeTitle animated zoomInDown titleShadow">What is insulin and why is it so important?</h1>
                                     </div>
@@ -187,37 +183,41 @@
                                 </div>
                             </div>
                             <!-- page 5 -->
-                            <div id="slide5" class="item">
+                            <div id="slide5" class="item container">
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <div class="col-lg-12 col-sm-12">
+                                    <div class="pad-left col-lg-12 col-sm-12">
                                         <h4><span style="color:red" class="mag">Interactive 1.3</span> Why doesn’t the body make enough insulin in type 1 diabetes</h4>
                                         <div class="text-center col-lg-12 col-sm-12">
                                             <h2 class="fontSizeTitle animated zoomInDown titleShadow">Why doesn’t the body make enough insulin in type 1 diabetes?</h2>
                                         </div>
                                     </div>
-                                    <img class="beating animated wobble actLikeButton" onclick="document.getElementById('hiddenT5').style.display = 'block';document.getElementById('hiddenButton1').style.display = 'block';this.style.display = 'none'" src="img/ch1/starButton.png">
-                                    <div class="col-lg-12 col-sm-12" id="hiddenT5"  style="display:none;">
-                                        <h2 class="animated bounceIn text-center">The immune system normally fight infections</h2>
-                                        <div class="col-lg-3">
-                                            <img class="immune" src="img/ch1/Pasted-1.png" width="200" height=180>
-                                            <h4 class="text-center animated zoomIn">Immune System</h4>
+                                    <div class="stars">
+                                        <img class="beating animated wobble actLikeButton" onclick="document.getElementById('hiddenT5').style.display = 'block';document.getElementById('hiddenButton1').style.display = 'block';this.style.display = 'none'" src="img/ch1/starButton.png">
+                                    </div>
+                                    <div class="col-lg-12 col-md-12" id="hiddenT5"  style="display:none;">
+                                        <div class="stars">
+                                            <h2 class="animated bounceIn text-center">The immune system normally fight infections</h2>
                                         </div>
-                                        <div class="col-lg-1">
-                                            <img class="arrowImgMiddle" src="img/ch1/Pasted-2.png" width="60" height=auto>
-                                            <h4 class="text-center animated zoomIn">Attacks</h4>
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                            <img class="immune" src="img/ch1/Pasted-1.png">
+                                            <h4 class="slide5Text text-center animated zoomIn">Immune System</h4>
                                         </div>
-                                        <div class="col-lg-3">
-                                            <img class="immune" src="img/ch1/Pasted-3.png" width="200" height=180>
-                                            <h4 class="text-center animated zoomIn">Viruses and bacteria</h4>
+                                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                                            <img class="arrowImgMiddle" src="img/ch1/Pasted-2.png">
+                                            <h4 class="slide5Text text-center animated zoomIn">Attacks</h4>
                                         </div>
-                                        <div class="col-lg-1">
-                                            <img class="arrowImgMiddle" src="img/ch1/Pasted-2.png" width="60" height=auto>
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                            <img class="immune" src="img/ch1/Pasted-3.png">
+                                            <h4 class="slide5Text text-center animated zoomIn">Viruses and bacteria</h4>
                                         </div>
-                                        <div class="col-lg-3">
-                                            <img class="immune" src="img/ch1/Pasted-3.png" width="200" height=180>
-                                            <h4 class="text-center animated zoomIn"> Damaged Viruses and bacteria</h4>
-                                            <img class="imgOverImg1" src="img/ch1/explotion.png" width="90" height=auto>
-                                            <img class="imgOverImg2" src="img/ch1/explotion.png" width="90" height=auto>
+                                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                                            <img class="arrowImgMiddle" src="img/ch1/Pasted-2.png">
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                            <img class="immune" src="img/ch1/Pasted-3.png">
+                                            <h4 class="slide5Text text-center animated zoomIn"> Damaged Viruses and bacteria</h4>
+                                            <img class="imgOverImg1" src="img/ch1/explotion.png">
+                                            <img class="imgOverImg2" src="img/ch1/explotion.png">
                                         </div>
                                     </div>
                                     <!--But button-->
@@ -225,116 +225,114 @@
                                         <button style="display:none;" class="button" id="hiddenButton1" onclick="document.getElementById('hiddenT6').style.display = 'block'"><span>BUT</span></button>
                                     </div>
                                     <!--End but button-->
-                                    <div id="hiddenT6" class="col-lg-12 animated bounceIn" style="display:none;">
-                                        <h2>In Type 1 diabetes, the immune system attacks the pancreas</h2>
-                                        <div class="col-lg-3">
-                                            <img class="immune" src="img/ch1/Pasted-1.png" width="200" height=180>
-                                            <h4 class="text-center animated zoomIn">Immune System</h4>
+                                    <div id="hiddenT6" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 animated bounceIn" style="display:none;">
+                                        <h2 class="slide5Text text-center">In Type 1 diabetes, the immune system attacks the pancreas</h2>
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                            <img class="immune" src="img/ch1/Pasted-1.png" >
+                                            <h4 class="slide5Text text-center animated zoomIn">Immune System</h4>
                                         </div>
-                                        <div class="col-lg-1">
-                                            <img class="arrowImgMiddle" src="img/ch1/Pasted-2.png" width="60" height=auto>
-                                            <h4 class="text-center animated zoomIn">Attacks</h4>
+                                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                                            <img class="arrowImgMiddle" src="img/ch1/Pasted-2.png">
+                                            <h4 class="slide5Text text-center animated zoomIn">Attacks</h4>
                                         </div>
-                                        <div class="col-lg-3">
-                                            <img class="immune" src="img/ch1/Pancreas WGBH@2x.png" width="200" height=180>
-                                            <h4 class="text-center animated zoomIn">Pancreas</h4>
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                            <img class="immune" src="img/ch1/Pancreas WGBH@2x.png">
+                                            <h4 class="slide5Text text-center animated zoomIn">Pancreas</h4>
                                         </div>
-                                        <div class="col-lg-1">
-                                            <img class="arrowImgMiddle" src="img/ch1/Pasted-2.png" width="60" height=auto>
+                                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                                            <img class="arrowImgMiddle" src="img/ch1/Pasted-2.png">
                                         </div>
-                                        <div class="col-lg-3">
-                                            <img class="immune" src="img/ch1/Sick Pancreas WGBH@2x.png" width="200" height=180>
-                                            <h4 class="text-center animated zoomIn">Damaged Pancreas</h4>
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                            <img class="immune" src="img/ch1/Sick Pancreas WGBH@2x.png">
+                                            <h4 class="slide5Text text-center animated zoomIn">Damaged Pancreas</h4>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <!-- page 6 -->
-                            <div id="slide6" class="item">
+                            <div id="slide6" class="item active container">
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <div class="col-lg-12 col-sm-12">
-                                        <div>
-                                            <h4><span style="color:red">Interactive 1.4</span> Why doesn’t the body make enough insulin in type 1 diabetes?</h4>
-                                            <h2 class="text-center animated bounceIn titleShadow"> Why doesn’t the body make enough insulin in type 1 diabetes?</h2>
-                                        </div>
-                                        <div class="col-lg-3">
-                                            <img class="immune" src="img/ch1/Sick Pancreas WGBH@2x.png" width="200" height=180>
-                                            <h4 class="text-center animated zoomIn">Damaged Pancreas</h4>
-                                        </div>
-                                        <div class="col-lg-2">
-                                            <img class="actLikeButton arrowImgMiddle" onclick="document.getElementById('hiddenT7').style.display = 'block';document.getElementById('hiddenT8').style.display = 'block';" src="img/ch1/Pasted.png" width="80" height=auto>
-                                        </div>
-                                        <div class="col-lg-1" id="hiddenT7" style="display:none;">
-                                            <h4 class="text-center animated zoomIn" style="color: #2f7bff">Low Insulin</h4>
-                                            <img class="blueArrow animated slideInDown" src="img/ch1/blueArrow.png" width="90" height="180">
-                                        </div>
-                                        <div class="col-lg-2" id="hiddenT8" style="display:none;">
-                                            <img class="actLikeButton arrowImgMiddle" onclick="document.getElementById('hiddenT9').style.display = 'block';document.getElementById('hiddenT10').style.display = 'block';" src="img/ch1/Pasted.png" width="80" height=auto>
-                                        </div>
-                                        <div class="col-lg-2" id="hiddenT9" style="display:none;">
-                                            <h4 class="text-center animated zoomIn" style="color: #a91819">High Glucose</h4>
-                                            <img class="redArrow animated slideInUp" src="img/ch1/redArrow.png" width="90" height="180">
-                                            <h3 class="ch1M200 animated zoomIn">> 200</h3>
-                                        </div>
-                                        <div class="col-lg-2" id="hiddenT10" style="display:none;">
-                                            <img class="actLikeButton arrowImgMiddle" onclick="document.getElementById('hiddenT11').style.display = 'block';document.getElementById('hiddenT12').style.display = 'block';" src="img/ch1/Pasted.png" width="80" height=auto>
-                                        </div>
+                                    <div class="pad-left">
+                                        <h4><span style="color:red">Interactive 1.4</span> Why doesn’t the body make enough insulin in type 1 diabetes?</h4>
+                                        <h2 class="text-center animated bounceIn titleShadow"> Why doesn’t the body make enough insulin in type 1 diabetes?</h2>
                                     </div>
-                                    <div class="stars col-lg-12 col-sm-12" id="hiddenT11" style="display:none;">
-                                        <div class="col-lg-10 col-sm-10">
-                                            <h3 class="text-center animated bounceIn">Glucose levels in people without diabetes are usually between 80-100 <br> When there’s not enough insulin, the glucose can go over 200!</h3>
-                                        </div>
-                                        <div class="col-lg-2 col-sm-2" id="hiddenT12" style="display:none;">
-                                            <img class="actLikeButton" onclick="document.getElementById('hiddenT13').style.display = 'block';document.getElementById('hiddenT14').style.display = 'block';" src="img/ch1/Pasted.png" width="80" height=auto>
-                                        </div>
+                                    <div class="stars col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                        <img class="immune" src="img/ch1/Sick Pancreas WGBH@2x.png">
+                                        <h4 class="slide5Text text-center animated zoomIn">Damaged Pancreas</h4>
                                     </div>
-                                    <div class="stars col-lg-12 col-sm-12">
-                                        <div class="col-lg-2" id="hiddenT13" style="display:none;">
-                                            <h4 class="text-center animated zoomIn" style="color: #a91819">High Glucose</h4>
-                                            <img class="redArrow animated slideInUp" src="img/ch1/redArrow.png" width="90" height="180">
-                                            <h3 class="ch1M200 animated zoomIn">> 200</h3>
-                                        </div>
-                                        <div class="col-lg-1" id="hiddenT14" style="display:none;">
-                                            <img class="actLikeButton arrowImgMiddle blueArrow" onclick="document.getElementById('hiddenT15').style.display = 'block';document.getElementById('hiddenT16').style.display = 'block';document.getElementById('hiddenT17').style.display = 'block'; document.getElementById('hiddenT18').style.display = 'block';" src="img/ch1/Pasted.png" width="80" height=auto>
-                                        </div>
-                                        <div class="col-lg-2" id="hiddenT15" style="display:none;">
-                                            <img class="redArrow" src="img/ch1/Kara need to pee WGBH@2x.png" width="80" height="250">
-                                        </div>
-                                        <div class="col-lg-1" id="hiddenT16" style="display:none;">
-                                            <img class="arrowImgMiddle blueArrow" src="img/ch1/greenCross.png" width="80" height=auto>
-                                        </div>
-                                        <div class="col-lg-2" id="hiddenT17" style="display:none;">
-                                            <img src="img/ch1/Kara Thirsty WGBH@2x.png" width="100" height="250">
-                                        </div>
-                                        <div class="col-lg-4" id="hiddenT18" style="display:none;">
-                                            <h3>When the glucose is too high it spills into the urine making you go to the bathroom a lot and makes you very thirsty</h3>
-                                        </div>
+                                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                                        <img class="actLikeButton slide6Arrow arrowImgMiddle" onclick="document.getElementById('hiddenT7').style.display = 'block';document.getElementById('hiddenT8').style.display = 'block';" src="img/ch1/Pasted.png">
+                                    </div>
+                                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1" id="hiddenT7" style="display:none;">
+                                        <h4 class="text-center animated zoomIn" style="color: #2f7bff">Low Insulin</h4>
+                                        <img class="blueArrow animated slideInDown" src="img/ch1/blueArrow.png">
+                                    </div>
+                                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" id="hiddenT8" style="display:none;">
+                                        <img class="actLikeButton arrowImgMiddle" onclick="document.getElementById('hiddenT9').style.display = 'block';document.getElementById('hiddenT10').style.display = 'block';" src="img/ch1/Pasted.png">
+                                    </div>
+                                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" id="hiddenT9" style="display:none;">
+                                        <h4 class="text-center animated zoomIn" style="color: #a91819">High Glucose</h4>
+                                        <img class="redArrow animated slideInUp" src="img/ch1/redArrow.png">
+                                        <h3 class="ch1M200 animated zoomIn">> 200</h3>
+                                    </div>
+                                    <div class="col-lg-2 col-md-1 col-sm-1 col-xs-1" id="hiddenT10" style="display:none;">
+                                        <img class="actLikeButton slide6Arrow arrowImgMiddle" onclick="document.getElementById('hiddenT11').style.display = 'block';document.getElementById('hiddenT12').style.display = 'block';" src="img/ch1/Pasted.png">
+                                    </div>
+                                </div>
+                                <div class="stars col-lg-12 col-md-12 col-sm-12 col-xs-12" id="hiddenT11" style="display:none;">
+                                    <div class="col-lg-10 col-sm-10 col-sm-10 col-xs-10">
+                                        <h3 class="text-center animated bounceIn">Glucose levels in people without diabetes are usually between 80-100 <br> When there’s not enough insulin, the glucose can go over 200!</h3>
+                                    </div>
+                                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" id="hiddenT12" style="display:none;">
+                                        <img class="actLikeButton " onclick="document.getElementById('hiddenT13').style.display = 'block';document.getElementById('hiddenT14').style.display = 'block';" src="img/ch1/Pasted.png">
+                                    </div>
+                                </div>
+                                <div class="stars col-lg-12 col-md-12">
+                                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" id="hiddenT13" style="display:none;">
+                                        <h4 class="text-center animated zoomIn" style="color: #a91819">High Glucose</h4>
+                                        <img class="redArrow animated slideInUp" src="img/ch1/redArrow.png">
+                                        <h3 class="ch1M200 animated zoomIn">> 200</h3>
+                                    </div>
+                                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1" id="hiddenT14" style="display:none;">
+                                        <img class="actLikeButton slide6Arrow arrowImgMiddle blueArrow" onclick="document.getElementById('hiddenT15').style.display = 'block';document.getElementById('hiddenT16').style.display = 'block';document.getElementById('hiddenT17').style.display = 'block'; document.getElementById('hiddenT18').style.display = 'block';" src="img/ch1/Pasted.png">
+                                    </div>
+                                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" id="hiddenT15" style="display:none;">
+                                        <img src="img/ch1/Kara need to pee WGBH@2x.png" width="100" height="250">
+                                    </div>
+                                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1" id="hiddenT16" style="display:none;">
+                                        <img id="greenCrossSign" src="img/ch1/greenCross.png" width="100" height=auto>
+                                    </div>
+                                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" id="hiddenT17" style="display:none;">
+                                        <img src="img/ch1/Kara Thirsty WGBH@2x.png" width="100" height="250">
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4" id="hiddenT18" style="display:none;">
+                                        <h3>When the glucose is too high it spills into the urine making you go to the bathroom a lot and makes you very thirsty</h3>
                                     </div>
                                 </div>
                             </div>
                             <!-- page 7 -->
-                            <div id="slide7" class="item">
+                            <div id="slide7" class="item container">
                                 <div class="col-lg-12 col-sm-12">
                                     <h1 class="text-center buildInWeb animated zoomInDown titleShadow">What's up with Ketones?</h1>
                                     <iframe onload="whiteFrameBg()" id="myframe" class="buildInWeb" alt="Whats up with Ketones" src="ch1Ketones/site/index.html"></iframe>
                                 </div>
                             </div>
                             <!-- page 8 -->
-                            <div id="slide8" class="item">
+                            <div id="slide8" class="item container">
                                 <div class="col-lg-12 col-sm-12">
                                     <h2 class="text-center fontSizeTitle animated zoomInDown titleShadow">Type 1 diabetes vs. Type 2 diabetes</h2>
                                 </div>
-                                <div class="col-lg-6 col-sm-12">
+                                <div class="stars col-lg-6 col-sm-12">
                                     <h2 class="animated bounceIn"><span style="color:red">Type 1</span> diabetes is treated with insulin which is usually given through a needle</h2>
                                     <img width="300px" height=auto  src="img/ch1/23 Kara insulin.png">
                                 </div>
-                                <div class="col-lg-6 col-sm-12">
+                                <div class="stars col-lg-6 col-sm-12">
                                     <h2 class="animated bounceIn"><span style="color:red">Type 2</span> diabetes is sometimes treated with insulin, but usually people can take pills and focus on losing weight</h2>
                                     <img width="300px" height=auto  src="img/ch1/9 running.png">
                                 </div>
                             </div>
                             <!-- page 9 -->
-                            <div id="slide9" class="item">
+                            <div id="slide9" class="item container">
                                 <div class="col-lg-12 col-sm-12">
                                     <h4><span style="color:red">Review 1.1</span> Questions</h4>
                                     <h1 class="text-center animated zoomInDown titleShadow">What is Insulin ?</h1>
@@ -387,9 +385,6 @@
 
         <!-- Bootstrap Core JavaScript -->
         <script src="js/bootstrap.min.js"></script>
-
-        <!--&lt;!&ndash; Konva Script &ndash;&gt;-->
-        <!--<script src="https://cdn.rawgit.com/konvajs/konva/1.3.0/konva.js"></script>-->
 
         <!-- Menu Toggle Script -->
         <script>
