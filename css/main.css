@@ -68,11 +68,22 @@ input[type=reset] {
     cursor: pointer;
 }
 
+/*WIP TO LOAD Ketones page */
+/*video,*/
+/*iframe {*/
+    /*width: 100%;*/
+    /*height: 750px;*/
+    /*display: block;*/
+    /*margin: auto;*/
+    /*border-width: 0;*/
+    /*padding-left: 50px;*/
+    /*padding-right: 50px;*/
+/*}*/
+
 video,
 iframe.buildInWeb {
-  /*for buildIn web page*/
     width: 100%;
-    height: 650px;
+    height: 750px;
     display: block;
     margin: auto;
     border-width: 0;
@@ -108,6 +119,24 @@ a {
     width: 100%;
     padding-right: 75px;
     padding-left: 75px;
+}
+
+.scrollToTop{
+    width:100px;
+    height:130px;
+    padding:10px;
+    text-align:center;
+    background: whiteSmoke;
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+    position:fixed;
+    top:75px;
+    right:40px;
+    display:none;
+}
+.scrollToTop:hover{
+    text-decoration:none;
 }
 
 #karaQuestion {

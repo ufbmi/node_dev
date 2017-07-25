@@ -7,7 +7,7 @@ function forceES() {
 }
 
 function init() {
-	storytext = (LANG == 'en') ? storytext_en : storytext_es;
+    storytext = (LANG == 'en') ? storytext_en : storytext_es;
 
 	//prevent scrolling on iOS
 	//document.ontouchmove = function(event) { event.preventDefault(); }

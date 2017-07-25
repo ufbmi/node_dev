@@ -28,7 +28,7 @@ var multilanguage = {
         'index-8' : 'Chapter 8 - Plan personal',
         'index-9' : 'Tutorial para niños sobre Diabetes',
         'index-10' : 'Para ayudarte a aprender y a ser fuerte',
-        'index-11' : 'Construido con HTML5, CSS3, Bootstrap, jQuery & JavaScript',
+        'index-11' : 'Construido con HTML5, CSS3, Bootstrap, jQuery & JavaScript'
     }
 };
 

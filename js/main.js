@@ -32,38 +32,25 @@ $('#smooth').on('click', function(e) {
 
 });
 
-// change bg color of i frame func
-function whiteFrameBg() {
-    var x = document.getElementById("myframe");
-    var y = (x.contentWindow || x.contentDocument);
-    if (y.document)y = y.document;
-    y.body.style.backgroundColor = "white";
-}
+// Scroll To Top function for index page
+$(document).ready(function(){
 
-// scroll to top func
-var t1=0;
-window.onscroll = function() {scroll1()};
+    //Check to see if the window is top if not then display button
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 100) {
+            $('.scrollToTop').fadeIn();
+        } else {
+            $('.scrollToTop').fadeOut();
+        }
+    });
 
-function scroll1()
-{
-    var toTop = document.getElementById("myBtn");
-    (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20)? toTop.style.display="block" :  toTop.style.display="none";
-}
+    //Click event to scroll to top
+    $('.scrollToTop').click(function(){
+        $('html, body').animate({scrollTop : 0},800);
+        return false;
+    });
 
-function scrollTopSmooth()
-{
-    var y = window.scrollY;
-    y = y-600;
-    window.scrollTo(0,y);
-    if(y>0)
-    {
-        t1 = setTimeout("scrollTopSmooth()",80);
-    }
-    else
-    {
-        clearTimeout(t1);
-    }
-}
+});
 
 // // When the user clicks on the button, scroll to the top of the document
 // function topFunction() {
@@ -72,8 +59,8 @@ function scrollTopSmooth()
 // }
 
 // Method for checking the answers in chapter 1
-document.getElementById("answer").onclick = validate;
-function validate() {
+
+$('#answer').on('click', function validate() {
     var radios;
     var i;
     var right;
@@ -103,4 +90,29 @@ function validate() {
     }
 
     return false;
+});
+
+// // solution for the load issue with the ketone page
+// // 1- must uncomment in main.css the video, iframe {}
+// // fix white background color
+// function createIframe(){
+//     // alert("create");
+//     var i = document.createElement("iframe");
+//     i.src = "ch1Ketones/site/index.html";
+//     i.id = "myframe";
+//     document.getElementById("ketones").appendChild(i);
+// };
+
+// change bg color of i frame func
+function whiteFrameBg() {
+    var x = document.getElementById("myframe");
+    var y = (x.contentWindow || x.contentDocument);
+    if (y.document)y = y.document;
+    y.body.style.backgroundColor = "white";
 }
+
+// function loadKetonePage() {
+//     // alert("load ke");
+//     window.onload = createIframe();
+//     whiteFrameBg();
+// }
