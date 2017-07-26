@@ -1,3 +1,24 @@
+// saving language
+// WIP check if the lang === NULL
+
+$('#en').on('click', function validate() {
+    var lang = "en";
+    localStorage.setItem("lang", lang);
+});
+
+$('#es').on('click', function validate() {
+    var lang = "es";
+    localStorage.setItem("lang", lang);
+});
+
+function forceLang() {
+    var lang = localStorage.getItem("lang");
+    alert(lang);
+    if (lang === "es") {
+        changeLang();
+    }
+}
+
 // beating heart function
 $(document).ready(function() {
     setInterval ('cursorAnimation0()', 1800);

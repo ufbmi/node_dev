@@ -23,7 +23,7 @@
         <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     </head>
 
-    <body>
+    <body onload="forceLang()">
         <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -72,9 +72,9 @@
                         <span class="glyphicon glyphicon-align-justify"></span> Menu
                     </a>
                     <div id="languages">
-                        <a href="#" class="translate" id="en">English</a>
+                        <a href="#" class="translate" id="en" onclick="changeLang();">English</a>
                         <span>&nbsp|&nbsp</span>
-                        <a href="#" class="translate" id="es">Español</a>
+                        <a href="#" class="translate" id="es" onclick="changeLang();">Español</a>
                     </div>
                 </div>
                 <!-- headers here; landing title, lang choices -->

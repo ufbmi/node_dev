@@ -14,7 +14,8 @@ var multilanguage = {
         'index-8' : 'Chapter 8 - Personal Plan',
         'index-9' : 'Diabetes Tutorial For Kids',
         'index-10' : 'To help you learn it, fight it and be strong about it',
-        'index-11' : 'Built with HTML5, CSS3, Bootstrap, jQuery & JavaScript'
+        'index-11' : 'Built with HTML5, CSS3, Bootstrap, jQuery & JavaScript',
+        'ch1-0' : 'What is Diabetes ?'
     },
     'es' : {
         'index-0' : 'Pagina Principal',
@@ -28,17 +29,29 @@ var multilanguage = {
         'index-8' : 'Chapter 8 - Plan personal',
         'index-9' : 'Tutorial para niños sobre Diabetes',
         'index-10' : 'Para ayudarte a aprender y a ser fuerte',
-        'index-11' : 'Construido con HTML5, CSS3, Bootstrap, jQuery & JavaScript'
+        'index-11' : 'Construido con HTML5, CSS3, Bootstrap, jQuery & JavaScript',
+        'ch1-0' : 'Que es Diabetis ?'
     }
 };
 
 // For multi-language
-$(function(){
+// $(function (){
+//     $('.translate').click(function(){
+//         var lang = $(this).attr('id');
+//
+//         $('.lang').each(function(index,element){
+//             $(this).text(multilanguage[lang][$(this).attr('key')]);
+//         });
+//     });
+// });
+
+
+function changeLang(){
     $('.translate').click(function(){
-        var lang = $(this).attr('id');
+    var lang = $(this).attr('id');
 
         $('.lang').each(function(index,element){
             $(this).text(multilanguage[lang][$(this).attr('key')]);
         });
     });
-});
+};
