@@ -121,22 +121,45 @@ a {
     padding-left: 75px;
 }
 
-.scrollToTop{
-    width:100px;
-    height:130px;
-    padding:10px;
-    text-align:center;
-    background: whiteSmoke;
-    font-weight: bold;
-    color: #444;
-    text-decoration: none;
-    position:fixed;
-    top:75px;
-    right:40px;
-    display:none;
+/*.scrollToTop {*/
+    /*width:100px;*/
+    /*height:130px;*/
+    /*padding:10px;*/
+    /*text-align:center;*/
+    /*background: whiteSmoke;*/
+    /*font-weight: bold;*/
+    /*color: #444;*/
+    /*text-decoration: none;*/
+    /*position:fixed;*/
+    /*top:75px;*/
+    /*right:40px;*/
+    /*display:none;*/
+/*}*/
+
+/*.scrollToTop:hover {*/
+    /*text-decoration:none;*/
+/*}*/
+
+/* scroll to top button */
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 20px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgba(255, 255, 255, 0.2);
+    /* Set a background color */
+    color: white; /* Text color*/
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
 }
-.scrollToTop:hover{
-    text-decoration:none;
+
+#myBtn:hover {
+    background-color: rgba(144, 144, 144, 0.3);/* Add a dark-grey background on hover */
+    color: black;
 }
 
 #karaQuestion {
@@ -562,29 +585,6 @@ p#heart {
     align-items: flex-end;
     margin:0px;
     padding: 0px;
-}
-
-/* scroll to top button */
-#myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 20px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: rgba(255, 255, 255, 0.2);
-     /* Set a background color */
-    color: white; /* Text color*/
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-}
-
-#myBtn:hover {
-   background-color: rgba(144, 144, 144, 0.3);/* Add a dark-grey background on hover */
-    color: black;
-
 }
 
 .img-circle:hover {
