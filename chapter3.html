@@ -97,7 +97,7 @@
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                     <h1 class="text-center animated zoomInDown titleShadow fontSizeTitle">Kara takes insulin at school</h1>
                                     <video controls>
-                                        <source src="video/Chapter 2 eng 04 02 14.m4v" alt="video needs to put on server" type="video/mp4">
+                                        <source src="video/Chapter 3 Kara takes insulin at school.m4v" alt="video needs to put on server" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
@@ -174,7 +174,7 @@
                             </div>
                             <!-- page 28 -->
                             <!-- again plz dont add center class to the div , not centering imgs will be messed :)-->
-                            <div id="slide28" class="item container active">
+                            <div id="slide28" class="item container">
                              <center><h1 class="lang animated zoomInDown titleShadow col-lg-12 col-sm-12 fontSizeTitle" key="ch3-0">Long-acting insulin</h1></center>
                                 <h2 class="animated pulse center">
                                       <br><br> <br><br>
@@ -191,16 +191,41 @@
 
                             </div>
                             <!-- page 29 -->
-                            <div id="slide29" class="item container">
+                            <div id="slide29" class="item container active">
+                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <h3 class="text-center animated zoomInDown"><span style="color:red">Movie 3.3</span> How to give Insulin</h1>
+                                      <video controls>
+                                        <source src="video/Insulin Administration ENG.m4v" alt="video needs to put on server" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                    </video>
+                                </div>
 
                             </div>
                             <!-- page 30 -->
                             <div id="slide30" class="item container">
-
-                            </div>
-                            <!-- page 31 -->
-                            <div id="slide31" class="item container">
-
+                             <div class="pad-left col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <h1 class="fontSizeTitle text-center animated zoomInDown titleShadow">How quickly does the short acting insulin act?</h1>
+                                </div>
+                                <form class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center animated rubberBand">
+                                    <div>
+                                        <h2 id="questionCptr1">
+                                            <input type="radio" name="cptr1q1" value="false"> A. All day<BR>
+                                            <input type="radio" name="cptr1q1" value="false"> B. 3-4 hours<BR>
+                                            <input type="radio" name="cptr1q1" value="true"> C. 15-30 min<BR>
+                                            <br>
+                                            <p class="center animated tada" id="indicatingCorrect" style="display:none;">Yay!! You are Correct! :)</p>
+                                            <p class="center animated tada" id="indicatingWrong" style="display:none;">Please Try Again :( </p>
+                                            <p class="center animated tada" id="indicatingBlank" style="display:none;">Please Select one! </p>
+                                            <br>
+                                        </h2>
+                                    </div>
+                                    <!-- check ans button center -->
+                                    <div class="center">
+                                        <input class="btn5 " id="answer" type="submit" value="Check Answers">&nbsp&nbsp&nbsp&nbsp
+                                        <input class="btn5 " type="reset" value="Clear Answer" onclick="document.getElementById('indicatingCorrect').style.display = 'none';
+                                            document.getElementById('indicatingWrong').style.display = 'none';document.getElementById('indicatingBlank').style.display = 'none'">
+                                    </div>
+                                </form>
                             </div>
                         </div>
 
