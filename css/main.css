@@ -551,30 +551,30 @@ p#heart {
     font-weight: bold;
 }
 
-#chapter1 {
+#chapter1, .pink{
     color:rgb(237,18,117);
 }
 
-#chapter2 {
+#chapter2, .red {
     color:rgb(216,13,19);
 }
-#chapter3 {
+#chapter3, .orange {
     color:rgb(255,100,0);
 }
-#chapter4 {
+#chapter4, .yellow{
     color:rgb(255,192,0);
 }
-#chapter5 {
+#chapter5, .green {
     color:rgb(26,117,5);
 }
-#chapter6 {
+#chapter6, .blue {
     color:rgb(0,147,184);
 }
-#chapter7 {
+#chapter7, .lightPurple {
     color: rgb(105, 64, 160);
 }
 
-#chapter8 {
+#chapter8, .darkPurple {
     color: rgb(43, 18, 156);
 }
 
