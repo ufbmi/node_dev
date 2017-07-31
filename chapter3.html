@@ -83,10 +83,10 @@
 
                             <!--********************** CHAPTER 3 **********************-->
                             <!-- page 21 -->
-                            <div id="slide21" class="item active container">
+                            <div id="slide21" class="item container">
                                 <div class="pad-left col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <h2 class="heading">Chapter 3</h2>
-                                    <h1 class="lang animated zoomInDown titleShadow col-lg-12 col-sm-12" key="ch3-0">Insulin</h1>
+                                    <h2 class="heading fontSizeTitle">Chapter 3</h2>
+                                    <h1 class="lang animated zoomInDown titleShadow col-lg-12 col-sm-12 fontSizeTitle" key="ch3-0">Insulin</h1>
                                 </div>
                                 <div class="karaMargingRight">
                                     <img class="imgToRight karaImgSize" src="img/ch3/Kara%20p23%20insulin-2.png">
@@ -95,7 +95,7 @@
                             <!-- page 22 -->
                             <div id="slide22" class="item container">
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <h1 class="text-center animated zoomInDown titleShadow">Kara takes insulin at school</h1>
+                                    <h1 class="text-center animated zoomInDown titleShadow fontSizeTitle">Kara takes insulin at school</h1>
                                     <video controls>
                                         <source src="video/Chapter 2 eng 04 02 14.m4v" alt="video needs to put on server" type="video/mp4">
                                         Your browser does not support the video tag.
@@ -105,15 +105,16 @@
                             <!-- page 23 -->
                             <div id="slide23" class="item container">
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <h1 class="text-center animated zoomInDown titleShadow">All the places insulin can be given</h1>
+                                    <h1 class="fontSizeTitle text-center animated zoomInDown titleShadow">All the places insulin can be given</h1>
                                 </div>
                                 <div class="allMessage col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                         <img id="doubleKara" class="imgToLeft" src="img/ch3/where%20to%20take%20insulin%20shots%2004.png">
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                        <h2>Insulin is given where there are areas of fat under the skin.</h2>
-                                        <h3>
+                                        <h1>Insulin is given where there are areas of fat under the skin.</h1>
+                                        <br><br>
+                                        <h2 class="animated pulse">
                                             <ul>
                                                 <li>Back of the arms</li>
                                                 <li>Belly, but not too close to the belly button</li>
@@ -121,7 +122,7 @@
                                                 <li>Hips</li>
                                                 <li>Top part of the bottom</li>
                                             </ul>
-                                        </h3>
+                                        </h2>
                                     </div>
                                 </div>
                             </div>
@@ -129,31 +130,35 @@
                             <!--Img with the arrows, meter, and needle is missing yet (temporary)-->
                             <div id="slide24" class="item container">
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <iframe class="buildInWeb" alt="insulin controls glucose in your body" src="ch3HowInsulinControls/index.html"></iframe>
+                                <!-- <h1 class="text-center animated zoomInDown titleShadow fontSizeTitle">How does insulin control glucose in my body?</h1> -->
+                                    <iframe  onload="whiteFrameBg()" id ="myFrame" class="buildInWeb" alt="insulin controls glucose in your body" src="ch3HowInsulinControls/index.html"></iframe>
                                 </div>
                             </div>
                             <!-- page 25 -->
                             <div id="slide25" class="item container">
                                 <div class="center col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <h1 class="lang animated zoomInDown titleShadow col-lg-12 col-sm-12" key="ch3-0">Different types of insulin</h1>
+                                    <h1 class="center lang animated zoomInDown titleShadow col-lg-12 col-sm-12 fontSizeTitle" key="ch3-0">Different types of insulin</h1>
                                 </div>
-                                <div class="center">
-                                    <img src="img/ch3/Chapter%204Insulin%20graph%20for%20ibooks%20edit%202%20June%2023%202015.jpg">
-                                </div>
+                                <!-- please dont change the center tag, originally center class in div is not working -->
+                                <center >
+                                    <img class="center" src="img/ch3/Chapter%204Insulin%20graph%20for%20ibooks%20edit%202%20June%2023%202015.jpg">
+                                </center>
                             </div>
                             <!-- page 26 -->
-                            <div id="slide26" class="item container">
+                            <!-- please dont remove the br in the middle of the text. change word wrap in css for li ul not working:) -->
+                            <div id="slide26" class="item container  active">
                                 <div class="center col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <h2>Short-acting insulin</h2>
-                                    <h3>
+                                     <h1 class="lang animated zoomInDown titleShadow col-lg-12 col-sm-12 fontSizeTitle center" key="ch3-0">Short-acting insulin</h1>
+                                     <h2 class="animated pulse">
+                                      <br><br> <br><br>
                                         <ul>
-                                            <li>Back of the arms</li>
-                                            <li>Belly, but not too close to the belly button</li>
-                                            <li>Sides of the legs</li>
-                                            <li>Hips</li>
-                                            <li>Top part of the bottom</li>
+                                            <li>Starts acting quickly between 15-30 minutes  <br>and usually wars off in 3-4 hours</li>
+                                            <br>
+                                            <li>Usually given right before eating  <br> or when glucose levels are high (3-4 times a day)</li>
+                                            <br>
+                                            <li>Short-acting insulins are:  <br> Humalog, NovoLog or Apidra</li>
                                         </ul>
-                                    </h3>
+                                    </h2>
                                 </div>
                             </div>
                             <!-- page 27 -->

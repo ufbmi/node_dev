@@ -125,8 +125,9 @@ $('#answer').on('click', function validate() {
 
 // change bg color of i frame func
 function whiteFrameBg() {
-    var x = document.getElementById("myframe");
-    var y = (x.contentWindow || x.contentDocument);
+    // myframe1 is kletones in chpater 1, myframe2 is that one in chapter 3
+    var x1 = document.getElementById("myFrame");
+    var y = (x1.contentWindow || x1.contentDocument);
     if (y.document)y = y.document;
     y.body.style.backgroundColor = "white";
 }

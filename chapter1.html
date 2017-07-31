@@ -84,8 +84,8 @@
                             <!-- page 1 -->
                             <div id="slide1" class="item active container">
                                 <div class="pad-left col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <h2 class="heading">Chapter 1</h2>
-                                    <h1 class="lang animated zoomInDown titleShadow col-lg-12 col-sm-12" key="ch1-0">What is Diabetes ?</h1>
+                                    <h2 class="heading fontSizeTitle">Chapter 1</h2>
+                                    <h1 class="lang animated zoomInDown titleShadow col-lg-12 col-sm-12 fontSizeTitle" key="ch1-0">What is Diabetes ?</h1>
                                 </div>
                                 <div class="karaMargingRight">
                                     <img class="imgToRight karaImgSize" src="img/ch1/2 Kara questions.png">
@@ -94,7 +94,7 @@
                             <!-- page 2 -->
                             <div id="slide2" class="item container">
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <h4 class="text-center"><span style="color:red">Animation 1.1</span> What is Diabetes?</h4>
+                                    <h2 class="text-center"><span style="color:red">Animation 1.1</span> What is Diabetes?</h2>
                                     <video controls>
                                         <source src="video/Diab Ep 1 024 FULL.mpeg" alt="type one diabetes" type="video/mpeg">
                                         Your browser does not support the video tag.
@@ -105,8 +105,8 @@
                             <div id="slide3" class="item container">
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                     <div class="pad-left col-lg-12 col-sm-12">
-                                        <h1 class="text-center animated zoomInDown titleShadow">Let’s Review</h1>
-                                        <h2 class="text-center fontSizeTitle animated fadeInDown">There are two main types of diabetes</h2>
+                                        <h1 class="text-center animated zoomInDown titleShadow fontSizeTitle">Let’s Review</h1>
+                                        <h1 class="text-center animated fadeInDown">There are two main types of diabetes</h1>
                                     </div>
                                     <div class="col-lg-12 col-sm-12">
                                         <div class="col-lg-9 col-sm-9">
@@ -253,7 +253,7 @@
                             <div id="slide6" class="item container">
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                     <div class="pad-left">
-                                        <h2 class="text-center animated bounceIn titleShadow"> Why doesn’t the body make enough insulin in type 1 diabetes?</h2>
+                                        <h2 class="text-center animated bounceIn titleShadow fontSizeTitle"> Why doesn’t the body make enough insulin in type 1 diabetes?</h2>
                                     </div>
                                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
                                         <img class="immune" src="img/ch1/Sick Pancreas WGBH@2x.png">
@@ -312,8 +312,8 @@
                             <!-- page 7 -->
                             <div id="slide7" class="item container">
                                 <div id="ketones" style="background-color: white" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <h1 class="text-center animated zoomInDown titleShadow">What's up with Ketones?</h1>
-                                    <iframe onload="whiteFrameBg()" id="myframe" class="buildInWeb" alt="Whats up with Ketones" src="ch1Ketones/site/index.html"></iframe>
+                                    <!-- <h1 class="text-center animated zoomInDown titleShadow">What's up with Ketones?</h1> -->
+                                    <iframe onload="whiteFrameBg()" id="myFrame" class="buildInWeb" alt="Whats up with Ketones" src="ch1Ketones/site/index.html"></iframe>
                                 </div>
                             </div>
                             <!-- page 8 -->
@@ -333,11 +333,11 @@
                             <!-- page 9 -->
                             <div id="slide9" class="item container">
                                 <div class="pad-left col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <h1 class="text-center animated zoomInDown titleShadow">What is Insulin ?</h1>
+                                    <h1 class="fontSizeTitle text-center animated zoomInDown titleShadow">What is Insulin ?</h1>
                                 </div>
                                 <form class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center animated rubberBand">
                                     <div>
-                                        <h3 id="questionCptr1">
+                                        <h2 id="questionCptr1">
                                             <input type="radio" name="cptr1q1" value="true"> A. Hormone that lowers glucose levels<BR>
                                             <input type="radio" name="cptr1q1" value="false"> B. Hormone that raises glucose levels<BR>
                                             <input type="radio" name="cptr1q1" value="false"> C. Hormone that breaks down fat and protein<BR>
@@ -346,12 +346,12 @@
                                             <p class="center animated tada" id="indicatingWrong" style="display:none;">Please Try Again :( </p>
                                             <p class="center animated tada" id="indicatingBlank" style="display:none;">Please Select one! </p>
                                             <br>
-                                        </h3>
+                                        </h2>
                                     </div>
                                     <!-- check ans button center -->
                                     <div class="center">
-                                        <input class="btn5" id="answer" type="submit" value="Check Answers">&nbsp&nbsp&nbsp&nbsp
-                                        <input class="btn5" type="reset" value="Clear Answer" onclick="document.getElementById('indicatingCorrect').style.display = 'none';
+                                        <input class="btn5 " id="answer" type="submit" value="Check Answers">&nbsp&nbsp&nbsp&nbsp
+                                        <input class="btn5 " type="reset" value="Clear Answer" onclick="document.getElementById('indicatingCorrect').style.display = 'none';
                                             document.getElementById('indicatingWrong').style.display = 'none';document.getElementById('indicatingBlank').style.display = 'none'">
                                     </div>
                                 </form>
