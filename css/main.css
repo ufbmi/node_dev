@@ -489,15 +489,15 @@ img.imgOverImg2 {
 }
 
 
-#indicatingCorrect {
+#indicatingCorrect,#indicatingCorrect2 {
     color:green;
 }
 
-#indicatingWrong {
+#indicatingWrong,#indicatingWrong2 {
     color:red;
 }
 
-#indicatingBlank{
+#indicatingBlank,#indicatingBlank{
     color:blue;
 }
 

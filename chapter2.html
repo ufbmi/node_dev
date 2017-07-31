@@ -83,7 +83,7 @@
 
                             <!--********************** CHAPTER 2 **********************-->
                             <!-- page 10 -->
-                            <div id="slide10" class="item active container">
+                            <div id="slide10" class="item container active">
                                 <div class="pad-left col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                     <h2 class="heading fontSizeTitle">Chapter 2</h2>
                                     <h1 class="lang animated zoomInDown titleShadow col-lg-12 col-sm-12 fontSizeTitle" key="ch2-0">Blood Glucose Monitoring</h1>
@@ -173,10 +173,67 @@
                             </div>
                             <!-- page 20 -->
                             <div id="slide20" class="item container">
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <p> Question page coming soon...</p>
+                            <!-- Q1 -->
+                                 <div class="pad-left col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <h1 class="text-center animated zoomInDown">Question 1. Which is the correct first step tp test your blood glucose?</h1>
                                 </div>
+                                <form class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center animated rubberBand">
+                                    <div>
+                                        <h2 id="questionCptr1" class="center">
+                                        <img width=50% height=auto src="img/ch3/flow-23.jpg">
+                                        <br><br>
+                                            <input type="radio" name="cptr1q1" value="false"> A. &nbsp&nbsp&nbsp&nbsp&nbsp
+                                            <input type="radio" name="cptr1q1" value="false"> B. &nbsp&nbsp&nbsp&nbsp&nbsp
+                                            <input type="radio" name="cptr1q1" value="false"> C. &nbsp&nbsp&nbsp&nbsp&nbsp
+                                            <input type="radio" name="cptr1q1" value="true"> D. <BR>
+                                            <br>
+                                            <p class="center animated tada" id="indicatingCorrect" style="display:none;">Yay!! You are Correct! :)</p>
+                                            <p class="center animated tada" id="indicatingWrong" style="display:none;">Please Try Again :( </p>
+                                            <p class="center animated tada" id="indicatingBlank" style="display:none;">Please Select one! </p>
+                                            <br>
+                                        </h2>
+                                    </div>
+                                    <!-- check ans button center -->
+                                    <div class="center">
+                                        <input class="btn5 " id="answer" type="submit" value="Check Answers">&nbsp&nbsp&nbsp&nbsp
+                                        <input class="btn5 " type="reset" value="Clear Answer" onclick="document.getElementById('indicatingCorrect').style.display = 'none';
+                                            document.getElementById('indicatingWrong').style.display = 'none';document.getElementById('indicatingBlank').style.display = 'none'">
+                                    </div>
+                                </form>
                             </div>
+
+
+                            <!-- page 20 -->
+                            <div id="slide21" class="item container">
+                                <!-- Q2 -->
+                                 <div class="pad-left col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <h1 class="text-center animated zoomInDown">Question 2. How many times should you test your glucose?</h1>
+                                </div>
+                                <form class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center animated rubberBand">
+                                    <div>
+                                        <h2 id="question2" class="center">
+                                        <!-- dont remove br below. Or the pgae wont be pretty -->
+                                        <br><br>
+                                            <input type="radio" name="cptr1q1" value="false"> A. Twice a day<BR>
+                                            <input type="radio" name="cptr1q1" value="false"> B. Once a day<BR>
+                                            <input type="radio" name="cptr1q1" value="false"> C. Three times a day<BR>
+                                            <input type="radio" name="cptr1q1" value="true"> D. Four times a day<BR>
+                                            <br>
+                                            <p class="center animated tada" id="indicatingCorrect2" style="display:none;">Yay!! You are Correct! :)</p>
+                                            <p class="center animated tada" id="indicatingWrong2" style="display:none;">Please Try Again :( </p>
+                                            <p class="center animated tada" id="indicatingBlank2" style="display:none;">Please Select one! </p>
+                                            <br>
+                                        </h2>
+                                    </div>
+                                    <!-- check ans button center -->
+                                    <div class="center">
+                                        <input class="btn5 " id="answer2" type="submit" value="Check Answers">&nbsp&nbsp&nbsp&nbsp
+                                        <input class="btn5 " type="reset" value="Clear Answer" onclick="document.getElementById('indicatingCorrect2').style.display = 'none';
+                                            document.getElementById('indicatingWrong2').style.display = 'none';document.getElementById('indicatingBlank2').style.display = 'none'">
+                                    </div>
+                                </form>
+                            </div>
+
                         </div>
 
                         <!-- Left and right controls -->

@@ -112,6 +112,39 @@ $('#answer').on('click', function validate() {
     return false;
 });
 
+
+$('#answer2').on('click', function validate() {
+    var radios;
+    var i;
+    var right;
+    radios = document.getElementById("question2").getElementsByTagName("input");
+    right = 2;//false 1=true 2=blank;
+    for(i = 0; i < radios.length; i++) {
+        if(radios[i].value == "true" && radios[i].checked == true){
+            right = 1;
+        } else if(radios[i].value == "false" && radios[i].checked == true){
+            right = 0;
+        }
+    }
+
+    // clear all other indicating texts preventing showing results from last time:)
+    if(right== 1) {
+        document.getElementById('indicatingCorrect2').style.display = 'block';
+        document.getElementById('indicatingWrong2').style.display = 'none';
+        document.getElementById('indicatingBlank2').style.display = 'none';
+    } else if(right == 0) {
+        document.getElementById('indicatingWrong2').style.display = 'block';
+        document.getElementById('indicatingCorrect2').style.display = 'none';
+        document.getElementById('indicatingBlank2').style.display = 'none';
+    }  else{
+        document.getElementById('indicatingBlank2').style.display = 'block';
+        document.getElementById('indicatingCorrect2').style.display = 'none';
+        document.getElementById('indicatingWrong2').style.display = 'none';
+    }
+
+    return false;
+});
+
 // // solution for the load issue with the ketone page
 // // 1- must uncomment in main.css the video, iframe {}
 // // fix white background color
@@ -126,7 +159,7 @@ $('#answer').on('click', function validate() {
 // change bg color of i frame func
 function whiteFrameBg() {
     // myframe1 is kletones in chpater 1, myframe2 is that one in chapter 3
-    var x1 = document.getElementById("myFrame");
+    var x1 = document.getElementById("myFrame1");
     var y = (x1.contentWindow || x1.contentDocument);
     if (y.document)y = y.document;
     y.body.style.backgroundColor = "white";
