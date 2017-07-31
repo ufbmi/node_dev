@@ -1,0 +1,53 @@
+/* title/heading text */
+@font-face {
+	font-family: 'Open Sans';
+	font-weight: 700;
+	src: url('OpenSans-ExtraBold.ttf') format('truetype');
+}
+
+/* bottom storytxt */
+@font-face {
+	font-family: 'Open Sans Reg';
+	src: url('OpenSans-Regular.ttf') format('truetype');
+}
+
+body {
+	overflow: hidden;
+	background: #B8B8B8;
+	margin: 0;
+	padding: 0;
+}
+
+#content { text-align: center; }
+
+#canvas {
+	display: inline-block;
+	width: 100%;
+	max-width: 1024px;
+}
+
+#storytxt {
+	position: absolute;
+	z-index: 1;
+	font-family: 'Open Sans Reg', sans-serif;
+	font-weight: 100;
+	font-size: 14px;
+	color: #999;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	text-align: left;
+}
+
+@media (min-width: 100px) { #storytxt { font-size: 2px; } }
+@media (min-width: 320px) { #storytxt { font-size: 6px; } }
+@media (min-width: 400px) { #storytxt { font-size: 7px; } }
+@media (min-width: 460px) { #storytxt { font-size: 8px; } }
+@media (min-width: 500px) { #storytxt { font-size: 9px; } }
+@media (min-width: 520px) { #storytxt { font-size: 10px; } }
+@media (min-width: 630px) { #storytxt { font-size: 12px; } }
+@media (min-width: 768px) { #storytxt { font-size: 13px; } }
+@media (min-width: 850px) { #storytxt { font-size: 14px; } }
+@media (min-width: 980px) { #storytxt { font-size: 15px; } }

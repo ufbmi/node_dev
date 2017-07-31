@@ -162,7 +162,7 @@ a {
     color: black;
 }
 
-#karaQuestion {
+.karaMargingRight {
     margin-right: 15%;
 }
 
@@ -316,6 +316,16 @@ a {
 .imgToLeft {
     float: left;
     padding-right: 50px;
+}
+
+.karaImgSize {
+    width: 300px;
+    height: 594px;
+}
+
+#doubleKara {
+    width: 500px;
+    height: 594px;
 }
 
 .carousel-control {
@@ -502,7 +512,7 @@ img.imgOverImg2 {
     margin: auto;
 }
 
-#allMessage {
+.allMessage {
     margin-top: 20px;
     margin-bottom: 0px;
     padding-top: 15px;

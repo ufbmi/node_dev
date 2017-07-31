@@ -1,19 +1,18 @@
 // saving language
 // WIP check if the lang === NULL
 
-$('#en').on('click', function validate() {
+$('#en').on('click', function changeLang() {
     var lang = "en";
     localStorage.setItem("lang", lang);
 });
 
-$('#es').on('click', function validate() {
+$('#es').on('click', function changeLang() {
     var lang = "es";
     localStorage.setItem("lang", lang);
 });
 
 function forceLang() {
     var lang = localStorage.getItem("lang");
-    alert(lang);
     if (lang === "es") {
         changeLang();
     }
