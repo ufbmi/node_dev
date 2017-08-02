@@ -18,7 +18,7 @@ html {
     line-height: 1.4;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6,* {
     font-family: Arial Rounded MT Bold;
     font-weight: bold;
 }
@@ -237,7 +237,6 @@ a {
   -o-transition: all 0.15s ease-out 0.15s;
   -webkit-transition: all 0.15s ease-out;
   -webkit-transition-delay: 0.15s;
-  -webkit-transition: all 0.15s ease-out 0.15s;
   transition: all 0.15s ease-out 0.15s;
 }
 
@@ -654,6 +653,36 @@ p#heart {
   z-index: 99
 }
 
+#buttons {
+  padding-top: 50px;
+  text-align: center;
+}
+.orangeJump {
+  background-color: #e67e22;
+  box-shadow: 0px 5px 0px 0px #CD6509;
+}
+
+.orangeJump:hover {
+  background-color: #FF983C;
+}
+/* start da css for da buttons */
+.nextCptrButton {
+  float:right;
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-size: 22px;
+  text-decoration: none;
+  margin: 20px;
+  color: #fff;
+  position:relative;
+  display: inline-block;
+}
+
+.nextCptrButton:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
 
 /*CHECK ANSWER AND RESET BUTTON EFFECTS*/
 /* BUTTON 5 */
