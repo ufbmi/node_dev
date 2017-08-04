@@ -145,16 +145,16 @@ $('#answer2').on('click', function validate() {
     return false;
 });
 
-// // solution for the load issue with the ketone page
-// // 1- must uncomment in main.css the video, iframe {}
-// // fix white background color
-// function createIframe(){
-//     // alert("create");
-//     var i = document.createElement("iframe");
-//     i.src = "ch1Ketones/site/index.html";
-//     i.id = "myframe";
-//     document.getElementById("ketones").appendChild(i);
-// };
+// solution for the load issue with the ketone page
+// 1- must uncomment in main.css the video, iframe {}
+// fix white background color
+function createIframe(){
+    // alert("create");
+    var i = document.createElement("iframe");
+    i.src = "ch1Ketones/site/index.html";
+    i.id = "myframe";
+    document.getElementById("ketones").appendChild(i);
+};
 
 // change bg color of i frame func
 function whiteFrameBg() {
@@ -165,8 +165,8 @@ function whiteFrameBg() {
     y.body.style.backgroundColor = "white";
 }
 
-// function loadKetonePage() {
-//     // alert("load ke");
-//     window.onload = createIframe();
-//     whiteFrameBg();
-// }
+function loadKetonePage() {
+    //alert("load ke");
+    window.onload = createIframe();
+    whiteFrameBg();
+}
