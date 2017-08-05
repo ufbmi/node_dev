@@ -632,7 +632,7 @@ p#heart {
 /* popUpbutton */
 .popUpbutton {
  display:inline-block;
- color:#a35de8;/*blue*/
+ /*color:#a35de8;!*blue*!*/
  background-color:#f7f49c; /*yellow*/
  padding:10px; 
  border-radius:100px;
