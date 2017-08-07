@@ -158,6 +158,7 @@ function createIframe(){
 
 // change bg color of i frame func
 function whiteFrameBg() {
+    alert("Hola hi");
     // myframe1 is kletones in chpater 1, myframe2 is that one in chapter 3
     var x1 = document.getElementById("myFrame");
     var y = (x1.contentWindow || x1.contentDocument);
