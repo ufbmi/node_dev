@@ -324,9 +324,9 @@ img.overLap {
     padding-right: 50px;
 }
 
-/*.imgToBottom {*/
-    /*position: static;*/
-/*}*/
+.imgToBottom {
+    position: static;
+}
 
 .karaImgSize {
     width: 300px;
