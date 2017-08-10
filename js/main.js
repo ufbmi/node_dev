@@ -148,26 +148,34 @@ $('#answer2').on('click', function validate() {
 // solution for the load issue with the ketone page
 // 1- must uncomment in main.css the video, iframe {}
 // fix white background color
-function createIframe(){
-    // alert("create");
+function createIframe(chAndSlide){
     var i = document.createElement("iframe");
-    i.src = "ch1Ketones/site/index.html";
     i.id = "myframe";
-    document.getElementById("ketones").appendChild(i);
+    // loading Ketones Page ch1
+    if (chAndSlide === "ch1Slide7")
+    {
+        i.src = "ch1Ketones/site/index.html";
+        document.getElementById("ketones").appendChild(i);
+    }
+    // Loading Insulin Control ch3
+    else (chAndSlide === "ch3Slide24")
+    {
+        i.src = "ch3HowInsulinControls/index.html";
+        document.getElementById("insulin").appendChild(i);
+    }
+
+
 };
+
+function loadEmbeddedPage(chAndSlide) {
+    window.onload = createIframe(chAndSlide);
+    whiteFrameBg();
+}
 
 // change bg color of i frame func
 function whiteFrameBg() {
-    // alert("Hola hi");
-    // myframe1 is kletones in chpater 1, myframe2 is that one in chapter 3
-    var x1 = document.getElementById("myFrame");
+    var x1 = document.getElementById("myframe");
     var y = (x1.contentWindow || x1.contentDocument);
     if (y.document)y = y.document;
     y.body.style.backgroundColor = "white";
-}
-
-function loadKetonePage() {
-    //alert("load ke");
-    window.onload = createIframe();
-    whiteFrameBg();
 }
