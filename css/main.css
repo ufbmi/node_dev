@@ -33,13 +33,6 @@ body {
     box-sizing: border-box;
 }
 
-/*audio,*/
-/*img,*/
-/*canvas,*/
-/*svg {*/
-    /*align-items: center;*/
-/*}*/
-
 fieldset {
     border: 0;
     margin: 0;
@@ -127,25 +120,6 @@ img.overLap {
     padding-left: 75px;
 }
 
-/*.scrollToTop {*/
-    /*width:100px;*/
-    /*height:130px;*/
-    /*padding:10px;*/
-    /*text-align:center;*/
-    /*background: whiteSmoke;*/
-    /*font-weight: bold;*/
-    /*color: #444;*/
-    /*text-decoration: none;*/
-    /*position:fixed;*/
-    /*top:75px;*/
-    /*right:40px;*/
-    /*display:none;*/
-/*}*/
-
-/*.scrollToTop:hover {*/
-    /*text-decoration:none;*/
-/*}*/
-
 /* scroll to top button */
 #myBtn {
     display: none; /* Hidden by default */
@@ -211,6 +185,7 @@ img.overLap {
   background: #fff;
   width: 100px;
   padding: 20px 20px;
+  margin-top: 20px;
   border: 5px solid #4ac0ee;
   border-radius: 10px;
   color: #4ac0ee;
@@ -323,8 +298,16 @@ img.overLap {
     padding-right: 50px;
 }
 
-.imgToBottom {
-    position: static;
+#arrowCh4 {
+    position: fixed;
+    bottom: 100px;
+    right: 330px;
+}
+
+#karaFaceCh4 {
+    position: fixed;
+    bottom: 100px;
+    right: 590px;
 }
 
 .karaImgSize {
@@ -388,18 +371,7 @@ img.immune {
     /*margin-left: 35px;*/
 }
 
-/*img.actLikeButton.slide6Arrow.arrowImgMiddle {*/
-    /*!*make sure left and right same margin*!*/
-    /*float: inherit;*/
-    /*!*center vertically*!*/
-    /*position: relative;*/
-    /*top: 83px;*/
-    /*width: 70px;*/
-    /*height:auto;*/
-    /*margin-left: 0px;*/
-/*}*/
-
-.button {
+.topMargin {
     margin-top: 20px;
 }
 
@@ -469,6 +441,10 @@ img.imgOverImg2 {
 
 .pad-left {
     padding-left: 160px;
+}
+
+.pad-right {
+    padding-right: 50px;
 }
 
 .fontSizeTitle{
