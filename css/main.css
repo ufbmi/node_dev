@@ -586,6 +586,14 @@ p#heart {
     padding: 0px;
 }
 
+/*#tableCh6 {*/
+    /*width: 500px;*/
+    /*height:auto;*/
+    /*position: fixed;*/
+    /*bottom: 100px;*/
+    /*right: 150px;*/
+/*}*/
+
 .img-circle:hover {
     opacity: 0.7;
 }
