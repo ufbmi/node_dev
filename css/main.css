@@ -1093,7 +1093,68 @@ footer {
     }
 
 }
+/*chewing page css*/
 
+*[draggable=true] {
+  -moz-user-select:none;
+  -khtml-user-drag: element;
+  cursor: move;
+}
+.holder{
+  width: 600px;
+  margin: 0px auto;
+}
 
+li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+  width: 150px;
+  padding: 10px;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  cursor: move;
+}
+
+canvas{
+  border: 10px solid black;
+  border-radius: 10px;
+}
+li a:hover:after {
+  content: ' (drag it to Kara)';
+}
+
+ul {
+  margin-left: 200px;
+  min-height: 300px;
+}
+
+li.over {
+  border-color: #333;
+  /*background: #ccc;*/
+}
+#bin {
+  height: 250px;
+  width: 200px;
+  position: absolute;
+  margin-top: 0;
+}
+
+#bin p {
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  bottom: 20px;
+  width: 166px;
+  font-size: 32px;
+  color: black;
+  top: -80px;
+  left: 40px;
+}
 
 
