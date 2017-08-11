@@ -150,7 +150,7 @@ var elementExists = null;
 
 // to embed all the animation
 function createIframe(chAndSlide){
-    alert("create");
+    // alert("create");
     var i = document.createElement("iframe");
     i.id = "myframe";
     // loading Ketones Page ch1
@@ -173,7 +173,7 @@ function createIframe(chAndSlide){
 };
 
 function loadEmbeddedPage(chAndSlide) {
-    alert(chAndSlide);
+    // alert(chAndSlide);
     elementExists = document.getElementById("myframe");
     if (elementExists === null)
     {
