@@ -1120,10 +1120,14 @@ li a {
   font-size: 18px;
   cursor: move;
 }
-
+.cvs{
+    position:absolute;
+    right:-100px;
+}
 canvas{
   border: 10px solid black;
   border-radius: 10px;
+
 }
 li a:hover:after {
   content: ' (drag it to Kara)';
@@ -1142,6 +1146,7 @@ li.over {
   height: 250px;
   width: 200px;
   position: absolute;
+  float: center;
   margin-top: 0;
 }
 
