@@ -145,10 +145,12 @@ $('#answer2').on('click', function validate() {
     return false;
 });
 
-// solution for the load issue with the ketone page
-// 1- must uncomment in main.css the video, iframe {}
-// fix white background color
+// flag to avoid repetitive embedded
+var elementExists = null;
+
+// to embed all the animation
 function createIframe(chAndSlide){
+    alert("create");
     var i = document.createElement("iframe");
     i.id = "myframe";
     // loading Ketones Page ch1
@@ -158,18 +160,26 @@ function createIframe(chAndSlide){
         document.getElementById("ketones").appendChild(i);
     }
     // Loading Insulin Control ch3
-    else (chAndSlide === "ch3Slide24")
+    else if (chAndSlide === "ch3Slide24")
     {
         i.src = "ch3HowInsulinControls/index.html";
         document.getElementById("insulin").appendChild(i);
     }
-
-
+    else
+    {
+        i.src = "ch7Exercise&Diabetes/site/index.html";
+        document.getElementById("exercise").appendChild(i);
+    }
 };
 
 function loadEmbeddedPage(chAndSlide) {
-    window.onload = createIframe(chAndSlide);
-    whiteFrameBg();
+    alert(chAndSlide);
+    elementExists = document.getElementById("myframe");
+    if (elementExists === null)
+    {
+        window.onload = createIframe(chAndSlide);
+        whiteFrameBg();
+    }
 }
 
 // change bg color of i frame func

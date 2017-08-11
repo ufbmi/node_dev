@@ -1,0 +1,39 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="FlashAICB Assets_35/Layer 13/&amp;#060Path&amp;#062_2" itemID="5747c683-00000330" lastModified="1464321667">
+  <timeline>
+    <DOMTimeline name="&amp;#060Path&amp;#062_2">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!581 7[482 -22 368 62!368 62[286 123 209 231!209 231[138 331 105 454!105 454[73 575 81 700!81 700[81 723 75 791!75 791[70 849 73 883!73 883[80 985 77 1053!77 1053[73 1142 52 1221!52 1221[2 1413 0 1439!0 1439[-7 1566 101 1619!101 1619
+[191 1663 289 1557!289 1557[367 1475 401 1372!401 1372[431 1281 403 1119!403 1119[371 943 386 866!386 866[399 805 462 741!462 741[541 673 574 641!574 641[659 560 685 426!685 426[703 327 682 159!682 159[676 107 653 67!653 67[626 21 581
+ 7"/>
+                    <Edge cubics="!581 7(;432,-37 285,124 209,231q581 7Q482 -22q368 62Q286 123q209 231);"/>
+                    <Edge cubics="!209 231(;113,366 70,535 81,700q209 231Q138 331q105 454Q73 575q81 700);"/>
+                    <Edge cubics="!81 700(81,700;81,760 68,822 73,883q81 700Q81 723q75 791Q70 849q73 883)73,883;"/>
+                    <Edge cubics="!73 883(73,883;81,1000 83,1106 52,1221q73 883Q80 985q77 1053Q73 1142q52 1221);"/>
+                    <Edge cubics="!52 1221(;17,1355 -67,1536 101,1619q52 1221Q2 1413q0 1439Q-7 1566q101 1619);"/>
+                    <Edge cubics="!101 1619(;236,1685 368,1471 401,1372q101 1619Q191 1663q289 1557Q367 1475q401 1372);"/>
+                    <Edge cubics="!401 1372(;458,1202 353,1036 386,866q401 1372Q431 1281q403 1119Q371 943q386 866);"/>
+                    <Edge cubics="!386 866(;406,769 507,705 574,641q386 866Q399 805q462 741Q541 673q574 641);"/>
+                    <Edge cubics="!574 641(;636,582 669,509 685,426q574 641Q659 560q685 426);"/>
+                    <Edge cubics="!685 426(;701,340 693,245 682,159q685 426Q703 327q682 159);"/>
+                    <Edge cubics="!682 159(;675,97 645,27 581,7q682 159Q676 107q653 67Q626 21q581 7);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

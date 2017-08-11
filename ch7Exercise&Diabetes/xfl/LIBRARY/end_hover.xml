@@ -1,0 +1,54 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="end_hover" itemID="574d0099-00000c6f" lastModified="1465394076" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="end_hover" currentFrame="14">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="endorphin">
+                  <transformationPoint>
+                    <Point x="28" y="25.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="endorphin" centerPoint3DX="28" centerPoint3DY="23.5">
+                  <matrix>
+                    <Matrix ty="-2.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="28" y="25.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" duration="7" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="endorphin" centerPoint3DX="28" centerPoint3DY="22.95">
+                  <matrix>
+                    <Matrix ty="-3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="28" y="25.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="endorphin">
+                  <transformationPoint>
+                    <Point x="28" y="25.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

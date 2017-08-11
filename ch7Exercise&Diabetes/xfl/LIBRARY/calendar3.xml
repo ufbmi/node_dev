@@ -1,0 +1,217 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="calendar3" itemID="575714e8-00000563" lastModified="1469556410">
+  <persistentData>
+    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+  </persistentData>
+  <timeline>
+    <DOMTimeline name="calendar3" currentFrame="529">
+      <layers>
+        <DOMLayer name="A" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="258" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.stop();
+this.ready = true;
+this.pausePoint = function () {
+	this.stop();
+	this.ready = true;
+	exportRoot.btn_exercise.gotoAndPlay("enab");
+}]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="258" duration="135" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.pausePoint();]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="393" duration="36" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[exportRoot.kara3.gotoAndPlay(exportRoot.kara3.currentFrame+21);]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="429" duration="95" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.pausePoint();]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="524" duration="5" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[exportRoot.kara3.gotoAndStop("end");
+playSfx("done_bell");]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="529" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[enableBtn(exportRoot.btn_next, true);
+exportRoot.btn_exercise.visible = false;
+exportRoot.btn_replay.visible = true;
+this.stop();]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="months" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="530" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="months mc">
+                  <matrix>
+                    <Matrix tx="13.55" ty="18.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="293" y="26.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 4" color="#FF4FFF" locked="true" layerType="mask">
+          <frames>
+            <DOMFrame index="0" duration="530" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#BAE9CF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!11965 2185|297 2185!297 2185[208 2185 144 2122!144 2122[80 2058 80 1969!80 1969|80 297!80 297[80 208 144 144!144 144[208 80 297 80!297 80|11965 80!11965 80[12054 80 12118 144!12118 144[12181 208 12181 297!12181 297|12181 1969!12181 1969
+[12181 2058 12118 2122!12118 2122[12054 2185 11965 2185"/>
+                    <Edge cubics="!11965 2185(;11965,2185 297,2185 297,2185q11965 2185 297 2185);"/>
+                    <Edge cubics="!297 2185(;178,2185 80,2088 80,1969q297 2185Q208 2185q144 2122Q80 2058q80 1969);"/>
+                    <Edge cubics="!80 1969(;80,1969 80,297 80,297q80 1969 80 297);"/>
+                    <Edge cubics="!80 297(;80,178 178,80 297,80q80 297Q80 208q144 144Q208 80q297 80);"/>
+                    <Edge cubics="!297 80(297,80;297,80 11965,80 11965,80q297 80 11965 80);"/>
+                    <Edge cubics="!11965 80(;12084,80 12181,178 12181,297q11965 80Q12054 80q12118 144Q12181 208q12181 297)12181,297;"/>
+                    <Edge cubics="!12181 297(12181,297;12181,297 12181,1969 12181,1969q12181 297 12181 1969)12181,1969;"/>
+                    <Edge cubics="!12181 1969(;12181,2088 12084,2185 11965,2185q12181 1969Q12181 2058q12118 2122Q12054 2185q11965 2185);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="FlashAICB" color="#FF800A" parentLayerIndex="2" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="258" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Tween 7" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-367.45" ty="55.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="258" duration="171" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Tween 7" symbolType="graphic" centerPoint3DX="-157.4" centerPoint3DY="55.7" loop="loop">
+                  <matrix>
+                    <Matrix tx="-157.4" ty="55.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="429" duration="100" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Tween 7" symbolType="graphic" centerPoint3DX="39.25" centerPoint3DY="55.7" loop="loop">
+                  <matrix>
+                    <Matrix tx="39.25" ty="55.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="529" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Tween 7" symbolType="graphic" centerPoint3DX="244.7" centerPoint3DY="55.7" loop="loop">
+                  <matrix>
+                    <Matrix tx="244.7" ty="55.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="530" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMShape isDrawingObject="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#BAE9CF"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="
+!11965 2185|297 2185!297 2185[208 2185 144 2122!144 2122[80 2058 80 1969!80 1969|80 297!80 297[80 208 144 144!144 144[208 80 297 80!297 80|11965 80!11965 80[12054 80 12118 144!12118 144[12181 208 12181 297!12181 297|12181 1969!12181 1969
+[12181 2058 12118 2122!12118 2122[12054 2185 11965 2185"/>
+                        <Edge cubics="!11965 2185(;11965,2185 297,2185 297,2185q11965 2185 297 2185);"/>
+                        <Edge cubics="!297 2185(;178,2185 80,2088 80,1969q297 2185Q208 2185q144 2122Q80 2058q80 1969);"/>
+                        <Edge cubics="!80 1969(;80,1969 80,297 80,297q80 1969 80 297);"/>
+                        <Edge cubics="!80 297(;80,178 178,80 297,80q80 297Q80 208q144 144Q208 80q297 80);"/>
+                        <Edge cubics="!297 80(297,80;297,80 11965,80 11965,80q297 80 11965 80);"/>
+                        <Edge cubics="!11965 80(;12084,80 12181,178 12181,297q11965 80Q12054 80q12118 144Q12181 208q12181 297)12181,297;"/>
+                        <Edge cubics="!12181 297(12181,297;12181,297 12181,1969 12181,1969q12181 297 12181 1969)12181,1969;"/>
+                        <Edge cubics="!12181 1969(;12181,2088 12084,2185 11965,2185q12181 1969Q12181 2058q12118 2122Q12054 2185q11965 2185);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMShape isDrawingObject="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FFFFFF"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="
+!11965 0|297 0!297 0[174 0 87 87!87 87[0 174 0 297!0 297|0 1969!0 1969[0 2091 87 2178!87 2178[174 2265 297 2265!297 2265|11965 2265!11965 2265[12087 2265 12174 2178!12174 2178[12261 2091 12261 1969!12261 1969|12261 297!12261 297[12261
+ 174 12174 87!12174 87[12087 0 11965 0!11965 80[12054 80 12118 144!12118 144[12181 208 12181 297!12181 297|12181 1969!12181 1969[12181 2058 12118 2122!12118 2122[12054 2185 11965 2185!11965 2185|297 2185!297 2185[208 2185 144 2122!144
+ 2122[80 2058 80 1969!80 1969|80 297!80 297[80 208 144 144!144 144[208 80 297 80!297 80|11965 80"/>
+                        <Edge cubics="!11965 0(;11965,0 297,0 297,0q11965 0 297 0);"/>
+                        <Edge cubics="!297 0(;133,0 0,133 0,297q297 0Q174 0q87 87Q0 174q0 297);"/>
+                        <Edge cubics="!0 297(;0,297 0,1969 0,1969q0 297 0 1969);"/>
+                        <Edge cubics="!0 1969(;0,2132 133,2265 297,2265q0 1969Q0 2091q87 2178Q174 2265q297 2265);"/>
+                        <Edge cubics="!297 2265(;297,2265 11965,2265 11965,2265q297 2265 11965 2265);"/>
+                        <Edge cubics="!11965 2265(;12128,2265 12261,2132 12261,1969q11965 2265Q12087 2265q12174 2178Q12261 2091q12261 1969);"/>
+                        <Edge cubics="!12261 1969(;12261,1969 12261,297 12261,297q12261 1969 12261 297);"/>
+                        <Edge cubics="!12261 297(;12261,133 12128,0 11965,0q12261 297Q12261 174q12174 87Q12087 0q11965 0)11965,0;"/>
+                        <Edge cubics="!11965 80(11965,80;12084,80 12181,178 12181,297q11965 80Q12054 80q12118 144Q12181 208q12181 297)12181,297;"/>
+                        <Edge cubics="!12181 297(;12181,297 12181,1969 12181,1969q12181 297 12181 1969)12181,1969;"/>
+                        <Edge cubics="!12181 1969(12181,1969;12181,2088 12084,2185 11965,2185q12181 1969Q12181 2058q12118 2122Q12054 2185q11965 2185)11965,2185;"/>
+                        <Edge cubics="!11965 2185(11965,2185;11965,2185 297,2185 297,2185q11965 2185 297 2185)297,2185;"/>
+                        <Edge cubics="!297 2185(297,2185;178,2185 80,2088 80,1969q297 2185Q208 2185q144 2122Q80 2058q80 1969)80,1969;"/>
+                        <Edge cubics="!80 1969(80,1969;80,1969 80,297 80,297q80 1969 80 297)80,297;"/>
+                        <Edge cubics="!80 297(80,297;80,178 178,80 297,80q80 297Q80 208q144 144Q208 80q297 80)297,80;"/>
+                        <Edge cubics="!297 80(297,80;297,80 11965,80 11965,80q297 80 11965 80)11965,80;"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

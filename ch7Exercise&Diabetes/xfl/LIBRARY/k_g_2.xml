@@ -1,0 +1,175 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="k_g_2" itemID="574cd3e6-000002b2" symbolType="graphic" lastModified="1474301784">
+  <timeline>
+    <DOMTimeline name="k_g_2" currentFrame="35">
+      <layers>
+        <DOMLayer name="Layer 8" color="#FF4F4F" locked="true" visible="false" layerType="mask">
+          <frames>
+            <DOMFrame index="0" duration="183" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#00FF00"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!1564 -1678S2|15528 -1678!15528 -1678|15528 8485!15528 8485|1564 8485!1564 8485|1564 -1678"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 7" color="#669900" parentLayerIndex="0">
+          <frames>
+            <DOMFrame index="0" duration="60" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="60" duration="110" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="key_hover2" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-100" ty="59"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="79.45" y="26.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="170" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="key_hover2" selected="true" symbolType="graphic" firstFrame="7" centerPoint3DX="821.4" centerPoint3DY="61.55" loop="loop">
+                  <matrix>
+                    <Matrix tx="741.95" ty="40"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="79.45" y="26.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 5" color="#009999" parentLayerIndex="0" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="40" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="40" duration="110" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="key_hover2" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix ty="150"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="79.45" y="26.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="150" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="key_hover2" selected="true" symbolType="graphic" firstFrame="7" centerPoint3DX="821.4" centerPoint3DY="171.55" loop="loop">
+                  <matrix>
+                    <Matrix tx="741.95" ty="150"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="79.45" y="26.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 4" color="#FF4FFF" parentLayerIndex="0">
+          <frames>
+            <DOMFrame index="0" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="5" duration="110" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="key_hover2" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix ty="200"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="79.45" y="26.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="115" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="key_hover2" selected="true" symbolType="graphic" firstFrame="7" centerPoint3DX="821.4" centerPoint3DY="221.55" loop="loop">
+                  <matrix>
+                    <Matrix tx="741.95" ty="200"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="79.45" y="26.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A" parentLayerIndex="0">
+          <frames>
+            <DOMFrame index="0" duration="30" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="30" duration="110" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="key_hover2" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-100" ty="-20"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="79.45" y="26.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="140" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="key_hover2" selected="true" symbolType="graphic" firstFrame="7" centerPoint3DX="821.4" centerPoint3DY="1.55" loop="loop">
+                  <matrix>
+                    <Matrix tx="741.95" ty="-20"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="79.45" y="26.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4F80FF" parentLayerIndex="0">
+          <frames>
+            <DOMFrame index="0" duration="110" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="key_hover2" symbolType="graphic" loop="loop">
+                  <transformationPoint>
+                    <Point x="79.45" y="26.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="110" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="key_hover2" symbolType="graphic" firstFrame="7" centerPoint3DX="821.4" centerPoint3DY="21.55" loop="loop">
+                  <matrix>
+                    <Matrix tx="741.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="79.45" y="26.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

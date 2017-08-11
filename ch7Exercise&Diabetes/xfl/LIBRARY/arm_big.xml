@@ -1,0 +1,112 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="arm_big" itemID="5750f8bc-00000173" lastModified="1464924782" lastUniqueIdentifier="2">
+  <timeline>
+    <DOMTimeline name="arm_big">
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="fore_arm_big">
+                  <matrix>
+                    <Matrix ty="46.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="3.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="5" duration="9" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="fore_arm_big" selected="true" centerPoint3DX="27.45" centerPoint3DY="36.7">
+                  <matrix>
+                    <Matrix a="0.431289672851562" b="0.902206420898438" c="-0.902206420898438" d="0.431289672851562" tx="30.8" ty="4.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="49.95" y="3.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="fore_arm_big" selected="true">
+                  <matrix>
+                    <Matrix a="0.86181640625" b="-0.507217407226562" c="0.507217407226562" d="0.86181640625" tx="5.35" ty="72"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="3.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="18" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="fore_arm_big" selected="true">
+                  <matrix>
+                    <Matrix a="0.992691040039062" b="-0.120697021484375" c="0.120697021484375" d="0.992691040039062" tx="-0.05" ty="52.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50.05" y="3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4F80FF" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="5" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bicep" symbolType="graphic" firstFrame="4" loop="single frame">
+                  <matrix>
+                    <Matrix tx="44.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.25" y="27.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="5" duration="9" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bicep" symbolType="graphic" firstFrame="4" loop="single frame">
+                  <matrix>
+                    <Matrix tx="44.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.25" y="27.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bicep" symbolType="graphic" firstFrame="4" loop="single frame">
+                  <matrix>
+                    <Matrix tx="44.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.25" y="27.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="18" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bicep" symbolType="graphic" firstFrame="4" loop="single frame">
+                  <matrix>
+                    <Matrix tx="44.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.25" y="27.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

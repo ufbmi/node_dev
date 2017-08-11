@@ -1,0 +1,509 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="k_g_1" itemID="574cd17b-00000245" symbolType="graphic" lastModified="1474301740" lastUniqueIdentifier="8">
+  <persistentData>
+    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+  </persistentData>
+  <timeline>
+    <DOMTimeline name="k_g_1">
+      <layers>
+        <DOMLayer name="Layer 8" color="#FF4F4F" locked="true" visible="false" layerType="mask">
+          <frames>
+            <DOMFrame index="0" duration="259" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#00FF00"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!1564 -1678|15528 -1678!15528 -1678|15528 8485!15528 8485|1564 8485!1564 8485|1564 -1678"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 7" color="#669900" parentLayerIndex="0" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="60" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="60" duration="185" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="key_hover" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-100" ty="59"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="79.45" y="26.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="245" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="key_hover" symbolType="graphic" firstFrame="7" centerPoint3DX="821.4" centerPoint3DY="61.55" loop="loop">
+                  <matrix>
+                    <Matrix tx="741.95" ty="40"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="79.45" y="26.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 6" color="#808080" parentLayerIndex="0" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="72" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="72" duration="185" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="key_hover" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix ty="230"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="79.45" y="26.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="257" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="key_hover" symbolType="graphic" firstFrame="7" centerPoint3DX="821.4" centerPoint3DY="251.55" loop="loop">
+                  <matrix>
+                    <Matrix tx="741.95" ty="230"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="79.45" y="26.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 5" color="#009999" parentLayerIndex="0" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="40" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="40" duration="185" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="key_hover" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix ty="150"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="79.45" y="26.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="225" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="key_hover" symbolType="graphic" firstFrame="7" centerPoint3DX="821.4" centerPoint3DY="171.55" loop="loop">
+                  <matrix>
+                    <Matrix tx="741.95" ty="150"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="79.45" y="26.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 4" color="#FF4FFF" parentLayerIndex="0" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="5" duration="185" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="key_hover" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix ty="200"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="79.45" y="26.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="190" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="key_hover" symbolType="graphic" firstFrame="7" centerPoint3DX="821.4" centerPoint3DY="221.55" loop="loop">
+                  <matrix>
+                    <Matrix tx="741.95" ty="200"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="79.45" y="26.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A" parentLayerIndex="0" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="30" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="30" duration="185" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="key_hover" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-100" ty="-20"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="79.45" y="26.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="215" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="key_hover" symbolType="graphic" firstFrame="7" centerPoint3DX="821.4" centerPoint3DY="1.55" loop="loop">
+                  <matrix>
+                    <Matrix tx="741.95" ty="-20"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="79.45" y="26.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" parentLayerIndex="0" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="17" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="17" duration="185" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="key_hover" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix ty="80"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="79.45" y="26.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="202" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="key_hover" symbolType="graphic" firstFrame="7" centerPoint3DX="821.4" centerPoint3DY="101.55" loop="loop">
+                  <matrix>
+                    <Matrix tx="741.95" ty="80"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="79.45" y="26.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4F80FF" parentLayerIndex="0" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="185" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="key_hover" symbolType="graphic" loop="loop">
+                  <transformationPoint>
+                    <Point x="79.45" y="26.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="185" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="key_hover" symbolType="graphic" firstFrame="7" centerPoint3DX="853.4" centerPoint3DY="21.55" loop="loop">
+                  <matrix>
+                    <Matrix tx="773.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="79.45" y="26.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="glucose linger" color="#FF4F4F" parentLayerIndex="0" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="215" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose linger">
+                  <matrix>
+                    <Matrix tx="101.7" ty="-16.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="20.25" y="17.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="215" duration="44" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose linger" centerPoint3DX="641.95" centerPoint3DY="1">
+                  <matrix>
+                    <Matrix tx="621.7" ty="-16.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="20.25" y="17.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="glucose linger" color="#669900" parentLayerIndex="0" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="13" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="13" duration="251" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose linger">
+                  <matrix>
+                    <Matrix tx="120.7" ty="204.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="20.25" y="17.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="264" duration="7" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose linger" centerPoint3DX="660.95" centerPoint3DY="222">
+                  <matrix>
+                    <Matrix tx="640.7" ty="204.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="20.25" y="17.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="glucose linger" color="#808080" parentLayerIndex="0" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="32" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="32" duration="224" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose linger">
+                  <matrix>
+                    <Matrix tx="13.7" ty="119.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="20.25" y="17.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="256" duration="34" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose linger" centerPoint3DX="553.95" centerPoint3DY="137">
+                  <matrix>
+                    <Matrix tx="533.7" ty="119.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="20.25" y="17.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="glucose linger" color="#009999" parentLayerIndex="0" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="16" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="16" duration="214" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose linger">
+                  <matrix>
+                    <Matrix tx="-242.3" ty="-37.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="20.25" y="17.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="230" duration="44" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose linger" centerPoint3DX="297.95" centerPoint3DY="-20">
+                  <matrix>
+                    <Matrix tx="277.7" ty="-37.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="20.25" y="17.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="glucose linger" color="#FF4FFF" parentLayerIndex="0" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="8" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="8" duration="189" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose linger">
+                  <matrix>
+                    <Matrix tx="-167.3" ty="241.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="20.25" y="17.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="197" duration="69" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose linger" centerPoint3DX="372.95" centerPoint3DY="258.95">
+                  <matrix>
+                    <Matrix tx="352.7" ty="241.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="20.25" y="17.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="glucose linger" color="#FF800A" parentLayerIndex="0" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="23" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="23" duration="184" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose linger">
+                  <matrix>
+                    <Matrix tx="-287.3" ty="150.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="20.25" y="17.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="207" duration="74" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose linger" centerPoint3DX="252.95" centerPoint3DY="168">
+                  <matrix>
+                    <Matrix tx="232.7" ty="150.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="20.25" y="17.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="glucose linger" color="#9933CC" parentLayerIndex="0" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="3" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="3" duration="201" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose linger">
+                  <matrix>
+                    <Matrix tx="-143.3" ty="78.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="20.25" y="17.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="204" duration="57" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose linger" centerPoint3DX="396.95" centerPoint3DY="96">
+                  <matrix>
+                    <Matrix tx="376.7" ty="78.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="20.25" y="17.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="glucose linger" color="#4F80FF" parentLayerIndex="0" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="20" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="20" duration="235" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose linger">
+                  <matrix>
+                    <Matrix tx="-97.35" ty="15.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="20.25" y="17.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="255" duration="23" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="glucose linger" selected="true" centerPoint3DX="472.9" centerPoint3DY="33">
+                  <matrix>
+                    <Matrix tx="452.65" ty="15.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="20.25" y="17.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

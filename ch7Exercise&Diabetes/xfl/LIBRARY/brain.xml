@@ -1,0 +1,78 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="brain" itemID="574cdb81-00000c33" lastModified="1465394812" lastUniqueIdentifier="2">
+  <timeline>
+    <DOMTimeline name="brain" currentFrame="18">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="brain_squeeze">
+                  <transformationPoint>
+                    <Point x="178.35" y="145.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="brain_squeeze" centerPoint3DX="178.4" centerPoint3DY="145.75">
+                  <matrix>
+                    <Matrix a="0.93646240234375" d="0.93646240234375" tx="11.35" ty="9.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="178.35" y="145.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="8" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="brain_squeeze" selected="true">
+                  <matrix>
+                    <Matrix a="1.03033447265625" d="1.03033447265625" tx="-5.45" ty="-4.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="178.5" y="145.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="11" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="brain_squeeze" centerPoint3DX="178.35" centerPoint3DY="145.65">
+                  <matrix>
+                    <Matrix a="1.02145385742188" d="1.02145385742188" tx="-3.8" ty="-3.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="178.3" y="145.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="brain_squeeze" centerPoint3DX="178.35" centerPoint3DY="145.65">
+                  <matrix>
+                    <Matrix a="1.05686950683594" d="1.05686950683594" tx="-10.15" ty="-8.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="178.35" y="145.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="18" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="brain_squeeze">
+                  <transformationPoint>
+                    <Point x="178.35" y="145.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,1696 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="kara_exercise_chubby" itemID="5750e634-00000128" lastModified="1467130365" lastUniqueIdentifier="3">
+  <persistentData>
+    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+  </persistentData>
+  <timeline>
+    <DOMTimeline name="kara_exercise_chubby" currentFrame="22">
+      <layers>
+        <DOMLayer name="A" color="#FF800A" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.jumps = exportRoot.karaCompleteJumps-1;
+this.play();]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" duration="12" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[if (++this.jumps == exportRoot.karaCompleteJumps) {
+	this.jumps = 0;
+	this.stop();
+	this.mouseEnabled = true;
+}]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="13" duration="7" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[playSfxBg("rope_mix", 2);]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="20" duration="2" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.gotoAndPlay("loop1");]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="22" duration="12" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[if (++this.jumps == exportRoot.karaCompleteJumps) {
+	this.jumps = 0;
+	this.stop();
+	this.mouseEnabled = true;
+}]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="34" duration="7" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[playSfxBg("rope_mix", 2);]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="41" duration="2" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.gotoAndPlay("loop2");]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="43" duration="5" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.mouseEnabled = false;]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="L" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" duration="21" name="loop1" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="22" duration="21" name="loop2" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="43" duration="5" name="end" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="29" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="29" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#CC3366"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!-741 3059[-648 2809 -617 2249!-617 2249[-580 1598 -526 1348!-526 1348[-419 857 -124 588!-124 588[239 258 934 200!934 200[1670 139 2064 456!2064 456[2383 712 2501 1245!2501 1245[2567 1540 2596 2204!2596 2204[2622 2778 2700 2967"/>
+                    <Edge cubics="!-741 3059(-1073,3956;-400,2142 -1067,367 934,200q-741 3059Q-648 2809q-617 2249Q-580 1598q-526 1348Q-419 857q-124 588Q239 258q934 200);"/>
+                    <Edge cubics="!934 200(;3059,23 2400,2242 2700,2967q934 200Q1670 139q2064 456Q2383 712q2501 1245Q2567 1540q2596 2204Q2622 2778q2700 2967)3402,4676;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="30" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#CC3366"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!-850 3192[-793 3049 -720 2565!-720 2565[-646 2079 -543 1818!-543 1818[-381 1408 -61 1192!-61 1192[329 928 984 926!984 926[1667 925 2067 1158!2067 1158[2403 1353 2562 1730!2562 1730[2673 1996 2723 2454!2723 2454[2737 2577 2759 2814!2759
+ 2814[2781 3017 2808 3142"/>
+                    <Edge cubics="!-850 3192(-1201,4080;-592,2542 -900,933 984,926q-850 3192Q-793 3049q-720 2565Q-646 2079q-543 1818Q-381 1408q-61 1192Q329 928q984 926);"/>
+                    <Edge cubics="!984 926(;2934,924 2633,2333 2808,3142q984 926Q1667 925q2067 1158Q2403 1353q2562 1730Q2673 1996q2723 2454Q2737 2577q2759 2814Q2781 3017q2808 3142)3194,4949;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="31" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#CC3366"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!-908 3225[-1017 2513 -697 2029!-697 2029[-250 1353 981 1259!981 1259[1723 1203 2162 1358!2162 1358[2545 1494 2717 1801!2717 1801[2855 2047 2873 2449!2873 2449[2879 2578 2858 3167"/>
+                    <Edge cubics="!-908 3225(-763,4167;-1017,2517 -867,1400 981,1259q-908 3225Q-1017 2513q-697 2029Q-250 1353q981 1259);"/>
+                    <Edge cubics="!981 1259(;3073,1102 2892,2225 2858,3167q981 1259Q1723 1203q2162 1358Q2545 1494q2717 1801Q2855 2047q2873 2449Q2879 2578q2858 3167)2793,5010;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="32" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#CC3366"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!-875 3267[-941 3084 -854 2805!-854 2805[-761 2508 -534 2245!-534 2245[-275 1945 93 1777!93 1777[518 1582 1034 1590!1034 1590[2237 1606 2661 2124!2661 2124[2991 2526 2825 3183"/>
+                    <Edge cubics="!-875 3267(-556,4166;-1042,2800 -434,1567 1034,1590q-875 3267Q-941 3084q-854 2805Q-761 2508q-534 2245Q-275 1945q93 1777Q518 1582q1034 1590);"/>
+                    <Edge cubics="!1034 1590(;2801,1614 3008,2458 2825,3183q1034 1590Q2237 1606q2661 2124Q2991 2526q2825 3183)2378,4969;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="33" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#CC3366"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!-833 3300[-874 3105 -683 2908!-683 2908[-514 2733 -188 2580!-188 2580[107 2440 455 2353!455 2353[792 2268 1050 2263!1050 2263[1385 2257 1727 2334!1727 2334[2061 2409 2320 2544!2320 2544[2588 2684 2710 2854!2710 2854[2841 3038 2775 3225"/>
+                    <Edge cubics="!-833 3300(-635,4232;-950,2750 375,2275 1050,2263q-833 3300Q-874 3105q-683 2908Q-514 2733q-188 2580Q107 2440q455 2353Q792 2268q1050 2263);"/>
+                    <Edge cubics="!1050 2263(;1954,2247 2958,2708 2775,3225q1050 2263Q1385 2257q1727 2334Q2061 2409q2320 2544Q2588 2684q2710 2854Q2841 3038q2775 3225)2166,4960;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="34" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#CC3366"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!-783 3325[-540 3244 -316 3224!-316 3224[-139 3208 97 3227!97 3227[235 3238 544 3268!544 3268[840 3291 1117 3283!1117 3283[1272 3278 1529 3299!1529 3299[1672 3311 1963 3335!1963 3335[2484 3367 2733 3242"/>
+                    <Edge cubics="!-783 3325(-1687,3624;-83,3092 230,3310 1117,3283q-783 3325Q-540 3244q-316 3224Q-139 3208q97 3227Q235 3238q544 3268Q840 3291q1117 3283);"/>
+                    <Edge cubics="!1117 3283(;1634,3267 2317,3450 2733,3242q1117 3283Q1272 3278q1529 3299Q1672 3311q1963 3335Q2484 3367q2733 3242)4374,2422;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="35" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#CC3366"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!-733 3325[-595 3434 -342 3679!-342 3679[-88 3926 49 4034!49 4034[530 4415 1084 4400!1084 4400[1645 4383 2066 4021!2066 4021[2335 3788 2667 3266"/>
+                    <Edge cubics="!-733 3325(-1479,2735;-183,3759 197,4424 1084,4400q-733 3325Q-595 3434q-342 3679Q-88 3926q49 4034Q530 4415q1084 4400);"/>
+                    <Edge cubics="!1084 4400(;1925,4375 2333,3791 2667,3266q1084 4400Q1645 4383q2066 4021Q2335 3788q2667 3266)3648,1717;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="36" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#CC3366"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!-692 3333[-465 3906 -419 4010!-419 4010[-251 4394 -79 4637!-79 4637[373 5277 1084 5267!1084 5267[1683 5259 2119 4683!2119 4683[2539 4129 2642 3283"/>
+                    <Edge cubics="!-692 3333(-1041,2450;-342,4216 0,5283 1084,5267q-692 3333Q-465 3906q-419 4010Q-251 4394q-79 4637Q373 5277q1084 5267);"/>
+                    <Edge cubics="!1084 5267(;1901,5256 2508,4383 2642,3283q1084 5267Q1683 5259q2119 4683Q2539 4129q2642 3283)2859,1461;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="37" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#CC3366"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!-775 3191[-573 3853 -523 4000!-523 4000[-340 4542 -151 4908!-151 4908[384 5946 1067 5800!1067 5800[1868 5626 2287 4792!2287 4792[2583 4203 2733 3133"/>
+                    <Edge cubics="!-775 3191(-1050,2282;-508,4066 8,6026 1067,5800q-775 3191Q-573 3853q-523 4000Q-340 4542q-151 4908Q384 5946q1067 5800);"/>
+                    <Edge cubics="!1067 5800(;2258,5542 2575,4258 2733,3133q1067 5800Q1868 5626q2287 4792Q2583 4203q2733 3133)2983,1315;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="38" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#CC3366"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!-817 3458[-810 3861 -704 4338!-704 4338[-583 4885 -370 5320!-370 5320[-121 5831 215 6099!215 6099[605 6409 1084 6367!1084 6367[2136 6275 2498 5267!2498 5267[2631 4896 2696 4333!2696 4333[2750 3686 2775 3392"/>
+                    <Edge cubics="!-817 3458(-834,2508;-800,4426 -277,6486 1084,6367q-817 3458Q-810 3861q-704 4338Q-583 4885q-370 5320Q-121 5831q215 6099Q605 6409q1084 6367);"/>
+                    <Edge cubics="!1084 6367(;2700,6225 2675,4567 2775,3392q1084 6367Q2136 6275q2498 5267Q2631 4896q2696 4333Q2750 3686q2775 3392)2928,1563;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="39" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#CC3366"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!-850 3617[-712 3921 -636 4632!-636 4632[-616 4827 -574 5231!-574 5231[-533 5581 -481 5827!-481 5827[-340 6489 -23 6826!-23 6826[373 7244 1100 7250!1100 7250[1874 7254 2260 6826!2260 6826[2571 6481 2661 5804!2661 5804[2694 5548 2703 5195
+!2703 5195[2705 5102 2708 4587!2708 4587[2712 3860 2808 3575"/>
+                    <Edge cubics="!-850 3617(-1241,2752;-366,4683 -1000,7234 1100,7250q-850 3617Q-712 3921q-636 4632Q-616 4827q-574 5231Q-533 5581q-481 5827Q-340 6489q-23 6826Q373 7244q1100 7250);"/>
+                    <Edge cubics="!1100 7250(;3333,7262 2459,4608 2808,3575q1100 7250Q1874 7254q2260 6826Q2571 6481q2661 5804Q2694 5548q2703 5195Q2705 5102q2708 4587Q2712 3860q2808 3575)3392,1837;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="body" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="22" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="22" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="test" symbolType="graphic" firstFrame="6" loop="single frame">
+                  <matrix>
+                    <Matrix tx="-45.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="73.3" y="118.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="23" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="test" symbolType="graphic" firstFrame="6" loop="single frame">
+                  <matrix>
+                    <Matrix tx="-45.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="73.3" y="118.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="28" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="test" symbolType="graphic" firstFrame="6" loop="single frame">
+                  <matrix>
+                    <Matrix tx="-45.65" ty="14.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="73.3" y="118.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="30" duration="7" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="test" symbolType="graphic" firstFrame="6" loop="single frame">
+                  <matrix>
+                    <Matrix tx="-45.65" ty="-3.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="73.3" y="118.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="37" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="test" symbolType="graphic" firstFrame="6" loop="single frame">
+                  <matrix>
+                    <Matrix tx="-45.65" ty="-39"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="73.3" y="118.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="40" duration="3" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="test" symbolType="graphic" firstFrame="6" loop="single frame">
+                  <matrix>
+                    <Matrix tx="-45.65" ty="-4.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="73.3" y="118.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="left_arm" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="22" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="22" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="arm" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix a="-1" tx="148.95" ty="126"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.6" y="39.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="23" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="arm" symbolType="graphic" firstFrame="1" centerPoint3DX="105.35" centerPoint3DY="162.65" loop="play once">
+                  <matrix>
+                    <Matrix a="-1" tx="144.95" ty="122.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.6" y="39.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="28" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="arm" symbolType="graphic" firstFrame="5" centerPoint3DX="105.35" centerPoint3DY="177" loop="play once">
+                  <matrix>
+                    <Matrix a="-1" tx="144.95" ty="137.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.6" y="39.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="30" duration="7" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="arm" symbolType="graphic" firstFrame="7" centerPoint3DX="105.35" centerPoint3DY="158.7" loop="play once">
+                  <matrix>
+                    <Matrix a="-1" tx="144.95" ty="118.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.6" y="39.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="37" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="arm" symbolType="graphic" firstFrame="15" centerPoint3DX="105.35" centerPoint3DY="123.5" loop="play once">
+                  <matrix>
+                    <Matrix a="-1" tx="144.95" ty="83.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.6" y="39.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="40" duration="3" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="arm" symbolType="graphic" firstFrame="17" centerPoint3DX="105.35" centerPoint3DY="157.6" loop="play once">
+                  <matrix>
+                    <Matrix a="-1" tx="144.95" ty="117.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.6" y="39.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="left_arm" color="#009999" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="22" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="22" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="arm" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="-47.7" ty="126.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.6" y="39.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="23" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="arm" symbolType="graphic" firstFrame="1" centerPoint3DX="-8.1" centerPoint3DY="166.65" loop="play once">
+                  <matrix>
+                    <Matrix tx="-47.7" ty="126.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.6" y="39.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="28" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="arm" symbolType="graphic" firstFrame="5" centerPoint3DX="-8.1" centerPoint3DY="180.8" loop="play once">
+                  <matrix>
+                    <Matrix tx="-47.7" ty="140.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.6" y="39.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="30" duration="7" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="arm" symbolType="graphic" firstFrame="7" centerPoint3DX="-8.1" centerPoint3DY="162.5" loop="play once">
+                  <matrix>
+                    <Matrix tx="-47.7" ty="122.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.6" y="39.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="37" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="arm" symbolType="graphic" firstFrame="15" centerPoint3DX="-8.1" centerPoint3DY="127.5" loop="play once">
+                  <matrix>
+                    <Matrix tx="-47.7" ty="87.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.6" y="39.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="40" duration="3" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="arm" symbolType="graphic" firstFrame="17" centerPoint3DX="-8.1" centerPoint3DY="161.6" loop="play once">
+                  <matrix>
+                    <Matrix tx="-47.7" ty="121.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.6" y="39.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="right" color="#FF4F4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="22" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="22" duration="21" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="exercise_leg" symbolType="graphic" loop="play once">
+                  <matrix>
+                    <Matrix a="-1" tx="93.5" ty="226.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.3" y="64.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="left" color="#4F80FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="22" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="22" duration="21" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="exercise_leg" symbolType="graphic" loop="play once">
+                  <matrix>
+                    <Matrix tx="15.25" ty="226.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.3" y="64.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 10" color="#9933CC" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="22" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="22" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#CC3366"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!-900 3725[-887 4093 -797 4516!-797 4516[-684 5052 -483 5474!-483 5474[61 6620 1071 6599!1071 6599[2095 6578 2561 5558!2561 5558[2877 4865 2925 3717"/>
+                    <Edge cubics="!-900 3725(-930,2869;-871,4526 -475,6631 1071,6599q-900 3725Q-887 4093q-797 4516Q-684 5052q-483 5474Q61 6620q1071 6599);"/>
+                    <Edge cubics="!1071 6599(;2617,6567 2879,4816 2925,3717q1071 6599Q2095 6578q2561 5558Q2877 4865q2925 3717)2971,2618;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="23" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#CC3366"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!-866 3367[-915 3710 -838 4137!-838 4137[-752 4608 -541 4998!-541 4998[-298 5447 68 5694!68 5694[489 5978 1034 5967!1034 5967[2059 5946 2488 5017!2488 5017[2769 4409 2817 3267"/>
+                    <Edge cubics="!-866 3367(-762,2516;-987,4218 -512,5999 1034,5967q-866 3367Q-915 3710q-838 4137Q-752 4608q-541 4998Q-298 5447q68 5694Q489 5978q1034 5967);"/>
+                    <Edge cubics="!1034 5967(;2580,5935 2771,4366 2817,3267q1034 5967Q2059 5946q2488 5017Q2769 4409q2817 3267)2863,2168;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="24" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#CC3366"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!-766 3208[-709 4076 -391 4539!-391 4539[66 5204 1100 5183!1100 5183[1657 5172 1992 5016!1992 5016[2297 4876 2457 4596!2457 4596[2589 4365 2653 3969!2653 3969[2674 3844 2742 3183"/>
+                    <Edge cubics="!-766 3208(-822,2354;-708,4092 -446,5215 1100,5183q-766 3208Q-709 4076q-391 4539Q66 5204q1100 5183);"/>
+                    <Edge cubics="!1100 5183(;2646,5151 2625,4317 2742,3183q1100 5183Q1657 5172q1992 5016Q2297 4876q2457 4596Q2589 4365q2653 3969Q2674 3844q2742 3183)2853,2091;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="25" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#CC3366"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!-666 3175[-475 3750 -5 3982!-5 3982[423 4194 1067 4117!1067 4117[1796 4029 2178 3794!2178 3794[2564 3556 2650 3133"/>
+                    <Edge cubics="!-666 3175(-934,2364;-400,3975 254,4214 1067,4117q-666 3175Q-475 3750q-5 3982Q423 4194q1067 4117);"/>
+                    <Edge cubics="!1067 4117(;2034,4000 2534,3700 2650,3133q1067 4117Q1796 4029q2178 3794Q2564 3556q2650 3133)2869,2060;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="26" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#CC3366"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!-566 3092[-182 2745 89 2632!89 2632[352 2523 967 2450!967 2450[1335 2405 1567 2413!1567 2413[1807 2421 1971 2488!1971 2488[2129 2551 2263 2687!2263 2687[2376 2801 2525 3025"/>
+                    <Edge cubics="!-566 3092(-1198,3664;-50,2625 154,2547 967,2450q-566 3092Q-182 2745q89 2632Q352 2523q967 2450);"/>
+                    <Edge cubics="!967 2450(;1934,2333 2159,2476 2525,3025q967 2450Q1335 2405q1567 2413Q1807 2421q1971 2488Q2129 2551q2263 2687Q2376 2801q2525 3025)3131,3936;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="27" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#CC3366"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!-517 3084[-425 2880 -236 2388!-236 2388[-75 1968 30 1767!30 1767[186 1464 368 1304!368 1304[580 1117 867 1083!867 1083[1201 1043 1481 1277!1481 1277[1704 1465 1914 1851!1914 1851[2014 2036 2230 2526!2230 2526[2398 2908 2492 3025"/>
+                    <Edge cubics="!-517 3084(-867,3859;-92,2142 54,1180 867,1083q-517 3084Q-425 2880q-236 2388Q-75 1968q30 1767Q186 1464q368 1304Q580 1117q867 1083);"/>
+                    <Edge cubics="!867 1083(;1834,966 2150,2600 2492,3025q867 1083Q1201 1043q1481 1277Q1704 1465q1914 1851Q2014 2036q2230 2526Q2398 2908q2492 3025)3176,3874;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="28" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#CC3366"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!-533 3092[-405 2904 -450 2325!-450 2325[-482 1980 -498 1796!-498 1796[-527 1465 -525 1235!-525 1235[-521 581 -271 213!-271 213[47 -257 800 -350!800 -350[1664 -460 2063 -83!2063 -83[2381 218 2433 878!2433 878[2451 1122 2438 1472!2438
+ 1472[2430 1673 2407 2063!2407 2063[2373 2751 2484 3000"/>
+                    <Edge cubics="!-533 3092(-1072,3881;-100,2458 -1390,-79 800,-350q-533 3092Q-405 2904q-450 2325Q-482 1980q-498 1796Q-527 1465q-525 1235Q-521 581q-271 213Q47 -257q800 -350);"/>
+                    <Edge cubics="!800 -350(;3300,-667 2092,2125 2484,3000q800 -350Q1664 -460q2063 -83Q2381 218q2433 878Q2451 1122q2438 1472Q2430 1673q2407 2063Q2373 2751q2484 3000)3237,4687;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="29" duration="11" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="40" duration="3" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#CC3366"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!-875 3700[-969 3866 -919 4358!-919 4358[-864 4902 -657 5412!-657 5412[-407 6031 -6 6386!-6 6386[474 6811 1117 6800!1117 6800[1730 6789 2152 6444!2152 6444[2520 6141 2718 5607!2718 5607[2890 5143 2911 4574!2911 4574[2929 4063 2825 3625"/>
+                    <Edge cubics="!-875 3700(-410,2873;-1101,4100 -733,6833 1117,6800q-875 3700Q-969 3866q-919 4358Q-864 4902q-657 5412Q-407 6031q-6 6386Q474 6811q1117 6800);"/>
+                    <Edge cubics="!1117 6800(;2851,6770 3083,4708 2825,3625q1117 6800Q1730 6789q2152 6444Q2520 6141q2718 5607Q2890 5143q2911 4574Q2929 4063q2825 3625)2403,1840;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 7" color="#669900" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="8" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="8" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#CC3366"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!-741 3059[-648 2809 -617 2249!-617 2249[-580 1598 -526 1348!-526 1348[-419 857 -124 588!-124 588[239 258 934 200!934 200[1670 139 2064 456!2064 456[2383 712 2501 1245!2501 1245[2567 1540 2596 2204!2596 2204[2622 2778 2700 2967"/>
+                    <Edge cubics="!-741 3059(-1073,3956;-400,2142 -1067,367 934,200q-741 3059Q-648 2809q-617 2249Q-580 1598q-526 1348Q-419 857q-124 588Q239 258q934 200);"/>
+                    <Edge cubics="!934 200(;3059,23 2400,2242 2700,2967q934 200Q1670 139q2064 456Q2383 712q2501 1245Q2567 1540q2596 2204Q2622 2778q2700 2967)3402,4676;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="9" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#CC3366"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!-850 3192[-793 3049 -720 2565!-720 2565[-646 2079 -543 1818!-543 1818[-381 1408 -61 1192!-61 1192[329 928 984 926!984 926[1667 925 2067 1158!2067 1158[2403 1353 2562 1730!2562 1730[2673 1996 2723 2454!2723 2454[2737 2577 2759 2814!2759
+ 2814[2781 3017 2808 3142"/>
+                    <Edge cubics="!-850 3192(-1201,4080;-592,2542 -900,933 984,926q-850 3192Q-793 3049q-720 2565Q-646 2079q-543 1818Q-381 1408q-61 1192Q329 928q984 926);"/>
+                    <Edge cubics="!984 926(;2934,924 2633,2333 2808,3142q984 926Q1667 925q2067 1158Q2403 1353q2562 1730Q2673 1996q2723 2454Q2737 2577q2759 2814Q2781 3017q2808 3142)3194,4949;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="10" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#CC3366"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!-908 3225[-1017 2513 -697 2029!-697 2029[-250 1353 981 1259!981 1259[1723 1203 2162 1358!2162 1358[2545 1494 2717 1801!2717 1801[2855 2047 2873 2449!2873 2449[2879 2578 2858 3167"/>
+                    <Edge cubics="!-908 3225(-763,4167;-1017,2517 -867,1400 981,1259q-908 3225Q-1017 2513q-697 2029Q-250 1353q981 1259);"/>
+                    <Edge cubics="!981 1259(;3073,1102 2892,2225 2858,3167q981 1259Q1723 1203q2162 1358Q2545 1494q2717 1801Q2855 2047q2873 2449Q2879 2578q2858 3167)2793,5010;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="11" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#CC3366"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!-875 3267[-941 3084 -854 2805!-854 2805[-761 2508 -534 2245!-534 2245[-275 1945 93 1777!93 1777[518 1582 1034 1590!1034 1590[2237 1606 2661 2124!2661 2124[2991 2526 2825 3183"/>
+                    <Edge cubics="!-875 3267(-556,4166;-1042,2800 -434,1567 1034,1590q-875 3267Q-941 3084q-854 2805Q-761 2508q-534 2245Q-275 1945q93 1777Q518 1582q1034 1590);"/>
+                    <Edge cubics="!1034 1590(;2801,1614 3008,2458 2825,3183q1034 1590Q2237 1606q2661 2124Q2991 2526q2825 3183)2378,4969;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#CC3366"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!-833 3300[-874 3105 -683 2908!-683 2908[-514 2733 -188 2580!-188 2580[107 2440 455 2353!455 2353[792 2268 1050 2263!1050 2263[1385 2257 1727 2334!1727 2334[2061 2409 2320 2544!2320 2544[2588 2684 2710 2854!2710 2854[2841 3038 2775 3225"/>
+                    <Edge cubics="!-833 3300(-635,4232;-950,2750 375,2275 1050,2263q-833 3300Q-874 3105q-683 2908Q-514 2733q-188 2580Q107 2440q455 2353Q792 2268q1050 2263);"/>
+                    <Edge cubics="!1050 2263(;1954,2247 2958,2708 2775,3225q1050 2263Q1385 2257q1727 2334Q2061 2409q2320 2544Q2588 2684q2710 2854Q2841 3038q2775 3225)2166,4960;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="13" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#CC3366"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!-783 3325[-540 3244 -316 3224!-316 3224[-139 3208 97 3227!97 3227[235 3238 544 3268!544 3268[840 3291 1117 3283!1117 3283[1272 3278 1529 3299!1529 3299[1672 3311 1963 3335!1963 3335[2484 3367 2733 3242"/>
+                    <Edge cubics="!-783 3325(-1687,3624;-83,3092 230,3310 1117,3283q-783 3325Q-540 3244q-316 3224Q-139 3208q97 3227Q235 3238q544 3268Q840 3291q1117 3283);"/>
+                    <Edge cubics="!1117 3283(;1634,3267 2317,3450 2733,3242q1117 3283Q1272 3278q1529 3299Q1672 3311q1963 3335Q2484 3367q2733 3242)4374,2422;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#CC3366"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!-733 3325[-595 3434 -342 3679!-342 3679[-88 3926 49 4034!49 4034[530 4415 1084 4400!1084 4400[1645 4383 2066 4021!2066 4021[2335 3788 2667 3266"/>
+                    <Edge cubics="!-733 3325(-1479,2735;-183,3759 197,4424 1084,4400q-733 3325Q-595 3434q-342 3679Q-88 3926q49 4034Q530 4415q1084 4400);"/>
+                    <Edge cubics="!1084 4400(;1925,4375 2333,3791 2667,3266q1084 4400Q1645 4383q2066 4021Q2335 3788q2667 3266)3648,1717;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="15" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#CC3366"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!-692 3333[-465 3906 -419 4010!-419 4010[-251 4394 -79 4637!-79 4637[373 5277 1084 5267!1084 5267[1683 5259 2119 4683!2119 4683[2539 4129 2642 3283"/>
+                    <Edge cubics="!-692 3333(-1041,2450;-342,4216 0,5283 1084,5267q-692 3333Q-465 3906q-419 4010Q-251 4394q-79 4637Q373 5277q1084 5267);"/>
+                    <Edge cubics="!1084 5267(;1901,5256 2508,4383 2642,3283q1084 5267Q1683 5259q2119 4683Q2539 4129q2642 3283)2859,1461;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="16" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#CC3366"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!-775 3191[-573 3853 -523 4000!-523 4000[-340 4542 -151 4908!-151 4908[384 5946 1067 5800!1067 5800[1868 5626 2287 4792!2287 4792[2583 4203 2733 3133"/>
+                    <Edge cubics="!-775 3191(-1050,2282;-508,4066 8,6026 1067,5800q-775 3191Q-573 3853q-523 4000Q-340 4542q-151 4908Q384 5946q1067 5800);"/>
+                    <Edge cubics="!1067 5800(;2258,5542 2575,4258 2733,3133q1067 5800Q1868 5626q2287 4792Q2583 4203q2733 3133)2983,1315;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="17" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#CC3366"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!-817 3458[-810 3861 -704 4338!-704 4338[-583 4885 -370 5320!-370 5320[-121 5831 215 6099!215 6099[605 6409 1084 6367!1084 6367[2136 6275 2498 5267!2498 5267[2631 4896 2696 4333!2696 4333[2750 3686 2775 3392"/>
+                    <Edge cubics="!-817 3458(-834,2508;-800,4426 -277,6486 1084,6367q-817 3458Q-810 3861q-704 4338Q-583 4885q-370 5320Q-121 5831q215 6099Q605 6409q1084 6367);"/>
+                    <Edge cubics="!1084 6367(;2700,6225 2675,4567 2775,3392q1084 6367Q2136 6275q2498 5267Q2631 4896q2696 4333Q2750 3686q2775 3392)2928,1563;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="18" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#CC3366"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!-850 3617[-712 3921 -636 4632!-636 4632[-616 4827 -574 5231!-574 5231[-533 5581 -481 5827!-481 5827[-340 6489 -23 6826!-23 6826[373 7244 1100 7250!1100 7250[1874 7254 2260 6826!2260 6826[2571 6481 2661 5804!2661 5804[2694 5548 2703 5195
+!2703 5195[2705 5102 2708 4587!2708 4587[2712 3860 2808 3575"/>
+                    <Edge cubics="!-850 3617(-1241,2752;-366,4683 -1000,7234 1100,7250q-850 3617Q-712 3921q-636 4632Q-616 4827q-574 5231Q-533 5581q-481 5827Q-340 6489q-23 6826Q373 7244q1100 7250);"/>
+                    <Edge cubics="!1100 7250(;3333,7262 2459,4608 2808,3575q1100 7250Q1874 7254q2260 6826Q2571 6481q2661 5804Q2694 5548q2703 5195Q2705 5102q2708 4587Q2712 3860q2808 3575)3392,1837;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="body" color="#4F80FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="test" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="-45.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="73.3" y="118.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="test" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="-45.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="73.3" y="118.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="test" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="-45.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="73.3" y="118.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="test" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="-45.65" ty="14.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="73.3" y="118.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="9" duration="7" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="test" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="-45.65" ty="-3.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="73.3" y="118.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="16" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="test" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="-45.65" ty="-39"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="73.3" y="118.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="19" duration="3" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="test" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="-45.65" ty="-4.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="73.3" y="118.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="22" duration="21" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="43" duration="5" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="test" symbolType="graphic" firstFrame="6" centerPoint3DX="50.5" centerPoint3DY="114.8" loop="single frame">
+                  <matrix>
+                    <Matrix tx="-45.65" ty="-4.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="73.3" y="118.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="left_arm" color="#009999" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="arm" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix a="-1" tx="148.95" ty="126"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.6" y="39.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="arm" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix a="-1" tx="148.95" ty="126"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.6" y="39.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="arm" symbolType="graphic" firstFrame="1" centerPoint3DX="105.35" centerPoint3DY="162.65" loop="play once">
+                  <matrix>
+                    <Matrix a="-1" tx="144.95" ty="122.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.6" y="39.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="arm" symbolType="graphic" firstFrame="5" centerPoint3DX="105.35" centerPoint3DY="177" loop="play once">
+                  <matrix>
+                    <Matrix a="-1" tx="144.95" ty="137.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.6" y="39.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="9" duration="7" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="arm" symbolType="graphic" firstFrame="7" centerPoint3DX="105.35" centerPoint3DY="158.7" loop="play once">
+                  <matrix>
+                    <Matrix a="-1" tx="144.95" ty="118.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.6" y="39.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="16" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="arm" symbolType="graphic" firstFrame="15" centerPoint3DX="105.35" centerPoint3DY="123.5" loop="play once">
+                  <matrix>
+                    <Matrix a="-1" tx="144.95" ty="83.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.6" y="39.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="19" duration="3" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="arm" symbolType="graphic" firstFrame="17" centerPoint3DX="105.35" centerPoint3DY="157.6" loop="play once">
+                  <matrix>
+                    <Matrix a="-1" tx="144.95" ty="117.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.6" y="39.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="left_arm" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="arm" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="-47.7" ty="126.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.6" y="39.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="arm" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="-47.7" ty="126.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.6" y="39.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="arm" symbolType="graphic" firstFrame="1" centerPoint3DX="-8.1" centerPoint3DY="166.65" loop="play once">
+                  <matrix>
+                    <Matrix tx="-47.7" ty="126.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.6" y="39.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="arm" symbolType="graphic" firstFrame="5" centerPoint3DX="-8.1" centerPoint3DY="180.8" loop="play once">
+                  <matrix>
+                    <Matrix tx="-47.7" ty="140.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.6" y="39.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="9" duration="7" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="arm" symbolType="graphic" firstFrame="7" centerPoint3DX="-8.1" centerPoint3DY="162.5" loop="play once">
+                  <matrix>
+                    <Matrix tx="-47.7" ty="122.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.6" y="39.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="16" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="arm" symbolType="graphic" firstFrame="15" centerPoint3DX="-8.1" centerPoint3DY="127.5" loop="play once">
+                  <matrix>
+                    <Matrix tx="-47.7" ty="87.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.6" y="39.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="19" duration="3" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="arm" symbolType="graphic" firstFrame="17" centerPoint3DX="-8.1" centerPoint3DY="161.6" loop="play once">
+                  <matrix>
+                    <Matrix tx="-47.7" ty="121.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.6" y="39.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="22" duration="21" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="43" duration="5" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#B68E68"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="
+!-516 2922[-452 3080 -308 3238!-308 3238[-270 3276 -232 3266!-232 3266[-203 3261 -181 3222!-181 3222[-161 3189 -161 3156!-161 3156[-159 3103 -174 2983!-174 2983[-194 2836 -222 2774!-222 2774[-253 2709 -310 2636!-310 2636[-405 2516 -418
+ 2499!-418 2499[#FFFE50.4D #9B0.2A -441 2466.5!-441 2466.5[#FFFE48.77 #9A0.B8 -438 2463!-438 2463[-409 2431 -376 2401!-376 2401[-355 2383 -355 2353!-355 2353[-295 2338 -292 2284!-292 2284[-291 2260 -297 2237!-297 2237[-311 2179 -376 2188
+!-376 2188[-378 2177 -385 2167!-385 2167[-397 2150 -417 2147!-417 2147[-434 2144 -452 2144!-452 2144[-455 2145 -458 2145!-458 2145[-468 2148 -476 2153!-476 2153[-482 2157 -489 2161!-489 2161[-491 2162 -493 2162!-493 2162[-559 2131 -614
+ 2173!-614 2173[-620 2178 -623 2186!-623 2186[-760 2169 -743 2296!-743 2296[-729 2396 -650 2462!-650 2462[#FFFD8C.09 #9B0.3C -609 2485!-609 2485[#FFFDAD.C6 #9CA.5C -585 2530!-585 2530[-584 2546 -581 2569!-581 2569[-574 2617 -557 2749
+!-557 2749[-538 2867 -516 2922"/>
+                        <Edge cubics="!-232 3266(;-190,3258 -163,3195 -161,3156q-232 3266Q-203 3261q-181 3222Q-161 3189q-161 3156);"/>
+                        <Edge cubics="!-222 2774(;-273,2663 -340,2609 -418,2499q-222 2774Q-253 2709q-310 2636Q-405 2516q-418 2499);"/>
+                        <Edge cubics="!-581 2569(;-567,2664 -551,2835 -516,2922q-581 2569Q-574 2617q-557 2749Q-538 2867q-516 2922);"/>
+                        <Edge cubics="!-308 3238(;-282,3263 -258,3273 -232,3266q-308 3238Q-270 3276q-232 3266);"/>
+                        <Edge cubics="!-161 3156(;-159,3110 -178,2869 -222,2774q-161 3156Q-159 3103q-174 2983Q-194 2836q-222 2774);"/>
+                        <Edge cubics="!-516 2922(;-452,3080 -322,3225 -308,3238q-516 2922Q-452 3080q-308 3238);"/>
+                        <Edge cubics="!-585 2530(;-584,2541 -583,2554 -581,2569q-585 2530Q-584 2546q-581 2569);"/>
+                        <Edge cubics="!-385 2167(;-380,2174 -377,2181 -376,2188q-385 2167Q-378 2177q-376 2188);"/>
+                        <Edge cubics="!-297 2237(;-293,2252 -291,2268 -292,2284q-297 2237Q-291 2260q-292 2284);"/>
+                        <Edge cubics="!-355 2353(;-355,2373 -362,2389 -376,2401q-355 2353Q-355 2383q-376 2401);"/>
+                        <Edge cubics="!-292 2284(;-294,2320 -315,2343 -355,2353q-292 2284Q-295 2338q-355 2353);"/>
+                        <Edge cubics="!-376 2188(;-333,2182 -306,2198 -297,2237q-376 2188Q-311 2179q-297 2237);"/>
+                        <Edge cubics="!-489 2161(;-484,2158 -480,2156 -476,2153q-489 2161Q-482 2157q-476 2153);"/>
+                        <Edge cubics="!-476 2153(;-471,2150 -465,2147 -458,2145q-476 2153Q-468 2148q-458 2145);"/>
+                        <Edge cubics="!-493 2162(;-492,2162 -490,2162 -489,2161q-493 2162Q-491 2162q-489 2161);"/>
+                        <Edge cubics="!-452 2144(;-440,2144 -428,2145 -417,2147q-452 2144Q-434 2144q-417 2147);"/>
+                        <Edge cubics="!-458 2145(;-456,2145 -454,2145 -452,2144q-458 2145Q-455 2145q-452 2144);"/>
+                        <Edge cubics="!-623 2186(;-621,2181 -618,2176 -614,2173q-623 2186Q-620 2178q-614 2173);"/>
+                        <Edge cubics="!-650 2462(;-703,2418 -734,2363 -743,2296q-650 2462Q-729 2396q-743 2296);"/>
+                        <Edge cubics="!-438 2463(;-439,2464 -440,2466 -441,2467q-438 2463Q-440 2465q-441 2467);"/>
+                        <Edge cubics="!-614 2173(;-577,2145 -537,2141 -493,2162q-614 2173Q-559 2131q-493 2162);"/>
+                        <Edge cubics="!-743 2296(;-754,2211 -714,2175 -623,2186q-743 2296Q-760 2169q-623 2186);"/>
+                        <Edge cubics="!-585 2530(;-591,2514 -599,2499 -609,2485q-585 2530Q-594 2506q-609 2485);"/>
+                        <Edge cubics="!-609 2485(;-622,2482 -635,2474 -650,2462q-609 2485Q-628 2480q-650 2462);"/>
+                        <Edge cubics="!-417 2147(;-404,2149 -393,2156 -385,2167q-417 2147Q-397 2150q-385 2167);"/>
+                        <Edge cubics="!-376 2401(;-398,2421 -419,2442 -438,2463q-376 2401Q-409 2431q-438 2463);"/>
+                        <Edge cubics="!-418 2499(;-427,2486 -435,2476 -441,2467q-418 2499Q-432 2480q-441 2467);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMSymbolInstance libraryItemName="bicep" symbolType="graphic" firstFrame="4" centerPoint3DX="10.25" centerPoint3DY="142.55" loop="single frame">
+                      <matrix>
+                        <Matrix a="0.935409545898438" b="0.353561401367188" c="-0.353561401367188" d="0.935409545898438" tx="3.8" ty="110.6"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="17.3" y="27.65"/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#B68E68"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="
+!2562 2922[2498 3080 2354 3238!2354 3238[2316 3276 2278 3266!2278 3266[2249 3261 2227 3222!2227 3222[2207 3189 2207 3156!2207 3156[2205 3103 2220 2983!2220 2983[2240 2836 2268 2774!2268 2774[2299 2709 2356 2636!2356 2636[2451 2516 2464
+ 2499!2464 2499[2478 2480 2487 2467!2487 2467[2486 2465 2484 2463!2484 2463[2455 2431 2422 2401!2422 2401[2401 2383 2401 2353!2401 2353[2341 2338 2338 2284!2338 2284[2337 2260 2343 2237!2343 2237[2357 2179 2422 2188!2422 2188[2424 2177
+ 2431 2167!2431 2167[2443 2150 2463 2147!2463 2147[2480 2144 2498 2144!2498 2144[2501 2145 2504 2145!2504 2145[2514 2148 2522 2153!2522 2153[2528 2157 2535 2161!2535 2161[2537 2162 2539 2162!2539 2162[2605 2131 2660 2173!2660 2173[2666
+ 2178 2669 2186!2669 2186[2806 2169 2789 2296!2789 2296[2775 2396 2696 2462!2696 2462[2674 2480 2655 2485!2655 2485[2640 2506 2631 2530!2631 2530[2630 2546 2627 2569!2627 2569[2620 2617 2603 2749!2603 2749[2584 2867 2562 2922"/>
+                        <Edge cubics="!2278 3266(;2236,3258 2209,3195 2207,3156q2278 3266Q2249 3261q2227 3222Q2207 3189q2207 3156);"/>
+                        <Edge cubics="!2268 2774(;2319,2663 2386,2609 2464,2499q2268 2774Q2299 2709q2356 2636Q2451 2516q2464 2499);"/>
+                        <Edge cubics="!2627 2569(;2613,2664 2597,2835 2562,2922q2627 2569Q2620 2617q2603 2749Q2584 2867q2562 2922);"/>
+                        <Edge cubics="!2354 3238(;2328,3263 2304,3273 2278,3266q2354 3238Q2316 3276q2278 3266);"/>
+                        <Edge cubics="!2207 3156(;2205,3110 2224,2869 2268,2774q2207 3156Q2205 3103q2220 2983Q2240 2836q2268 2774);"/>
+                        <Edge cubics="!2562 2922(;2498,3080 2368,3225 2354,3238q2562 2922Q2498 3080q2354 3238);"/>
+                        <Edge cubics="!2631 2530(;2630,2541 2629,2554 2627,2569q2631 2530Q2630 2546q2627 2569);"/>
+                        <Edge cubics="!2431 2167(;2426,2174 2423,2181 2422,2188q2431 2167Q2424 2177q2422 2188);"/>
+                        <Edge cubics="!2343 2237(;2339,2252 2337,2268 2338,2284q2343 2237Q2337 2260q2338 2284);"/>
+                        <Edge cubics="!2401 2353(;2401,2373 2408,2389 2422,2401q2401 2353Q2401 2383q2422 2401);"/>
+                        <Edge cubics="!2338 2284(;2340,2320 2361,2343 2401,2353q2338 2284Q2341 2338q2401 2353);"/>
+                        <Edge cubics="!2422 2188(;2379,2182 2352,2198 2343,2237q2422 2188Q2357 2179q2343 2237);"/>
+                        <Edge cubics="!2535 2161(;2530,2158 2526,2156 2522,2153q2535 2161Q2528 2157q2522 2153);"/>
+                        <Edge cubics="!2522 2153(;2517,2150 2511,2147 2504,2145q2522 2153Q2514 2148q2504 2145);"/>
+                        <Edge cubics="!2539 2162(;2538,2162 2536,2162 2535,2161q2539 2162Q2537 2162q2535 2161);"/>
+                        <Edge cubics="!2498 2144(;2486,2144 2474,2145 2463,2147q2498 2144Q2480 2144q2463 2147);"/>
+                        <Edge cubics="!2504 2145(;2502,2145 2500,2145 2498,2144q2504 2145Q2501 2145q2498 2144);"/>
+                        <Edge cubics="!2669 2186(;2667,2181 2664,2176 2660,2173q2669 2186Q2666 2178q2660 2173);"/>
+                        <Edge cubics="!2696 2462(;2749,2418 2780,2363 2789,2296q2696 2462Q2775 2396q2789 2296);"/>
+                        <Edge cubics="!2484 2463(;2485,2464 2486,2466 2487,2467q2484 2463Q2486 2465q2487 2467);"/>
+                        <Edge cubics="!2660 2173(;2623,2145 2583,2141 2539,2162q2660 2173Q2605 2131q2539 2162);"/>
+                        <Edge cubics="!2789 2296(;2800,2211 2760,2175 2669,2186q2789 2296Q2806 2169q2669 2186);"/>
+                        <Edge cubics="!2631 2530(;2637,2514 2645,2499 2655,2485q2631 2530Q2640 2506q2655 2485);"/>
+                        <Edge cubics="!2655 2485(;2668,2482 2681,2474 2696,2462q2655 2485Q2674 2480q2696 2462);"/>
+                        <Edge cubics="!2463 2147(;2450,2149 2439,2156 2431,2167q2463 2147Q2443 2150q2431 2167);"/>
+                        <Edge cubics="!2422 2401(;2444,2421 2465,2442 2484,2463q2422 2401Q2455 2431q2484 2463);"/>
+                        <Edge cubics="!2464 2499(;2473,2486 2481,2476 2487,2467q2464 2499Q2478 2480q2487 2467);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMSymbolInstance libraryItemName="bicep" symbolType="graphic" firstFrame="4" centerPoint3DX="92.05" centerPoint3DY="142.55" loop="single frame">
+                      <matrix>
+                        <Matrix a="-0.935409545898438" b="0.353561401367188" c="0.353561401367188" d="0.935409545898438" tx="98.5" ty="110.6"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="17.3" y="27.65"/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="right" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="exercise_leg" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix a="-1" tx="93.5" ty="226.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.3" y="64.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" duration="21" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="exercise_leg" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="-1" tx="93.5" ty="226.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.3" y="64.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="22" duration="21" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="43" duration="5" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="exercise_leg" symbolType="graphic" centerPoint3DX="69.45" centerPoint3DY="269.4" loop="single frame">
+                  <matrix>
+                    <Matrix a="-1" tx="93.5" ty="226.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.3" y="64.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="left" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="exercise_leg" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="15.25" ty="226.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.3" y="64.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" duration="21" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="exercise_leg" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="15.25" ty="226.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.3" y="64.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="22" duration="21" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="43" duration="5" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="exercise_leg" symbolType="graphic" centerPoint3DX="39.25" centerPoint3DY="269.4" loop="single frame">
+                  <matrix>
+                    <Matrix tx="15.25" ty="226.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.3" y="64.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 6" color="#808080" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#CC3366"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!-900 3725[-887 4093 -797 4516!-797 4516[-684 5052 -483 5474!-483 5474[61 6620 1071 6599!1071 6599[2095 6578 2561 5558!2561 5558[2877 4865 2925 3717"/>
+                    <Edge cubics="!-900 3725(-930,2869;-871,4526 -475,6631 1071,6599q-900 3725Q-887 4093q-797 4516Q-684 5052q-483 5474Q61 6620q1071 6599);"/>
+                    <Edge cubics="!1071 6599(;2617,6567 2879,4816 2925,3717q1071 6599Q2095 6578q2561 5558Q2877 4865q2925 3717)2971,2618;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#CC3366"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!-900 3725[-887 4093 -797 4516!-797 4516[-684 5052 -483 5474!-483 5474[61 6620 1071 6599!1071 6599[2095 6578 2561 5558!2561 5558[2877 4865 2925 3717"/>
+                    <Edge cubics="!-900 3725(-930,2869;-871,4526 -475,6631 1071,6599q-900 3725Q-887 4093q-797 4516Q-684 5052q-483 5474Q61 6620q1071 6599);"/>
+                    <Edge cubics="!1071 6599(;2617,6567 2879,4816 2925,3717q1071 6599Q2095 6578q2561 5558Q2877 4865q2925 3717)2971,2618;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#CC3366"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!-866 3367[-915 3710 -838 4137!-838 4137[-752 4608 -541 4998!-541 4998[-298 5447 68 5694!68 5694[489 5978 1034 5967!1034 5967[2059 5946 2488 5017!2488 5017[2769 4409 2817 3267"/>
+                    <Edge cubics="!-866 3367(-762,2516;-987,4218 -512,5999 1034,5967q-866 3367Q-915 3710q-838 4137Q-752 4608q-541 4998Q-298 5447q68 5694Q489 5978q1034 5967);"/>
+                    <Edge cubics="!1034 5967(;2580,5935 2771,4366 2817,3267q1034 5967Q2059 5946q2488 5017Q2769 4409q2817 3267)2863,2168;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#CC3366"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!-766 3208[-709 4076 -391 4539!-391 4539[66 5204 1100 5183!1100 5183[1657 5172 1992 5016!1992 5016[2297 4876 2457 4596!2457 4596[2589 4365 2653 3969!2653 3969[2674 3844 2742 3183"/>
+                    <Edge cubics="!-766 3208(-822,2354;-708,4092 -446,5215 1100,5183q-766 3208Q-709 4076q-391 4539Q66 5204q1100 5183);"/>
+                    <Edge cubics="!1100 5183(;2646,5151 2625,4317 2742,3183q1100 5183Q1657 5172q1992 5016Q2297 4876q2457 4596Q2589 4365q2653 3969Q2674 3844q2742 3183)2853,2091;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#CC3366"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!-666 3175[-475 3750 -5 3982!-5 3982[423 4194 1067 4117!1067 4117[1796 4029 2178 3794!2178 3794[2564 3556 2650 3133"/>
+                    <Edge cubics="!-666 3175(-934,2364;-400,3975 254,4214 1067,4117q-666 3175Q-475 3750q-5 3982Q423 4194q1067 4117);"/>
+                    <Edge cubics="!1067 4117(;2034,4000 2534,3700 2650,3133q1067 4117Q1796 4029q2178 3794Q2564 3556q2650 3133)2869,2060;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="5" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#CC3366"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!-566 3092[-182 2745 89 2632!89 2632[352 2523 967 2450!967 2450[1335 2405 1567 2413!1567 2413[1807 2421 1971 2488!1971 2488[2129 2551 2263 2687!2263 2687[2376 2801 2525 3025"/>
+                    <Edge cubics="!-566 3092(-1198,3664;-50,2625 154,2547 967,2450q-566 3092Q-182 2745q89 2632Q352 2523q967 2450);"/>
+                    <Edge cubics="!967 2450(;1934,2333 2159,2476 2525,3025q967 2450Q1335 2405q1567 2413Q1807 2421q1971 2488Q2129 2551q2263 2687Q2376 2801q2525 3025)3131,3936;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="6" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#CC3366"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!-517 3084[-425 2880 -236 2388!-236 2388[-75 1968 30 1767!30 1767[186 1464 368 1304!368 1304[580 1117 867 1083!867 1083[1201 1043 1481 1277!1481 1277[1704 1465 1914 1851!1914 1851[2014 2036 2230 2526!2230 2526[2398 2908 2492 3025"/>
+                    <Edge cubics="!-517 3084(-867,3859;-92,2142 54,1180 867,1083q-517 3084Q-425 2880q-236 2388Q-75 1968q30 1767Q186 1464q368 1304Q580 1117q867 1083);"/>
+                    <Edge cubics="!867 1083(;1834,966 2150,2600 2492,3025q867 1083Q1201 1043q1481 1277Q1704 1465q1914 1851Q2014 2036q2230 2526Q2398 2908q2492 3025)3176,3874;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#CC3366"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!-533 3092[-405 2904 -450 2325!-450 2325[-482 1980 -498 1796!-498 1796[-527 1465 -525 1235!-525 1235[-521 581 -271 213!-271 213[47 -257 800 -350!800 -350[1664 -460 2063 -83!2063 -83[2381 218 2433 878!2433 878[2451 1122 2438 1472!2438
+ 1472[2430 1673 2407 2063!2407 2063[2373 2751 2484 3000"/>
+                    <Edge cubics="!-533 3092(-1072,3881;-100,2458 -1390,-79 800,-350q-533 3092Q-405 2904q-450 2325Q-482 1980q-498 1796Q-527 1465q-525 1235Q-521 581q-271 213Q47 -257q800 -350);"/>
+                    <Edge cubics="!800 -350(;3300,-667 2092,2125 2484,3000q800 -350Q1664 -460q2063 -83Q2381 218q2433 878Q2451 1122q2438 1472Q2430 1673q2407 2063Q2373 2751q2484 3000)3237,4687;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="8" duration="11" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="19" duration="3" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#CC3366"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!-875 3700[-969 3866 -919 4358!-919 4358[-864 4902 -657 5412!-657 5412[-407 6031 -6 6386!-6 6386[474 6811 1117 6800!1117 6800[1730 6789 2152 6444!2152 6444[2520 6141 2718 5607!2718 5607[2890 5143 2911 4574!2911 4574[2929 4063 2825 3625"/>
+                    <Edge cubics="!-875 3700(-410,2873;-1101,4100 -733,6833 1117,6800q-875 3700Q-969 3866q-919 4358Q-864 4902q-657 5412Q-407 6031q-6 6386Q474 6811q1117 6800);"/>
+                    <Edge cubics="!1117 6800(;2851,6770 3083,4708 2825,3625q1117 6800Q1730 6789q2152 6444Q2520 6141q2718 5607Q2890 5143q2911 4574Q2929 4063q2825 3625)2403,1840;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,48 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="key_hover" itemID="574cd0f1-0000023b" lastModified="1464652115">
+  <timeline>
+    <DOMTimeline name="key_hover">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="13" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="insulin_glucose" selected="true" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="3" ty="8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="65.45" y="38"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="13" duration="12" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="insulin_glucose" symbolType="graphic" firstFrame="4" centerPoint3DX="86.7" centerPoint3DY="17" loop="single frame">
+                  <matrix>
+                    <Matrix tx="3" ty="-2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="65.45" y="38"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="25" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="insulin_glucose" symbolType="graphic" centerPoint3DX="86.7" centerPoint3DY="27" loop="single frame">
+                  <matrix>
+                    <Matrix tx="3" ty="8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="65.45" y="38"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

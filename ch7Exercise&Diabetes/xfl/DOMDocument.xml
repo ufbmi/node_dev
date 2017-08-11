@@ -1,0 +1,1286 @@
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="1024" height="768" currentTimeline="1" xflVersion="2.7" creatorInfo="Adobe Animate CC" platform="Macintosh" versionInfo="Saved by Animate Macintosh 15.1 build 13" majorVersion="15" minorVersion="1" buildNumber="13" guidesSnapTo="false" guidesVisible="false" snapAlign="false" objectsSnapTo="false" timelineLabelWidth="195" viewAngle3D="88.2079048186946" previewMode="full" nextSceneIdentifier="2" viewOptionsPasteBoardView="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="3CE50BB6-55CF-47A6-B591-01286DDDC64C">
+     <folders>
+          <DOMFolderItem name="FlashAICB" itemID="5747a0ba-00000114"/>
+          <DOMFolderItem name="FlashAICB_2" itemID="574cc05d-00000146"/>
+          <DOMFolderItem name="FlashAICB_2/red bg" itemID="574cc05d-00000147" isExpanded="true"/>
+          <DOMFolderItem name="FlashAICB_3" itemID="574cc09b-00000158"/>
+          <DOMFolderItem name="FlashAICB_3/red bg" itemID="574cc09b-00000159"/>
+          <DOMFolderItem name="FlashAICB Assets_5" itemID="55414d9a-0000062b"/>
+          <DOMFolderItem name="FlashAICB Assets_5/character side bar" itemID="55414d9a-0000062c"/>
+          <DOMFolderItem name="FlashAICB Assets_9" itemID="5543b854-00000445"/>
+          <DOMFolderItem name="FlashAICB Assets_9/lock" itemID="5543b854-00000446"/>
+          <DOMFolderItem name="FlashAICB Assets_16" itemID="55563fa5-00000459"/>
+          <DOMFolderItem name="FlashAICB Assets_16/character side bar" itemID="55563fa5-0000045a"/>
+          <DOMFolderItem name="FlashAICB Assets_32" itemID="5747c3d5-00000206"/>
+          <DOMFolderItem name="FlashAICB Assets_32/BG" itemID="5747c3d5-00000207"/>
+          <DOMFolderItem name="FlashAICB Assets_33" itemID="5747c56a-00000290"/>
+          <DOMFolderItem name="FlashAICB Assets_33/Layer 13" itemID="5747c56a-00000291"/>
+          <DOMFolderItem name="FlashAICB Assets_34" itemID="5747c654-00000319"/>
+          <DOMFolderItem name="FlashAICB Assets_34/Layer 13" itemID="5747c654-0000031a"/>
+          <DOMFolderItem name="FlashAICB Assets_35" itemID="5747c683-00000327"/>
+          <DOMFolderItem name="FlashAICB Assets_35/Layer 13" itemID="5747c683-00000328"/>
+          <DOMFolderItem name="FlashAICB Assets_36" itemID="5747d237-0000049f"/>
+          <DOMFolderItem name="FlashAICB Assets_36/Layer 13" itemID="5747d237-000004a0"/>
+          <DOMFolderItem name="FlashAICB Assets_37" itemID="574cdac5-00000b34"/>
+          <DOMFolderItem name="FlashAICB Assets_37/Layer 13" itemID="574cdac5-00000b35"/>
+          <DOMFolderItem name="FlashAICB/character side bar" itemID="5747a0ba-00000115"/>
+     </folders>
+     <media>
+          <DOMBitmapItem name="btn_pg.png" itemID="55423d0a-000003b1" sourceLastImported="1465240712" sourcePlatform="macintosh" externalFileCRC32="1246386065" externalFileSize="6764" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="btn_pg.png" bitmapDataHRef="M 7 1430404362.dat" frameRight="1520" frameBottom="1880"/>
+     </media>
+     <symbols>
+          <Include href="arm.xml" loadImmediate="false" itemID="5747aed3-000001af" lastModified="1464924871"/>
+          <Include href="arm_big.xml" loadImmediate="false" itemID="5750f8bc-00000173" lastModified="1464924782"/>
+          <Include href="bad_bg.xml" loadImmediate="false" itemID="5747cb6d-000003f4" lastModified="1464322925"/>
+          <Include href="bad_heart.xml" loadImmediate="false" itemID="5747c6fd-0000034c" lastModified="1465499874"/>
+          <Include href="bad_pump.xml" loadImmediate="false" itemID="5747c82a-00000360" lastModified="1464322090"/>
+          <Include href="bicep.xml" loadImmediate="false" itemID="5747aef8-000001b7" lastModified="1464924770"/>
+          <Include href="bottom_leg.xml" loadImmediate="false" itemID="5747a439-00000160" lastModified="1464315269"/>
+          <Include href="brain.xml" loadImmediate="false" itemID="574cdb81-00000c33" lastModified="1465394812"/>
+          <Include href="brain_screen.xml" loadImmediate="false" itemID="574cda96-00000b31" lastModified="1469557146"/>
+          <Include href="brain_squeeze.xml" loadImmediate="false" itemID="574cff76-00000c46" lastModified="1464663926"/>
+          <Include href="btn_prev.xml" loadImmediate="false" itemID="55423d58-000003b7" lastModified="1430404440"/>
+          <Include href="calendar2.xml" loadImmediate="false" itemID="5758388d-0000047a" lastModified="1469556360"/>
+          <Include href="calendar3.xml" loadImmediate="false" itemID="575714e8-00000563" lastModified="1469556410"/>
+          <Include href="end_hover.xml" loadImmediate="false" itemID="574d0099-00000c6f" lastModified="1465394076"/>
+          <Include href="endorphin.xml" loadImmediate="false" itemID="574cdb9e-00000c40" lastModified="1464654750"/>
+          <Include href="exerc btn.xml" itemIcon="1" loadImmediate="false" itemID="57587f4b-0000020e" lastModified="1469555454"/>
+          <Include href="exercise_leg.xml" loadImmediate="false" itemID="5747a424-00000158" lastModified="1465243268"/>
+          <Include href="FlashAICB_2/red bg/&amp;#060Clip Group&amp;#062.xml" loadImmediate="false" itemID="574cc05d-00000149" lastModified="1464647773"/>
+          <Include href="FlashAICB_2/red bg/&amp;#060Path&amp;#062.xml" loadImmediate="false" itemID="574cc05d-00000151" lastModified="1464647773"/>
+          <Include href="FlashAICB_2/red bg/&amp;#060Path&amp;#062_1.xml" loadImmediate="false" itemID="574cc05d-0000014f" lastModified="1464647773"/>
+          <Include href="FlashAICB_2/red bg/&amp;#060Path&amp;#062_2.xml" loadImmediate="false" itemID="574cc05d-0000014d" lastModified="1464647773"/>
+          <Include href="FlashAICB_2/red bg/&amp;#060Path&amp;#062_3.xml" loadImmediate="false" itemID="574cc05d-0000014b" lastModified="1464647773"/>
+          <Include href="FlashAICB_3/red bg/&amp;#060Clip Group&amp;#062.xml" loadImmediate="false" itemID="574cc09b-0000015b" lastModified="1464647835"/>
+          <Include href="FlashAICB Assets_5/character side bar/&amp;#060Group&amp;#062_2.xml" loadImmediate="false" itemID="55414d9a-0000062e" lastModified="1430343066"/>
+          <Include href="FlashAICB Assets_9/lock/&amp;#060Path&amp;#062_2.xml" loadImmediate="false" itemID="5543b854-00000448" lastModified="1430501460"/>
+          <Include href="FlashAICB Assets_16/character side bar/&amp;#060Path&amp;#062_1.xml" loadImmediate="false" itemID="55563fa5-0000045c" lastModified="1431715749"/>
+          <Include href="FlashAICB Assets_32/BG/&amp;#060Path&amp;#062.xml" loadImmediate="false" itemID="5747c3d5-00000209" lastModified="1464320981"/>
+          <Include href="FlashAICB Assets_33/Layer 13/&amp;#060Path&amp;#062_11.xml" loadImmediate="false" itemID="5747c56a-00000295" lastModified="1464321386"/>
+          <Include href="FlashAICB Assets_33/Layer 13/&amp;#060Path&amp;#062_13.xml" loadImmediate="false" itemID="5747c56a-00000293" lastModified="1464321386"/>
+          <Include href="FlashAICB Assets_34/Layer 13/&amp;#060Group&amp;#062.xml" loadImmediate="false" itemID="5747c654-00000326" lastModified="1464321620"/>
+          <Include href="FlashAICB Assets_34/Layer 13/&amp;#060Group&amp;#062_1.xml" loadImmediate="false" itemID="5747c654-00000320" lastModified="1464321620"/>
+          <Include href="FlashAICB Assets_34/Layer 13/&amp;#060Group&amp;#062_2.xml" loadImmediate="false" itemID="5747c654-0000031e" lastModified="1464321620"/>
+          <Include href="FlashAICB Assets_34/Layer 13/&amp;#060Group&amp;#062_3.xml" loadImmediate="false" itemID="5747c654-0000031c" lastModified="1464321620"/>
+          <Include href="FlashAICB Assets_34/Layer 13/&amp;#060Path&amp;#062_1.xml" loadImmediate="false" itemID="5747c654-00000324" lastModified="1464321620"/>
+          <Include href="FlashAICB Assets_34/Layer 13/&amp;#060Path&amp;#062_2.xml" loadImmediate="false" itemID="5747c654-00000322" lastModified="1464321620"/>
+          <Include href="FlashAICB Assets_35/Layer 13/&amp;#060Group&amp;#062.xml" loadImmediate="false" itemID="5747c683-00000334" lastModified="1464321667"/>
+          <Include href="FlashAICB Assets_35/Layer 13/&amp;#060Group&amp;#062_1.xml" loadImmediate="false" itemID="5747c683-0000032e" lastModified="1464321667"/>
+          <Include href="FlashAICB Assets_35/Layer 13/&amp;#060Group&amp;#062_2.xml" loadImmediate="false" itemID="5747c683-0000032c" lastModified="1464321667"/>
+          <Include href="FlashAICB Assets_35/Layer 13/&amp;#060Group&amp;#062_3.xml" loadImmediate="false" itemID="5747c683-0000032a" lastModified="1464321667"/>
+          <Include href="FlashAICB Assets_35/Layer 13/&amp;#060Path&amp;#062_1.xml" loadImmediate="false" itemID="5747c683-00000332" lastModified="1464321667"/>
+          <Include href="FlashAICB Assets_35/Layer 13/&amp;#060Path&amp;#062_2.xml" loadImmediate="false" itemID="5747c683-00000330" lastModified="1464321667"/>
+          <Include href="FlashAICB Assets_36/Layer 13/&amp;#060Path&amp;#062.xml" loadImmediate="false" itemID="5747d237-000004b8" lastModified="1464324663"/>
+          <Include href="FlashAICB Assets_36/Layer 13/&amp;#060Path&amp;#062_1.xml" loadImmediate="false" itemID="5747d237-000004b6" lastModified="1464324663"/>
+          <Include href="FlashAICB Assets_36/Layer 13/&amp;#060Path&amp;#062_2.xml" loadImmediate="false" itemID="5747d237-000004b4" lastModified="1464324663"/>
+          <Include href="FlashAICB Assets_36/Layer 13/&amp;#060Path&amp;#062_3.xml" loadImmediate="false" itemID="5747d237-000004b2" lastModified="1464324663"/>
+          <Include href="FlashAICB Assets_36/Layer 13/&amp;#060Path&amp;#062_4.xml" loadImmediate="false" itemID="5747d237-000004b0" lastModified="1464324663"/>
+          <Include href="FlashAICB Assets_36/Layer 13/&amp;#060Path&amp;#062_5.xml" loadImmediate="false" itemID="5747d237-000004ae" lastModified="1464324663"/>
+          <Include href="FlashAICB Assets_36/Layer 13/&amp;#060Path&amp;#062_6.xml" loadImmediate="false" itemID="5747d237-000004ac" lastModified="1464324663"/>
+          <Include href="FlashAICB Assets_36/Layer 13/&amp;#060Path&amp;#062_7.xml" loadImmediate="false" itemID="5747d237-000004aa" lastModified="1464324663"/>
+          <Include href="FlashAICB Assets_36/Layer 13/&amp;#060Path&amp;#062_8.xml" loadImmediate="false" itemID="5747d237-000004a8" lastModified="1464324663"/>
+          <Include href="FlashAICB Assets_36/Layer 13/&amp;#060Path&amp;#062_9.xml" loadImmediate="false" itemID="5747d237-000004a6" lastModified="1464324663"/>
+          <Include href="FlashAICB Assets_36/Layer 13/&amp;#060Path&amp;#062_10.xml" loadImmediate="false" itemID="5747d237-000004a4" lastModified="1464324663"/>
+          <Include href="FlashAICB Assets_36/Layer 13/&amp;#060Path&amp;#062_11.xml" loadImmediate="false" itemID="5747d237-000004a2" lastModified="1464324663"/>
+          <Include href="FlashAICB Assets_37/Layer 13/&amp;#060Path&amp;#062.xml" loadImmediate="false" itemID="574cdac5-00000b43" lastModified="1464654533"/>
+          <Include href="FlashAICB Assets_37/Layer 13/&amp;#060Path&amp;#062_1.xml" loadImmediate="false" itemID="574cdac5-00000b41" lastModified="1464654533"/>
+          <Include href="FlashAICB Assets_37/Layer 13/&amp;#060Path&amp;#062_2.xml" loadImmediate="false" itemID="574cdac5-00000b3f" lastModified="1464654533"/>
+          <Include href="FlashAICB Assets_37/Layer 13/&amp;#060Path&amp;#062_3.xml" loadImmediate="false" itemID="574cdac5-00000b3d" lastModified="1464654533"/>
+          <Include href="FlashAICB Assets_37/Layer 13/&amp;#060Path&amp;#062_4.xml" loadImmediate="false" itemID="574cdac5-00000b3b" lastModified="1464654533"/>
+          <Include href="FlashAICB Assets_37/Layer 13/&amp;#060Path&amp;#062_5.xml" loadImmediate="false" itemID="574cdac5-00000b39" lastModified="1464654533"/>
+          <Include href="FlashAICB Assets_37/Layer 13/&amp;#060Path&amp;#062_6.xml" loadImmediate="false" itemID="574cdac5-00000b37" lastModified="1464654533"/>
+          <Include href="FlashAICB/character side bar/&amp;#060Path&amp;#062_9.xml" loadImmediate="false" itemID="5747a0ba-00000117" lastModified="1464311994"/>
+          <Include href="fore_arm.xml" loadImmediate="false" itemID="5747aef2-000001b3" lastModified="1464320196"/>
+          <Include href="fore_arm_big.xml" loadImmediate="false" itemID="5750f9c4-00000292" lastModified="1464924791"/>
+          <Include href="glucose.xml" itemIcon="1" loadImmediate="false" itemID="57588dad-00000486" lastModified="1465421229"/>
+          <Include href="glucose linger.xml" loadImmediate="false" itemID="57588f42-00000885" lastModified="1465421842"/>
+          <Include href="good_bg.xml" loadImmediate="false" itemID="5747cc47-00000475" lastModified="1464926677"/>
+          <Include href="good_heart.xml" loadImmediate="false" itemID="5747cbd1-00000435" lastModified="1465499937"/>
+          <Include href="good_pump.xml" loadImmediate="false" itemID="5747cbdc-00000441" lastModified="1464323036"/>
+          <Include href="happy text.xml" loadImmediate="false" itemID="5797a99a-000008b1" lastModified="1469557199"/>
+          <Include href="heart.xml" loadImmediate="false" itemID="5747c515-0000021a" lastModified="1469555064"/>
+          <Include href="heart text.xml" loadImmediate="false" itemID="5797a178-0000029d" lastModified="1469555114"/>
+          <Include href="idea list texts.xml" loadImmediate="false" itemID="5797aa57-000008ba" lastModified="1469559192"/>
+          <Include href="insulin_glucose.xml" loadImmediate="false" itemID="574ccfdd-0000021e" lastModified="1465421358"/>
+          <Include href="insulin_key.xml" loadImmediate="false" itemID="55492a12-0000015d" lastModified="1430858258"/>
+          <Include href="k_g_1.xml" itemIcon="1" loadImmediate="false" itemID="574cd17b-00000245" lastModified="1474301740"/>
+          <Include href="k_g_2.xml" itemIcon="1" loadImmediate="false" itemID="574cd3e6-000002b2" lastModified="1474301784"/>
+          <Include href="k_g_3.xml" itemIcon="1" loadImmediate="false" itemID="574cd529-000009f4" lastModified="1474301825"/>
+          <Include href="kara_exercise_chubby.xml" loadImmediate="false" itemID="5750e634-00000128" lastModified="1467130365"/>
+          <Include href="kara_exercise_stronger.xml" loadImmediate="false" itemID="5750f889-0000016d" lastModified="1467057185"/>
+          <Include href="kara_exercise_thin.xml" loadImmediate="false" itemID="5750f7a7-00000147" lastModified="1467056937"/>
+          <Include href="kara has text.xml" loadImmediate="false" itemID="5797a072-0000028c" lastModified="1469554950"/>
+          <Include href="key_hover.xml" loadImmediate="false" itemID="574cd0f1-0000023b" lastModified="1464652115"/>
+          <Include href="key_hover2.xml" loadImmediate="false" itemID="574cd3fd-000002b8" lastModified="1464652824"/>
+          <Include href="key_hover3.xml" loadImmediate="false" itemID="574cd619-000009fa" lastModified="1464653354"/>
+          <Include href="mid_pump.xml" loadImmediate="false" itemID="5750ff70-0000064b" lastModified="1464926282"/>
+          <Include href="middle_heart.xml" loadImmediate="false" itemID="5750ff63-0000063d" lastModified="1465499905"/>
+          <Include href="month symbol.xml" loadImmediate="false" itemID="5797a42e-000002af" lastModified="1469555758"/>
+          <Include href="months mc.xml" loadImmediate="false" itemID="5797a53f-0000088e" lastModified="1469558842"/>
+          <Include href="muscle_1.xml" loadImmediate="false" itemID="574cc82e-000001f6" lastModified="1464927053"/>
+          <Include href="muscles.xml" loadImmediate="false" itemID="574cc5a1-0000018b" lastModified="1474301814"/>
+          <Include href="muscles text.xml" loadImmediate="false" itemID="5797a77b-000008a8" lastModified="1469556651"/>
+          <Include href="replay_btn.xml" loadImmediate="false" itemID="5543b860-00000450" lastModified="1430501472"/>
+          <Include href="single_swet.xml" loadImmediate="false" itemID="5747c946-0000038e" lastModified="1464322374"/>
+          <Include href="splash_btn.xml" loadImmediate="false" itemID="55563fb0-0000045e" lastModified="1431715760"/>
+          <Include href="splash text.xml" loadImmediate="false" itemID="57979bde-00000203" lastModified="1471873651"/>
+          <Include href="sweat_drop.xml" loadImmediate="false" itemID="5747c923-0000038a" lastModified="1464322605"/>
+          <Include href="sweats.xml" loadImmediate="false" itemID="5747c90e-00000386" lastModified="1464322771"/>
+          <Include href="tap to make kara.xml" itemIcon="1" loadImmediate="false" itemID="575833dc-00000474" lastModified="1465398236"/>
+          <Include href="tapToMakeText.xml" loadImmediate="false" itemID="57583291-00000468" lastModified="1469558392"/>
+          <Include href="test.xml" loadImmediate="false" itemID="5747a22b-0000014e" lastModified="1464919565"/>
+          <Include href="top_leg.xml" loadImmediate="false" itemID="5747a430-0000015c" lastModified="1464312880"/>
+          <Include href="Tween 7.xml" itemIcon="1" loadImmediate="false" itemID="5747d31a-000004d0" lastModified="1464324890"/>
+     </symbols>
+     <timelines>
+          <DOMTimeline name="Scene 1" currentFrame="17" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;108&lt;/guideline&gt;&lt;guideline direction="v"&gt;332&lt;/guideline&gt;&lt;guideline direction="h"&gt;34&lt;/guideline&gt;&lt;guideline direction="h"&gt;614&lt;/guideline&gt;&lt;guideline direction="h"&gt;530&lt;/guideline&gt;&lt;/guidelines&gt;'>
+               <layers>
+                    <DOMLayer name="actions" color="#9933CC" locked="true" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" duration="7" keyMode="9728">
+                                   <Framescript language="JavaScript">
+                                        <script><![CDATA[exportRoot.stop();
+
+setTimeout(change_storytext, 10);
+setTimeout(read_storytext, 500); //extra delay on pg1 for loading
+
+exportRoot.btn_screen1.removeAllEventListeners("mousedown");
+exportRoot.btn_screen1.addEventListener("mousedown", goto_screen2);
+addHandHover(exportRoot.btn_screen1);
+
+begin_pulseObj(exportRoot.btn_screen1);
+
+var fromFirst = true;
+
+function goto_screen2(e) {
+	//console.log("goto_screen2");
+	playSfx('sfx_btnclick');
+	
+	end_pulseObj(exportRoot.btn_screen1);	
+	
+	removeHandHover(exportRoot.btn_screen1);
+	cursorDefault();
+	exportRoot.btn_screen1.removeEventListener("mousedown", goto_screen2);
+	
+	exportRoot.gotoAndStop("screen2");
+}]]></script>
+                                   </Framescript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="7" duration="7" keyMode="9728">
+                                   <Framescript language="JavaScript">
+                                        <script><![CDATA[exportRoot.stop();
+
+setTimeout(change_storytext, 10);
+setTimeout(read_storytext, 10);
+
+exportRoot.btn_replay.mouseChildren = false;
+exportRoot.kara2.mouseChildren = false;
+exportRoot.btn_next.mouseChildren = false;
+exportRoot.btn_prev.mouseChildren = false;
+
+exportRoot.btn_replay.visible = false;
+exportRoot.btn_replay.removeAllEventListeners("mousedown");
+exportRoot.btn_replay.addEventListener("mousedown", function (e) {
+	e.currentTarget.visible = false;
+	playSfx("click6");
+	exportRoot.kara2.gotoAndPlay(0);
+	exportRoot.btn_exercise.visible = true;
+	exportRoot.btn_exercise.gotoAndPlay("enab");
+	exportRoot.heart.gotoAndPlay(0);
+	exportRoot.calendar2.gotoAndStop(0);
+	setTimeout(read_storytext, 10);
+});
+addHandHover(exportRoot.btn_replay);
+
+
+exportRoot.kara2.removeAllEventListeners("mousedown");
+exportRoot.kara2.addEventListener("mousedown", function (e) {
+	if (exportRoot.calendar2.ready) {
+		exportRoot.kara2.mouseEnabled = false;
+		exportRoot.kara2.play();
+		exportRoot.calendar2.play();
+		exportRoot.calendar2.ready = false;
+		exportRoot.btn_exercise.gotoAndStop("disab");
+	}
+});
+exportRoot.kara2.hitArea = new createjs.Shape(new createjs.Graphics().f("#000").dr(-40, -30, 360, 470));
+addHandHover(exportRoot.kara2);
+
+exportRoot.karaCompleteJumps = 5;
+
+enableBtn(exportRoot.btn_next, false);
+
+exportRoot.btn_exercise.visible = true;
+if (!exportRoot.fromFirst) { exportRoot.btn_exercise.gotoAndPlay("enab"); }
+fromFirst = false;
+//exportRoot.btn_exercise.mouseEnabled = false;]]></script>
+                                   </Framescript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="14" duration="7" keyMode="9728">
+                                   <Framescript language="JavaScript">
+                                        <script><![CDATA[exportRoot.stop();
+
+setTimeout(change_storytext, 10);
+setTimeout(read_storytext, 10);
+
+exportRoot.kara3.mouseChildren = false;
+
+exportRoot.btn_replay.visible = false;
+exportRoot.btn_replay.removeAllEventListeners("mousedown");
+exportRoot.btn_replay.addEventListener("mousedown", function (e) {
+	e.currentTarget.visible = false;
+	playSfx("click6");
+	exportRoot.karaCompleteJumps = 14;
+	exportRoot.kara3.gotoAndPlay(0);
+	exportRoot.btn_exercise.visible = true;
+	exportRoot.btn_exercise.gotoAndPlay(0);
+	exportRoot.muscles.gotoAndStop(0);
+	exportRoot.calendar3.gotoAndStop(0);
+	setTimeout(read_storytext, 10);
+});
+addHandHover(exportRoot.btn_replay);
+
+
+exportRoot.kara3.removeAllEventListeners("mousedown");
+exportRoot.kara3.addEventListener("mousedown", function (e) {
+	if (exportRoot.calendar3.ready && exportRoot.muscles.ready) {
+		exportRoot.kara3.mouseEnabled = false;
+		exportRoot.kara3.play();
+		exportRoot.calendar3.play();
+		exportRoot.calendar3.ready = false;
+		exportRoot.muscles.play();
+		exportRoot.muscles.ready = false;
+		exportRoot.btn_exercise.gotoAndStop("disab");
+	}
+});
+exportRoot.kara3.hitArea = new createjs.Shape(new createjs.Graphics().f("#000").dr(-40, -30, 360, 470));
+addHandHover(exportRoot.kara3);
+
+exportRoot.karaCompleteJumps = 14;
+
+enableBtn(exportRoot.btn_next, false);
+
+exportRoot.btn_exercise.visible = true;
+exportRoot.btn_exercise.gotoAndPlay("enab");]]></script>
+                                   </Framescript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="21" duration="7" keyMode="9728">
+                                   <Framescript language="JavaScript">
+                                        <script><![CDATA[exportRoot.stop();
+
+setTimeout(change_storytext, 10);
+setTimeout(read_storytext, 10);
+
+exportRoot.kara4.mouseChildren = false;
+
+exportRoot.btn_replay.visible = false;
+exportRoot.btn_replay.removeAllEventListeners("mousedown");
+exportRoot.btn_replay.addEventListener("mousedown", function (e) {
+	e.currentTarget.visible = false;
+	playSfx("click6");
+	exportRoot.kara4.gotoAndPlay(0);
+	exportRoot.btn_exercise.visible = true;
+	exportRoot.btn_exercise.gotoAndPlay(0);
+	exportRoot.brain.gotoAndStop(0);
+	setTimeout(read_storytext, 10);
+});
+addHandHover(exportRoot.btn_replay);
+
+
+exportRoot.kara4.removeAllEventListeners("mousedown");
+exportRoot.kara4.addEventListener("mousedown", function (e) {
+	exportRoot.kara4.mouseEnabled = false;
+	exportRoot.kara4.play();
+	exportRoot.btn_exercise.gotoAndStop("disab");
+});
+exportRoot.kara4.hitArea = new createjs.Shape(new createjs.Graphics().f("#000").dr(-40, -30, 360, 470));
+addHandHover(exportRoot.kara4);
+
+exportRoot.karaCompleteJumps = 4;
+
+enableBtn(exportRoot.btn_next, false);
+
+exportRoot.btn_exercise.visible = true;
+exportRoot.btn_exercise.gotoAndPlay("enab");]]></script>
+                                   </Framescript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="28" duration="7" keyMode="9728">
+                                   <Framescript language="JavaScript">
+                                        <script><![CDATA[exportRoot.stop();
+setTimeout(change_storytext, 10);
+setTimeout(read_storytext, 10);
+]]></script>
+                                   </Framescript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="labels" color="#4F80FF" locked="true" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" duration="7" name="screen1" labelType="name" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="7" duration="7" name="screen2" labelType="name" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="14" duration="7" name="screen3" labelType="name" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="21" duration="7" name="screen4" labelType="name" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="28" duration="7" name="screen5" labelType="name" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="UI" color="#FF4FFF" locked="true" autoNamed="false" layerType="folder" heightLiteral="15"/>
+                    <DOMLayer name="btn_code" color="#009999" parentLayerIndex="2" locked="true" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" duration="7" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="7" keyMode="9728">
+                                   <Framescript language="JavaScript">
+                                        <script><![CDATA[btn_next = this.btn_next;
+btn_next.removeAllEventListeners("mousedown");
+btn_next.addEventListener("mousedown", btn_next_clicked);
+addHandHover(btn_next);
+
+btn_prev = this.btn_prev;
+btn_prev.removeAllEventListeners("mousedown");
+btn_prev.addEventListener("mousedown", btn_prev_clicked);
+addHandHover(btn_prev);
+
+function btn_next_clicked(e) {
+	sndch.stop(); //stop narration
+	stopSfx(); //stop playing sfx
+	playSfx('sfx_btnclick');
+
+	//console.log("btn_next_clicked");
+	//console.log("leaving currentLabel: " + exportRoot.getCurrentLabel());
+
+	switch (exportRoot.getCurrentLabel()) {
+		case "screen1":
+			{
+				exportRoot.gotoAndStop("screen2");
+				break;
+			}
+		case "screen2":
+			{
+				exportRoot.kara2.removeAllEventListeners("mousedown");
+				exportRoot.gotoAndStop("screen3");
+				break;
+			}
+		case "screen3":
+			{
+				exportRoot.kara3.removeAllEventListeners("mousedown");
+				exportRoot.gotoAndStop("screen4");
+				break;
+			}
+		case "screen4":
+			{
+				exportRoot.kara4.removeAllEventListeners("mousedown");
+				exportRoot.btn_next.visible = false;
+				exportRoot.gotoAndStop("screen5");
+				break;
+			}
+		case "screen5":
+			{
+				location.href = "../index.html";
+				break;
+			}
+		default:
+			//console.log("don't know where to go!");
+			break;
+	}
+	//change_storytext(); //in storytext.js
+}
+
+function btn_prev_clicked(e) {
+	sndch.stop();
+	stopSfx(); //stop playing sfx
+	playSfx('sfx_btnclick');
+
+	//console.log("btn_prev_clicked");
+	//console.log("leaving currentLabel: " + exportRoot.getCurrentLabel());
+
+	switch (exportRoot.getCurrentLabel()) {
+		case "screen2":
+			{
+				exportRoot.kara2.removeAllEventListeners("mousedown");
+				exportRoot.btn_replay.removeAllEventListeners("mousedown");
+				exportRoot.gotoAndStop("screen1");
+				break;
+			}
+		case "screen3":
+			{
+				exportRoot.kara3.removeAllEventListeners("mousedown");
+				exportRoot.gotoAndStop("screen2");
+				break;
+			}
+		case "screen4":
+			{
+				exportRoot.kara4.removeAllEventListeners("mousedown");
+				exportRoot.gotoAndStop("screen3");
+				break;
+			}
+
+		case "screen5":
+			{
+				exportRoot.btn_next.visible = true;
+				exportRoot.gotoAndStop("screen4");
+				break;
+			}
+		default:
+			//console.log("don't know where to go!");
+			break;
+	}
+	//change_storytext(); //in storytext.js
+}
+
+/*
+//kill any in progress pulses
+screen4_killPulses = function () {
+	//console.log("screen4_killPulses");
+	end_pulseObj(g1);
+	end_pulseObj(g2);
+	end_pulseObj(g3);
+	end_pulseObj(g4);
+	end_pulseObj(screen4_insulin_key);
+}
+
+screen11_clearTimeouts = function () {
+	//console.log("screen11_clearTimeouts");
+	clearTimeout(screen11TM_weakness);
+	clearTimeout(screen11TM_urinating);
+	clearTimeout(screen11TM_vomiting);
+	clearTimeout(screen11TM_dehydration);
+	clearTimeout(screen11TM_heavybreathing);
+}
+
+screen12_resetAll = function () {
+	screen12_meter.x = screen12_meter.initX || screen12_meter.x;
+	screen12_meter.y = screen12_meter.initY || screen12_meter.y;
+
+	screen12_phone.x = screen12_phone.initX || screen12_phone.x;
+	screen12_phone.y = screen12_phone.initY || screen12_phone.y;
+
+	screen12_insulin.x = screen12_insulin.initX || screen12_insulin.x;
+	screen12_insulin.y = screen12_insulin.initY || screen12_insulin.y;
+
+	screen12_water.x = screen12_water.initX || screen12_water.x;
+	screen12_water.y = screen12_water.initY || screen12_water.y;
+}
+*/]]></script>
+                                   </Framescript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="btn_screen1" color="#FF800A" parentLayerIndex="2" locked="true" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" duration="7" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="splash_btn" name="btn_screen1">
+                                             <matrix>
+                                                  <Matrix tx="738.7" ty="513.2"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="86.35" y="89.85"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="btn_replay" color="#4F80FF" parentLayerIndex="2" locked="true" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" duration="7" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="7" duration="21" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="replay_btn" name="btn_replay">
+                                             <matrix>
+                                                  <Matrix tx="962.6" ty="47"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="22.35" y="23.8"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="btn_next" color="#FF800A" parentLayerIndex="2" locked="true" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" duration="7" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="7" duration="28" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="btn_prev" name="btn_next" centerPoint3DX="986.25" centerPoint3DY="694.15">
+                                             <matrix>
+                                                  <Matrix a="-1" tx="1024.25" ty="647.15"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="38" y="47"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="btn_prev" color="#FF800A" parentLayerIndex="2" locked="true" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" duration="7" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="7" duration="28" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="btn_prev" name="btn_prev">
+                                             <matrix>
+                                                  <Matrix ty="647.15"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="38" y="47"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="graybar_top" color="#4F80FF" parentLayerIndex="2" locked="true" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" duration="35" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isDrawingObject="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#FFFFFF"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <edges>
+                                                  <Edge fillStyle1="1" edges="!-19 680|-19 -20!-19 -20/18163.5 -20!18163.5 -20/18504 -20!18504 -20/20463 -20!20463 -20/20803 -20!20803 -20/20803 680!20803 680/20463 680!20463 680/18504 680!18504 680/18164 680!18164 680/-19 680"/>
+                                                  <Edge cubics="!20463 680(;20463,680 18504,680 18504,680q20463 680 18504 680);"/>
+                                                  <Edge cubics="!18504 680(;18504,680 18164,680 18164,680q18504 680 18164 680);"/>
+                                                  <Edge cubics="!18164 680(18164,680;18164,680 -19,680 -19,680q18164 680 -19 680)-19,680;"/>
+                                                  <Edge cubics="!-19 680(;-19,680 -19,-20 -19,-20q-19 680p-19 -20);"/>
+                                                  <Edge cubics="!-19 -20(;-19,-20 18164,-20 18164,-20q-19 -20 18164 -20);"/>
+                                                  <Edge cubics="!18164 -20(;18164,-20 18504,-20 18504,-20q18164 -20 18504 -20);"/>
+                                                  <Edge cubics="!18504 -20(;18504,-20 20463,-20 20463,-20q18504 -20 20463 -20);"/>
+                                                  <Edge cubics="!20803 680(;20803,680 20463,680 20463,680q20803 680 20463 680);"/>
+                                                  <Edge cubics="!20463 -20(;20463,-20 20803,-20 20803,-20q20463 -20 20803 -20);"/>
+                                                  <Edge cubics="!20803 -20(;20803,-20 20803,680 20803,680p20803 -20q20803 680);"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="graybar_bottom" color="#9933CC" parentLayerIndex="2" locked="true" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" duration="7" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="7" duration="28" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isDrawingObject="true">
+                                             <transformationPoint>
+                                                  <Point x="513.1" y="618.15"/>
+                                             </transformationPoint>
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#FFFFFF"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <edges>
+                                                  <Edge fillStyle1="1" edges="!-51 12319/20491 12319!20491 12319/20491 13635!20491 13635/20491 14703!20491 14703/20491 16952!20491 16952/-51 16952!-51 16952|-51 12319"/>
+                                                  <Edge cubics="!-51 12319(;-51,12319 20491,12319 20491,12319p-51 12319q20491 12319);"/>
+                                                  <Edge cubics="!20491 12319(20491,12319;20491,12319 20491,13635 20491,13635q20491 12319 20491 13635);"/>
+                                                  <Edge cubics="!20491 13635(;20491,13635 20491,14703 20491,14703q20491 13635 20491 14703);"/>
+                                                  <Edge cubics="!20491 16952(;20491,16952 -51,16952 -51,16952q20491 16952 -51 16952);"/>
+                                                  <Edge cubics="!20491 14703(;20491,14703 20491,16952 20491,16952q20491 14703 20491 16952);"/>
+                                                  <Edge cubics="!-51 16952(-51,16952;-51,16952 -51,12319 -51,12319q-51 16952 -51 12319);"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="pointer" color="#FF4FFF" locked="true" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" duration="7" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="7" duration="21" keyMode="9728">
+                                   <elements>
+                                        <DOMGroup>
+                                             <transformationPoint>
+                                                  <Point x="297.05" y="329"/>
+                                             </transformationPoint>
+                                             <members>
+                                                  <DOMShape isDrawingObject="true">
+                                                       <matrix>
+                                                            <Matrix tx="222.05" ty="24.05"/>
+                                                       </matrix>
+                                                       <fills>
+                                                            <FillStyle index="1">
+                                                                 <SolidColor color="#D5D0A8"/>
+                                                            </FillStyle>
+                                                       </fills>
+                                                       <strokes>
+                                                            <StrokeStyle index="1">
+                                                                 <SolidStroke scaleMode="normal" weight="6.4">
+                                                                      <fill>
+                                                                           <SolidColor color="#D5D0A8"/>
+                                                                      </fill>
+                                                                 </SolidStroke>
+                                                            </StrokeStyle>
+                                                       </strokes>
+                                                       <edges>
+                                                            <Edge fillStyle0="1" strokeStyle="1" edges="!1845 5460[1608 5671 184 5755!184 5755[-528 5797 -1193 5797!-1193 5797[-597 5891 89 6059!89 6059[1461 6396 1910 6770!1910 6770[1971 6621 1913 6030!1913 6030[1843 5466 1845 5460"/>
+                                                            <Edge cubics="!1845 5460(;1466,5797 -1193,5797 -1193,5797q1845 5460Q1608 5671q184 5755Q-528 5797q-1193 5797);"/>
+                                                            <Edge cubics="!-1193 5797(;-1193,5797 1191,6172 1910,6770q-1193 5797Q-597 5891q89 6059Q1461 6396q1910 6770);"/>
+                                                            <Edge cubics="!1910 6770(;2008,6530 1841,5472 1845,5460q1910 6770Q1971 6621q1913 6030Q1843 5466q1845 5460);"/>
+                                                       </edges>
+                                                  </DOMShape>
+                                             </members>
+                                        </DOMGroup>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="splash text" color="#4F80FF" locked="true" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" duration="7" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="splash text">
+                                             <matrix>
+                                                  <Matrix tx="512.05" ty="58.35"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="267.95" y="42.05"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="kara1" color="#4F80FF" locked="true" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" duration="7" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="kara_exercise_thin" symbolType="graphic" loop="single frame">
+                                             <matrix>
+                                                  <Matrix a="1.33538818359375" d="1.33538818359375" tx="438.4" ty="225.9"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="50.6" y="177.55"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="kara2" color="#4F80FF" locked="true" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" duration="7" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="7" duration="7" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="kara_exercise_thin" name="kara2">
+                                             <matrix>
+                                                  <Matrix tx="104.95" ty="155.8"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="50.5" y="178.15"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="kara3" color="#9933CC" locked="true" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" duration="14" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="14" duration="7" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="kara_exercise_chubby" name="kara3">
+                                             <matrix>
+                                                  <Matrix tx="104.95" ty="155.8"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="50.5" y="178.15"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="kara4" color="#808080" locked="true" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" duration="21" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="21" duration="7" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="kara_exercise_stronger" name="kara4">
+                                             <matrix>
+                                                  <Matrix tx="104.95" ty="155.8"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="50.5" y="178.15"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="kara has" color="#FF800A" locked="true" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" duration="7" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="7" duration="21" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="kara has text">
+                                             <matrix>
+                                                  <Matrix tx="109.65" ty="63"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="45.9" y="24.55"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="tap instruc" color="#9933CC" locked="true" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" duration="7" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="7" duration="21" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="tapToMakeText" name="btn_exercise">
+                                             <matrix>
+                                                  <Matrix tx="27.45" ty="545.6"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="127.35" y="10.5"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="mask" color="#669900" locked="true" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" duration="7" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="7" duration="21" keyMode="9728">
+                                   <elements>
+                                        <DOMGroup>
+                                             <members>
+                                                  <DOMSymbolInstance libraryItemName="FlashAICB Assets_5/character side bar/&amp;#060Group&amp;#062_2">
+                                                       <matrix>
+                                                            <Matrix a="0.647979736328125" d="0.990814208984375" tx="180.35" ty="-7.45"/>
+                                                       </matrix>
+                                                       <transformationPoint>
+                                                            <Point x="222.85" y="337.5"/>
+                                                       </transformationPoint>
+                                                       <color>
+                                                            <Color alphaMultiplier="0.078125"/>
+                                                       </color>
+                                                  </DOMSymbolInstance>
+                                                  <DOMGroup>
+                                                       <members>
+                                                            <DOMShape isDrawingObject="true">
+                                                                 <fills>
+                                                                      <FillStyle index="1">
+                                                                           <SolidColor color="#FEFBCC"/>
+                                                                      </FillStyle>
+                                                                 </fills>
+                                                                 <edges>
+                                                                      <Edge fillStyle0="1" edges="!6410 6449[6410 4998 6506 3998!6506 3998[6621 2808 6888 2021!6888 2021[7186 1145 7695 693!7695 693[8245 206 9067 190!9067 190|9067 -211!9067 -211|157 -211!157 -211|157 13289!157 13289|1198 13288.5!1198 13288.5|1198 13289!1198 13289|2238
+ 13288.5!2238 13288.5|2238 13289!2238 13289|3598 13288.5!3598 13288.5|3598 13289!3598 13289|9235 13287!9235 13287[7671 13257 6973 11166!6973 11166[6410 9483 6410 6449"/>
+                                                                      <Edge cubics="!6410 6449(6410,6449;6410,2942 6799,234 9067,190q6410 6449Q6410 4998q6506 3998Q6621 2808q6888 2021Q7186 1145q7695 693Q8245 206q9067 190)9067,190;"/>
+                                                                      <Edge cubics="!9067 190(9067,190;9067,190 9067,-211 9067,-211q9067 190 9067 -211)9067,-211;"/>
+                                                                      <Edge cubics="!9235 13287(9235,13287;6967,13243 6410,9955 6410,6449q9235 13287Q7671 13257q6973 11166Q6410 9483q6410 6449)6410,6449;"/>
+                                                                      <Edge cubics="!3598 13289(;3598,13289 9235,13287 9235,13287q3598 13289 9235 13287)9235,13287;"/>
+                                                                      <Edge cubics="!2238 13289(;2238,13289 3598,13289 3598,13289q2238 13289 3598 13289);"/>
+                                                                      <Edge cubics="!1198 13289(1198,13289;1198,13289 2238,13289 2238,13289q1198 13289 2238 13289)2238,13289;"/>
+                                                                      <Edge cubics="!157 -211(157,-211;157,-211 157,13289 157,13289q157 -211 157 13289);"/>
+                                                                      <Edge cubics="!157 13289(;157,13289 1198,13289 1198,13289q157 13289 1198 13289)1198,13289;"/>
+                                                                      <Edge cubics="!9067 -211(;9067,-211 157,-211 157,-211q9067 -211 157 -211);"/>
+                                                                 </edges>
+                                                            </DOMShape>
+                                                       </members>
+                                                  </DOMGroup>
+                                                  <DOMGroup>
+                                                       <members>
+                                                            <DOMShape isDrawingObject="true">
+                                                                 <matrix>
+                                                                      <Matrix a="0.647979736328125" tx="176.9" ty="-10.55"/>
+                                                                 </matrix>
+                                                                 <strokes>
+                                                                      <StrokeStyle index="1">
+                                                                           <SolidStroke scaleMode="normal" caps="none" weight="12" joints="miter" miterLimit="10">
+                                                                                <fill>
+                                                                                     <SolidColor color="#D5D0A8"/>
+                                                                                </fill>
+                                                                           </SolidStroke>
+                                                                      </StrokeStyle>
+                                                                 </strokes>
+                                                                 <edges>
+                                                                      <Edge strokeStyle="1" edges="
+!8315 13500|8717 13498!8717 13498[6302 13468 5223 11377!5223 11377[4353 9693 4353 6660!4353 6660[4353 5209 4501 4209!4501 4209[4677 3019 5089 2232!5089 2232[5548 1356 6333 904!6333 904[7182 417 8450 401"/>
+                                                                      <Edge cubics="!8315 13500(8315,13500;8315,13500 8717,13498 8717,13498q8315 13500 8717 13498)8717,13498;"/>
+                                                                      <Edge cubics="!8717 13498(;5217,13454 4353,10166 4353,6660q8717 13498Q6302 13468q5223 11377Q4353 9693q4353 6660);"/>
+                                                                      <Edge cubics="!4353 6660(;4353,3153 4950,445 8450,401q4353 6660Q4353 5209q4501 4209Q4677 3019q5089 2232Q5548 1356q6333 904Q7182 417q8450 401);"/>
+                                                                 </edges>
+                                                            </DOMShape>
+                                                       </members>
+                                                  </DOMGroup>
+                                             </members>
+                                        </DOMGroup>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="calendar2" color="#9933CC" locked="true" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" duration="7" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="7" duration="7" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="calendar2" name="calendar2">
+                                             <matrix>
+                                                  <Matrix tx="394.55" ty="529.45"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="306.5" y="56.6"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="calendar3" color="#4F80FF" current="true" isSelected="true" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" duration="14" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="14" duration="7" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="calendar3" name="calendar3">
+                                             <matrix>
+                                                  <Matrix tx="394.55" ty="529.45"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="306.5" y="56.6"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="heart" color="#FF800A" locked="true" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" duration="7" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="7" duration="7" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="heart" name="heart">
+                                             <matrix>
+                                                  <Matrix a="0.943710327148438" d="0.943710327148438" tx="284.4" ty="14.15"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="836.35" y="341.1"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="muscles" color="#FF4FFF" locked="true" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" duration="14" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="14" duration="7" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="muscles" name="muscles" selected="true">
+                                             <matrix>
+                                                  <Matrix tx="21.85" ty="-154.1"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="586.1" y="464.9"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="brain" color="#4F80FF" locked="true" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" duration="21" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="21" duration="7" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="brain_screen" name="brain">
+                                             <matrix>
+                                                  <Matrix tx="288" ty="17.45"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="375.8" y="306.05"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="idea list" color="#4F80FF" locked="true" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" duration="28" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="28" duration="7" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="kara_exercise_thin" symbolType="graphic" firstFrame="19" loop="single frame">
+                                             <matrix>
+                                                  <Matrix a="2.08322143554688" d="2.08322143554688" tx="675.95" ty="164.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="50.5" y="178.15"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="idea list texts">
+                                             <matrix>
+                                                  <Matrix tx="59.4" ty="71.45"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="434.35" y="245"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="yell bg" color="#9933CC" locked="true" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" duration="35" keyMode="9728">
+                                   <elements>
+                                        <DOMGroup>
+                                             <members>
+                                                  <DOMShape>
+                                                       <fills>
+                                                            <FillStyle index="1">
+                                                                 <SolidColor color="#FEFBCC"/>
+                                                            </FillStyle>
+                                                       </fills>
+                                                       <edges>
+                                                            <Edge fillStyle1="1" edges="
+!-1685 -1165|22071 -1165!22071 -1165|22071 16487!22071 16487|-1685 16487!-1685 16487|-1685 -1165"/>
+                                                       </edges>
+                                                  </DOMShape>
+                                             </members>
+                                        </DOMGroup>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timelines>
+     <swatchLists>
+          <swatchList>
+               <swatchListInfo name="Default Swatches"/>
+
+               <swatches>
+                    <swatchListInfo name="Default Swatches"/>
+
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#003300" hue="80" saturation="239" brightness="24"/>
+                    <SolidSwatchItem color="#006600" hue="80" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#009900" hue="80" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#00CC00" hue="80" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#00FF00" hue="80" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#330000" saturation="239" brightness="24"/>
+                    <SolidSwatchItem color="#333300" hue="40" saturation="239" brightness="24"/>
+                    <SolidSwatchItem color="#336600" hue="60" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#339900" hue="67" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#33CC00" hue="70" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#33FF00" hue="72" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#660000" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#663300" hue="20" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#666600" hue="40" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#669900" hue="53" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#66CC00" hue="60" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#66FF00" hue="64" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#333333" brightness="48"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#000033" hue="160" saturation="239" brightness="24"/>
+                    <SolidSwatchItem color="#003333" hue="120" saturation="239" brightness="24"/>
+                    <SolidSwatchItem color="#006633" hue="100" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#009933" hue="93" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#00CC33" hue="90" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#00FF33" hue="88" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#330033" hue="200" saturation="239" brightness="24"/>
+                    <SolidSwatchItem color="#333333" brightness="48"/>
+                    <SolidSwatchItem color="#336633" hue="80" saturation="80" brightness="72"/>
+                    <SolidSwatchItem color="#339933" hue="80" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#33CC33" hue="80" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#33FF33" hue="80" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#660033" hue="220" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#663333" saturation="80" brightness="72"/>
+                    <SolidSwatchItem color="#666633" hue="40" saturation="80" brightness="72"/>
+                    <SolidSwatchItem color="#669933" hue="60" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#66CC33" hue="67" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#66FF33" hue="70" saturation="239" brightness="144"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#666666" brightness="96"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#000066" hue="160" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#003366" hue="140" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#006666" hue="120" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#009966" hue="107" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#00CC66" hue="100" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#00FF66" hue="96" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#330066" hue="180" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#333366" hue="160" saturation="80" brightness="72"/>
+                    <SolidSwatchItem color="#336666" hue="120" saturation="80" brightness="72"/>
+                    <SolidSwatchItem color="#339966" hue="100" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#33CC66" hue="93" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#33FF66" hue="90" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#660066" hue="200" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#663366" hue="200" saturation="80" brightness="72"/>
+                    <SolidSwatchItem color="#666666" brightness="96"/>
+                    <SolidSwatchItem color="#669966" hue="80" saturation="48" brightness="120"/>
+                    <SolidSwatchItem color="#66CC66" hue="80" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#66FF66" hue="80" saturation="239" brightness="168"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#999999" brightness="144"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#000099" hue="160" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#003399" hue="147" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#006699" hue="133" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#009999" hue="120" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#00CC99" hue="110" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#00FF99" hue="104" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#330099" hue="173" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#333399" hue="160" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#336699" hue="140" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#339999" hue="120" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#33CC99" hue="107" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#33FF99" hue="100" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#660099" hue="187" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#663399" hue="180" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#666699" hue="160" saturation="48" brightness="120"/>
+                    <SolidSwatchItem color="#669999" hue="120" saturation="48" brightness="120"/>
+                    <SolidSwatchItem color="#66CC99" hue="100" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#66FF99" hue="93" saturation="239" brightness="168"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#CCCCCC" brightness="192"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#0000CC" hue="160" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#0033CC" hue="150" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#0066CC" hue="140" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#0099CC" hue="130" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#00CCCC" hue="120" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#00FFCC" hue="112" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#3300CC" hue="170" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#3333CC" hue="160" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#3366CC" hue="147" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#3399CC" hue="133" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#33CCCC" hue="120" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#33FFCC" hue="110" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#6600CC" hue="180" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#6633CC" hue="173" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#6666CC" hue="160" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#6699CC" hue="140" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#66CCCC" hue="120" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#66FFCC" hue="107" saturation="239" brightness="168"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#FFFFFF" brightness="240"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#0000FF" hue="160" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#0033FF" hue="152" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#0066FF" hue="144" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#0099FF" hue="136" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#00CCFF" hue="128" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#00FFFF" hue="120" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#3300FF" hue="168" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#3333FF" hue="160" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#3366FF" hue="150" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#3399FF" hue="140" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#33CCFF" hue="130" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#33FFFF" hue="120" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#6600FF" hue="176" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#6633FF" hue="170" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#6666FF" hue="160" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#6699FF" hue="147" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#66CCFF" hue="133" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#66FFFF" hue="120" saturation="239" brightness="168"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#FF0000" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#990000" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#993300" hue="13" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#996600" hue="27" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#999900" hue="40" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#99CC00" hue="50" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#99FF00" hue="56" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#CC0000" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CC3300" hue="10" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CC6600" hue="20" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CC9900" hue="30" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CCCC00" hue="40" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CCFF00" hue="48" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF0000" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF3300" hue="8" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF6600" hue="16" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF9900" hue="24" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FFCC00" hue="32" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FFFF00" hue="40" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#00FF00" hue="80" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#990033" hue="227" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#993333" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#996633" hue="20" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#999933" hue="40" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#99CC33" hue="53" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#99FF33" hue="60" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#CC0033" hue="230" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CC3333" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#CC6633" hue="13" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#CC9933" hue="27" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#CCCC33" hue="40" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#CCFF33" hue="50" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FF0033" hue="232" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF3333" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FF6633" hue="10" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FF9933" hue="20" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FFCC33" hue="30" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FFFF33" hue="40" saturation="239" brightness="144"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#0000FF" hue="160" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#990066" hue="213" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#993366" hue="220" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#996666" saturation="48" brightness="120"/>
+                    <SolidSwatchItem color="#999966" hue="40" saturation="48" brightness="120"/>
+                    <SolidSwatchItem color="#99CC66" hue="60" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#99FF66" hue="67" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#CC0066" hue="220" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CC3366" hue="227" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#CC6666" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#CC9966" hue="20" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#CCCC66" hue="40" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#CCFF66" hue="53" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#FF0066" hue="224" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF3366" hue="230" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FF6666" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#FF9966" hue="13" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#FFCC66" hue="27" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#FFFF66" hue="40" saturation="239" brightness="168"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#FFFF00" hue="40" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#990099" hue="200" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#993399" hue="200" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#996699" hue="200" saturation="48" brightness="120"/>
+                    <SolidSwatchItem color="#999999" brightness="144"/>
+                    <SolidSwatchItem color="#99CC99" hue="80" saturation="80" brightness="168"/>
+                    <SolidSwatchItem color="#99FF99" hue="80" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#CC0099" hue="210" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CC3399" hue="213" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#CC6699" hue="220" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#CC9999" saturation="80" brightness="168"/>
+                    <SolidSwatchItem color="#CCCC99" hue="40" saturation="80" brightness="168"/>
+                    <SolidSwatchItem color="#CCFF99" hue="60" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#FF0099" hue="216" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF3399" hue="220" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FF6699" hue="227" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#FF9999" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#FFCC99" hue="20" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#FFFF99" hue="40" saturation="239" brightness="192"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#00FFFF" hue="120" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#9900CC" hue="190" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#9933CC" hue="187" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#9966CC" hue="180" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#9999CC" hue="160" saturation="80" brightness="168"/>
+                    <SolidSwatchItem color="#99CCCC" hue="120" saturation="80" brightness="168"/>
+                    <SolidSwatchItem color="#99FFCC" hue="100" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#CC00CC" hue="200" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CC33CC" hue="200" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#CC66CC" hue="200" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#CC99CC" hue="200" saturation="80" brightness="168"/>
+                    <SolidSwatchItem color="#CCCCCC" brightness="192"/>
+                    <SolidSwatchItem color="#CCFFCC" hue="80" saturation="239" brightness="216"/>
+                    <SolidSwatchItem color="#FF00CC" hue="208" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF33CC" hue="210" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FF66CC" hue="213" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#FF99CC" hue="220" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#FFCCCC" saturation="239" brightness="216"/>
+                    <SolidSwatchItem color="#FFFFCC" hue="40" saturation="239" brightness="216"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#FF00FF" hue="200" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#9900FF" hue="184" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#9933FF" hue="180" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#9966FF" hue="173" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#9999FF" hue="160" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#99CCFF" hue="140" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#99FFFF" hue="120" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#CC00FF" hue="192" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#CC33FF" hue="190" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#CC66FF" hue="187" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#CC99FF" hue="180" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#CCCCFF" hue="160" saturation="239" brightness="216"/>
+                    <SolidSwatchItem color="#CCFFFF" hue="120" saturation="239" brightness="216"/>
+                    <SolidSwatchItem color="#FF00FF" hue="200" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF33FF" hue="200" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FF66FF" hue="200" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#FF99FF" hue="200" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#FFCCFF" hue="200" saturation="239" brightness="216"/>
+                    <SolidSwatchItem color="#FFFFFF" brightness="240"/>
+                    <SolidSwatchItem color="#E7C531" hue="33" saturation="189" brightness="132"/>
+                    <SolidSwatchItem color="#6A1224" hue="232" saturation="170" brightness="59"/>
+                    <SolidSwatchItem color="#F26668" hue="239" saturation="203" brightness="162"/>
+                    <SolidSwatchItem color="#E66164" hue="239" saturation="173" brightness="154"/>
+                    <SolidSwatchItem color="#F06567" hue="239" saturation="198" brightness="161"/>
+                    <SolidSwatchItem color="#6F3217" hue="12" saturation="156" brightness="63"/>
+                    <SolidSwatchItem color="#2D9883" hue="112" saturation="131" brightness="93"/>
+                    <SolidSwatchItem color="#01C39E" hue="112" saturation="237" brightness="93"/>
+                    <SolidSwatchItem color="#0AC1A7" hue="114" saturation="217" brightness="96"/>
+               </swatches>
+          </swatchList>
+     </swatchLists>
+     <persistentData>
+          <PD n="com.air.sdk.path"/>
+          <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;false"/>
+     </persistentData>
+     <PrinterSettings platform="macintosh"/>
+     <publishHistory/>
+</DOMDocument>

@@ -1,0 +1,33 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="top_leg" itemID="5747a430-0000015c" lastModified="1464312880">
+  <timeline>
+    <DOMTimeline name="top_leg">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-336.35" ty="-384.3"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#353535"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!6727 8922[6741 8466 6744 8295!6744 8295[6752 7936 6747 7693!6747 7693|7089 7686!7089 7686[7094 7937 7086 8299!7086 8299[7082 8506 7068 8933!7068 8933|6727 8922"/>
+                    <Edge cubics="!6727 8922(;6739,8519 6754,8063 6747,7693q6727 8922Q6741 8466q6744 8295Q6752 7936q6747 7693);"/>
+                    <Edge cubics="!6747 7693(;6747,7693 7089,7686 7089,7686q6747 7693 7089 7686);"/>
+                    <Edge cubics="!7089 7686(;7096,8065 7081,8526 7068,8933q7089 7686Q7094 7937q7086 8299Q7082 8506q7068 8933);"/>
+                    <Edge cubics="!7068 8933(7068,8933;7068,8933 6727,8922 6727,8922q7068 8933 6727 8922);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

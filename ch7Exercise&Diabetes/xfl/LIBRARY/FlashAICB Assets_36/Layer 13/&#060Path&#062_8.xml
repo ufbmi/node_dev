@@ -1,0 +1,34 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="FlashAICB Assets_36/Layer 13/&amp;#060Path&amp;#062_8" itemID="5747d237-000004a8" lastModified="1464324663">
+  <timeline>
+    <DOMTimeline name="&amp;#060Path&amp;#062_8">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!749 908|158 908!158 908[93 908 46 862!46 862[0 815 0 750!0 750|0 159!0 159[0 94 46 47!46 47[93 0 158 0!158 0|749 0!749 0[814 0 861 47!861 47[907 94 907 159!907 159|907 750!907 750[907 815 861 862!861 862[814 908 749 908"/>
+                    <Edge cubics="!749 908(;749,908 158,908 158,908p749 908 158 908);"/>
+                    <Edge cubics="!158 908(;71,908 0,837 0,750q158 908Q93 908q46 862Q0 815q0 750);"/>
+                    <Edge cubics="!0 750(0,750;0,750 0,159 0,159q0 750 0 159)0,159;"/>
+                    <Edge cubics="!0 159(0,159;0,72 71,0 158,0q0 159Q0 94q46 47Q93 0q158 0)158,0;"/>
+                    <Edge cubics="!158 0(158,0;158,0 749,0 749,0q158 0 749 0)749,0;"/>
+                    <Edge cubics="!749 0(749,0;836,0 907,72 907,159q749 0Q814 0q861 47Q907 94q907 159)907,159;"/>
+                    <Edge cubics="!907 159(907,159;907,159 907,750 907,750q907 159 907 750)907,750;"/>
+                    <Edge cubics="!907 750(907,750;907,837 836,908 749,908q907 750Q907 815q861 862Q814 908q749 908)749,908;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,120 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="insulin_glucose" itemID="574ccfdd-0000021e" lastModified="1465421358" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="insulin_glucose" currentFrame="9">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="5" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="insulin_key" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix a="0.869064331054688" d="0.869064331054688" tx="41.6" ty="-8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="65.8" y="30.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="glucose" selected="true" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="-3" ty="4.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="20.25" y="17.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="5" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="insulin_key" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix a="0.869064331054688" d="0.869064331054688" tx="62.1" ty="-8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="65.75" y="30.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="glucose" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="24.5" ty="-17.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="20.25" y="17.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="glucose" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="24.5" ty="20"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="20.25" y="17.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="glucose" selected="true" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="-8.5" ty="1.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="20.25" y="17.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="9" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="insulin_key" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix a="0.869064331054688" d="0.869064331054688" tx="62.1" ty="-8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="65.75" y="30.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="glucose" selected="true" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="-9" ty="-36"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="20.25" y="17.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="glucose" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="24.5" ty="-17.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="20.25" y="17.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="glucose" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="-8.5" ty="1.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="20.25" y="17.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="glucose" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="24.5" ty="20"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="20.25" y="17.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="glucose" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="-8.5" ty="39"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="20.25" y="17.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

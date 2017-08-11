@@ -1,0 +1,172 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="tapToMakeText" itemID="57583291-00000468" lastModified="1469558392">
+  <persistentData>
+    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+  </persistentData>
+  <timeline>
+    <DOMTimeline name="tapToMakeText" currentFrame="57">
+      <layers>
+        <DOMLayer name="A" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="37" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[if (this.parent.getCurrentLabel() == "screen2") {
+	this.mouseEnabled = false;
+	this.gotoAndStop("slide");
+	var mc = this;
+	//var mc = createjs.MovieClip(this);
+	function slideIn() {
+		mc.play();
+		mc.mouseEnabled = true;
+	}
+	setTimeout(slideIn, 6700);
+} else {
+	this.play();
+}]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="37" duration="2" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.gotoAndPlay("enab")]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="39" duration="18" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.stop();]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="57" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.gotoAndPlay("enab");]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="L" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" duration="38" name="enab" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="39" duration="7" name="disab" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="46" duration="12" name="slide" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="slide" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="47" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="47" duration="10" tweenType="motion" keyMode="17921" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="exerc btn" selected="true">
+                  <matrix>
+                    <Matrix tx="83.95" ty="81.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.8" y="8.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="57" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="exerc btn">
+                  <matrix>
+                    <Matrix tx="83.95" ty="4.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.8" y="8.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="enab" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="exerc btn">
+                  <matrix>
+                    <Matrix tx="83.95" ty="4.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.8" y="8.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" duration="13" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="exerc btn" selected="true">
+                  <matrix>
+                    <Matrix tx="83.95" ty="4.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.8" y="8.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" duration="14" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="exerc btn" selected="true">
+                  <matrix>
+                    <Matrix a="1.10508728027344" d="1.10508728027344" tx="79.05" ty="3.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.7" y="9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="28" duration="11" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="exerc btn" selected="true">
+                  <matrix>
+                    <Matrix tx="83.95" ty="4.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.8" y="8.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="disab" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="39" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="39" duration="7" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="exerc btn">
+                  <matrix>
+                    <Matrix tx="83.95" ty="4.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.8" y="8.95"/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="0.75" tintColor="#FEFBCC"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,73 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="sweat_drop" itemID="5747c923-0000038a" lastModified="1464322605" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="sweat_drop" currentFrame="34">
+      <layers>
+        <DOMLayer name="Guide: Layer 1" color="#FF800A" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" duration="42" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4F80FF" parentLayerIndex="0" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="8" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="single_swet">
+                  <matrix>
+                    <Matrix a="0.296875" b="-0.077911376953125" c="0.077911376953125" d="0.296875" tx="-6.55" ty="-10.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.8" y="10"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.0390625"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="8" duration="27" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="single_swet" selected="true">
+                  <matrix>
+                    <Matrix a="0.900833129882812" b="-0.434158325195312" c="0.434158325195312" d="0.900833129882812" tx="-10.2" ty="-5.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.95" y="10.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="35" duration="6" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="single_swet" centerPoint3DX="9.65" centerPoint3DY="45">
+                  <matrix>
+                    <Matrix a="0.900711059570312" b="-0.431427001953125" c="0.431427001953125" d="0.900711059570312" tx="0.85" ty="38.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.95" y="10.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="41" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="single_swet" centerPoint3DX="10.1" centerPoint3DY="46.8">
+                  <matrix>
+                    <Matrix a="0.900833129882812" b="-0.434158325195312" c="0.434158325195312" d="0.900833129882812" tx="1.3" ty="39.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.95" y="10.15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
