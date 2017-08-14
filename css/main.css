@@ -1029,6 +1029,9 @@ footer {
         margin-top: 20px;
         padding: 12px;
     }
+
+
+
  }
 
 @media only screen and (min-width: 35em) {
@@ -1093,23 +1096,25 @@ footer {
     }
 
 }
-/*chewing page css*/
+/*chewing page css which only works when placed here */
 
 *[draggable=true] {
   -moz-user-select:none;
   -khtml-user-drag: element;
   cursor: move;
 }
-.holder{
-  width: 600px;
-  margin: 0px auto;
-}
 
-li {
+/*.holder{
+  width: 600px;
+  height:;
+  margin: 0px auto;
+}*/
+
+li.chewA {
   list-style: none;
 }
 
-li a {
+li.chewA  a {
   text-decoration: none;
   color: black;
   margin: 10px;
@@ -1120,46 +1125,56 @@ li a {
   font-size: 18px;
   cursor: move;
 }
+/*remove undeline*/
+li.chewA  a:hover{
+    text-decoration: none;
+    font-size: 20px;
+    color:green;
+}
+
+li.chewA  a:hover:after {
+  content: ' (drag it to Kara)';
+}
+
 .cvs{
+  /*glucose meter position settled*/
     position:absolute;
-    right:-100px;
+    right:-80px;
+    top:150px;
+    width:500px;
 }
 canvas{
   border: 10px solid black;
   border-radius: 10px;
 
 }
-li a:hover:after {
-  content: ' (drag it to Kara)';
-}
 
-ul {
-  margin-left: 200px;
-  min-height: 300px;
-}
-
-li.over {
-  border-color: #333;
-  /*background: #ccc;*/
-}
 #bin {
-  height: 250px;
-  width: 200px;
+  height: 100%;
+  /*width settle to properly display*/
+  width: 400px;
+  /*must be absolute*/
   position: absolute;
-  float: center;
-  margin-top: 0;
+  /*make kara in the center*/
+  margin-top: 15%;
+  margin-left: 40%;
 }
 
+/* fix later*/
 #bin p {
   font-weight: bold;
   text-align: center;
-  position: relative;
-  bottom: 20px;
+  position: absolute;
   width: 166px;
   font-size: 32px;
   color: black;
-  top: -80px;
-  left: 40px;
+  top: 0;
+  left: 50%;
+}
+
+/*fix the height necessary*/
+.fixHeight{
+  height:800px;
 }
 
 

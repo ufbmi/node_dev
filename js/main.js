@@ -213,6 +213,8 @@ ctx.fillRect(0,250,100,500);//apple 2
 var changeExp = document.getElementById("gluExp");
 changeExp.innerHTML = "Apple makes your glucose rise mildly";
 changeExp.style.color = "green";
+// class animation must be different to show animation, or the clas already exists
+changeExp.className += "animated bounceIn";
 }
 
 function changeGlucoseCake(){
@@ -223,6 +225,7 @@ ctx.fillRect(0,0,100,500); //cupcake 4
 var changeExp = document.getElementById("gluExp");
 changeExp.innerHTML = "Cupcake makes your glucose rise steeply";
 changeExp.style.color = "red";
+changeExp.className += "animated slideInUp";
 }
 function changeGlucosePotato(){
   // glucose meter draw by canvas
@@ -232,6 +235,7 @@ ctx.fillRect(0,150,100,500);
 var changeExp = document.getElementById("gluExp");
 changeExp.innerHTML = "Potato makes your glucose rise more";
 changeExp.style.color = "orange";
+changeExp.className += "animated fadeIn";
 }
 function changeGlucoseChik(){
   // glucose meter draw by canvas
@@ -241,6 +245,7 @@ ctx.fillRect(0,350,100,500);//chicken 1
 var changeExp = document.getElementById("gluExp");
 changeExp.innerHTML = "Chicken dosen't rise your glucose significantly";
 changeExp.style.color = "blue";
+changeExp.className += "animated flipInX";
 }
 
 // animation
@@ -259,7 +264,8 @@ var addEvent = (function () {
   } else {
     return function (el, type, fn) {
       if (el && el.nodeName || el === window) {
-        el.attachEvent('on' + type, function () { return fn.call(el, window.event); });
+        el.attachEvent('on' + type, function () { return fn.call
+          (el, window.event); });
       } else if (el && el.length) {
         for (var i = 0; i < el.length; i++) {
           addEvent(el[i], type, fn);
@@ -353,13 +359,13 @@ addEvent(window, 'click', function (event) {
 
     bin.className = '';
     yum.innerHTML = eat[parseInt(Math.random() * eat.length)];
-    yum.style.color = "grey";
+    yum.style.color = "orange";
 
     var y = yum.cloneNode(true);
     bin.appendChild(y);
 
     setTimeout(function () {
-      var showNxtInstru = document.getElementById("showNextInstr");
+      
     
       var t = setInterval(function () {
         if (y.style.opacity <= 0) {
@@ -370,7 +376,6 @@ addEvent(window, 'click', function (event) {
         } else {
           y.style.opacity -= 0.3;
         }
-       showNextInstr.innerHTML = "(Now observe how glucose measurement changes)";
       }, 050);
     }, 250);
 
@@ -386,6 +391,7 @@ addEvent(window, 'click', function (event) {
                             chew();
                               setTimeout(function() {
                             swallow();
+                            showGluInstr();""
                         }, 500);
                         }, 500);
                       }, 500);
@@ -396,11 +402,19 @@ addEvent(window, 'click', function (event) {
 
     return false;
   });
-
-
+function showGluInstr(){
+  var showNxtInstru = document.getElementById("showNextInstr");
+   showNextInstr.innerHTML = "(Now observe how glucose measurement changes)";
+   showNextInstr.className += "animated bounceIn";
+}
+function resetInstr(){
+  document.getElementById("chewInstru").innerHTML = "Now drag another food into Kara's mouth"; 
+  // document.getElementById("showNextInstr").innerHTML = "";
+   
+}
 function swallow(){
   var open = document.getElementById("bigHead");
-    open.src = "https://trello-attachments.s3.amazonaws.com/5966eb322660feab79862599/5988919f881ac604b5b81dbe/93a5a1a905d85b9671fbe0761d00cc98/p56_Kara_head_mouth_open.png";                              
+    open.src = "img/ch6/p56_Kara_head_mouth_open.png";                      
 }
 
 function chew()
@@ -410,6 +424,5 @@ function chew()
     var cancelInstru = document.getElementById("chewInstru");
 
     cancelInstru.innerHTML = "";
-    chew.src = "https://trello-attachments.s3.amazonaws.com/5966eb322660feab79862599/5988919f881ac604b5b81dbe/69191af6439ec23bd744ff2d40fecd87/p56_Kara_head_eating.png";                              
+    chew.src = "img/ch6/p56_Kara_head_eating.png";                              
 }
-/*@cc_on'abbr article aside audio canvas details figcaption figure footer header hgroup mark menu meter nav output progress section summary time video'.replace(/\w+/g,function(n){document.createElement(n)})@*/
