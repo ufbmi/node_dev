@@ -1116,7 +1116,7 @@ footer {
   margin: 0px auto;
 }*/
 
-li.chewA {
+li.chewA, li.ch7sum {
   list-style: none;
 }
 
@@ -1132,7 +1132,7 @@ li.chewA  a {
   cursor: move;
 }
 /*remove undeline*/
-li.chewA  a:hover{
+li.chewA, li.ch7sum  a:hover{
     text-decoration: none;
     font-size: 20px;
     color:green;
@@ -1140,6 +1140,12 @@ li.chewA  a:hover{
 
 li.chewA  a:hover:after {
   content: ' (drag it to Kara)';
+  color:green;
+}
+
+li.ch7sum  a:hover:after {
+  content: ' (drag it to the correct box)';
+  color:green;
 }
 
 .cvs{
@@ -1183,4 +1189,13 @@ canvas{
   height:800px;
 }
 
+/*do more or do less css*/
 
+#doMore, #doLess {
+    width: 350px;
+    height: 370px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+    border-radius: 8px;
+    margin:10px;
+}

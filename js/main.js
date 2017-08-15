@@ -320,22 +320,29 @@ addEvent(window, 'click', function (event) {
   }
 
   var bin = document.querySelector('#bin');
+  var allThree = document.querySelectorAll('#doMore,#bin,#doLess');
+  var doM = document.querySelector('#doMore');
+  var doL = document.querySelector('#doLess');
 
-  addEvent(bin, 'dragover', function (e) {
+// drag and drop for all three chptr 6 and 7
+addEvent(allThree, 'dragover', function (e) {
     if (e.preventDefault) e.preventDefault(); // allows us to drop
     this.className = 'over';
     e.dataTransfer.dropEffect = 'copy';
     return false;
   });
 
-  addEvent(bin, 'dragenter', function (e) {
+  addEvent(allThree, 'dragenter', function (e) {
     this.className = 'over';
     return false;
   });
 
-  addEvent(bin, 'dragleave', function () {
+  addEvent(allThree, 'dragleave', function () {
     this.className = '';
   });
+
+// chapter 6 chewing apple page hs
+  
 
   addEvent(bin, 'drop', function (e) {
     if (e.stopPropagation) e.stopPropagation(); 
@@ -379,29 +386,98 @@ addEvent(window, 'click', function (event) {
       }, 050);
     }, 250);
 
-// silly implementation of chewing 3 times
-        setTimeout(function() {chew();
-            setTimeout(function() {
-                swallow();
-                    setTimeout(function() {
-                      chew();
-                          setTimeout(function() {
-                          swallow();
-                            setTimeout(function() {
-                            chew();
-                              setTimeout(function() {
-                            swallow();
-                            showGluInstr();""
-                        }, 500);
-                        }, 500);
-                      }, 500);
-                }, 500);
-            }, 500);
-        }, 500);
+  chewThreeTimes();
 
 
     return false;
   });
+
+
+  // chapter 7 do more drop
+
+  addEvent(doM, 'drop', function (e) {
+    if (e.stopPropagation) e.stopPropagation(); 
+
+    var el = document.getElementById(e.dataTransfer.getData('Text'));
+    alert(el);
+
+    if(el.id == "rope" || el.id == "dance" || el.id == "playground" || el.id == "soccer"){
+        e.target.appendChild(document.getElementById(el));
+        getElementById("doLessHid").innerHTML = "Correct!";
+    }
+    if(el.id == "tv" || el.id == "cmptr" || el.id == "sleep" ){
+        getElementById("doLessHid").innerHTML = "Wrong:(";
+    }
+    
+    // el.parentNode.removeChild(el);
+
+    // doM.className = '';
+    // var y = right.cloneNode(true);
+    // doM.appendChild(y);
+
+
+    return false;
+  });
+
+
+
+
+
+  addEvent(bin, 'drop', function (e) {
+    if (e.stopPropagation) e.stopPropagation(); 
+
+    var el = document.getElementById(e.dataTransfer.getData('Text'));
+
+    // el.id == food's id
+    if(el.id == "one"){
+        changeGlucoseCake();
+    }
+     if(el.id == "two"){
+        changeGlucosePotato();
+    }
+     if(el.id == "three"){
+        changeGlucoseApple();
+    }
+     if(el.id == "four"){
+        changeGlucoseChik();
+    }
+    el.parentNode.removeChild(el);
+
+    bin.className = '';
+    yum.innerHTML = eat[parseInt(Math.random() * eat.length)];
+    yum.style.color = "orange";
+
+    var y = yum.cloneNode(true);
+    bin.appendChild(y);
+
+    setTimeout(function () {
+      
+    
+      var t = setInterval(function () {
+        if (y.style.opacity <= 0) {
+          if (msie) { 
+            y.style.display = 'none';
+          }
+          clearInterval(t); 
+        } else {
+          y.style.opacity -= 0.3;
+        }
+      }, 050);
+    }, 250);
+
+chewThreeTimes();
+
+
+    return false;
+  });
+
+
+
+
+
+
+
+
 function showGluInstr(){
   var showNxtInstru = document.getElementById("showNextInstr");
    showNextInstr.innerHTML = "(Now observe how glucose measurement changes)";
@@ -426,3 +502,27 @@ function chew()
     cancelInstru.innerHTML = "";
     chew.src = "img/ch6/p56_Kara_head_eating.png";                              
 }
+
+
+function chewThreeTimes(){
+  // silly implementation of chewing 3 times
+        setTimeout(function() {chew();
+            setTimeout(function() {
+                swallow();
+                    setTimeout(function() {
+                      chew();
+                          setTimeout(function() {
+                          swallow();
+                            setTimeout(function() {
+                            chew();
+                              setTimeout(function() {
+                            swallow();
+                            showGluInstr();""
+                        }, 500);
+                        }, 500);
+                      }, 500);
+                }, 500);
+            }, 500);
+        }, 500);
+}
+
