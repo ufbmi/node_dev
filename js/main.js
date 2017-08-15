@@ -184,7 +184,7 @@ function loadEmbeddedPage(chAndSlide) {
 
 // change bg color of i frame func
 function whiteFrameBg() {
-    var x1 = document.getElementById("myframe");
+    var x1 = document.getElementByClassName("myFrame");
     var y = (x1.contentWindow || x1.contentDocument);
     if (y.document)y = y.document;
     y.body.style.backgroundColor = "white";
