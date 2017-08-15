@@ -364,7 +364,7 @@ img.overLap {
 
 .actLikeButton {
     cursor: pointer;
-    width:100px;
+    width:200px;
     height:auto;
 }
 
@@ -374,7 +374,7 @@ img.actLikeButton:hover {
 }
 
 img.immune {
-    width: 200px;
+    width: auto;
     height: 180px;
     /*margin-left: 35px;*/
 }
