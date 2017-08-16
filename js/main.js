@@ -207,7 +207,7 @@ function smoothDraw(x,y,color) {
     ctx.fillRect(0, x, 100, 500);
     ctx.globalCompositeOperation = 'source-over';
     if (x > y) {
-        setTimeout(function () {smoothDraw(--x,y,color);}, 3);
+        setTimeout(function () {smoothDraw(--x,y,color);}, 2);
     }
 }
 
