@@ -464,7 +464,14 @@ function drop(ev) {
     ev.preventDefault();
     // data is the id
     var data = ev.dataTransfer.getData("text");
-    alert(ev.target.getAttribute('class'));
-    if(ev.target.getAttribute('class') == "l")
+    if(data == "tv" || data == "cmptr" || data == "sleep")
+    ev.target.appendChild(document.getElementById(data));
+}
+
+function drop2(ev) {
+    ev.preventDefault();
+    // data is the id
+    var data = ev.dataTransfer.getData("text");
+    if(data == "soccer" || data == "dance" || data == "playground" || data == "rope")
     ev.target.appendChild(document.getElementById(data));
 }
