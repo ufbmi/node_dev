@@ -195,57 +195,55 @@ function whiteFrameBg() {
 // glucose meter draw by canvas
 var canvas = document.getElementById("myCanvas");
 var ctx = canvas.getContext("2d");
-clearGlucoseColor();
+// init glucose measure
+// ctx.fillStyle = "blue";
+// ctx.fillRect(0,350,100,500);
+
+// smoothe fill glucose meater function
+function smoothDraw(x,y,color) {
+    ctx.globalCompositeOperation = 'source-atop';
+    ctx.fillStyle = color;
+    // alert(color);
+    ctx.fillRect(0, x, 100, 500);
+    ctx.globalCompositeOperation = 'source-over';
+    if (x > y) {
+        setTimeout(function () {smoothDraw(--x,y,color);}, 3);
+    }
+}
 
 
 function clearGlucoseColor(){
   // glucose meter draw by canvas
 ctx.fillStyle = "white";
-ctx.fillRect(0,450,100,500);
+ctx.fillRect(0,0,100,500);
 swallow();
 }
 
 function changeGlucoseApple(){
   // glucose meter draw by canvas
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
-ctx.fillStyle = "green";
-ctx.fillRect(0,250,100,500);//apple 2
-var changeExp = document.getElementById("gluExp");
-changeExp.innerHTML = "Apple makes your glucose rise mildly";
-changeExp.style.color = "green";
-// class animation must be different to show animation, or the clas already exists
-changeExp.className += "animated bounceIn";
+  // ctx.clearRect(0, 0, canvas.width, canvas.height);
+  clearGlucoseColor();
+  smoothDraw(390,250,"green");
 }
+
+// ctx.fillStyle = "green";
+// ctx.fillRect(0,250,100,500);//apple 2
 
 function changeGlucoseCake(){
   // glucose meter draw by canvas
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
-ctx.fillStyle = "red";
-ctx.fillRect(0,0,100,500); //cupcake 4
-var changeExp = document.getElementById("gluExp");
-changeExp.innerHTML = "Cupcake makes your glucose rise steeply";
-changeExp.style.color = "red";
-changeExp.className += "animated slideInUp";
+  clearGlucoseColor();
+  smoothDraw(390,0,"red");
+
 }
 function changeGlucosePotato(){
   // glucose meter draw by canvas
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
-ctx.fillStyle = "orange";
-ctx.fillRect(0,150,100,500);
-var changeExp = document.getElementById("gluExp");
-changeExp.innerHTML = "Potato makes your glucose rise more";
-changeExp.style.color = "orange";
-changeExp.className += "animated fadeIn";
+clearGlucoseColor();
+  smoothDraw(390,150,"orange");
 }
 function changeGlucoseChik(){
   // glucose meter draw by canvas
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
-ctx.fillStyle = "blue";
-ctx.fillRect(0,350,100,500);//chicken 1
-var changeExp = document.getElementById("gluExp");
-changeExp.innerHTML = "Chicken dosen't rise your glucose significantly";
-changeExp.style.color = "blue";
-changeExp.className += "animated flipInX";
+clearGlucoseColor();
+  smoothDraw(390,350,"blue");
 }
 
 // animation
@@ -347,22 +345,29 @@ addEvent(allThree, 'dragover', function (e) {
   addEvent(bin, 'drop', function (e) {
     if (e.stopPropagation) e.stopPropagation(); 
 
-    var el = document.getElementById(e.dataTransfer.getData('Text'));
+ 
+      var el = document.getElementById(e.dataTransfer.getData('Text'));
+      // 3800 timeout for later glucose measure
+          setTimeout(function() {
+              // el.id == food's id
+              if(el.id == "one"){
+                     
+                  changeGlucoseCake();       
+              }
+               if(el.id == "two"){
+                  changeGlucosePotato();
+              }
+               if(el.id == "three"){
+                  changeGlucoseApple();
+              }
+               if(el.id == "four"){
+                  changeGlucoseChik();
+              }
+              // doesnt remove the food item
+              // el.parentNode.removeChild(el);
+      }, 3800);
 
-    // el.id == food's id
-    if(el.id == "one"){
-        changeGlucoseCake();
-    }
-     if(el.id == "two"){
-        changeGlucosePotato();
-    }
-     if(el.id == "three"){
-        changeGlucoseApple();
-    }
-     if(el.id == "four"){
-        changeGlucoseChik();
-    }
-    el.parentNode.removeChild(el);
+
 
     bin.className = '';
     yum.innerHTML = eat[parseInt(Math.random() * eat.length)];
@@ -387,6 +392,10 @@ addEvent(allThree, 'dragover', function (e) {
     }, 250);
 
   chewThreeTimes();
+  // init glucose measure
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+  ctx.fillStyle = "blue";
+  ctx.fillRect(0,350,100,500);
 
 
     return false;
@@ -423,8 +432,9 @@ addEvent(allThree, 'dragover', function (e) {
 
 
 
-  addEvent(bin, 'drop', function (e) {
+  addEvent(doL, 'drop', function (e) {
     if (e.stopPropagation) e.stopPropagation(); 
+
 
     var el = document.getElementById(e.dataTransfer.getData('Text'));
 

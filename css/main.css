@@ -1139,7 +1139,6 @@ li.chewA, li.ch7sum  a:hover{
 }
 
 li.chewA  a:hover:after {
-  content: ' (drag it to Kara)';
   color:green;
 }
 
