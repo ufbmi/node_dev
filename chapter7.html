@@ -19,7 +19,13 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <!-- Place favicon.ico in the root directory -->
     <link rel="stylesheet" href="css/main.css">
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <!-- scss only created for ch7 :: do more or do less -->
+    <link rel="stylesheet/scss" type="text/css" href="css/ch7dragDopeEffect.scss">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.min.js" type="text/javascript"></script>
+    <link rel="stylesheet/less" type="text/css" href="styles.less" />
+
+
+
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 </head>
 
@@ -82,7 +88,7 @@
 
                     <!--********************** CHAPTER 7 **********************-->
                     <!-- page 55 -->
-                    <div id="slide55" class="item container active">
+                    <div id="slide55" class="item container">
                         <div class="pad-left col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <h2 class="lang heading fontSizeTitle" key="ch3-0">Chapter 7</h2>
                             <h1 class="lang animated zoomInDown titleShadow col-lg-12 col-sm-12 fontSizeTitle" key="ch3-1">Exercise and Diabetes</h1>
@@ -122,41 +128,44 @@
                         </div>
                     </div>
                     <!-- page 59 -->
-                    <div id="slide59" class="item container">
+                    <div id="slide59" class="item container active">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 fixHeight">
                              <h2 class="text-center animated zoomInDown titleShadow fontSizeTitle">Summary</h2>
-                            
-                              <div id="doMore" class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="background-color:powderblue;"> <h3 class="text-center animated zoomIn ">Do More</h3></div>
-                             
-                             <div id="doLess" class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="background-color:yellow;"> <h3 class="text-center animated zoomIn ">Do Less</h3></div>
-                              <h4 id="doLessHid"></h4>
+                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <div id="doMore" ondrop="drop(event)" ondragover="allowDrop(event)" class="m" style="background-color:rgb(19,193,229);"> <h3 class="text-center animated zoomIn ">Do More</h3></div></div>
+                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                             <div id="doLess" ondrop="drop(event)" ondragover="allowDrop(event)" class="l" style="background-color:yellow;"> <h3 class="text-center animated zoomIn ">Do Less</h3></div>
+                              <h4 id="doLessHid"></h4></div>
 
                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  holder">
                                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                                            <ul class="ch7sum">
-                                              <li class="ch7sum animated zoomIn"><a draggable="true" id="tv" ><img  width = 100px src="img/ch7/KARA_AT_TV.png">Watching TV</a></li>
-                                              <li class="ch7sum animated zoomIn"><a draggable="true" id="cmptr"><img  width = 100px src="img/ch7/computer_2.png">Playing Computer</a></li>
-                                              <li class="ch7sum animated zoomIn"><a draggable="true" id="rope"><img width = 100px src="img/ch7/exercise_jump_rope_01.png">Jumping Rope</a></li>
+                                            <ul>
+                                              <li class="ch7sum animated zoomIn"><a><img class="l" draggable="true" id="tv" ondragstart="drag(event)" width = 100px src="img/ch7/KARA_AT_TV.png"><h6>Watching TV</h6></a></li>
+                                              <li class="ch7sum animated zoomIn"><a><img class="l" draggable="true" id="cmptr" ondragstart="drag(event)" width = 100px src="img/ch7/computer_2.png"><h6>Playing Computer</h6></a></li>
+                                       
                                             </ul>
                                         </div>
 
                                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                                            <ul class="ch7sum">
-                                              <li class="ch7sum animated zoomIn"><a draggable="true" id="playground"><img width = 100px src="img/ch7/exercise_swing_01.png">Playing at Playground</a></li>
-                                              <li class="ch7sum animated zoomIn"><a draggable="true" id="dance"><img width = 100px src="img/ch7/exercise_DANCE_01.png">Dancing</a></li>
+                                            <ul>
+                                              <li class="ch7sum animated zoomIn"><a><img draggable="true" id="playground" ondragstart="drag(event)" width = 100px src="img/ch7/exercise_swing_01.png"><h6>Playing at Playground</h6></a></li>
+                                              <li  class="ch7sum animated zoomIn"><a><img draggable="true" id="dance" ondragstart="drag(event)" width = 100px src="img/ch7/exercise_DANCE_01.png"><h6>Dancing</h6></a></li>
                                             </ul>
                                         </div>
 
                                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                                            <ul class="ch7sum">
-
-                                              <li class="ch7sum animated zoomIn"><a draggable="true" id="soccer"><img width = 100px src="img/ch7/exercise_soccer_01.png">Kicking Soccer Ball</a></li>
-                                              <li class="ch7sum animated zoomIn"><a draggable="true" id="sleep"><img width = 100px src="img/ch7/sleeping.png">Sleeping All Day</a></li>
+                                            <ul>
+                                              <li class="ch7sum animated zoomIn"><a><img draggable="true" id="soccer" ondragstart="drag(event)" width = 100px src="img/ch7/exercise_soccer_01.png"><h6>Kicking Soccer Ball</h6></a></li>
+                                              <li class="ch7sum animated zoomIn"><a><img draggable="true" id="sleep" ondragstart="drag(event)" width = 100px src="img/ch7/sleeping.png"><h6>Sleeping All Day</h6></a></li>
                                             </ul>
                                         </div>
 
-
-                                </div>
+                                          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                            <ul>
+                                              <li class="ch7sum animated zoomIn"><a><img  draggable="true" id="rope" ondragstart="drag(event)" width = 100px src="img/ch7/exercise_jump_rope_01.png"><h6>Jumping Rope</h6></a></li>
+                                            </ul>
+                                        </div>
+                                   </div>
 
 
                             <!-- <a href="chapter8.html" class="btn orangeJump nextCptrButton">To the Next Chapter</a> -->

@@ -1115,9 +1115,15 @@ footer {
   height:;
   margin: 0px auto;
 }*/
+.ch7sum{
+  margin: auto;
+  width:180px;
+  height:180px;
+}
 
 li.chewA, li.ch7sum {
   list-style: none;
+  
 }
 
 li.chewA  a {
@@ -1142,10 +1148,6 @@ li.chewA  a:hover:after {
   color:green;
 }
 
-li.ch7sum  a:hover:after {
-  content: ' (drag it to the correct box)';
-  color:green;
-}
 
 .cvs{
   /*glucose meter position settled*/
@@ -1193,8 +1195,11 @@ canvas{
 #doMore, #doLess {
     width: 350px;
     height: 370px;
-    padding: 10px;
+    padding: 5px;
     border: 1px solid #aaaaaa;
     border-radius: 8px;
-    margin:10px;
+    margin:auto;
 }
+
+
+

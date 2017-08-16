@@ -402,92 +402,6 @@ addEvent(allThree, 'dragover', function (e) {
   });
 
 
-  // chapter 7 do more drop
-
-  addEvent(doM, 'drop', function (e) {
-    if (e.stopPropagation) e.stopPropagation(); 
-
-    var el = document.getElementById(e.dataTransfer.getData('Text'));
-    alert(el);
-
-    if(el.id == "rope" || el.id == "dance" || el.id == "playground" || el.id == "soccer"){
-        e.target.appendChild(document.getElementById(el));
-        getElementById("doLessHid").innerHTML = "Correct!";
-    }
-    if(el.id == "tv" || el.id == "cmptr" || el.id == "sleep" ){
-        getElementById("doLessHid").innerHTML = "Wrong:(";
-    }
-    
-    // el.parentNode.removeChild(el);
-
-    // doM.className = '';
-    // var y = right.cloneNode(true);
-    // doM.appendChild(y);
-
-
-    return false;
-  });
-
-
-
-
-
-  addEvent(doL, 'drop', function (e) {
-    if (e.stopPropagation) e.stopPropagation(); 
-
-
-    var el = document.getElementById(e.dataTransfer.getData('Text'));
-
-    // el.id == food's id
-    if(el.id == "one"){
-        changeGlucoseCake();
-    }
-     if(el.id == "two"){
-        changeGlucosePotato();
-    }
-     if(el.id == "three"){
-        changeGlucoseApple();
-    }
-     if(el.id == "four"){
-        changeGlucoseChik();
-    }
-    el.parentNode.removeChild(el);
-
-    bin.className = '';
-    yum.innerHTML = eat[parseInt(Math.random() * eat.length)];
-    yum.style.color = "orange";
-
-    var y = yum.cloneNode(true);
-    bin.appendChild(y);
-
-    setTimeout(function () {
-      
-    
-      var t = setInterval(function () {
-        if (y.style.opacity <= 0) {
-          if (msie) { 
-            y.style.display = 'none';
-          }
-          clearInterval(t); 
-        } else {
-          y.style.opacity -= 0.3;
-        }
-      }, 050);
-    }, 250);
-
-chewThreeTimes();
-
-
-    return false;
-  });
-
-
-
-
-
-
-
-
 function showGluInstr(){
   var showNxtInstru = document.getElementById("showNextInstr");
    showNextInstr.innerHTML = "(Now observe how glucose measurement changes)";
@@ -536,3 +450,21 @@ function chewThreeTimes(){
         }, 500);
 }
 
+// ch7 my biggest bug
+
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+
+function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+    ev.preventDefault();
+    // data is the id
+    var data = ev.dataTransfer.getData("text");
+    alert(ev.target.getAttribute('class'));
+    if(ev.target.getAttribute('class') == "l")
+    ev.target.appendChild(document.getElementById(data));
+}
