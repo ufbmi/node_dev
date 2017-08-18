@@ -119,6 +119,7 @@ img.overLap {
     margin-bottom: 100px;
     margin-right: 15%;
     margin-left: 5%;
+    height:700px;
     /*margin:auto;*/
  /*   width: 130%;
     height:600px;*/
@@ -680,9 +681,9 @@ p#heart {
   text-decoration: none;
   margin: 20px;
   color: #fff;
-  position:relative;
-  margin-right:-200px;
-  margin-bottom:-20px;
+  position:fixed;
+  right:-10px;
+  bottom:10px;
   display: inline-block;
 }
 
@@ -1193,7 +1194,7 @@ canvas{
 /*do more or do less css*/
 
 #doMore, #doLess {
-    width: 350px;
+    width: 400px;
     height: 370px;
     padding: 5px;
     border: 1px solid #aaaaaa;
@@ -1201,5 +1202,11 @@ canvas{
     margin:auto;
 }
 
-
+#checkText{
+  color:green;
+  font-size: 30px;
+  margin:auto;
+  text-align: center;
+  top:120px;
+}
 

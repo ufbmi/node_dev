@@ -464,14 +464,29 @@ function drop(ev) {
     ev.preventDefault();
     // data is the id
     var data = ev.dataTransfer.getData("text");
-    if(data == "tv" || data == "cmptr" || data == "sleep")
-    ev.target.appendChild(document.getElementById(data));
+    var chkTxt = document.getElementById("checkText");
+    if(data == "tv" || data == "cmptr" || data == "sleep"){
+      ev.target.appendChild(document.getElementById(data));
+      chkTxt.innerHTML = "You are Correct!";
+      chkTxt.style.color = "green";
+
+    }else{
+      chkTxt.innerHTML = "Nope, try another box";
+      chkTxt.style.color = "red";
+    } 
 }
 
 function drop2(ev) {
     ev.preventDefault();
     // data is the id
     var data = ev.dataTransfer.getData("text");
-    if(data == "soccer" || data == "dance" || data == "playground" || data == "rope")
+    var chkTxt = document.getElementById("checkText");
+    if(data == "soccer" || data == "dance" || data == "playground" || data == "rope"){
     ev.target.appendChild(document.getElementById(data));
+     chkTxt.innerHTML = "You are Correct!";
+      chkTxt.style.color = "green";
+    }else{
+      chkTxt.innerHTML = "Nope, try another box";
+      chkTxt.style.color = "red";
+    }
 }
