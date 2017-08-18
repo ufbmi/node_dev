@@ -683,7 +683,7 @@ p#heart {
   color: #fff;
   position:fixed;
   right:-10px;
-  bottom:10px;
+  bottom:-20px;
   display: inline-block;
 }
 
