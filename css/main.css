@@ -61,7 +61,16 @@ input[type=reset] {
     cursor: pointer;
 }
 
-video,
+video {
+    width: 100%;
+    height: 750px;
+    display: block;
+    margin: auto;
+    border-width: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 iframe  {
   /*width must be 120% or too narrow have to scroll inside*/
     width: 120%;
@@ -73,7 +82,6 @@ iframe  {
     padding-right: 50px;
 }
 
-video,
 iframe.buildInWeb {
     width: 120%;
     height: 750px;
@@ -115,16 +123,16 @@ img.overLap {
 }
 
 .container {
-    margin-top: 10px;
-    margin-bottom: 100px;
-    margin-right: 15%;
-    margin-left: 5%;
-    height:700px;
-    /*margin:auto;*/
- /*   width: 130%;
-    height:600px;*/
-/*    padding-right: 75px;
-    padding-left: 75px;*/
+    /*margin-top: 10px;*/
+    /*margin-bottom: 100px;*/
+    /*margin-right: 15%;*/
+    /*margin-left: 5%;*/
+    /*height:700px;*/
+    margin:auto;
+    width: 130%;
+    height:600px;
+    padding-right: 75px;
+    padding-left: 75px;
 }
 
 .fullCarouselSlide {
