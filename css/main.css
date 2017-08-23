@@ -389,6 +389,12 @@ img.actLikeButton:hover {
     transform: scale(1.1);
 }
 
+img.immune2 {
+    width: auto;
+    height: 110px;
+    /*margin-left: 35px;*/
+}
+
 img.immune {
     width: auto;
     height: 180px;
