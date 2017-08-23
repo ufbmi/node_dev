@@ -305,8 +305,8 @@ img.overLap {
 }
 
 .img-circle {
-    height:220px;
-    width: 315px;
+    height:190px;
+    width: 220px;
     margin-bottom: 10px;
 }
 
@@ -961,8 +961,8 @@ footer {
     }
 
     .img-circle {
-        height:170px;
-        width: 220px;
+        height:160px;
+        width: 200px;
         margin-bottom: 10px;
     }
 
@@ -1075,11 +1075,11 @@ footer {
         text-align: center;
     }
 
-    .img-circle {
-        height:170px;
-        width: 220px;
-        margin-bottom: 10px;
-    }
+    /*.img-circle {*/
+        /*height:220px;*/
+        /*width: 315px;*/
+        /*margin-bottom: 10px;*/
+    /*}*/
 }
 
 @media only screen and (min-width: 35em) {
