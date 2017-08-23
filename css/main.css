@@ -175,6 +175,7 @@ img.overLap {
 }
 
 .landing-title {
+    padding: 10px;
     color:rgb(255,253,57);
     font-family: Arial Rounded MT Bold;
     font-size: 600%;
@@ -522,7 +523,7 @@ img.imgOverImg2 {
 
 #message {
     margin-left: 0px;
-    padding-left: 50px;
+    /*padding-left: 50px;*/
     padding-right: 0px;
     text-align: center;
 }
@@ -908,9 +909,10 @@ footer {
    ========================================================================== */
 
 /* to update the size of the menu button */
+
 @media (max-width: 768px) {
     .btn {
-        padding:3px 4px;
+        padding:4px 5px;
         font-size: 12px;
         line-height: 1;
     }
@@ -919,11 +921,19 @@ footer {
         font-size: 12px;
     }
 
-    #message {
-        padding-left: 50px;
+    .allMessage {
+        margin-top: 20px;
+        margin-bottom: 0px;
+        padding-top: 15px;
+        padding-left: 25px;
+    }
+
+    p#message {
+        padding-left: 20px;
         padding-right: 0px;
         margin-right: 0px;
         margin-left: 0px;
+        /*margin-top: 50px;*/
         text-align: center;
     }
 
@@ -1036,10 +1046,33 @@ footer {
         margin-top: 20px;
         padding: 12px;
     }
+}
 
+@media (max-width: 1024px) {
+    .landing-title {
+        padding: 30px;
+        color:rgb(255,253,57);
+        font-family: Arial Rounded MT Bold;
+        font-size: 600%;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 
+    p#message {
+        padding: 20px;
+        margin-right: 0px;
+        margin-left: 0px;
+        /*margin-top: 50px;*/
+        text-align: center;
+    }
 
- }
+    .img-circle {
+        height:170px;
+        width: 220px;
+        margin-bottom: 10px;
+    }
+}
 
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */

@@ -13,24 +13,24 @@ var multilanguage = {
         'index-7' : 'Chapter 7 - Exercise and Diabetes',
         'index-8' : 'Chapter 8 - Personal Plan',
         'index-9' : 'Diabetes Tutorial For Kids',
-        'index-10' : 'To help you learn it, fight it and be strong about it',
+        'index-10' : 'To help you learn it fight it and be strong about it',
         'index-11' : 'Built with HTML5, CSS3, Bootstrap, jQuery & JavaScript',
         'ch1-0' : 'What is Diabetes ?'
     },
     'es' : {
         'index-0' : 'Pagina Principal',
-        'index-1' : 'Chapter 1 - Que es Diabetes?',
+        'index-1' : 'Chapter 1 - ¿Qué es la diabetes?',
         'index-2' : 'Chapter 2 - Monitoreo de Glucosa',
         'index-3' : 'Chapter 3 - Insulina',
-        'index-4' : 'Chapter 4 - Ipoglicemia o baja',
-        'index-5' : 'Chapter 5 - Iperglicemia o alta',
+        'index-4' : 'Chapter 4 - Hipoglucemia o glucosa baja',
+        'index-5' : 'Chapter 5 - Hiperglucemia o glucosa alta',
         'index-6' : 'Chapter 6 - Nutricion',
         'index-7' : 'Chapter 7 - Ejercicios y Diabites',
         'index-8' : 'Chapter 8 - Plan personal',
         'index-9' : 'Tutorial para niños sobre Diabetes',
         'index-10' : 'Para ayudarte a aprender y a ser fuerte',
         'index-11' : 'Construido con HTML5, CSS3, Bootstrap, jQuery & JavaScript',
-        'ch1-0' : 'Que es Diabetis ?'
+        'ch1-0' : '¿Qué es la diabetes?'
     }
 };
 
