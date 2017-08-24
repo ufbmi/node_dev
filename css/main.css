@@ -73,7 +73,7 @@ video {
 
 iframe  {
   /*width must be 120% or too narrow have to scroll inside*/
-    width: 120%;
+    width: 100%;
     height: 750px;
     display: block;
     margin: auto;
@@ -82,15 +82,15 @@ iframe  {
     padding-right: 50px;
 }
 
-iframe.buildInWeb {
-    width: 120%;
-    height: 750px;
-    display: block;
-    margin: auto;
-    border-width: 0;
-    padding-left: 50px;
-    padding-right: 50px;
-}
+/*iframe.buildInWeb {*/
+    /*width: 120%;*/
+    /*height: 750px;*/
+    /*display: block;*/
+    /*margin: auto;*/
+    /*border-width: 0;*/
+    /*padding-left: 50px;*/
+    /*padding-right: 50px;*/
+/*}*/
 
 h1 #title {
     padding-left: 45px;
@@ -130,7 +130,7 @@ img.overLap {
     /*height:700px;*/
     /*margin:auto;*/
     width: 100%;
-    height:600px;
+    height:100%;
     /*padding-right: 75px;
     padding-left: 75px;*/
 }
@@ -335,8 +335,8 @@ img.overLap {
 }
 
 .karaImgSize {
-    width: 300px;
-    height: 594px;
+    width: 280px;
+    height: 500px;
 }
 
 #doubleKara {
@@ -375,7 +375,7 @@ img.overLap {
 .stars {
     margin: 20px;
     padding-top: 20px;
-    padding-left: 50px;
+    /*padding-left: 50px;*/
 }
 
 .actLikeButton {
@@ -481,7 +481,7 @@ img.imgOverImg2 {
 
 .fontSizeTitle{
     font-size: 42px;
-    padding-top: 20px;
+    /*padding-top: 20px;*/
     margin-bottom: 20px;
 }
 
@@ -697,8 +697,7 @@ p#heart {
   margin: 20px;
   color: #fff;
   position:fixed;
-  right:-10px;
-  bottom:-20px;
+  top:90%;
   display: inline-block;
 }
 

@@ -118,7 +118,7 @@
     }
 
     #page-content-wrapper {
-        padding: 20px;
+        padding-bottom: 0px;
         position: relative;
     }
 
