@@ -101,7 +101,7 @@
                         <div id="slide48" class="item container">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <h2 class="text-center animated zoomInDown titleShadow"><span style="color:red">Movie 6.1 </span>Lunch at School</h2>
-                                <video controls>
+                                <video id="video" controls>
                                     <source src="https://node.t1dtoolkit.org/videos/ch6/Chapter 6 eng 04 02 14.m4v" alt="Lunch at school eng ver" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
@@ -140,27 +140,20 @@
                                               <li class="chewA animated zoomIn"><a draggable="true" id="four"><img width = 100px src="img/ch6/Ch6_P5_Chicken.png">Chicken</a></li>
                                             </ul>
                                         </div>
-
                                         <div id="bin" class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
                                               <img id="bigHead" alt="" width = "200px" src="img/ch6/p56_Kara_head_mouth_open.png">
                                               <h4 id="showNextInstr"></h4>
                                               <h4 id="chewInstru" class="animated swing"> (Drag the food into Kara's mouth!)</h4>
                                         </div>
-
                                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 cvs">
                                             <canvas id="myCanvas" width="100" height="400"
                                               style="border:1px solid #c3c3c3;">
                                               Your browser does not support the canvas element.
                                             </canvas>
-                                                <h2 id="canvasTag">Blood Glucose</h2> 
-                                                <h3 id = "gluExp"></h3>
+                                            <h2 id="canvasTag">Blood Glucose</h2>
+                                            <h3 id = "gluExp"></h3>
                                         </div>
-
-                                    </div>  
-
-                             
-
-
+                                    </div>
                                 </div>
                             </div>
                         <!-- page 52 -->
@@ -176,7 +169,7 @@
                         <div id="slide53" class="item container">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <h2 class="fontSizeTitle text-center animated zoomInDown titleShadow">Nutrition Videos</h2>
-                                <video controls>
+                                <video id="video2" controls>
                                     <source src="https://node.t1dtoolkit.org/videos/ch6/Managing your Diabetes ENG.m4v" alt="Nutrition Videos" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
@@ -184,14 +177,16 @@
                         </div>
                         <!-- page 54 -->
                         <div id="slide54" class="item container">
-                            <div class="pad-left col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <h1 class="fontSizeTitle text-center animated zoomInDown titleShadow">Using the nutritional facts, how many grams of carbs would you have if you eat this entire container?</h1>
                             </div>
                             <div>
-                            <center><img style="height: 300px; width:auto" src="img/ch6/nutriQuestion.png"></center>
+                                <center>
+                                    <img style="height: 300px; width:auto" src="img/ch6/nutriQuestion.png">
+                                </center>
                             </div>
-                            <form class="col-lg-12 col-md-12 col-sm-12 col-xs-12 animated rubberBand">
-                                <div class="text-center">
+                            <form class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center animated rubberBand">
+                                <div>
                                     <h2 id="questionCptr1">
                                         <input type="radio" name="cptr1q1" value="false"> A. 4g<BR>
                                         <input type="radio" name="cptr1q1" value="false"> B. 8g<BR>
@@ -205,14 +200,16 @@
                                     </h2>
                                 </div>
                                 <!-- check ans button center -->
-                                <center><div>
+                                <div class="center">
                                     <input class="btn5 " id="answer" type="submit" value="Check Answers">&nbsp&nbsp&nbsp&nbsp
                                     <input class="btn5 " type="reset" value="Clear Answer" onclick="document.getElementById('indicatingCorrect').style.display = 'none';
                                             document.getElementById('indicatingWrong').style.display = 'none';document.getElementById('indicatingBlank').style.display = 'none'">
-                                             <a href="chapter7.html" class="btn orangeJump nextCptrButton">To the Next Chapter</a>
-                                </div></center>
+                                </div>
                             </form>
-
+                            <!-- jump button -->
+                            <div id="buttons" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <a href="chapter7.html" class="btn orangeJump nextCptrButton">To the Next Chapter</a>
+                            </div>
                         </div>
 
 
