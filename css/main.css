@@ -89,6 +89,13 @@ h1 #title {
     font-weight: bold;
 }
 
+h2.title {
+    padding-left: 45px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
 h1#title:link, h1#title:visited {
     color: yellow;
     text-align: center;
@@ -379,6 +386,11 @@ img.ch9 {
     cursor: pointer;
     width:200px;
     height:auto;
+}
+
+.basalBolus {
+    width: 50%;
+    height: 150px;
 }
 
 img.actLikeButton:hover {
