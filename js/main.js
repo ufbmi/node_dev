@@ -14,7 +14,7 @@ $('#es').on('click', function changeLang() {
 function forceLang() {
     var lang = localStorage.getItem("lang");
     if (lang === "es") {
-        changeLang();
+        multiLanguage();
     }
 }
 

@@ -21,9 +21,10 @@
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+        <!--<script type="text/javascript"> window.onload=forceLang(); </script>-->
     </head>
 
-    <body style="background-color: white;">
+    <body onload="forceLang()" style="background-color: white;">
         <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -87,8 +88,8 @@
                             <!-- page 1 -->
                             <div id="slide1" class="item active container">
                                 <div class="pad-left col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <h2 class="heading fontSizeTitle">Chapter 1</h2>
-                                    <h1 class="lang animated zoomInDown titleShadow col-lg-12 col-sm-12 fontSizeTitle" key="ch1-0">What is Diabetes ?</h1>
+                                    <h2 class="lang heading fontSizeTitle" key="ch1-0">Chapter 1</h2>
+                                    <h1 class="lang animated zoomInDown titleShadow col-lg-12 col-sm-12 fontSizeTitle" key="ch1-1">What is Diabetes ?</h1>
                                 </div>
                                 <div class="karaMargingRight">
                                     <img class="imgToRight karaImgSize" src="img/ch1/2 Kara questions.png">
@@ -99,7 +100,7 @@
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                     <h2 class="text-center"><span style="color:red">Animation 1.1</span> What is Diabetes?</h2>
                                     <video id="video" controls>
-                                        <source src="https://node.t1dtoolkit.org//videos/ch1/Kara Ep1_01.mp4" alt="type one diabetes" type="video/mpeg">
+                                        <source src="https://node.t1dtoolkit.org/videos/ch1/Kara Ep1_01.mp4" alt="type one diabetes" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
@@ -153,7 +154,7 @@
                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                         <h1 class="text-center fontSizeTitle animated zoomInDown titleShadow">What is insulin and why is it so important?</h1>
                                     </div>
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="topMargin col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                         <div class="stars col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <img class="beating animated wobble actLikeButton" onclick="document.getElementById('hiddenT3').style.display = 'block';this.style.display = 'none'" src="img/ch1/starButton.png" >
                                             <h2 id="hiddenT3" class="animated bounceIn" style="display:none;">
