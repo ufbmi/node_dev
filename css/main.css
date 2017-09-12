@@ -81,6 +81,16 @@ iframe  {
     /*padding-right: 50px;*/
 }
 
+.landing-title {
+    padding: 10px;
+    color:rgb(255,253,57);
+    font-family: Arial Rounded MT Bold;
+    font-size: 800%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 h1 #title {
     padding-left: 45px;
     padding-top: 20px;
@@ -107,8 +117,28 @@ h1#title:hover, h1#title:active {
     color: white;
 }
 
+.lead {
+    font-family: Arial Rounded MT Bold;
+    font-size: 3em;
+    color: white;
+}
+
 a {
     color:white;
+}
+
+/* scroll to top button */
+a#myBtn {
+    display: none; /* Hidden by default */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgba(255, 255, 255, 0.2);
+    /* Set a background color */
+    color: white; /* Text color*/
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
 }
 
 img.overLap {
@@ -145,21 +175,12 @@ img.ch9 {
     margin: 20px;
 }
 
-/* scroll to top button */
-#myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    /*right: 20px; !* Place the button 30px from the right *!*/
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: rgba(255, 255, 255, 0.2);
-    /* Set a background color */
-    color: white; /* Text color*/
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
+
+
+.bottomLeft {
+    position: fixed;
+    top: 91%;
+    left: 16px;
 }
 
 #myBtn:hover {
@@ -186,15 +207,6 @@ img.ch9 {
     margin-right: 15px;
 }
 
-.landing-title {
-    padding: 10px;
-    color:rgb(255,253,57);
-    font-family: Arial Rounded MT Bold;
-    font-size: 600%;
-    text-align: center;
-    background-repeat: no-repeat;
-    background-position: center;
-}
 /*
 .btn {
     position: fixed;
@@ -290,12 +302,6 @@ img.ch9 {
     color: black;
 }
 
-.lead {
-    font-family: Arial Rounded MT Bold;
-    font-size: 2.5em;
-    color: white;
-}
-
 .left {
   display:none;
 }
@@ -307,8 +313,8 @@ img.ch9 {
 }
 
 .img-circle {
-    height:190px;
-    width: 220px;
+    height:220px;
+    width: 315px;
     margin-bottom: 10px;
 }
 
@@ -326,25 +332,25 @@ img.ch9 {
 
 #meter {
     float: right;
-    width: 200px;
-    height: 500px;
+    width: 180px;
+    height: 480px;
 }
 
 #arrowCh4 {
     float: right;
-    width: 170px;
-    height: 130px;
+    width: 120px;
+    height: 80px;
     position: fixed;
-    bottom: 70px;
+    bottom: 80px;
     right: 250px;
 }
 
 #karaFaceCh4 {
     float: right;
-    width: 230px;
-    height: 260px;
+    width: 180px;
+    height: 210px;
     position: fixed;
-    bottom: 70px;
+    bottom: 80px;
     right: 420px;
 }
 
@@ -567,18 +573,11 @@ img.imgOverImg2 {
     margin: auto;
 }
 
-.allMessage {
-    margin-top: 20px;
-    margin-bottom: 0px;
-    padding-top: 15px;
-}
-
-#message {
-    margin-left: 0px;
-    /*padding-left: 50px;*/
-    padding-right: 0px;
-    text-align: center;
-}
+/*.allMessage {*/
+    /*margin-top: 20px;*/
+    /*margin-bottom: 0px;*/
+    /*padding-top: 15px;*/
+/*}*/
 
 p#heart {
     position: absolute;
@@ -596,6 +595,13 @@ p#heart {
     margin: 0 auto;
     display: block;
 }
+
+/*.carousel-inner {*/
+    /*position: relative;*/
+    /*width: 100%;*/
+    /*height: 140%;*/
+    /*overflow: hidden;*/
+/*}*/
 
 #sidebar-wrapper {
     background-color: white;
@@ -961,155 +967,156 @@ footer {
    Modify as content requires.
    ========================================================================== */
 
-/* to update the size of the menu button */
+/* to update the size depending on screen size */
 
-@media (max-width: 768px) {
-    .btn {
-        padding:4px 5px;
-        font-size: 12px;
-        line-height: 1;
-    }
+/* For iPad size in vertical position*/
+/*@media (max-width: 768px) {*/
+    /*.btn {*/
+        /*padding:4px 5px;*/
+        /*font-size: 12px;*/
+        /*line-height: 1;*/
+    /*}*/
 
-    #languages {
-        font-size: 12px;
-    }
+    /*#languages {*/
+        /*font-size: 12px;*/
+    /*}*/
 
-    .allMessage {
-        margin-top: 20px;
-        margin-bottom: 0px;
-        padding-top: 15px;
-        padding-left: 25px;
-    }
+    /*.allMessage {*/
+        /*margin-top: 20px;*/
+        /*margin-bottom: 0px;*/
+        /*padding-top: 15px;*/
+        /*padding-left: 25px;*/
+    /*}*/
 
-    p#message {
-        padding-left: 20px;
-        padding-right: 0px;
-        margin-right: 0px;
-        margin-left: 0px;
-        /*margin-top: 50px;*/
-        text-align: center;
-    }
+    /*p#message {*/
+        /*padding-left: 20px;*/
+        /*padding-right: 0px;*/
+        /*margin-right: 0px;*/
+        /*margin-left: 0px;*/
+        /*!*margin-top: 50px;*!*/
+        /*text-align: center;*/
+    /*}*/
 
-    #principalImg img {
-        width:auto;
-        height:567px;
-        padding-left: 0px;
-        margin-top: 20px;
-    }
+    /*#principalImg img {*/
+        /*width:auto;*/
+        /*height:567px;*/
+        /*padding-left: 0px;*/
+        /*margin-top: 20px;*/
+    /*}*/
 
-    p#heart {
-        position: absolute;
-        left: 140px;
-        top: 260px;
-        padding-left: 0px;
-        text-align: left;
-    }
+    /*p#heart {*/
+        /*position: absolute;*/
+        /*left: 140px;*/
+        /*top: 260px;*/
+        /*padding-left: 0px;*/
+        /*text-align: left;*/
+    /*}*/
 
-    #chapters {
-        margin-right: 0px;
-        margin-top: 0px;
-        margin-left: 60px;
-    }
+    /*#chapters {*/
+        /*margin-right: 0px;*/
+        /*margin-top: 0px;*/
+        /*margin-left: 60px;*/
+    /*}*/
 
-    .img-circle {
-        height:160px;
-        width: 200px;
-        margin-bottom: 10px;
-    }
+    /*.img-circle {*/
+        /*height:160px;*/
+        /*width: 200px;*/
+        /*margin-bottom: 10px;*/
+    /*}*/
 
-    .pad-left {
-        padding-left: 100px;
-    }
+    /*.pad-left {*/
+        /*padding-left: 100px;*/
+    /*}*/
 
-    .imgToRight {
-        float: right;
-        /*margin-right: 50px;*/
-        width: 250px;
-        height: auto;
-        padding-top: 40px;
-    }
+    /*.imgToRight {*/
+        /*float: right;*/
+        /*!*margin-right: 50px;*!*/
+        /*width: 250px;*/
+        /*height: auto;*/
+        /*padding-top: 40px;*/
+    /*}*/
 
-    img#ch1Kara {
-        float: right;
-        /*margin-right: 30px;*/
-        width: 200px;
-        height: auto;
-        padding-top: 40px;
-    }
+    /*img#ch1Kara {*/
+        /*float: right;*/
+        /*!*margin-right: 30px;*!*/
+        /*width: 200px;*/
+        /*height: auto;*/
+        /*padding-top: 40px;*/
+    /*}*/
 
-    img.immune {
-        width: 130px;
-        height: 105px;
-        /*margin-left: 35px;*/
-    }
+    /*img.immune {*/
+        /*width: 130px;*/
+        /*height: 105px;*/
+        /*!*margin-left: 35px;*!*/
+    /*}*/
 
-    h3.ch1M200 {
-        position: absolute;
-        top:120px;
-        left: 40px;
-        color: black;
-    }
+    /*h3.ch1M200 {*/
+        /*position: absolute;*/
+        /*top:120px;*/
+        /*left: 40px;*/
+        /*color: black;*/
+    /*}*/
 
-    img.arrowImgMiddle {
-        /*make sure left and right same margin*/
-        float: inherit;
-        /*center vertically*/
-        position: relative;
-        top: 75px;
-        width: 50px;
-        height:auto;
+    /*img.arrowImgMiddle {*/
+        /*!*make sure left and right same margin*!*/
+        /*float: inherit;*/
+        /*!*center vertically*!*/
+        /*position: relative;*/
+        /*top: 75px;*/
+        /*width: 50px;*/
+        /*height:auto;*/
+        /*!*margin-left: 20px;*!*/
+    /*}*/
+
+    /*.slide5Text {*/
         /*margin-left: 20px;*/
-    }
+    /*}*/
 
-    .slide5Text {
-        margin-left: 20px;
-    }
+    /*.aroundArrows {*/
+        /*margin-left: 0px;*/
+        /*margin-right: 10px;*/
+    /*}*/
 
-    .aroundArrows {
-        margin-left: 0px;
-        margin-right: 10px;
-    }
+    /*.blueArrow {*/
+        /*position: relative;*/
+        /*left: -20px;*/
+        /*width: 70px;*/
+        /*height: 160px;*/
+    /*}*/
 
-    .blueArrow {
-        position: relative;
-        left: -20px;
-        width: 70px;
-        height: 160px;
-    }
+    /*.redArrow {*/
+        /*position: relative;*/
+        /*left: 10px;*/
+        /*width: 70px;*/
+        /*height: 160px;*/
+    /*}*/
 
-    .redArrow {
-        position: relative;
-        left: 10px;
-        width: 70px;
-        height: 160px;
-    }
+    /*img.imgOverImg1 {*/
+        /*position: absolute;*/
+        /*left: 55px;*/
+        /*top: 25px;*/
+        /*width: 50px;*/
+        /*height: auto;*/
+    /*}*/
 
-    img.imgOverImg1 {
-        position: absolute;
-        left: 55px;
-        top: 25px;
-        width: 50px;
-        height: auto;
-    }
+    /*!*2 diff positions*!*/
+    /*img.imgOverImg2 {*/
+        /*position: absolute;*/
+        /*left: 120px;*/
+        /*top: 50px;*/
+        /*width: 55px;*/
+        /*height: auto;*/
+    /*}*/
 
-    /*2 diff positions*/
-    img.imgOverImg2 {
-        position: absolute;
-        left: 120px;
-        top: 50px;
-        width: 55px;
-        height: auto;
-    }
+    /*.button {*/
+        /*margin-top: 20px;*/
+        /*padding: 12px;*/
+    /*}*/
+/*}*/
 
-    .button {
-        margin-top: 20px;
-        padding: 12px;
-    }
-}
-
-@media (max-width: 1024px) {
+/*!* For iPad and 13 inches size in horizontal position *!*/
+@media (max-width: 1280px) {
     .landing-title {
-        padding: 30px;
         color:rgb(255,253,57);
         font-family: Arial Rounded MT Bold;
         font-size: 600%;
@@ -1122,15 +1129,37 @@ footer {
         padding: 20px;
         margin-right: 0px;
         margin-left: 0px;
-        /*margin-top: 50px;*/
         text-align: center;
     }
 
-    /*.img-circle {*/
-        /*height:220px;*/
-        /*width: 315px;*/
-        /*margin-bottom: 10px;*/
-    /*}*/
+    .img-circle {
+        height:190px;
+        width: 220px;
+        margin-bottom: 10px;
+    }
+
+    .lead {
+        font-family: Arial Rounded MT Bold;
+        font-size: 2.1em;
+        color: white;
+    }
+
+    .bottomLeft {
+        position: fixed;
+        top: 88%;
+        left: 16px;
+    }
+
+    #myCarousel {
+        position:absolute;
+        left:0;
+        right:0;
+        /*top:100px;*/
+        width:100%;
+        height: 600px;
+        margin: 0 auto;
+        display: block;
+    }
 }
 
 @media only screen and (min-width: 35em) {
