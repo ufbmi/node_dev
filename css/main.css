@@ -67,19 +67,25 @@ video {
     display: block;
     margin: auto;
     border-width: 0;
-    padding-left: 50px;
-    padding-right: 50px;
 }
 
 iframe  {
     width: 100%;
-    height: 750px;
+    height: 730px;
     display: block;
     margin: auto;
     border-width: 0;
-    /*padding-left: 50px;*/
-    /*padding-right: 50px;*/
+    padding-left: 50px;
+    padding-right: 50px;
 }
+
+.iFrameCh2 {
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 780px;
+}
+
+/*  css for index   */
 
 .landing-title {
     padding: 10px;
@@ -117,14 +123,28 @@ h1#title:hover, h1#title:active {
     color: white;
 }
 
-.lead {
-    font-family: Arial Rounded MT Bold;
-    font-size: 3em;
-    color: white;
-}
-
 a {
     color:white;
+}
+
+#principalImg img {
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    width:auto;
+    height:500px;
+}
+
+p#heart {
+    position: absolute;
+    left: 50%;
+    top: 205px;
+}
+
+.lead {
+    font-family: Arial Rounded MT Bold;
+    font-size: 2.3em;
+    color: white;
 }
 
 /* scroll to top button */
@@ -141,6 +161,53 @@ a#myBtn {
     border-radius: 10px; /* Rounded corners */
 }
 
+#myBtn:hover {
+    background-color: rgba(144, 144, 144, 0.3);/* Add a dark-grey background on hover */
+    color: black;
+}
+
+/*  css for carousel ch1 to ch9 */
+
+.carousel-inner {
+    left:0;
+    right:0;
+    top:100px;
+    width:100%;
+    height: 830px;
+    margin: 0px;
+    display: block;
+}
+
+/*#myCarousel {*/
+    /*position:absolute;*/
+    /*left:0;*/
+    /*right:0;*/
+    /*margin-right: 75px;*/
+    /*margin-left: 75px;*/
+/*}*/
+
+.carousel-control {
+    top:50%;
+    width:auto;
+    height:1em;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+}
+
+.carousel-control .glyphicon-circle-arrow-left, .carousel-control .glyphicon-circle-arrow-right  {
+    position:static;
+    display:block;
+    font-size: 40px;
+}
+
+.carousel-control .glyphicon-circle-arrow-left:before, .glyphicon-circle-arrow-right:before {
+    margin-left:35px;
+    margin-right: 35px;
+    color: #9733ca;
+}
+
 img.overLap {
     position: absolute;
     left: 0px;
@@ -148,44 +215,18 @@ img.overLap {
     z-index: 0;
 }
 
-img.ch9 {
+img.fullCarouselSlide {
     width: 100%;
-    height: 750px;
+    height: 730px;
     display: block;
     margin: auto;
     border-width: 0;
 }
 
-.container {
-    /*margin-top: 10px;*/
-    /*margin-bottom: 100px;*/
-    /*margin-right: 15%;*/
-    /*margin-left: 5%;*/
-    /*height:700px;*/
-    /*margin:auto;*/
-    width: 100%;
-    height:100%;
-    /*padding-right: 75px;
-    padding-left: 75px;*/
-}
-
-.fullCarouselSlide {
-    width: 100%;
-    height: 750px;
-    margin: 20px;
-}
-
-
-
 .bottomLeft {
     position: fixed;
     top: 91%;
     left: 16px;
-}
-
-#myBtn:hover {
-    background-color: rgba(144, 144, 144, 0.3);/* Add a dark-grey background on hover */
-    color: black;
 }
 
 .karaMargingRight {
@@ -206,11 +247,6 @@ img.ch9 {
     margin-left: 15px;
     margin-right: 15px;
 }
-
-/*
-.btn {
-    position: fixed;
-}*/
 
 /*!!BUT BUTTON ANIMATION*/
 
@@ -321,8 +357,6 @@ img.ch9 {
 .imgToRight {
     float: right;
     /*margin-right: 50px;*/
-    width: 250px;
-    height: auto;
 }
 
 .imgToLeft {
@@ -335,6 +369,11 @@ img.ch9 {
     width: 180px;
     height: 480px;
 }
+#miniMeter {
+    float: right;
+    width: 30px;
+    height: 120px;
+}
 
 #arrowCh4 {
     float: right;
@@ -343,6 +382,22 @@ img.ch9 {
     position: fixed;
     bottom: 80px;
     right: 250px;
+}
+
+#miniArrowCh4 {
+    width: 30px;
+    height: 20px;
+    position: fixed;
+    right: 130px;
+    bottom: 80px;
+}
+
+#miniArrowCh5 {
+    width: 30px;
+    height: 20px;
+    position: fixed;
+    right: 130px;
+    bottom: 150px;
 }
 
 #karaFaceCh4 {
@@ -356,46 +411,25 @@ img.ch9 {
 
 #arrowCh5 {
     float: right;
-    width: 170px;
-    height: 130px;
+    width: 120px;
+    height: 80px;
+    margin-right: 15px;
 }
 
 #karaFaceCh5 {
     float: right;
-    width: 230px;
-    height: 260px;
+    width: 180px;
+    height: 210px;
 }
 
 .karaImgSize {
     width: 260px;
-    height: 500px;
+    height: auto;
 }
 
 #doubleKara {
     width: 500px;
     height: 594px;
-}
-
-.carousel-control {
-    top:40%;
-    width:auto;
-    height:1em;
-}
-
-.carousel-control.left, .carousel-control.right {
-    background-image: none;
-}
-
-.carousel-control .glyphicon-circle-arrow-left, .carousel-control .glyphicon-circle-arrow-right  {
-    position:static;
-    display:block;
-    font-size: 40px;
-}
-
-.carousel-control .glyphicon-circle-arrow-left:before, .glyphicon-circle-arrow-right:before {
-    margin-left:35px;
-    margin-right: 35px;
-    color: #9733ca;
 }
 
 /*for things like section x.x chapters etc.*/
@@ -426,20 +460,30 @@ img.actLikeButton:hover {
     transform: scale(1.1);
 }
 
-img.immune2 {
-    width: auto;
-    height: 110px;
-    /*margin-left: 35px;*/
-}
-
 img.immune {
-    width: auto;
+    width: 200px;
     height: 180px;
-    /*margin-left: 35px;*/
+    margin-left: 35px;
 }
 
-.topMargin {
-    margin-top: 20px;
+img.slide3Ch4 {
+    width: 70px;
+    height: 100px;
+}
+
+img.groupCh4 {
+    width: 200px;
+    height: 180px;
+}
+
+img.principalCh9 {
+    width: 400px;
+    height: 420px;
+}
+
+#imgSlide8Ch6 {
+    width: 100%;
+    height: 280px;
 }
 
 .slide5Text {
@@ -514,12 +558,6 @@ img.imgOverImg2 {
     padding-right: 50px;
 }
 
-/*.imgToBottomLeft {*/
-    /*position: absolute;*/
-    /*top: 40%;*/
-    /*right: 50%;*/
-/*}*/
-
 #questionCh8 {
     margin-top: 10%;
 }
@@ -538,7 +576,7 @@ img.imgOverImg2 {
 .num {
     background:grey;
     color:white;
-    padding: 7px;
+    padding: 10px;
     width:70px;
     text-align:center;
     font-family: Arial Rounded MT Bold;
@@ -560,48 +598,16 @@ img.imgOverImg2 {
     color:blue;
 }
 
-#principalImg img {
-    display: block;
-    margin: auto;
+/*#goDown {*/
+    /*align-self: center;*/
+    /*margin: auto;*/
+/*}*/
+
+.allMessage {
+    margin-top: 20px;
+    margin-bottom: 0px;
     padding-top: 20px;
-    width:auto;
-    height:469px;
 }
-
-#goDown {
-    align-self: center;
-    margin: auto;
-}
-
-/*.allMessage {*/
-    /*margin-top: 20px;*/
-    /*margin-bottom: 0px;*/
-    /*padding-top: 15px;*/
-/*}*/
-
-p#heart {
-    position: absolute;
-    left: 50%;
-    top: 200px;
-}
-
-#myCarousel {
-    position:absolute;
-    left:0;
-    right:0;
-    top:100px;
-    width:100%;
-    height: 600px;
-    margin: 0 auto;
-    display: block;
-}
-
-/*.carousel-inner {*/
-    /*position: relative;*/
-    /*width: 100%;*/
-    /*height: 140%;*/
-    /*overflow: hidden;*/
-/*}*/
 
 #sidebar-wrapper {
     background-color: white;
@@ -670,6 +676,14 @@ p#heart {
     right: 50px;
 }
 
+#imgSlideCh7 {
+    width: 500px;
+    height:auto;
+    position: fixed;
+    bottom: 0px;
+    right: 50px;
+}
+
 .img-circle:hover {
     opacity: 0.7;
 }
@@ -728,6 +742,7 @@ p#heart {
 #buttons {
   text-align: center;
 }
+
 .orangeJump {
   background-color: #e67e22;
   box-shadow: 0px 5px 0px 0px #CD6509;
@@ -737,7 +752,7 @@ p#heart {
   background-color: #FF983C;
 }
 /* start da css for da buttons */
-.nextCptrButton {
+.nextChapterButton {
   border-radius: 5px;
   padding: 15px 25px;
   font-size: 22px;
@@ -747,7 +762,7 @@ p#heart {
   display: inline-block;
 }
 
-.nextCptrButton:active {
+.nextChapterButton:active {
   transform: translate(0px, 5px);
   -webkit-transform: translate(0px, 5px);
   box-shadow: 0px 1px 0px 0px;
@@ -1119,7 +1134,7 @@ footer {
     .landing-title {
         color:rgb(255,253,57);
         font-family: Arial Rounded MT Bold;
-        font-size: 600%;
+        font-size: 500%;
         text-align: center;
         background-repeat: no-repeat;
         background-position: center;
@@ -1150,15 +1165,25 @@ footer {
         left: 16px;
     }
 
-    #myCarousel {
-        position:absolute;
+    .carousel-inner {
         left:0;
         right:0;
-        /*top:100px;*/
+        top:-40px;
         width:100%;
-        height: 600px;
-        margin: 0 auto;
+        height: 750px;
+        margin: 0px;
         display: block;
+    }
+
+    .actLikeButton {
+        cursor: pointer;
+        width:100px;
+        height:auto;
+    }
+
+    img.groupCh4 {
+        width: 170px;
+        height: 200px;
     }
 }
 
@@ -1237,11 +1262,11 @@ footer {
   height:;
   margin: 0px auto;
 }*/
-.ch7sum{
-  margin: auto;
-  width:180px;
-  height:180px;
-}
+/*.ch7sum{*/
+  /*margin: auto;*/
+  /*width:180px;*/
+  /*height:180px;*/
+/*}*/
 
 li.chewA, li.ch7sum {
   list-style: none;
