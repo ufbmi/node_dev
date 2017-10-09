@@ -461,9 +461,9 @@ img.actLikeButton:hover {
 }
 
 img.immune {
-    width: 200px;
-    height: 180px;
-    margin-left: 35px;
+    width: 100px;
+    height: 80px;
+    margin-left: 60px;
 }
 
 img.slide3Ch4 {
@@ -532,17 +532,17 @@ h3.ch1M200 {
 img.imgOverImg1 {
     position: absolute;
     left: 50px;
-    top: 50px;
-    width: 80px;
+    top: 10px;
+    width: 50px;
     height: auto;
 }
 
 /*2 diff positions*/
 img.imgOverImg2 {
     position: absolute;
-    left: 160px;
-    top: 90px;
-    width: 90px;
+    left: 110px;
+    top: 30px;
+    width: 60px;
     height: auto;
 }
 
@@ -1175,6 +1175,16 @@ footer {
         display: block;
     }
 
+    video {
+        width: 100%;
+        height: 100%;
+        display: block;
+        margin: auto;
+        border-width: 0;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+
     .actLikeButton {
         cursor: pointer;
         width:100px;
@@ -1184,6 +1194,14 @@ footer {
     img.groupCh4 {
         width: 170px;
         height: 200px;
+    }
+
+    img.fullCarouselSlide {
+        width: 100%;
+        height: 730px;
+        display: block;
+        margin: auto;
+        border-width: 0;
     }
 }
 

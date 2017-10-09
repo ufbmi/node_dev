@@ -32,7 +32,7 @@ var multilanguage = {
         'index-889' : 'Capitulo 9 - Famosos con Diabetes',
         'index-9' : 'Tutorial para niños sobre Diabetes',
         'index-10' : 'Para ayudarte a aprender y a ser fuerte',
-        'index-11' : 'Construido con HTML5, CSS3, Bootstrap, jQuery & JavaScript',
+        'index-11' : '"Fundación de Investigación - University of Florida. Todos los Derechos Reservados"',
         'ch1-0' : 'Capitulo 1',
         'ch1-1' : 'Qué es la Diabetes?'
     }
