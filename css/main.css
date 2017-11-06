@@ -14,12 +14,12 @@
 html {
     color: #222;
     font-size: 1em;
-    font-family: Arial Rounded MT Bold;
+    font-family: Arial Rounded MT Bold, serif;
     line-height: 1.4;
 }
 
 h1,h2,h3,h4,h5,h6,* {
-    font-family: Arial Rounded MT Bold;
+    font-family: Arial Rounded MT Bold, serif;
     font-weight: bold;
 }
 
@@ -31,6 +31,7 @@ body {
     padding: 0;
     -webkit-font-smoothing: antialiased;
     box-sizing: border-box;
+    font-family: Arial Rounded MT, serif;
 }
 
 fieldset {
@@ -71,8 +72,8 @@ video {
 
 iframe  {
     width: 100%;
-    height: 730px;
-    display: block;
+    height: 720px;
+    display: inline-block;
     margin: auto;
     border-width: 0;
     padding-left: 50px;
@@ -82,7 +83,8 @@ iframe  {
 .iFrameCh2 {
     padding-left: 0px;
     padding-right: 0px;
-    height: 780px;
+    width: 110%;
+    height: 850px;
 }
 
 /*  css for index   */
@@ -90,7 +92,7 @@ iframe  {
 .landing-title {
     padding: 10px;
     color:rgb(255,253,57);
-    font-family: Arial Rounded MT Bold;
+    font-family: Arial Rounded MT Bold, serif;
     font-size: 800%;
     text-align: center;
     background-repeat: no-repeat;
@@ -142,7 +144,7 @@ p#heart {
 }
 
 .lead {
-    font-family: Arial Rounded MT Bold;
+    font-family: Arial Rounded MT Bold, serif;
     font-size: 2.3em;
     color: white;
 }
@@ -171,7 +173,7 @@ a#myBtn {
 .carousel-inner {
     left:0;
     right:0;
-    top:100px;
+    top:80px;
     width:100%;
     height: 830px;
     margin: 0px;
@@ -441,12 +443,11 @@ img.fullCarouselSlide {
 .stars {
     margin: 20px;
     padding-top: 20px;
-    /*padding-left: 50px;*/
 }
 
 .actLikeButton {
     cursor: pointer;
-    width:200px;
+    width:180px;
     height:auto;
 }
 
@@ -461,8 +462,8 @@ img.actLikeButton:hover {
 }
 
 img.immune {
-    width: 100px;
-    height: 80px;
+    width: 150px;
+    height: 100px;
     margin-left: 60px;
 }
 
@@ -493,15 +494,15 @@ img.principalCh9 {
 .blueArrow {
     position: relative;
     left: -20px;
-    width: 90px;
-    height: 180px;
+    width: 80px;
+    height: 150px;
 }
 
 .redArrow {
     position: relative;
     left: 17px;
-    width: 90px;
-    height: 180px;
+    width: 80px;
+    height: 150px;
 }
 
 img.arrowImgMiddle {
@@ -564,7 +565,6 @@ img.imgOverImg2 {
 
 .fontSizeTitle{
     font-size: 42px;
-    /*padding-top: 20px;*/
     margin-bottom: 20px;
 }
 
@@ -974,8 +974,6 @@ footer {
     clear: both;
 }
 
-
-
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
@@ -984,153 +982,69 @@ footer {
 
 /* to update the size depending on screen size */
 
-/* For iPad size in vertical position*/
-/*@media (max-width: 768px) {*/
-    /*.btn {*/
-        /*padding:4px 5px;*/
-        /*font-size: 12px;*/
-        /*line-height: 1;*/
-    /*}*/
+/*!* For 13 inches + size in horizontal position *!*/
+@media (max-width: 1366px) {
 
-    /*#languages {*/
-        /*font-size: 12px;*/
-    /*}*/
+    video {
+        width: 90%;
+        height: 100%;
+        display: block;
+        margin: auto;
+        border-width: 0;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
 
-    /*.allMessage {*/
-        /*margin-top: 20px;*/
-        /*margin-bottom: 0px;*/
-        /*padding-top: 15px;*/
-        /*padding-left: 25px;*/
-    /*}*/
+    iframe {
+        width: 80%;
+        height: 580px;
+        display: block;
+        margin: auto;
+        border-width: 0;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
 
-    /*p#message {*/
-        /*padding-left: 20px;*/
-        /*padding-right: 0px;*/
-        /*margin-right: 0px;*/
-        /*margin-left: 0px;*/
-        /*!*margin-top: 50px;*!*/
-        /*text-align: center;*/
-    /*}*/
+    .carousel-inner {
+        left:0;
+        right:0;
+        top:-10px;
+        width:100%;
+        height: 750px;
+        margin: 0px;
+        display: block;
+    }
 
-    /*#principalImg img {*/
-        /*width:auto;*/
-        /*height:567px;*/
-        /*padding-left: 0px;*/
-        /*margin-top: 20px;*/
-    /*}*/
+    .karaImgSize {
+        width: 200px;
+        height: auto;
+    }
 
-    /*p#heart {*/
-        /*position: absolute;*/
-        /*left: 140px;*/
-        /*top: 260px;*/
-        /*padding-left: 0px;*/
-        /*text-align: left;*/
-    /*}*/
+    #doubleKara {
+        width: 400px;
+        height: 494px;
+    }
 
-    /*#chapters {*/
-        /*margin-right: 0px;*/
-        /*margin-top: 0px;*/
-        /*margin-left: 60px;*/
-    /*}*/
+    img.immune {
+        width: 100px;
+        height: 85px;
+    }
 
-    /*.img-circle {*/
-        /*height:160px;*/
-        /*width: 200px;*/
-        /*margin-bottom: 10px;*/
-    /*}*/
+    .fontSizeTitle{
+        font-size: 38px;
+        margin-bottom: 20px;
+    }
 
-    /*.pad-left {*/
-        /*padding-left: 100px;*/
-    /*}*/
+    .stars {
+        margin: 15px;
+        padding-top: 15px;
+    }
 
-    /*.imgToRight {*/
-        /*float: right;*/
-        /*!*margin-right: 50px;*!*/
-        /*width: 250px;*/
-        /*height: auto;*/
-        /*padding-top: 40px;*/
-    /*}*/
+    .button {
+        padding: 15px 20px;
+        margin-bottom: 5px;
+    }
 
-    /*img#ch1Kara {*/
-        /*float: right;*/
-        /*!*margin-right: 30px;*!*/
-        /*width: 200px;*/
-        /*height: auto;*/
-        /*padding-top: 40px;*/
-    /*}*/
-
-    /*img.immune {*/
-        /*width: 130px;*/
-        /*height: 105px;*/
-        /*!*margin-left: 35px;*!*/
-    /*}*/
-
-    /*h3.ch1M200 {*/
-        /*position: absolute;*/
-        /*top:120px;*/
-        /*left: 40px;*/
-        /*color: black;*/
-    /*}*/
-
-    /*img.arrowImgMiddle {*/
-        /*!*make sure left and right same margin*!*/
-        /*float: inherit;*/
-        /*!*center vertically*!*/
-        /*position: relative;*/
-        /*top: 75px;*/
-        /*width: 50px;*/
-        /*height:auto;*/
-        /*!*margin-left: 20px;*!*/
-    /*}*/
-
-    /*.slide5Text {*/
-        /*margin-left: 20px;*/
-    /*}*/
-
-    /*.aroundArrows {*/
-        /*margin-left: 0px;*/
-        /*margin-right: 10px;*/
-    /*}*/
-
-    /*.blueArrow {*/
-        /*position: relative;*/
-        /*left: -20px;*/
-        /*width: 70px;*/
-        /*height: 160px;*/
-    /*}*/
-
-    /*.redArrow {*/
-        /*position: relative;*/
-        /*left: 10px;*/
-        /*width: 70px;*/
-        /*height: 160px;*/
-    /*}*/
-
-    /*img.imgOverImg1 {*/
-        /*position: absolute;*/
-        /*left: 55px;*/
-        /*top: 25px;*/
-        /*width: 50px;*/
-        /*height: auto;*/
-    /*}*/
-
-    /*!*2 diff positions*!*/
-    /*img.imgOverImg2 {*/
-        /*position: absolute;*/
-        /*left: 120px;*/
-        /*top: 50px;*/
-        /*width: 55px;*/
-        /*height: auto;*/
-    /*}*/
-
-    /*.button {*/
-        /*margin-top: 20px;*/
-        /*padding: 12px;*/
-    /*}*/
-/*}*/
-
-/*!* For iPad and 13 inches size in horizontal position *!*/
-@media (max-width: 1280px) {
     .landing-title {
         color:rgb(255,253,57);
         font-family: Arial Rounded MT Bold;
@@ -1165,30 +1079,8 @@ footer {
         left: 16px;
     }
 
-    .carousel-inner {
-        left:0;
-        right:0;
-        top:-40px;
-        width:100%;
-        height: 750px;
-        margin: 0px;
-        display: block;
-    }
-
-    video {
-        width: 100%;
-        height: 100%;
-        display: block;
-        margin: auto;
-        border-width: 0;
-        padding-left: 45px;
-        padding-right: 45px;
-    }
-
     .actLikeButton {
-        cursor: pointer;
-        width:100px;
-        height:auto;
+        width:120px;
     }
 
     img.groupCh4 {
@@ -1197,13 +1089,286 @@ footer {
     }
 
     img.fullCarouselSlide {
-        width: 100%;
-        height: 730px;
+        width: 60%;
+        height: 380px;
+    }
+
+    img.typesOfInsulin {
+        width: 80%;
+        height: 650px;
         display: block;
         margin: auto;
         border-width: 0;
     }
 }
+
+/*!* For iPad size in horizontal position *!*/
+@media (max-width: 1024px) {
+
+    video {
+        width: 100%;
+        display: block;
+        margin: auto;
+        border-width: 0;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+
+    iframe {
+        width: 100%;
+        height: 580px;
+        display: inline-block;
+        margin: auto;
+        border-width: 0;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+
+    .carousel-inner {
+        left:0;
+        right:0;
+        top:40px;
+        width:100%;
+        height: 740px;
+        margin: 0px;
+        display: block;
+    }
+
+    .karaImgSize {
+        width: 190px;
+        height: auto;
+    }
+
+    .fontSizeTitle {
+        font-size: 36px;
+    }
+
+    .actLikeButton {
+        width:120px;
+    }
+
+    #doubleKara {
+        width: 350px;
+        height: 444px;
+    }
+
+    .landing-title {
+        color:rgb(255,253,57);
+        font-family: Arial Rounded MT Bold;
+        font-size: 500%;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    p#message {
+        padding: 20px;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .img-circle {
+        height:190px;
+        width: 220px;
+        margin-bottom: 10px;
+    }
+
+    .lead {
+        font-family: Arial Rounded MT Bold;
+        font-size: 2.1em;
+        color: white;
+    }
+
+    .bottomLeft {
+        position: fixed;
+        top: 88%;
+        left: 16px;
+    }
+
+    .button {
+        padding: 12px 15px;
+        margin-bottom: 10px;
+    }
+
+    .actLikeButton {
+        cursor: pointer;
+        width:100px;
+        height:auto;
+    }
+
+    .stars {
+        margin: 10px;
+        padding-top: 10px;
+    }
+
+    img.groupCh4 {
+        width: 170px;
+        height: 200px;
+    }
+
+    img.fullCarouselSlide {
+        width: 50%;
+        height: 350px;
+    }
+
+    img.typesOfInsulin {
+        width: 70%;
+        height: 620px;
+        display: block;
+        margin: auto;
+        border-width: 0;
+    }
+
+    .slide5Text {
+        margin-top: 20px;
+    }
+}
+
+/* For iPad size in vertical position*/
+/*@media (max-width: 768px) {*/
+/*.btn {*/
+/*padding:4px 5px;*/
+/*font-size: 12px;*/
+/*line-height: 1;*/
+/*}*/
+
+/*#languages {*/
+/*font-size: 12px;*/
+/*}*/
+
+/*.allMessage {*/
+/*margin-top: 20px;*/
+/*margin-bottom: 0px;*/
+/*padding-top: 15px;*/
+/*padding-left: 25px;*/
+/*}*/
+
+/*p#message {*/
+/*padding-left: 20px;*/
+/*padding-right: 0px;*/
+/*margin-right: 0px;*/
+/*margin-left: 0px;*/
+/*!*margin-top: 50px;*!*/
+/*text-align: center;*/
+/*}*/
+
+/*#principalImg img {*/
+/*width:auto;*/
+/*height:567px;*/
+/*padding-left: 0px;*/
+/*margin-top: 20px;*/
+/*}*/
+
+/*p#heart {*/
+/*position: absolute;*/
+/*left: 140px;*/
+/*top: 260px;*/
+/*padding-left: 0px;*/
+/*text-align: left;*/
+/*}*/
+
+/*#chapters {*/
+/*margin-right: 0px;*/
+/*margin-top: 0px;*/
+/*margin-left: 60px;*/
+/*}*/
+
+/*.img-circle {*/
+/*height:160px;*/
+/*width: 200px;*/
+/*margin-bottom: 10px;*/
+/*}*/
+
+/*.pad-left {*/
+/*padding-left: 100px;*/
+/*}*/
+
+/*.imgToRight {*/
+/*float: right;*/
+/*!*margin-right: 50px;*!*/
+/*width: 250px;*/
+/*height: auto;*/
+/*padding-top: 40px;*/
+/*}*/
+
+/*img#ch1Kara {*/
+/*float: right;*/
+/*!*margin-right: 30px;*!*/
+/*width: 200px;*/
+/*height: auto;*/
+/*padding-top: 40px;*/
+/*}*/
+
+/*img.immune {*/
+/*width: 130px;*/
+/*height: 105px;*/
+/*!*margin-left: 35px;*!*/
+/*}*/
+
+/*h3.ch1M200 {*/
+/*position: absolute;*/
+/*top:120px;*/
+/*left: 40px;*/
+/*color: black;*/
+/*}*/
+
+/*img.arrowImgMiddle {*/
+/*!*make sure left and right same margin*!*/
+/*float: inherit;*/
+/*!*center vertically*!*/
+/*position: relative;*/
+/*top: 75px;*/
+/*width: 50px;*/
+/*height:auto;*/
+/*!*margin-left: 20px;*!*/
+/*}*/
+
+/*.slide5Text {*/
+/*margin-left: 20px;*/
+/*}*/
+
+/*.aroundArrows {*/
+/*margin-left: 0px;*/
+/*margin-right: 10px;*/
+/*}*/
+
+/*.blueArrow {*/
+/*position: relative;*/
+/*left: -20px;*/
+/*width: 70px;*/
+/*height: 160px;*/
+/*}*/
+
+/*.redArrow {*/
+/*position: relative;*/
+/*left: 10px;*/
+/*width: 70px;*/
+/*height: 160px;*/
+/*}*/
+
+/*img.imgOverImg1 {*/
+/*position: absolute;*/
+/*left: 55px;*/
+/*top: 25px;*/
+/*width: 50px;*/
+/*height: auto;*/
+/*}*/
+
+/*!*2 diff positions*!*/
+/*img.imgOverImg2 {*/
+/*position: absolute;*/
+/*left: 120px;*/
+/*top: 50px;*/
+/*width: 55px;*/
+/*height: auto;*/
+/*}*/
+
+/*.button {*/
+/*margin-top: 20px;*/
+/*padding: 12px;*/
+/*}*/
+/*}*/
 
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
@@ -1321,10 +1486,10 @@ li.chewA  a:hover:after {
     top:150px;
     width:500px;
 }
-canvas{
-  border: 10px solid black;
-  border-radius: 10px;
 
+canvas {
+    border: 10px solid black;
+    border-radius: 10px;
 }
 
 #bin {

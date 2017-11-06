@@ -147,17 +147,25 @@ $('#answer2').on('click', function validate() {
 
 // flag to avoid repetitive embedded
 var elementExists = null;
+var myframeExists = false;
 
 // to embed all the animation
 function createIframe(chAndSlide){
-    // alert("create");
     var i = document.createElement("iframe");
+
     i.id = "myframe";
     // loading Ketones Page ch1
     if (chAndSlide === "ch1Slide7")
     {
         i.src = "ch1Ketones/site/index.html";
         document.getElementById("ketones").appendChild(i);
+        myframeExists = true;
+    }
+    // loading diabetes types ch1
+    else if (chAndSlide === "ch1Slide100")
+    {
+        i.src = "ch1Item1/WhatIsT1D.html";
+        document.getElementById("item1").appendChild(i);
     }
     // Loading Insulin Control ch3
     else if (chAndSlide === "ch3Slide24")
@@ -173,21 +181,15 @@ function createIframe(chAndSlide){
 };
 
 function loadEmbeddedPage(chAndSlide) {
-    // alert(chAndSlide);
     elementExists = document.getElementById("myframe");
     if (elementExists === null)
     {
         window.onload = createIframe(chAndSlide);
-        whiteFrameBg();
     }
-}
-
-// change bg color of i frame func
-function whiteFrameBg() {
-    var x1 = document.getElementByClassName("myFrame");
-    var y = (x1.contentWindow || x1.contentDocument);
-    if (y.document)y = y.document;
-    y.body.style.backgroundColor = "white";
+    else if (chAndSlide === "ch1Slide7" && !myframeExists)
+    {
+        window.onload = createIframe(chAndSlide);
+    }
 }
 
 // chewing page js
